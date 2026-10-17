@@ -1,0 +1,121 @@
+{
+    "filename": "crop_recommendation.csv",
+    "sha256": "54a5a6e5408668e668667efc50de2fc867c1b875e0431b4f54dd331b0a109a4e",
+    "row_count": 2200,
+    "column_count": 8,
+    "columns": [
+        "N",
+        "P",
+        "K",
+        "temperature",
+        "humidity",
+        "ph",
+        "rainfall",
+        "label"
+    ],
+    "classes_count": 22,
+    "classes": [
+        "apple",
+        "banana",
+        "blackgram",
+        "chickpea",
+        "coconut",
+        "coffee",
+        "cotton",
+        "grapes",
+        "jute",
+        "kidneybeans",
+        "lentil",
+        "maize",
+        "mango",
+        "mothbeans",
+        "mungbean",
+        "muskmelon",
+        "orange",
+        "papaya",
+        "pigeonpeas",
+        "pomegranate",
+        "rice",
+        "watermelon"
+    ],
+    "rows_per_class": {
+        "rice": 100,
+        "maize": 100,
+        "chickpea": 100,
+        "kidneybeans": 100,
+        "pigeonpeas": 100,
+        "mothbeans": 100,
+        "mungbean": 100,
+        "blackgram": 100,
+        "lentil": 100,
+        "pomegranate": 100,
+        "banana": 100,
+        "mango": 100,
+        "grapes": 100,
+        "watermelon": 100,
+        "muskmelon": 100,
+        "apple": 100,
+        "orange": 100,
+        "papaya": 100,
+        "coconut": 100,
+        "cotton": 100,
+        "jute": 100,
+        "coffee": 100
+    },
+    "missing_values": {
+        "N": 0,
+        "P": 0,
+        "K": 0,
+        "temperature": 0,
+        "humidity": 0,
+        "ph": 0,
+        "rainfall": 0,
+        "label": 0
+    },
+    "exact_duplicates": 0,
+    "duplicate_feature_vectors": 0,
+    "feature_summary": {
+        "N": {
+            "min": 0.0,
+            "max": 140.0,
+            "mean": 50.551818181818184,
+            "std": 36.9173338337566
+        },
+        "P": {
+            "min": 5.0,
+            "max": 145.0,
+            "mean": 53.36272727272727,
+            "std": 32.98588273858715
+        },
+        "K": {
+            "min": 5.0,
+            "max": 205.0,
+            "mean": 48.14909090909091,
+            "std": 50.64793054666013
+        },
+        "temperature": {
+            "min": 8.825674745,
+            "max": 43.67549305,
+            "mean": 25.616243851779544,
+            "std": 5.063748599958843
+        },
+        "humidity": {
+            "min": 14.25803981,
+            "max": 99.98187601,
+            "mean": 71.48177921778637,
+            "std": 22.263811589761083
+        },
+        "ph": {
+            "min": 3.504752314,
+            "max": 9.93509073,
+            "mean": 6.469480065256364,
+            "std": 0.7739376880298733
+        },
+        "rainfall": {
+            "min": 20.21126747,
+            "max": 298.5601175,
+            "mean": 103.46365541576817,
+            "std": 54.95838852487813
+        }
+    }
+}
