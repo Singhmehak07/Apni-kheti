@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans", "Noto Sans Gurmukhi", "Noto Sans Devanagari", system-ui, sans-serif;
+  --color-ink: #2C2C2B;
+  --color-muted: #6B6863;   /* #7D7A75 is 4.0:1 on canvas; darkened for WCAG AA text */
+  --color-canvas: #F9F8F7;
+  --color-sunken: #F0EFED;
+  --color-line: #E6E5E3;
+  --color-blue: #2783DE;
+  --color-blue-soft: #E5F2FC;
+  --color-blue-ink: #1D68B3;
+  --color-green: #46A171;
+  --color-green-soft: #E8F1EC;
+  --color-green-ink: #2F7A52;
+  --color-orange: #D5803B;
+  --color-orange-soft: #FBEBDE;
+  --color-orange-ink: #9A5520;
+  --color-red: #E56458;
+  --color-red-soft: #FCE9E7;
+  --color-red-ink: #B23A2F;
+  --color-yellow: #CB9B1E;
+  --color-yellow-soft: #FBF3DB;
+  --color-yellow-ink: #8A6A10;
+  --radius-card: 8px;
+}
+
+@layer base {
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    @apply bg-canvas text-ink font-sans antialiased;
+    font-size: 16px;
+    line-height: 1.55;
+  }
+  :lang(pa), :lang(hi) { line-height: 1.7; }
+  button, input, select, textarea { font: inherit; color: inherit; }
+  :focus-visible { outline: 3px solid var(--color-blue); outline-offset: 2px; border-radius: 8px; }
+  ::selection { background: var(--color-blue-soft); }
+}
+
+@utility card { @apply bg-white border border-line rounded-[8px]; }
+@utility btn { @apply inline-flex items-center justify-center gap-2 min-h-11 px-4 rounded-[8px] font-semibold transition-colors select-none disabled:opacity-50 disabled:cursor-not-allowed; }
+@utility btn-primary { @apply btn bg-ink text-white hover:bg-black; }
+@utility btn-green { @apply btn bg-green-ink text-white hover:bg-[#276845]; }
+@utility btn-secondary { @apply btn bg-white border border-line text-ink hover:bg-sunken; }
+@utility btn-ghost { @apply btn text-muted hover:bg-sunken hover:text-ink; }
+@utility chip { @apply inline-flex items-center gap-1.5 rounded-full px-2.5 py-0.5 text-[13px] font-semibold whitespace-nowrap; }
+@utility field { @apply w-full min-h-12 rounded-[8px] border border-line bg-white px-3.5 text-[17px] placeholder:text-muted focus:border-blue focus:outline-none; }
+@utility label-sm { @apply text-[13px] font-semibold uppercase tracking-wide text-muted; }
+:lang(pa) .label-sm, :lang(hi) .label-sm { text-transform: none; letter-spacing: 0; font-size: 14px; }
+
+@keyframes pulse-ring { 0% { transform: scale(1); opacity: .45 } 100% { transform: scale(1.55); opacity: 0 } }
+@keyframes bars { 0%,100% { transform: scaleY(.35) } 50% { transform: scaleY(1) } }
+@keyframes fade-up { from { opacity: 0; transform: translateY(6px) } to { opacity: 1; transform: none } }
+.anim-in { animation: fade-up .22s ease-out both; }
+.speaking-bars span { display: inline-block; width: 3px; height: 14px; margin: 0 1px; border-radius: 2px; background: currentColor; animation: bars .8s ease-in-out infinite; transform-origin: center; }
+.speaking-bars span:nth-child(2) { animation-delay: .15s } .speaking-bars span:nth-child(3) { animation-delay: .3s }
+.mic-ring { position: absolute; inset: 0; border-radius: 9999px; background: var(--color-red); animation: pulse-ring 1.2s ease-out infinite; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: 0s !important; transition-duration: 0s !important; } }
