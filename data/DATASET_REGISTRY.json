@@ -41,6 +41,14 @@
             "sha256": "3a0a5bde1ef964ea386efbe00c8571fec22816d730796f908c8f505b75a624c5",
             "source": "PAU Cost of Cultivation Studies & CACP MSP (2024-25)",
             "boundary": "Sourced cost components, expected yields, and baseline MSP."
+        },
+        {
+            "id": "crop_agro_climatic_thresholds",
+            "path": "data/reference/crop_agro_climatic_thresholds.json",
+            "records": 24,
+            "sha256": "81c65a06d1d6e5508402bba56cfc7eaff84b0e3e4f1e1362e047fe5d9b672090",
+            "source": "PAU Package of Practices, ICAR Guidelines & Open-Meteo Dual-Horizon Specs",
+            "boundary": "Agronomic seasonal windows, root-zone moisture tolerances, waterlogging and pathogen risk rules."
         }
     ]
 }

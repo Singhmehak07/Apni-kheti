@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apni Kheti | Dual-Horizon Weather Feasibility & Soil Intelligence</title>
+  <meta name="description" content="AI & Open-Meteo Dual-Horizon Weather-Aware Crop Feasibility and Soil Health Advisory Engine.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-base: #060c0b;
+      --bg-surface: #0c1817;
+      --bg-card: rgba(16, 32, 30, 0.75);
+      --bg-card-hover: rgba(22, 44, 41, 0.85);
+      --border-subtle: rgba(20, 184, 166, 0.15);
+      --border-glow: rgba(16, 185, 129, 0.35);
+      --primary: #10b981;
+      --primary-bright: #34d399;
+      --primary-glow: rgba(16, 185, 129, 0.25);
+      --accent-amber: #f59e0b;
+      --accent-rose: #f43f5e;
+      --accent-cyan: #06b6d4;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      --radius-lg: 16px;
+      --radius-md: 12px;
+      --radius-sm: 8px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-base);
+      color: var(--text-main);
+      min-height: 100vh;
+      overflow-x: hidden;
+      background-image: 
+        radial-gradient(circle at 15% 15%, rgba(16, 185, 129, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 85% 85%, rgba(6, 182, 212, 0.06) 0%, transparent 45%);
+    }
+
+    header {
+      padding: 24px 32px;
+      border-bottom: 1px solid var(--border-subtle);
+      background: rgba(6, 12, 11, 0.8);
+      backdrop-filter: blur(12px);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .brand-icon {
+      width: 44px;
+      height: 44px;
+      background: linear-gradient(135deg, #059669, #10b981);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      box-shadow: 0 0 20px rgba(16, 185, 129, 0.4);
+    }
+
+    .brand-title h1 {
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+      color: #fff;
+    }
+
+    .brand-title p {
+      font-size: 12px;
+      color: var(--primary-bright);
+      font-weight: 500;
+    }
+
+    .header-badges {
+      display: flex;
+      gap: 10px;
+    }
+
+    .pill-badge {
+      font-size: 12px;
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: rgba(16, 185, 129, 0.1);
+      border: 1px solid var(--border-subtle);
+      color: var(--primary-bright);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .pill-badge.pulse::before {
+      content: '';
+      width: 7px;
+      height: 7px;
+      background: var(--primary);
+      border-radius: 50%;
+      box-shadow: 0 0 8px var(--primary);
+      animation: pulse 1.8s infinite;
+    }
+
+    @keyframes pulse {
+      0% { opacity: 0.4; transform: scale(0.9); }
+      50% { opacity: 1; transform: scale(1.3); }
+      100% { opacity: 0.4; transform: scale(0.9); }
+    }
+
+    main {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 32px 24px;
+      display: grid;
+      grid-template-columns: 480px 1fr;
+      gap: 28px;
+    }
+
+    @media (max-width: 1100px) {
+      main {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .panel {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 24px;
+      backdrop-filter: blur(16px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+
+    .panel-header {
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .panel-header h2 {
+      font-size: 17px;
+      font-weight: 600;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .quick-loads {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 22px;
+      padding: 14px;
+      background: rgba(0, 0, 0, 0.35);
+      border: 1px dashed rgba(20, 184, 166, 0.3);
+      border-radius: var(--radius-md);
+    }
+
+    .quick-loads-title {
+      font-size: 12px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      font-weight: 600;
+    }
+
+    .quick-btn-group {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .btn-quick {
+      padding: 9px 12px;
+      background: rgba(16, 185, 129, 0.12);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      color: var(--primary-bright);
+      border-radius: var(--radius-sm);
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-align: center;
+    }
+
+    .btn-quick:hover {
+      background: var(--primary);
+      color: #060c0b;
+      transform: translateY(-1px);
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .form-group.full-width {
+      grid-column: span 2;
+    }
+
+    label {
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--text-muted);
+    }
+
+    input, select {
+      background: rgba(0, 0, 0, 0.45);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: var(--radius-sm);
+      padding: 10px 12px;
+      color: #fff;
+      font-size: 13px;
+      font-family: inherit;
+      transition: all 0.2s;
+    }
+
+    input:focus, select:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px var(--primary-glow);
+    }
+
+    .btn-submit {
+      width: 100%;
+      margin-top: 22px;
+      padding: 14px;
+      background: linear-gradient(135deg, #059669, #10b981);
+      color: #04120f;
+      font-weight: 700;
+      font-size: 14px;
+      border: none;
+      border-radius: var(--radius-md);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      box-shadow: 0 4px 20px rgba(16, 185, 129, 0.35);
+      transition: all 0.2s;
+    }
+
+    .btn-submit:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 25px rgba(16, 185, 129, 0.5);
+    }
+
+    /* Right Dashboard */
+    .dashboard-view {
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+    }
+
+    .weather-telemetry {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+    }
+
+    @media (max-width: 800px) {
+      .weather-telemetry {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .telemetry-card {
+      background: rgba(0, 0, 0, 0.35);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 16px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .telemetry-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: var(--primary);
+    }
+
+    .telemetry-card.alert::before {
+      background: var(--accent-amber);
+    }
+
+    .telemetry-card.danger::before {
+      background: var(--accent-rose);
+    }
+
+    .telemetry-label {
+      font-size: 11px;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .telemetry-val {
+      font-size: 22px;
+      font-weight: 700;
+      color: #fff;
+      display: flex;
+      align-items: baseline;
+      gap: 4px;
+    }
+
+    .telemetry-sub {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    /* Recommendations Cards */
+    .recommendations-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 14px;
+    }
+
+    .recommendations-header h3 {
+      font-size: 17px;
+      font-weight: 600;
+    }
+
+    .crop-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      margin-bottom: 16px;
+      transition: all 0.25s ease;
+      position: relative;
+    }
+
+    .crop-card:hover {
+      border-color: var(--border-glow);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+    }
+
+    .crop-card.rank-1 {
+      border-color: rgba(16, 185, 129, 0.5);
+      background: linear-gradient(180deg, rgba(16, 185, 129, 0.08) 0%, rgba(12, 24, 23, 0.8) 100%);
+    }
+
+    .crop-card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 14px;
+    }
+
+    .crop-title-group {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .rank-badge {
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.08);
+      color: #fff;
+      font-weight: 700;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .crop-card.rank-1 .rank-badge {
+      background: var(--primary);
+      color: #060c0b;
+      box-shadow: 0 0 14px rgba(16, 185, 129, 0.5);
+    }
+
+    .crop-name {
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .crop-season-tag {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    .badge-status {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 5px 12px;
+      border-radius: 6px;
+      letter-spacing: 0.3px;
+    }
+
+    .badge-status.RECOMMENDED_FOR_PLANTING {
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid rgba(16, 185, 129, 0.4);
+      color: #34d399;
+    }
+
+    .badge-status.CONDITIONALLY_FEASIBLE {
+      background: rgba(245, 158, 11, 0.15);
+      border: 1px solid rgba(245, 158, 11, 0.4);
+      color: #fbbf24;
+    }
+
+    .badge-status.NOT_RECOMMENDED {
+      background: rgba(244, 63, 94, 0.15);
+      border: 1px solid rgba(244, 63, 94, 0.4);
+      color: #fb7185;
+    }
+
+    .score-breakdown-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 14px;
+      padding: 10px 14px;
+      background: rgba(0,0,0,0.3);
+      border-radius: var(--radius-sm);
+    }
+
+    .metric-mini {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .metric-mini-label {
+      font-size: 11px;
+      color: var(--text-dim);
+    }
+
+    .metric-mini-val {
+      font-size: 15px;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .field-alerts-box {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      margin-top: 10px;
+    }
+
+    .alert-chip {
+      font-size: 12px;
+      padding: 8px 12px;
+      border-radius: var(--radius-sm);
+      display: flex;
+      gap: 8px;
+      align-items: flex-start;
+      line-height: 1.4;
+    }
+
+    .alert-chip.warning {
+      background: rgba(245, 158, 11, 0.1);
+      border-left: 3px solid var(--accent-amber);
+      color: #fde68a;
+    }
+
+    .alert-chip.positive {
+      background: rgba(16, 185, 129, 0.1);
+      border-left: 3px solid var(--primary);
+      color: #a7f3d0;
+    }
+
+
+
+    /* Diagnostics Callout */
+    .shc-diagnostics {
+      padding: 16px;
+      background: rgba(245, 158, 11, 0.08);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      border-radius: var(--radius-md);
+      margin-bottom: 20px;
+    }
+
+    .shc-diagnostics h4 {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--accent-amber);
+      margin-bottom: 8px;
+    }
+
+    .shc-diagnostics ul {
+      list-style-type: disc;
+      padding-left: 20px;
+      font-size: 12px;
+      color: #fef3c7;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .loading-spinner {
+      display: none;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .spinner {
+      width: 44px;
+      height: 44px;
+      border: 3px solid rgba(16, 185, 129, 0.2);
+      border-top-color: var(--primary);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin: 0 auto 16px;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="brand">
+      <div class="brand-icon">🌱</div>
+      <div class="brand-title">
+        <h1>Apni Kheti</h1>
+        <p>Agro-Climatic Intelligence & Soil Health Advisory</p>
+      </div>
+    </div>
+    <div class="header-badges">
+      <div class="pill-badge pulse" id="badge-api-status">Open-Meteo Dual-Horizon Live</div>
+      <div class="pill-badge" id="badge-model-contract">TRD 5.3 Governed ML</div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Left Column: Input Panel -->
+    <section class="panel">
+      <div class="panel-header">
+        <h2>📋 Soil Health Card & Location</h2>
+      </div>
+
+      <!-- Quick Fill Buttons -->
+      <div class="quick-loads">
+        <span class="quick-loads-title">Test Cases (One-Click Pre-fill)</span>
+        <div class="quick-btn-group">
+          <button type="button" class="btn-quick" id="btn-load-rajasthan" onclick="loadSampleReport('rajasthan')">
+            📍 Ramesh Kumar (Rajasthan)
+          </button>
+          <button type="button" class="btn-quick" id="btn-load-punjab" onclick="loadSampleReport('punjab')">
+            📍 Gurpreet Singh (Punjab)
+          </button>
+        </div>
+      </div>
+
+      <form id="advisory-form" onsubmit="event.preventDefault(); submitAdvisory();">
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="input-farmer">Farmer Name</label>
+            <input type="text" id="input-farmer" value="Ramesh Kumar (fictional)">
+          </div>
+
+          <div class="form-group">
+            <label for="input-district">District / State</label>
+            <input type="text" id="input-district" value="Sample District, Rajasthan">
+          </div>
+
+          <div class="form-group">
+            <label for="input-lat">Latitude (°N)</label>
+            <input type="number" step="0.0001" id="input-lat" value="26.9124">
+          </div>
+
+          <div class="form-group">
+            <label for="input-lon">Longitude (°E)</label>
+            <input type="number" step="0.0001" id="input-lon" value="75.7873">
+          </div>
+
+          <div class="form-group">
+            <label for="input-date">Sowing / Query Date</label>
+            <input type="date" id="input-date" value="2024-10-10">
+          </div>
+
+          <div class="form-group">
+            <label for="input-prev-crop">Previous Crop</label>
+            <input type="text" id="input-prev-crop" value="Bajra">
+          </div>
+
+          <div class="form-group">
+            <label for="input-n">Available Nitrogen (N)</label>
+            <input type="number" step="0.1" id="input-n" value="35.0">
+          </div>
+
+          <div class="form-group">
+            <label for="input-p">Available Phosphorus (P)</label>
+            <input type="number" step="0.1" id="input-p" value="25.0">
+          </div>
+
+          <div class="form-group">
+            <label for="input-k">Available Potassium (K)</label>
+            <input type="number" step="0.1" id="input-k" value="45.0">
+          </div>
+
+          <div class="form-group">
+            <label for="input-ph">Soil pH</label>
+            <input type="number" step="0.1" id="input-ph" value="7.8">
+          </div>
+
+          <div class="form-group">
+            <label for="input-ec">EC (Salinity, dS/m)</label>
+            <input type="number" step="0.1" id="input-ec" value="2.4">
+          </div>
+
+          <div class="form-group">
+            <label for="input-oc">Organic Carbon (%)</label>
+            <input type="number" step="0.01" id="input-oc" value="0.42">
+          </div>
+
+          <div class="form-group">
+            <label for="input-s">Sulphur (ppm)</label>
+            <input type="number" step="0.1" id="input-s" value="9.5">
+          </div>
+
+          <div class="form-group">
+            <label for="input-zn">Zinc (ppm)</label>
+            <input type="number" step="0.01" id="input-zn" value="0.50">
+          </div>
+        </div>
+
+        <button type="submit" class="btn-submit" id="btn-analyze">
+          ⚡ Run Weather-Aware Feasibility Analysis
+        </button>
+      </form>
+    </section>
+
+    <!-- Right Column: Results & Telemetry -->
+    <section class="dashboard-view" id="results-view">
+      
+      <!-- Weather Telemetry Bar -->
+      <div class="weather-telemetry" id="telemetry-bar">
+        <div class="telemetry-card" id="card-soil-moisture">
+          <div class="telemetry-label">10-Day Root-Zone Moisture</div>
+          <div class="telemetry-val" id="val-soil-moisture">0.155 <span style="font-size: 13px; color: var(--text-dim);">m³/m³</span></div>
+          <div class="telemetry-sub" id="sub-soil-moisture">Moderate Deficit (Rauni needed)</div>
+        </div>
+
+        <div class="telemetry-card" id="card-rain">
+          <div class="telemetry-label">10-Day Accumulated Rain</div>
+          <div class="telemetry-val" id="val-rain">0.5 <span style="font-size: 13px; color: var(--text-dim);">mm</span></div>
+          <div class="telemetry-sub">No waterlogging hazard</div>
+        </div>
+
+        <div class="telemetry-card" id="card-temp">
+          <div class="telemetry-label">10-Day Thermal Profile</div>
+          <div class="telemetry-val" id="val-temp">27.9 <span style="font-size: 13px; color: var(--text-dim);">°C</span></div>
+          <div class="telemetry-sub" id="sub-temp">Day peak: 35.0°C | Night: 21.7°C</div>
+        </div>
+
+        <div class="telemetry-card alert" id="card-pathogen">
+          <div class="telemetry-label">Fungal Incubation Risk</div>
+          <div class="telemetry-val" id="val-pathogen">0 <span style="font-size: 13px; color: var(--text-dim);">hrs</span></div>
+          <div class="telemetry-sub" id="sub-pathogen">Low humidity risk window</div>
+        </div>
+      </div>
+
+      <!-- Soil Health Card Diagnostics Prescription -->
+      <div class="shc-diagnostics" id="shc-diagnostics-box">
+        <h4 id="shc-diagnostics-title">⚠️ Soil Chemical Constraints & Amendments (Ramesh Kumar - Rajasthan)</h4>
+        <ul id="shc-prescriptions-list">
+          <li><strong>SALINE SOIL DETECTED (EC = 2.4 dS/m):</strong> Chickpea/pulses highly susceptible to salt injury. Salt-tolerant crops (Mustard/Wheat) strongly favored.</li>
+          <li><strong>SULPHUR DEFICIENCY (S = 9.5 ppm):</strong> Crucial for oilseed synthesis. Apply 200–250 kg/ha Gypsum basal dose.</li>
+          <li><strong>ZINC DEFICIENCY (Zn = 0.50 ppm):</strong> Apply 25 kg/ha Zinc Sulphate (ZnSO4).</li>
+          <li><strong>LOW ORGANIC CARBON (OC = 0.42%):</strong> Apply 8–10 tons/ha Farmyard Manure (FYM).</li>
+        </ul>
+      </div>
+
+      <!-- Ranked Recommendations List -->
+      <div>
+        <div class="recommendations-header">
+          <h3>🎯 Feasibility-Adjusted Crop Recommendations</h3>
+          <span style="font-size: 12px; color: var(--primary-bright);" id="status-timing">Sowing Target: Rabi Transition Window</span>
+        </div>
+
+        <div id="loading-indicator" class="loading-spinner">
+          <div class="spinner"></div>
+          <p style="color: var(--primary-bright); font-size: 13px;">Querying Open-Meteo Dual-Horizon API & Scoring Agronomic Gates...</p>
+        </div>
+
+        <div id="recommendations-container">
+          <!-- Populated by JavaScript -->
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <script>
+    const SAMPLE_REPORTS = {
+      rajasthan: {
+        farmer: "Ramesh Kumar (fictional)",
+        district: "Sample District, Rajasthan",
+        lat: 26.9124,
+        lon: 75.7873,
+        date: "2024-10-10",
+        prev_crop: "Bajra",
+        n: 35.0,
+        p: 25.0,
+        k: 45.0,
+        ph: 7.8,
+        ec: 2.4,
+        oc: 0.42,
+        s: 9.5,
+        zn: 0.50
+      },
+      punjab: {
+        farmer: "Gurpreet Singh",
+        district: "Ludhiana, Punjab",
+        lat: 30.9010,
+        lon: 75.8573,
+        date: "2024-10-25",
+        prev_crop: "Paddy (PR-126)",
+        n: 95.0,
+        p: 45.0,
+        k: 42.0,
+        ph: 7.2,
+        ec: 0.6,
+        oc: 0.65,
+        s: 14.0,
+        zn: 0.85
+      }
+    };
+
+    function loadSampleReport(key) {
+      const data = SAMPLE_REPORTS[key];
+      if (!data) return;
+      document.getElementById("input-farmer").value = data.farmer;
+      document.getElementById("input-district").value = data.district;
+      document.getElementById("input-lat").value = data.lat;
+      document.getElementById("input-lon").value = data.lon;
+      document.getElementById("input-date").value = data.date;
+      document.getElementById("input-prev-crop").value = data.prev_crop;
+      document.getElementById("input-n").value = data.n;
+      document.getElementById("input-p").value = data.p;
+      document.getElementById("input-k").value = data.k;
+      document.getElementById("input-ph").value = data.ph;
+      document.getElementById("input-ec").value = data.ec;
+      document.getElementById("input-oc").value = data.oc;
+      document.getElementById("input-s").value = data.s;
+      document.getElementById("input-zn").value = data.zn;
+      submitAdvisory();
+    }
+
+    async function submitAdvisory() {
+      const reqBody = {
+        farmer_name: document.getElementById("input-farmer").value,
+        district: document.getElementById("input-district").value,
+        latitude: parseFloat(document.getElementById("input-lat").value),
+        longitude: parseFloat(document.getElementById("input-lon").value),
+        query_date: document.getElementById("input-date").value,
+        previous_crop: document.getElementById("input-prev-crop").value,
+        N: parseFloat(document.getElementById("input-n").value),
+        P: parseFloat(document.getElementById("input-p").value),
+        K: parseFloat(document.getElementById("input-k").value),
+        ph: parseFloat(document.getElementById("input-ph").value),
+        ec: parseFloat(document.getElementById("input-ec").value),
+        oc: parseFloat(document.getElementById("input-oc").value),
+        sulphur_ppm: parseFloat(document.getElementById("input-s").value),
+        zinc_ppm: parseFloat(document.getElementById("input-zn").value)
+      };
+
+      const spinner = document.getElementById("loading-indicator");
+      const container = document.getElementById("recommendations-container");
+      spinner.style.display = "block";
+      container.style.opacity = "0.4";
+
+      try {
+        const response = await fetch("/api/recommend", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(reqBody)
+        });
+
+        if (!response.ok) {
+          throw new Error("HTTP error " + response.status);
+        }
+
+        const data = await response.json();
+        renderResults(data);
+      } catch (err) {
+        console.error("Advisory error:", err);
+      } finally {
+        spinner.style.display = "none";
+        container.style.opacity = "1";
+      }
+    }
+
+    function renderResults(data) {
+      const w = data.weather_context;
+      document.getElementById("val-soil-moisture").innerHTML = `${w.soil_moisture_m3_m3} <span style="font-size: 13px; color: var(--text-dim);">m³/m³</span>`;
+      document.getElementById("sub-soil-moisture").innerText = w.moisture_advice || w.soil_moisture_condition;
+
+      document.getElementById("val-rain").innerHTML = `${w.total_rain_10d_mm} <span style="font-size: 13px; color: var(--text-dim);">mm</span>`;
+
+      document.getElementById("val-temp").innerHTML = `${w.mean_temperature_c} <span style="font-size: 13px; color: var(--text-dim);">°C</span>`;
+      document.getElementById("sub-temp").innerText = `Day peak: ${w.max_temperature_c}°C | Night: ${w.min_temperature_c}°C`;
+
+      document.getElementById("val-pathogen").innerHTML = `${w.fungal_risk_hours} <span style="font-size: 13px; color: var(--text-dim);">hrs</span>`;
+      document.getElementById("sub-pathogen").innerText = w.fungal_risk_hours >= 18 ? "High fungal incubation threat" : "Normal pathogen risk";
+
+      // Diagnostics list
+      const diagList = document.getElementById("shc-prescriptions-list");
+      diagList.innerHTML = "";
+      const notes = data.soil_health_card_diagnostics?.shc_prescriptions || [];
+      notes.forEach(note => {
+        const li = document.createElement("li");
+        li.innerHTML = note;
+        diagList.appendChild(li);
+      });
+
+      // Render recommendations
+      const container = document.getElementById("recommendations-container");
+      container.innerHTML = "";
+
+      const recs = data.recommendations || [];
+      recs.forEach((rec, idx) => {
+        const card = document.createElement("div");
+        card.className = `crop-card rank-${rec.feasibility_rank}`;
+        card.id = `crop-card-${rec.crop}`;
+
+        const badgeClass = rec.status_badge;
+        const statusText = rec.status_badge.replace(/_/g, " ");
+
+        let alertsHtml = "";
+        if (rec.field_warnings && rec.field_warnings.length > 0) {
+          rec.field_warnings.forEach(w => {
+            alertsHtml += `<div class="alert-chip warning">⚠️ ${w}</div>`;
+          });
+        }
+        if (rec.field_positives && rec.field_positives.length > 0) {
+          rec.field_positives.forEach(p => {
+            alertsHtml += `<div class="alert-chip positive">✅ ${p}</div>`;
+          });
+        }
+
+        card.innerHTML = `
+          <div class="crop-card-top">
+            <div class="crop-title-group">
+              <div class="rank-badge">#${rec.feasibility_rank}</div>
+              <div>
+                <div class="crop-name">${rec.display_name}</div>
+                <div class="crop-season-tag">${rec.season} Season • ${rec.seasonal_status}</div>
+              </div>
+            </div>
+            <span class="badge-status ${badgeClass}">${statusText}</span>
+          </div>
+
+          <div class="score-breakdown-row">
+            <div class="metric-mini">
+              <span class="metric-mini-label">Soil Suitability</span>
+              <span class="metric-mini-val" style="color: var(--primary-bright);">${(rec.soil_suitability_score * 100).toFixed(1)}%</span>
+            </div>
+            <div class="metric-mini">
+              <span class="metric-mini-label">Weather Feasibility</span>
+              <span class="metric-mini-val" style="color: ${rec.weather_feasibility_score >= 60 ? 'var(--primary-bright)' : 'var(--accent-rose)'};">${rec.weather_feasibility_score.toFixed(1)}%</span>
+            </div>
+            <div class="metric-mini">
+              <span class="metric-mini-label">Composite Rank Score</span>
+              <span class="metric-mini-val" style="color: #fff;">${(rec.composite_score * 100).toFixed(1)}%</span>
+            </div>
+          </div>
+
+          <div class="field-alerts-box">
+            ${alertsHtml}
+          </div>
+        `;
+
+        container.appendChild(card);
+      });
+    }
+
+    // Auto-run default on load
+    window.addEventListener("DOMContentLoaded", () => {
+      submitAdvisory();
+    });
+  </script>
+</body>
+</html>
