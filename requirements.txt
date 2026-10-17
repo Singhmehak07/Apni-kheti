@@ -1,0 +1,28 @@
+# --- Core API & Validation ---
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+
+# --- Persistence Layer ---
+SQLAlchemy
+alembic
+# (SQLite driver is built-in to Python)
+
+# --- Data & Machine Learning ---
+pandas
+numpy
+scikit-learn
+joblib
+
+# --- Extraction & OCR ---
+pytesseract
+PyMuPDF  # (For text-PDF extraction before falling back to OCR)
+Pillow
+
+# --- External API Adapters (Sarvam, Open-Meteo, AGMARKNET) ---
+httpx
+python-dotenv
+
+# --- Testing ---
+pytest
