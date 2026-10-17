@@ -47,24 +47,34 @@ async def generate(parts: list[dict], *, schema: dict | None = None, system: str
     s = get_settings()
     if not s.gemini_api_key:
         raise GeminiError("GEMINI_API_KEY not set")
-    model = model or s.gemini_model
-    url = f"{s.gemini_base_url.rstrip('/')}/v1beta/models/{model}:generateContent"
+    models_to_try = [model or s.gemini_model]
+    if "3.8" in models_to_try[0]:
+        models_to_try.append("gemini-2.5-flash")
     headers = {"x-goog-api-key": s.gemini_api_key, "Content-Type": "application/json"}
     styles = [s.gemini_schema_style, "legacy" if s.gemini_schema_style != "legacy" else "response_format"]
     attempts = [(styles[0], True), (styles[1], False)]
     last_err = ""
-    for style, thinking in attempts:
-        body: dict = {"contents": [{"role": "user", "parts": parts}],
-                      "generationConfig": _gen_config(schema, style, thinking, temperature)}
-        if system:
-            body["systemInstruction"] = {"parts": [{"text": system}]}
-        resp = await http.request("POST", url, json=body, headers=headers, timeout=timeout or s.llm_timeout_s)
+    for cur_model in models_to_try:
+        url = f"{s.gemini_base_url.rstrip('/')}/v1beta/models/{cur_model}:generateContent"
+        for style, thinking in attempts:
+            body: dict = {"contents": [{"role": "user", "parts": parts}],
+                          "generationConfig": _gen_config(schema, style, thinking, temperature)}
+            if system:
+                body["systemInstruction"] = {"parts": [{"text": system}]}
+            resp = await http.request("POST", url, json=body, headers=headers, timeout=timeout or s.llm_timeout_s)
+            if resp.status_code == 200:
+                return _text_of(resp.json())
+            last_err = f"{resp.status_code}: {resp.text[:300]}"
+            if resp.status_code == 429:
+                log.warning("gemini %s quota 429, trying fallback model: %s", cur_model, last_err)
+                break
+            if resp.status_code != 400:
+                break
+            log.warning("gemini 400 with style=%s thinking=%s, retrying: %s", style, thinking, last_err)
+        else:
+            continue
         if resp.status_code == 200:
             return _text_of(resp.json())
-        last_err = f"{resp.status_code}: {resp.text[:300]}"
-        if resp.status_code != 400:
-            break
-        log.warning("gemini 400 with style=%s thinking=%s, retrying: %s", style, thinking, last_err)
     raise GeminiError(last_err)
 
 

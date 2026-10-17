@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { ArrowLeft, CircleHelp, CircleCheck, Pencil, Send, FileUp, MinusCircle } from "lucide-react";
 import { api } from "../api/client.js";
 import { useApp } from "../context.js";
-import { speak, warm } from "../lib/speech.js";
+import { speak, stop, warm } from "../lib/speech.js";
 import Icon from "../components/Icon.jsx";
 import SpeakButton from "../components/SpeakButton.jsx";
 import MicButton, { voiceMode } from "../components/MicButton.jsx";
@@ -39,15 +39,34 @@ export default function Interview({ sid, question, setQuestion, onDone, onExit, 
   const [fixing, setFixing] = useState(false);
   const [ack, setAck] = useState(null);          // {kind: ok|empty, items}
   const [pendingNext, setPendingNext] = useState(null); // shown after the upload card
+  const [autoListenKey, setAutoListenKey] = useState(0);
   const qRef = useRef(null);
   const q = question;
   const uploading = pendingNext !== null;
 
   useEffect(() => {
     if (!q || uploading) return;
+    let active = true;
     warm([q.text, ...(q.options || []).slice(0, 8).map((o) => o.label)], lang);
-    if (autoRead && interacted.current) speak(q.text, lang, `q-${q.field}`);
     qRef.current?.focus({ preventScroll: true });
+
+    async function promptAndListen() {
+      if (autoRead && interacted.current) {
+        await speak(q.text, lang, `q-${q.field}`);
+      }
+      if (!active) return;
+      // Brief pause after reading finishes so TTS audio does not bleed into mic
+      setTimeout(() => {
+        if (active) setAutoListenKey((k) => k + 1);
+      }, 350);
+    }
+
+    promptAndListen();
+
+    return () => {
+      active = false;
+      stop();
+    };
   }, [q?.field, q?.attempt, q?.text, uploading]); // eslint-disable-line react-hooks/exhaustive-deps
 
   function handle(res) {
@@ -168,7 +187,7 @@ export default function Interview({ sid, question, setQuestion, onDone, onExit, 
                 <SpeakButton text={q.text} id={`q-${q.field}`} size="lg" label={q.label} />
               </div>
               <div className={`mt-5 flex gap-4 ${hasVoice ? "flex-col items-center sm:flex-row sm:items-center" : ""}`}>
-                {hasVoice && <MicButton onResult={onVoice} busy={busy} />}
+                {hasVoice && <MicButton onResult={onVoice} busy={busy} autoStart={autoListenKey} />}
                 <TypeBox onSend={onText} busy={busy} />
               </div>
             </section>

@@ -26,7 +26,18 @@ export default function SpeakButton({ text, id, label, speakLang, caption, size 
   return (
     <button
       type="button"
-      onClick={(e) => { e.stopPropagation(); active ? stop() : speak(text, speakLang || lang, key); }}
+      onPointerDown={() => {
+        if (typeof window !== "undefined" && "speechSynthesis" in window) {
+          try { window.speechSynthesis.resume(); } catch { /* ignore */ }
+        }
+      }}
+      onClick={(e) => {
+        e.stopPropagation();
+        if (typeof window !== "undefined" && "speechSynthesis" in window) {
+          try { window.speechSynthesis.resume(); } catch { /* ignore */ }
+        }
+        active ? stop() : speak(text, speakLang || lang, key);
+      }}
       aria-label={`${active ? t("stop") : t("listen")}${label ? ": " + label : ""}`}
       aria-pressed={active}
       data-testid="speak"

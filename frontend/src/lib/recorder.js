@@ -34,7 +34,7 @@ function downsample(input, from, to) {
  * Start recording. Returns { stop(), done: Promise<{blob, reason, speech, ms}> }.
  * reason: "silence" | "manual" | "max" | "no_speech"
  */
-export function startRecording({ maxMs = 25000, silenceMs = 1200, noSpeechMs = 7000, onLevel } = {}) {
+export function startRecording({ maxMs = 25000, silenceMs = 850, noSpeechMs = 7000, onLevel } = {}) {
   let finish = () => {};
   const done = (async () => {
     const stream = await navigator.mediaDevices.getUserMedia({
@@ -46,40 +46,95 @@ export function startRecording({ maxMs = 25000, silenceMs = 1200, noSpeechMs = 7
     const rate = ctx.sampleRate;
     const src = ctx.createMediaStreamSource(stream);
     const proc = ctx.createScriptProcessor(2048, 1, 1);
+
+    // Mute gain node prevents mic input from feeding back into laptop speakers
+    const mute = ctx.createGain();
+    mute.gain.value = 0;
+    proc.connect(mute);
+    mute.connect(ctx.destination);
+    src.connect(proc);
+
     const chunks = [];
-    let total = 0, voiceEnd = 0, speech = false, lastVoice = 0, floor = null;
+    let total = 0, voiceEnd = 0, speech = false, lastVoice = 0;
+    let noiseFloor = 0.008;
+    let speechFrames = 0;
     const calib = [];
     const t0 = performance.now();
+
     return await new Promise((resolve) => {
       let ended = false;
       finish = (reason) => {
         if (ended) return; ended = true;
-        proc.disconnect(); src.disconnect();
+        try { proc.disconnect(); src.disconnect(); mute.disconnect(); } catch { /* ignore */ }
         stream.getTracks().forEach((t) => t.stop());
         ctx.close().catch(() => {});
         let len = total;
-        if (speech) len = Math.min(total, voiceEnd + Math.round(0.45 * rate));  // trim trailing silence
+        if (speech) len = Math.min(total, voiceEnd + Math.round(0.35 * rate));  // trim trailing silence
         const pcm = new Float32Array(len);
         let off = 0;
         for (const c of chunks) { if (off >= len) break; pcm.set(c.subarray(0, Math.min(c.length, len - off)), off); off += c.length; }
         resolve({ blob: encodeWav(downsample(pcm, rate, 16000), 16000), reason, speech, ms: Math.round(performance.now() - t0) });
       };
+
       proc.onaudioprocess = (e) => {
+        if (ended) return;
         const d = e.inputBuffer.getChannelData(0);
-        chunks.push(new Float32Array(d)); total += d.length;
-        let sq = 0; for (let i = 0; i < d.length; i++) sq += d[i] * d[i];
+        chunks.push(new Float32Array(d));
+        total += d.length;
+
+        let sq = 0;
+        for (let i = 0; i < d.length; i++) sq += d[i] * d[i];
         const rms = Math.sqrt(sq / d.length);
         const now = performance.now() - t0;
-        onLevel?.(Math.min(1, rms / 0.12));
-        if (now < 250) { calib.push(rms); return; }
-        if (floor === null) floor = calib.sort((a, b) => a - b)[Math.floor(calib.length / 2)] || 0.004;
-        const thr = Math.max(0.012, floor * 2.8);
-        if (rms > thr) { speech = true; lastVoice = now; voiceEnd = total; }
-        if (speech && now - lastVoice > silenceMs) finish("silence");
-        else if (!speech && now > noSpeechMs) finish("no_speech");
-        else if (now > maxMs) finish("max");
+
+        onLevel?.(Math.min(1, Math.max(0, (rms - noiseFloor) / 0.10)));
+
+        // Measure ambient room background noise floor in first 300ms
+        if (now < 300) {
+          calib.push(rms);
+          return;
+        }
+        if (calib.length && noiseFloor === 0.008) {
+          calib.sort((a, b) => a - b);
+          noiseFloor = Math.max(0.003, calib[Math.floor(calib.length / 2)] || 0.008);
+          calib.length = 0;
+        }
+
+        // Dual-threshold hysteresis VAD
+        const speechThr = Math.max(0.022, noiseFloor * 2.8);
+        const silenceThr = Math.max(0.012, noiseFloor * 1.5);
+
+        if (!speech) {
+          if (rms < speechThr) {
+            noiseFloor = noiseFloor * 0.96 + rms * 0.04;
+          }
+          if (rms > speechThr) {
+            speechFrames++;
+            if (speechFrames >= 2) {
+              speech = true;
+              lastVoice = now;
+              voiceEnd = total;
+            }
+          } else {
+            speechFrames = 0;
+          }
+        } else {
+          // When speaking, update lastVoice only if signal is above silence threshold
+          if (rms > silenceThr) {
+            lastVoice = now;
+            voiceEnd = total;
+          }
+        }
+
+        // Once speech occurred, stop as soon as silence duration exceeds silenceMs
+        if (speech && now - lastVoice > silenceMs) {
+          finish("silence");
+        } else if (!speech && now > noSpeechMs) {
+          finish("no_speech");
+        } else if (now > maxMs) {
+          finish("max");
+        }
       };
-      src.connect(proc); proc.connect(ctx.destination);
     });
   })();
   return { stop: () => finish("manual"), done };
@@ -90,17 +145,89 @@ export function browserSttSupported() {
   return !!(window.SpeechRecognition || window.webkitSpeechRecognition);
 }
 
-export function browserRecognize(lang) {
+export function browserRecognize(lang, { onInterim } = {}) {
   const R = window.SpeechRecognition || window.webkitSpeechRecognition;
   const rec = new R();
-  rec.lang = { pa: "pa-IN", hi: "hi-IN", en: "en-IN" }[lang];
-  rec.interimResults = false; rec.maxAlternatives = 1;
+  rec.lang = { pa: "pa-IN", hi: "hi-IN", en: "en-IN" }[lang] || "pa-IN";
+  rec.interimResults = true;
+  rec.continuous = true;
+  rec.maxAlternatives = 1;
+
+  let stopped = false;
+  let silenceTimer = null;
+  let finalTranscript = "";
+  let interimTranscript = "";
+
+  let finishResolve = null;
   const done = new Promise((resolve, reject) => {
-    let text = "";
-    rec.onresult = (e) => { text = Array.from(e.results).map((r) => r[0].transcript).join(" "); };
-    rec.onerror = (e) => reject(new Error(e.error || "stt"));
-    rec.onend = () => resolve({ transcript: text.trim() });
+    finishResolve = resolve;
+
+    const finish = () => {
+      if (stopped) return;
+      stopped = true;
+      if (silenceTimer) clearTimeout(silenceTimer);
+      try { rec.stop(); } catch { /* ignore */ }
+      const text = (finalTranscript + " " + interimTranscript).replace(/\s+/g, " ").trim();
+      resolve({ transcript: text });
+    };
+
+    rec.onresult = (e) => {
+      if (stopped) return;
+      let curInterim = "";
+      for (let i = e.resultIndex; i < e.results.length; i++) {
+        const item = e.results[i];
+        if (item.isFinal) {
+          finalTranscript += " " + item[0].transcript;
+        } else {
+          curInterim += " " + item[0].transcript;
+        }
+      }
+      interimTranscript = curInterim;
+      const combined = (finalTranscript + " " + interimTranscript).replace(/\s+/g, " ").trim();
+      if (onInterim && combined) onInterim(combined);
+
+      // Fast silence endpointing: 850ms pause after speech auto-completes recognition
+      if (combined) {
+        if (silenceTimer) clearTimeout(silenceTimer);
+        silenceTimer = setTimeout(() => {
+          finish();
+        }, 850);
+      }
+    };
+
+    rec.onerror = (e) => {
+      if (silenceTimer) clearTimeout(silenceTimer);
+      const combined = (finalTranscript + " " + interimTranscript).replace(/\s+/g, " ").trim();
+      if (e.error === "no-speech") {
+        resolve({ transcript: "" });
+      } else if (combined) {
+        resolve({ transcript: combined });
+      } else {
+        reject(new Error(e.error || "stt"));
+      }
+    };
+
+    rec.onend = () => {
+      if (!stopped) finish();
+    };
+
+    try {
+      rec.start();
+    } catch (err) {
+      reject(err);
+    }
   });
-  rec.start();
-  return { stop: () => rec.stop(), done };
+
+  return {
+    stop: () => {
+      if (!stopped && finishResolve) {
+        stopped = true;
+        if (silenceTimer) clearTimeout(silenceTimer);
+        try { rec.stop(); } catch { /* ignore */ }
+        const text = (finalTranscript + " " + interimTranscript).replace(/\s+/g, " ").trim();
+        finishResolve({ transcript: text });
+      }
+    },
+    done,
+  };
 }

@@ -78,16 +78,25 @@ def view(plan: dict, lang: str, today: date) -> dict:
         else:
             src = steps_src[s["id"]]
             text = t(src.get(s.get("variant", "text")) or src["text"], lang).format(**params)
+        category = s.get("category", steps_src.get(s["id"], {}).get("category", "general"))
+        dosage = ""
+        if s.get("dosage"):
+            dosage = t(s["dosage"], lang)
+        elif s["id"] in steps_src and steps_src[s["id"]].get("dosage"):
+            dosage = t(steps_src[s["id"]]["dosage"], lang)
+
         st, en = date.fromisoformat(s["start"]), date.fromisoformat(s["end"])
         when = fmt_date(st, lang) if st == en else fmt_window(st, en, lang)
         state = "done" if en < today else ("now" if st <= today <= en else "upcoming")
-        out.append({"id": s["id"], "icon": s["icon"], "title": t(titles[s["id"]], lang), "text": text,
+        out.append({"id": s["id"], "icon": s["icon"], "category": category, "dosage": dosage,
+                    "title": t(titles[s["id"]], lang), "text": text,
                     "start": s["start"], "end": s["end"], "when": when, "state": state})
     eco = plan["economics"]
     harvest = next((s for s in out if s["id"] == "harvest"), None)
+    reminders = [st for st in out if st.get("category") in ("fertilizer", "pesticide")]
     return {"id": plan["id"], "crop_id": plan["crop_id"], "name": t(c["names"], lang), "color": c["color"],
             "variety": plan["variety"], "acres": acres, "sow_date_label": fmt_date(plan["sow_date"], lang),
-            "harvest_label": harvest["when"] if harvest else None, "steps": out,
+            "harvest_label": harvest["when"] if harvest else None, "steps": out, "reminders": reminders,
             "summary": {"yield_base_q_acre": eco["yield_q_acre"]["base"], "net_base_rs_acre": eco["net_rs_acre"]["base"],
                         "net_total": eco["net_total"], "cost_rs_acre": eco["cost_rs_acre"], "msp": eco["msp_rs_q"]},
             "lang": lang}

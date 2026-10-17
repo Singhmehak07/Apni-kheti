@@ -7,21 +7,60 @@ const listeners = new Set();
 let provider = "browser";
 let current = null;               // token of the active utterance
 let audio = null;
+let watchdog = null;
+
+// Eagerly cache browser voices on startup and on voice changes
+let voicesCache = [];
+function refreshVoices() {
+  if (typeof window !== "undefined" && "speechSynthesis" in window) {
+    const vs = window.speechSynthesis.getVoices();
+    if (vs && vs.length) voicesCache = vs;
+  }
+}
+if (typeof window !== "undefined" && "speechSynthesis" in window) {
+  refreshVoices();
+  window.speechSynthesis.onvoiceschanged = refreshVoices;
+}
 
 export function setTtsProvider(p) { provider = p || "browser"; }
 export function onSpeaking(fn) { listeners.add(fn); return () => listeners.delete(fn); }
 const emit = (id) => listeners.forEach((f) => f(id));
 
 export function browserVoiceAvailable(lang) {
-  if (!("speechSynthesis" in window)) return false;
-  const vs = window.speechSynthesis.getVoices();
+  if (typeof window === "undefined" || !("speechSynthesis" in window)) return false;
+  const vs = voicesCache.length ? voicesCache : window.speechSynthesis.getVoices();
   return vs.length === 0 || vs.some((v) => v.lang?.toLowerCase().startsWith(lang));
 }
 
 function pickVoice(lang) {
-  const vs = window.speechSynthesis?.getVoices?.() || [];
-  const want = BCP[lang].toLowerCase();
-  return vs.find((v) => v.lang?.toLowerCase() === want) || vs.find((v) => v.lang?.toLowerCase().startsWith(lang)) || null;
+  const vs = (voicesCache.length ? voicesCache : window.speechSynthesis?.getVoices?.()) || [];
+  if (!vs.length) return null;
+  const want = BCP[lang]?.toLowerCase();
+  // 1. Direct language code match (e.g. pa-IN)
+  let v = vs.find((x) => x.lang?.toLowerCase() === want);
+  if (v) return v;
+  // 2. Starts with language code (e.g. pa)
+  v = vs.find((x) => x.lang?.toLowerCase().startsWith(lang));
+  if (v) return v;
+  // 3. Indian subcontinent voice fallback for pa (Punjabi) -> hi-IN or en-IN
+  if (lang === "pa") {
+    v = vs.find((x) => x.lang?.toLowerCase() === "hi-in" || x.lang?.toLowerCase().startsWith("hi"));
+    if (v) return v;
+    v = vs.find((x) => x.lang?.toLowerCase() === "en-in");
+    if (v) return v;
+  }
+  // 4. Default or first available voice
+  return vs.find((x) => x.default) || vs[0] || null;
+}
+
+function cleanTextForSpeech(text) {
+  if (!text) return "";
+  return text
+    .replace(/[()]/g, " ")
+    .replace(/[•·/]/g, " ")
+    .replace(/(\d)\s*[–-]\s*(\d)/g, "$1 to $2")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function splitSentences(text) {
@@ -36,20 +75,70 @@ function splitSentences(text) {
 
 function speakBrowser(text, lang, token) {
   return new Promise((resolve) => {
-    if (!("speechSynthesis" in window)) return resolve(false);
+    if (typeof window === "undefined" || !("speechSynthesis" in window)) return resolve(false);
     const synth = window.speechSynthesis;
-    synth.cancel();
-    const chunks = splitSentences(text);
+    try {
+      synth.cancel();
+      if (synth.paused) synth.resume();
+    } catch { /* ignore */ }
+
+    const cleaned = cleanTextForSpeech(text);
+    const chunks = splitSentences(cleaned || text);
     let i = 0;
-    const next = () => {
-      if (current !== token || i >= chunks.length) return resolve(true);
-      const u = new SpeechSynthesisUtterance(chunks[i++]);
-      u.lang = BCP[lang]; u.rate = 0.92;
-      const v = pickVoice(lang); if (v) u.voice = v;
-      u.onend = next; u.onerror = () => resolve(false);
-      synth.speak(u);
+
+    const stopWatchdog = () => {
+      if (watchdog) {
+        clearInterval(watchdog);
+        watchdog = null;
+      }
     };
-    next();
+
+    const next = () => {
+      if (current !== token || i >= chunks.length) {
+        stopWatchdog();
+        return resolve(true);
+      }
+      const u = new SpeechSynthesisUtterance(chunks[i++]);
+      u.lang = BCP[lang] || "pa-IN";
+      u.rate = 1.0;
+      const v = pickVoice(lang);
+      if (v) u.voice = v;
+
+      u.onend = next;
+      u.onerror = (e) => {
+        stopWatchdog();
+        resolve(e?.error === "canceled");
+      };
+
+      stopWatchdog();
+      watchdog = setInterval(() => {
+        if (!synth.speaking) {
+          stopWatchdog();
+        } else if (synth.paused) {
+          synth.resume();
+        }
+      }, 500);
+
+      try {
+        synth.speak(u);
+        synth.resume();
+      } catch {
+        stopWatchdog();
+        resolve(false);
+      }
+    };
+
+    // 15ms yield unfreezes Chromium's cancel-speak deadlock
+    setTimeout(() => {
+      if (current !== token) {
+        stopWatchdog();
+        return resolve(false);
+      }
+      try {
+        if (synth.paused) synth.resume();
+      } catch { /* ignore */ }
+      next();
+    }, 15);
   });
 }
 
@@ -78,8 +167,14 @@ export function warm(texts, lang) {
 
 export function stop() {
   current = null;
+  if (watchdog) { clearInterval(watchdog); watchdog = null; }
   if (audio) { audio.pause(); audio = null; }
-  if ("speechSynthesis" in window) window.speechSynthesis.cancel();
+  if (typeof window !== "undefined" && "speechSynthesis" in window) {
+    try {
+      window.speechSynthesis.cancel();
+      if (window.speechSynthesis.paused) window.speechSynthesis.resume();
+    } catch { /* ignore */ }
+  }
   emit(null);
 }
 

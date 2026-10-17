@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { ArrowLeft, RotateCcw, Send, Phone, Check, LoaderCircle } from "lucide-react";
+import { useState, useMemo } from "react";
+import { ArrowLeft, RotateCcw, Send, Phone, Check, LoaderCircle, Bell, Calendar, Download, ShieldAlert, FlaskConical } from "lucide-react";
 import { api } from "../api/client.js";
 import { useApp } from "../context.js";
 import { speak } from "../lib/speech.js";
@@ -8,6 +8,156 @@ import SpeakButton from "../components/SpeakButton.jsx";
 import MicButton from "../components/MicButton.jsx";
 import Stepper from "../components/Stepper.jsx";
 import { num, rs } from "../lib/format.js";
+
+function downloadCalendar(plan) {
+  const items = plan.reminders || [];
+  if (!items.length) return;
+  const events = items.map((r, idx) => {
+    const dt = (r.start || "").replace(/-/g, "");
+    const title = `${r.category === "fertilizer" ? "🧪 Fertiliser" : "🛡️ Pesticide"}: ${r.title} (${plan.name})`;
+    const desc = `${r.text}\\n${r.dosage ? "Dose: " + r.dosage : ""}`;
+    return [
+      "BEGIN:VEVENT",
+      `UID:apni-kheti-${plan.id}-${r.id}-${idx}@apnikheti.in`,
+      `DTSTAMP:${new Date().toISOString().replace(/[-:]/g, "").split(".")[0]}Z`,
+      `DTSTART;VALUE=DATE:${dt}`,
+      `DTEND;VALUE=DATE:${dt}`,
+      `SUMMARY:${title}`,
+      `DESCRIPTION:${desc}`,
+      "BEGIN:VALARM",
+      "ACTION:DISPLAY",
+      "DESCRIPTION:Agricultural reminder: Application scheduled for today",
+      "TRIGGER:-PT1H",
+      "END:VALARM",
+      "END:VEVENT"
+    ].join("\r\n");
+  }).join("\r\n");
+
+  const ics = [
+    "BEGIN:VCALENDAR",
+    "VERSION:2.0",
+    "PRODID:-//Apni Kheti//Crop Schedule Reminders//EN",
+    "CALSCALE:GREGORIAN",
+    "METHOD:PUBLISH",
+    events,
+    "END:VCALENDAR"
+  ].join("\r\n");
+
+  const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `${plan.crop_id}_schedule_reminders.ics`;
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+function ReminderSchedule({ plan }) {
+  const { t } = useApp();
+  const [filter, setFilter] = useState("all"); // all | fertilizer | pesticide
+  const items = plan.reminders || [];
+  const filtered = useMemo(() => {
+    if (filter === "fertilizer") return items.filter((x) => x.category === "fertilizer");
+    if (filter === "pesticide") return items.filter((x) => x.category === "pesticide");
+    return items;
+  }, [items, filter]);
+
+  if (!items.length) return null;
+
+  const audioText = items.map((r) => `${r.when}: ${r.title}. ${r.dosage ? r.dosage + ". " : ""}${r.text}`).join("। ");
+
+  return (
+    <section className="card p-5 border-2 border-emerald-600/30 bg-[#FBFDFB] space-y-4 shadow-sm" data-testid="reminder-schedule">
+      <div className="flex flex-wrap items-start justify-between gap-3">
+        <div className="flex items-start gap-3">
+          <span className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-emerald-100 text-emerald-800">
+            <Bell size={22} className="animate-pulse" aria-hidden />
+          </span>
+          <div>
+            <h2 className="text-[20px] font-bold text-ink flex items-center gap-2">
+              {t("reminderSectionTitle")}
+              <span className="rounded-full bg-emerald-600 text-white text-[12px] px-2 py-0.5 font-semibold">
+                {items.length} {t("allReminders")}
+              </span>
+            </h2>
+            <p className="text-[14px] text-muted">{t("reminderSubtitle")}</p>
+          </div>
+        </div>
+        <div className="flex flex-wrap items-center gap-2">
+          <button
+            type="button"
+            onClick={() => downloadCalendar(plan)}
+            className="btn-secondary text-[14px] min-h-10 py-1.5 px-3 flex items-center gap-2 border-emerald-600/40 text-emerald-900 hover:bg-emerald-50"
+            title={t("addCalendar")}
+          >
+            <Calendar size={16} aria-hidden />
+            <span>{t("addCalendar")}</span>
+          </button>
+          <SpeakButton text={audioText} id="reminders-audio" size="sm" showText caption={t("readReminders")} />
+        </div>
+      </div>
+
+      <div className="flex flex-wrap items-center gap-2 pt-1 border-t border-line">
+        <button
+          type="button"
+          onClick={() => setFilter("all")}
+          className={`chip text-[14px] font-semibold py-1 px-3 ${filter === "all" ? "bg-ink text-white" : "bg-sunken text-ink hover:bg-line"}`}
+        >
+          {t("allReminders")} ({items.length})
+        </button>
+        <button
+          type="button"
+          onClick={() => setFilter("fertilizer")}
+          className={`chip text-[14px] font-semibold py-1 px-3 flex items-center gap-1.5 ${filter === "fertilizer" ? "bg-emerald-700 text-white" : "bg-emerald-50 text-emerald-900 hover:bg-emerald-100"}`}
+        >
+          <FlaskConical size={15} aria-hidden />
+          <span>{t("fertOnly")} ({items.filter((x) => x.category === "fertilizer").length})</span>
+        </button>
+        <button
+          type="button"
+          onClick={() => setFilter("pesticide")}
+          className={`chip text-[14px] font-semibold py-1 px-3 flex items-center gap-1.5 ${filter === "pesticide" ? "bg-amber-700 text-white" : "bg-amber-50 text-amber-900 hover:bg-amber-100"}`}
+        >
+          <ShieldAlert size={15} aria-hidden />
+          <span>{t("pestOnly")} ({items.filter((x) => x.category === "pesticide").length})</span>
+        </button>
+      </div>
+
+      <div className="space-y-2.5">
+        {filtered.map((r) => {
+          const isFert = r.category === "fertilizer";
+          return (
+            <div
+              key={r.id}
+              className={`rounded-lg p-3.5 border transition-all ${isFert ? "bg-white border-emerald-200" : "bg-[#FFFDF7] border-amber-200"}`}
+            >
+              <div className="flex items-start justify-between gap-2">
+                <div className="space-y-1 min-w-0 flex-1">
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="font-bold text-[14px] text-muted">{r.when}</span>
+                    <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[12px] font-bold ${isFert ? "bg-emerald-100 text-emerald-800" : "bg-amber-100 text-amber-900"}`}>
+                      {isFert ? <FlaskConical size={13} aria-hidden /> : <ShieldAlert size={13} aria-hidden />}
+                      {isFert ? t("catFert") : t("catPest")}
+                    </span>
+                  </div>
+                  <h3 className="font-bold text-[16px] text-ink">{r.title}</h3>
+                  {r.dosage && (
+                    <div className="rounded bg-canvas px-2.5 py-1 text-[13px] font-semibold text-ink inline-block">
+                      <span className="text-muted mr-1.5">{t("dosageLabel")}</span>
+                      <span className="text-emerald-900 font-bold">{r.dosage}</span>
+                    </div>
+                  )}
+                  <p className="text-[14px] text-muted pt-0.5 leading-relaxed">{r.text}</p>
+                </div>
+                <SpeakButton text={`${r.when}. ${r.title}. ${r.dosage ? r.dosage + ". " : ""}${r.text}`} id={`rem-${r.id}`} size="sm" tone="quiet" />
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </section>
+  );
+}
 
 function AskBox({ plan }) {
   const { t, lang, autoRead, notify } = useApp();
@@ -85,9 +235,14 @@ export default function Plan({ plan, onBack, onRestart }) {
           <div className="mt-4"><SpeakButton text={whole} id="plan-all" showText size="lg" caption={t("readPlan")} label={t("readPlan")} className="w-full sm:w-auto" /></div>
         </section>
 
+        {/* Dedicated Fertilizer & Pesticide Reminder Schedule */}
+        <ReminderSchedule plan={plan} />
+
         <ol className="relative space-y-3" data-testid="timeline">
           {plan.steps.map((st) => {
             const now = st.state === "now", done = st.state === "done";
+            const isFert = st.category === "fertilizer";
+            const isPest = st.category === "pesticide";
             return (
               <li key={st.id} className={`card flex gap-3 p-4 ${now ? "border-blue ring-1 ring-blue" : ""} ${done ? "opacity-70" : ""}`} data-testid={`step-${st.id}`}>
                 <span className={`inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full ${done ? "bg-green-soft text-green-ink" : now ? "bg-blue-ink text-white" : "bg-sunken text-ink"}`}>
@@ -98,11 +253,26 @@ export default function Plan({ plan, onBack, onRestart }) {
                     <span>{st.when}</span>
                     {now && <span className="chip bg-blue-ink text-white">{t("now")}</span>}
                     {done && <span className="chip bg-green-soft text-green-ink">{t("done")}</span>}
+                    {isFert && (
+                      <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2 py-0.5 text-[11px] font-bold text-emerald-800">
+                        <FlaskConical size={12} aria-hidden /> {t("catFert")}
+                      </span>
+                    )}
+                    {isPest && (
+                      <span className="inline-flex items-center gap-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-bold text-amber-900">
+                        <ShieldAlert size={12} aria-hidden /> {t("catPest")}
+                      </span>
+                    )}
                   </p>
                   <h3 className="text-[18px] font-bold" data-read={`${st.when}. ${st.title}`}>{st.title}</h3>
+                  {st.dosage && (
+                    <p className="text-[13px] font-semibold text-emerald-800 bg-emerald-50 rounded px-2 py-0.5 my-1 inline-block">
+                      {t("dosageLabel")} {st.dosage}
+                    </p>
+                  )}
                   <p className="mt-0.5" data-read={st.text}>{st.text}</p>
                 </div>
-                <SpeakButton text={`${st.title}. ${st.when}. ${st.text}`} id={`step-${st.id}`} size="sm" tone="quiet" label={st.title} />
+                <SpeakButton text={`${st.title}. ${st.when}. ${st.dosage ? st.dosage + ". " : ""}${st.text}`} id={`step-${st.id}`} size="sm" tone="quiet" label={st.title} />
               </li>
             );
           })}

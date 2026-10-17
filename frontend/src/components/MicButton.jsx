@@ -16,14 +16,25 @@ export function voiceMode(config) {
  * Big mic button. onResult receives {blob} (server mode) or {transcript} (browser mode).
  * The parent does the upload and calls back with the outcome; `busy` shows the processing state.
  */
-export default function MicButton({ onResult, busy = false, size = "lg", hint = true, label }) {
+export default function MicButton({ onResult, busy = false, size = "lg", hint = true, label, autoStart = 0 }) {
   const { t, config, lang, notify } = useApp();
   const mode = voiceMode(config);
   const [state, setState] = useState("idle"); // idle | listening
   const [level, setLevel] = useState(0);
   const ctl = useRef(null);
+  const lastAutoStart = useRef(0);
 
   useEffect(() => () => ctl.current?.stop?.(), []);
+
+  useEffect(() => {
+    if (autoStart && autoStart !== lastAutoStart.current) {
+      lastAutoStart.current = autoStart;
+      if (mode && !busy && state === "idle") {
+        begin();
+      }
+    }
+  }, [autoStart, mode, busy, state]);
+
   if (!mode) return null;
 
   async function begin() {

@@ -147,9 +147,19 @@ const S = {
   otherCrops: { en: "See other crops", pa: "ਹੋਰ ਫ਼ਸਲਾਂ ਦੇਖੋ", hi: "दूसरी फसलें देखें" },
   startOver: { en: "Start again", pa: "ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਕਰੋ", hi: "फिर से शुरू करें" },
   helpline: { en: "Kisan Call Centre: 1800-180-1551 (free)", pa: "ਕਿਸਾਨ ਕਾਲ ਸੈਂਟਰ: 1800-180-1551 (ਮੁਫ਼ਤ)", hi: "किसान कॉल सेंटर: 1800-180-1551 (मुफ़्त)" },
-  error: { en: "Something went wrong. Please try again.", pa: "ਕੁਝ ਗੜਬੜ ਹੋ ਗਈ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।", hi: "कुछ गड़बड़ हो गई। फिर से कोशिश करें।" },
-  retry: { en: "Try again", pa: "ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ", hi: "फिर से कोशिश करें" },
   offline: { en: "Can't reach the server. Check your internet.", pa: "ਸਰਵਰ ਨਾਲ ਜੁੜ ਨਹੀਂ ਸਕੇ। ਇੰਟਰਨੈੱਟ ਦੇਖੋ।", hi: "सर्वर से जुड़ नहीं सके। इंटरनेट देखें।" },
+  // reminders & schedule
+  reminderSectionTitle: { en: "Fertiliser & Pesticide Schedule", pa: "ਖਾਦ ਅਤੇ ਕੀਟਨਾਸ਼ਕ ਸ਼ਡਿਊਲ ਤੇ ਰੀਮਾਈਂਡਰ", hi: "खाद और कीटनाशक शेड्यूल व रिमाइंडर" },
+  reminderSubtitle: { en: "Fixed stage-wise application dates and doses for your crop", pa: "ਤੁਹਾਡੀ ਫ਼ਸਲ ਲਈ ਤੈਅਸ਼ੁਦਾ ਖਾਦਾਂ, ਸਪਰੇਆਂ ਅਤੇ ਖੁਰਾਕ ਦਾ ਪੱਕਾ ਸ਼ਡਿਊਲ", hi: "आपकी फसल के लिए तयशुदा खाद, स्प्रे और खुराक का पक्का शेड्यूल" },
+  allReminders: { en: "All", pa: "ਸਾਰੇ", hi: "सभी" },
+  fertOnly: { en: "Fertilisers", pa: "ਖਾਦਾਂ", hi: "खाद" },
+  pestOnly: { en: "Pesticides & Sprays", pa: "ਕੀਟਨਾਸ਼ਕ ਤੇ ਸਪਰੇਅ", hi: "कीटनाशक व स्प्रे" },
+  dosageLabel: { en: "Dose / acre:", pa: "ਪ੍ਰਤੀ ਏਕੜ ਖੁਰਾਕ:", hi: "प्रति एकड़ खुराक:" },
+  addCalendar: { en: "Add to Calendar (.ics)", pa: "ਫ਼ੋਨ ਕੈਲੰਡਰ ਵਿੱਚ ਜੋੜੋ", hi: "फ़ोन कैलेंडर में जोड़ें" },
+  readReminders: { en: "Listen to Reminders", pa: "ਸਾਰੇ ਰੀਮਾਈਂਡਰ ਸੁਣੋ", hi: "सारे रिमाइंडर सुनें" },
+  catFert: { en: "Fertiliser", pa: "ਖਾਦ", hi: "खाद" },
+  catPest: { en: "Pesticide", pa: "ਕੀਟਨਾਸ਼ਕ", hi: "कीटनाशक" },
+  catIrr: { en: "Irrigation", pa: "ਸਿੰਚਾਈ", hi: "सिंचाई" },
 };
 
 export const LANGS = [
