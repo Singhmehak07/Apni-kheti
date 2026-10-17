@@ -4,33 +4,41 @@ __pycache__/
 *$py.class
 .pytest_cache/
 
+# Node & Frontend
+node_modules/
+frontend/dist/
+
 # Virtual environment
 venv/
 env/
 .venv/
 
 # Database and SQLite
+backend/data/
+cache/
 *.db
 *.sqlite
 *.sqlite3
 
-# Uploads and temporary private files
+# Uploads, temporary and log files
 uploads/
 tmp/
 *.log
+docs/screenshots/zz-failure*.png
 
-# IDE & OS files
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
-# Environment variables
+# Environment variables & API keys
 .env
 .env.local
-
-# Documentation & Markdown files
-*.md
+.env.*.local
+backend/.env
 
 # Large binary weather/climate raster files
 *.nc
+data/raw/imd_rainfall_daily/
+
+# Unneeded specification documents
+masterplan.md
+prd.md
+trd.md
+docs/research-ui-tech-latency.md
+
