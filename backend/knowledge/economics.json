@@ -1,0 +1,24 @@
+{
+  "msp": {
+    "season": "RMS 2027-28",
+    "announced": "2026-09-30",
+    "source_id": "pib_msp",
+    "rs_per_quintal": {"wheat": 2610, "barley": 2286, "gram": 5958, "raya": 6613, "lentil": 7390, "safflower": 7215}
+  },
+  "cost_of_production": {
+    "basis": "All-India projected A2+FL cost per quintal (PIB, RMS 2027-28)",
+    "source_id": "pib_msp",
+    "rs_per_quintal": {"wheat": 1264, "barley": 1447, "gram": 3751, "raya": 3367}
+  },
+  "market_snapshot": {
+    "source_id": "commodityonline",
+    "note": "Fallback snapshot of AGMARKNET-based prices, used when the live data.gov.in feed is unavailable.",
+    "prices": {
+      "wheat": {"scope": "Punjab", "min": 2800, "avg": 2800, "max": 2800, "date": "2026-10-02"},
+      "raya": {"scope": "India", "min": 6050, "avg": 7532.4, "max": 8921, "date": "2026-10-09"},
+      "gram": null,
+      "barley": null
+    },
+    "commodity_names": {"wheat": ["Wheat"], "raya": ["Mustard", "Rapeseed & Mustard", "Mustard Oil Seed"], "gram": ["Bengal Gram(Gram)(Whole)", "Gram", "Bengal Gram"], "barley": ["Barley (Jau)", "Barley"]}
+  }
+}

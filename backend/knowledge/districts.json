@@ -1,0 +1,30 @@
+{
+  "state": "Punjab",
+  "south_western": ["bathinda", "faridkot", "ferozepur", "sri_muktsar_sahib", "mansa", "fazilka"],
+  "sub_mountainous": ["gurdaspur", "pathankot", "hoshiarpur", "rupnagar", "sbs_nagar", "sas_nagar"],
+  "districts": [
+    {"id": "amritsar", "en": "Amritsar", "pa": "ਅੰਮ੍ਰਿਤਸਰ", "hi": "अमृतसर", "lat": 31.634, "lon": 74.872, "aliases": ["amritsar", "ਅੰਮ੍ਰਿਤਸਰ", "ਅਮ੍ਰਿਤਸਰ", "ਅੰਬਰਸਰ", "अमृतसर", "ambarsar"]},
+    {"id": "barnala", "en": "Barnala", "pa": "ਬਰਨਾਲਾ", "hi": "बरनाला", "lat": 30.374, "lon": 75.546, "aliases": ["barnala", "ਬਰਨਾਲਾ", "ਬਰਨਾਲੇ", "बरनाला"]},
+    {"id": "bathinda", "en": "Bathinda", "pa": "ਬਠਿੰਡਾ", "hi": "बठिंडा", "lat": 30.2075, "lon": 74.9389, "aliases": ["bathinda", "bhatinda", "batinda", "ਬਠਿੰਡਾ", "ਬਠਿੰਡੇ", "ਭਟਿੰਡਾ", "ਬਠਿੰਡਾ", "बठिंडा", "भटिंडा", "बठिंडे"]},
+    {"id": "faridkot", "en": "Faridkot", "pa": "ਫ਼ਰੀਦਕੋਟ", "hi": "फरीदकोट", "lat": 30.674, "lon": 74.756, "aliases": ["faridkot", "ਫਰੀਦਕੋਟ", "ਫ਼ਰੀਦਕੋਟ", "फरीदकोट", "फ़रीदकोट"]},
+    {"id": "fatehgarh_sahib", "en": "Fatehgarh Sahib", "pa": "ਫ਼ਤਿਹਗੜ੍ਹ ਸਾਹਿਬ", "hi": "फतेहगढ़ साहिब", "lat": 30.648, "lon": 76.389, "aliases": ["fatehgarh sahib", "fatehgarh", "sirhind", "ਫਤਿਹਗੜ੍ਹ", "ਫ਼ਤਿਹਗੜ੍ਹ ਸਾਹਿਬ", "ਫਤਿਹਗੜ੍ਹ ਸਾਹਿਬ", "ਫਤਹਿਗੜ੍ਹ", "ਸਰਹਿੰਦ", "फतेहगढ़", "फतेहगढ़ साहिब", "सरहिंद"]},
+    {"id": "fazilka", "en": "Fazilka", "pa": "ਫ਼ਾਜ਼ਿਲਕਾ", "hi": "फाजिल्का", "lat": 30.403, "lon": 74.028, "aliases": ["fazilka", "ਫਾਜ਼ਿਲਕਾ", "ਫਾਜਿਲਕਾ", "ਫ਼ਾਜ਼ਿਲਕਾ", "फाजिल्का", "फ़ाज़िल्का", "abohar", "ਅਬੋਹਰ", "अबोहर"]},
+    {"id": "ferozepur", "en": "Ferozepur", "pa": "ਫ਼ਿਰੋਜ਼ਪੁਰ", "hi": "फिरोजपुर", "lat": 30.925, "lon": 74.613, "aliases": ["ferozepur", "firozpur", "ferozpur", "ਫਿਰੋਜ਼ਪੁਰ", "ਫਿਰੋਜਪੁਰ", "ਫ਼ਿਰੋਜ਼ਪੁਰ", "फिरोजपुर", "फ़िरोज़पुर"]},
+    {"id": "gurdaspur", "en": "Gurdaspur", "pa": "ਗੁਰਦਾਸਪੁਰ", "hi": "गुरदासपुर", "lat": 32.039, "lon": 75.405, "aliases": ["gurdaspur", "ਗੁਰਦਾਸਪੁਰ", "गुरदासपुर", "batala", "ਬਟਾਲਾ", "बटाला"]},
+    {"id": "hoshiarpur", "en": "Hoshiarpur", "pa": "ਹੁਸ਼ਿਆਰਪੁਰ", "hi": "होशियारपुर", "lat": 31.532, "lon": 75.917, "aliases": ["hoshiarpur", "ਹੁਸ਼ਿਆਰਪੁਰ", "ਹੁਸਿ਼ਆਰਪੁਰ", "होशियारपुर"]},
+    {"id": "jalandhar", "en": "Jalandhar", "pa": "ਜਲੰਧਰ", "hi": "जालंधर", "lat": 31.326, "lon": 75.576, "aliases": ["jalandhar", "jullundur", "ਜਲੰਧਰ", "जालंधर", "जलंधर"]},
+    {"id": "kapurthala", "en": "Kapurthala", "pa": "ਕਪੂਰਥਲਾ", "hi": "कपूरथला", "lat": 31.380, "lon": 75.381, "aliases": ["kapurthala", "ਕਪੂਰਥਲਾ", "कपूरथला", "phagwara", "ਫਗਵਾੜਾ", "फगवाड़ा"]},
+    {"id": "ludhiana", "en": "Ludhiana", "pa": "ਲੁਧਿਆਣਾ", "hi": "लुधियाना", "lat": 30.901, "lon": 75.857, "aliases": ["ludhiana", "ਲੁਧਿਆਣਾ", "ਲੁਧਿਆਣੇ", "लुधियाना"]},
+    {"id": "malerkotla", "en": "Malerkotla", "pa": "ਮਾਲੇਰਕੋਟਲਾ", "hi": "मलेरकोटला", "lat": 30.531, "lon": 75.879, "aliases": ["malerkotla", "ਮਾਲੇਰਕੋਟਲਾ", "ਮਲੇਰਕੋਟਲਾ", "मलेरकोटला", "मालेरकोटला"]},
+    {"id": "mansa", "en": "Mansa", "pa": "ਮਾਨਸਾ", "hi": "मानसा", "lat": 29.999, "lon": 75.393, "aliases": ["mansa", "ਮਾਨਸਾ", "मानसा"]},
+    {"id": "moga", "en": "Moga", "pa": "ਮੋਗਾ", "hi": "मोगा", "lat": 30.817, "lon": 75.172, "aliases": ["moga", "ਮੋਗਾ", "ਮੋਗੇ", "मोगा"]},
+    {"id": "pathankot", "en": "Pathankot", "pa": "ਪਠਾਨਕੋਟ", "hi": "पठानकोट", "lat": 32.274, "lon": 75.652, "aliases": ["pathankot", "ਪਠਾਨਕੋਟ", "पठानकोट"]},
+    {"id": "patiala", "en": "Patiala", "pa": "ਪਟਿਆਲਾ", "hi": "पटियाला", "lat": 30.340, "lon": 76.386, "aliases": ["patiala", "ਪਟਿਆਲਾ", "ਪਟਿਆਲੇ", "पटियाला"]},
+    {"id": "rupnagar", "en": "Rupnagar", "pa": "ਰੂਪਨਗਰ", "hi": "रूपनगर", "lat": 30.966, "lon": 76.533, "aliases": ["rupnagar", "ropar", "ਰੂਪਨਗਰ", "ਰੋਪੜ", "रूपनगर", "रोपड़"]},
+    {"id": "sas_nagar", "en": "SAS Nagar (Mohali)", "pa": "ਮੋਹਾਲੀ (ਐਸ.ਏ.ਐਸ. ਨਗਰ)", "hi": "मोहाली (एसएएस नगर)", "lat": 30.704, "lon": 76.717, "aliases": ["mohali", "sas nagar", "sahibzada ajit singh nagar", "ਮੋਹਾਲੀ", "ਮੁਹਾਲੀ", "ਸਾਹਿਬਜ਼ਾਦਾ ਅਜੀਤ ਸਿੰਘ ਨਗਰ", "मोहाली"]},
+    {"id": "sangrur", "en": "Sangrur", "pa": "ਸੰਗਰੂਰ", "hi": "संगरूर", "lat": 30.245, "lon": 75.844, "aliases": ["sangrur", "ਸੰਗਰੂਰ", "संगरूर"]},
+    {"id": "sbs_nagar", "en": "SBS Nagar (Nawanshahr)", "pa": "ਨਵਾਂਸ਼ਹਿਰ (ਸ਼ਹੀਦ ਭਗਤ ਸਿੰਘ ਨਗਰ)", "hi": "नवांशहर (शहीद भगत सिंह नगर)", "lat": 31.125, "lon": 76.116, "aliases": ["nawanshahr", "nawanshahar", "sbs nagar", "shaheed bhagat singh nagar", "ਨਵਾਂਸ਼ਹਿਰ", "ਨਵਾਂਸ਼ਹਿਰ", "ਸ਼ਹੀਦ ਭਗਤ ਸਿੰਘ ਨਗਰ", "नवांशहर", "नवाँशहर"]},
+    {"id": "sri_muktsar_sahib", "en": "Sri Muktsar Sahib", "pa": "ਸ੍ਰੀ ਮੁਕਤਸਰ ਸਾਹਿਬ", "hi": "श्री मुक्तसर साहिब", "lat": 30.474, "lon": 74.516, "aliases": ["muktsar", "sri muktsar sahib", "ਮੁਕਤਸਰ", "ਸ੍ਰੀ ਮੁਕਤਸਰ ਸਾਹਿਬ", "ਸ਼੍ਰੀ ਮੁਕਤਸਰ ਸਾਹਿਬ", "मुक्तसर", "श्री मुक्तसर साहिब", "malout", "ਮਲੋਟ", "मलोट"]},
+    {"id": "tarn_taran", "en": "Tarn Taran", "pa": "ਤਰਨ ਤਾਰਨ", "hi": "तरन तारन", "lat": 31.451, "lon": 74.928, "aliases": ["tarn taran", "tarntaran", "ਤਰਨ ਤਾਰਨ", "ਤਰਨਤਾਰਨ", "तरन तारन", "तरनतारन"]}
+  ]
+}

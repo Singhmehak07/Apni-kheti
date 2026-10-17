@@ -1,0 +1,97 @@
+{
+  "season": "Rabi 2026-27",
+  "crops": {
+    "wheat": {
+      "names": {"en": "Wheat", "pa": "ਕਣਕ", "hi": "गेहूं"},
+      "color": "orange",
+      "state_avg_yield_q_acre": 20.92,
+      "state_avg_year": "2023-24",
+      "low_yield_factor": 0.85,
+      "varieties": [
+        {"name": "PBW 872", "yield_q_acre": 24.4, "days": 152, "zones": ["all"], "window": "timely"},
+        {"name": "PBW 826", "yield_q_acre": 24.0, "days": 148, "zones": ["all"], "window": "timely"},
+        {"name": "PBW 803", "yield_q_acre": null, "days": null, "zones": ["south_western"], "window": "timely"},
+        {"name": "PBW 869", "yield_q_acre": null, "days": null, "zones": ["all"], "window": "timely", "note": "happy_seeder"},
+        {"name": "PBW 771", "yield_q_acre": null, "days": null, "zones": ["all"], "window": "late"},
+        {"name": "PBW 752", "yield_q_acre": null, "days": null, "zones": ["all"], "window": "late"}
+      ],
+      "duration_days": 150,
+      "sowing": {"early_start": "10-22", "optimal_start": "11-01", "optimal_end": "11-15", "late_end": "12-28", "late_label": "PBW 771 / PBW 752"},
+      "late_penalty_q_per_week": 1.5,
+      "irrigations_needed": 4, "irrigations_ideal": 5, "rainfed_ok": false,
+      "pre_sowing_irrigation": "except_after_paddy",
+      "salt": "moderate",
+      "soils": {"sandy": "ok", "loam": "good", "clay": "ok", "salt_affected": "caution"},
+      "seed_kg_acre": 45,
+      "fertiliser": {"n": 50, "p": 25, "text_key": "fert_wheat"},
+      "msp_key": "wheat",
+      "source_ids": ["pau_pop_rabi", "pib_msp"]
+    },
+    "raya": {
+      "names": {"en": "Raya (Indian mustard)", "pa": "ਰਾਇਆ (ਸਰ੍ਹੋਂ)", "hi": "राया (सरसों)"},
+      "color": "yellow",
+      "state_avg_yield_q_acre": 6.52,
+      "state_avg_year": "2023-24",
+      "low_yield_factor": 0.85,
+      "varieties": [
+        {"name": "PHR 127", "yield_q_acre": 9.5, "days": null, "zones": ["all"], "window": "timely", "note": "hybrid"},
+        {"name": "RCH 1", "yield_q_acre": 9.2, "days": null, "zones": ["south_western"], "window": "timely"},
+        {"name": "PHR 126", "yield_q_acre": 9.1, "days": null, "zones": ["south_western"], "window": "timely", "note": "hybrid"},
+        {"name": "PBR 357", "yield_q_acre": 8.5, "days": null, "zones": ["all"], "window": "timely"},
+        {"name": "PBR 97", "yield_q_acre": 5.2, "days": null, "zones": ["all"], "window": "rainfed"}
+      ],
+      "duration_days": 145,
+      "sowing": {"early_start": "10-15", "optimal_start": "10-15", "optimal_end": "11-15", "late_end": "11-30"},
+      "irrigations_needed": 1, "irrigations_ideal": 2, "rainfed_ok": true,
+      "pre_sowing_irrigation": "always",
+      "salt": "moderate",
+      "soils": {"sandy": "good", "loam": "good", "clay": "ok", "salt_affected": "ok"},
+      "seed_kg_acre": 1.5,
+      "fertiliser": {"n": 40, "p": 12, "text_key": "fert_raya"},
+      "msp_key": "raya",
+      "source_ids": ["pau_pop_rabi", "pib_msp"]
+    },
+    "gram": {
+      "names": {"en": "Gram (chana)", "pa": "ਛੋਲੇ", "hi": "चना"},
+      "color": "green",
+      "state_avg_yield_q_acre": 6.32,
+      "state_avg_year": "2023-24",
+      "low_yield_factor": 0.85,
+      "varieties": [
+        {"name": "PBG 10", "yield_q_acre": 8.6, "days": null, "zones": ["all"], "window": "timely", "seed_kg_acre": 30},
+        {"name": "PBG 8", "yield_q_acre": 8.4, "days": null, "zones": ["all"], "window": "timely"}
+      ],
+      "duration_days": 150,
+      "sowing": {"early_start": "10-25", "optimal_start": "10-25", "optimal_end": "11-10", "late_end": "12-15", "rainfed_start": "10-10", "rainfed_end": "10-25"},
+      "irrigations_needed": 1, "irrigations_ideal": 1, "rainfed_ok": true,
+      "pre_sowing_irrigation": "if_dry",
+      "salt": "sensitive",
+      "soils": {"sandy": "good", "loam": "good", "clay": "caution", "salt_affected": "bad"},
+      "seed_kg_acre": 30,
+      "fertiliser": {"n": 6, "p": 8, "text_key": "fert_gram"},
+      "msp_key": "gram",
+      "source_ids": ["pau_pop_rabi", "pib_msp"]
+    },
+    "barley": {
+      "names": {"en": "Barley", "pa": "ਜੌਂ", "hi": "जौ"},
+      "color": "blue",
+      "state_avg_yield_q_acre": 15.12,
+      "state_avg_year": "2023-24",
+      "low_yield_factor": 0.85,
+      "varieties": [
+        {"name": "PL 942", "yield_q_acre": 20.1, "days": null, "zones": ["all"], "window": "timely"},
+        {"name": "PL 807", "yield_q_acre": 17.2, "days": 137, "zones": ["all"], "window": "timely", "note": "feed"}
+      ],
+      "duration_days": 137,
+      "sowing": {"early_start": "10-15", "optimal_start": "10-15", "optimal_end": "11-15", "late_end": "12-31"},
+      "irrigations_needed": 1, "irrigations_ideal": 2, "rainfed_ok": true,
+      "pre_sowing_irrigation": "if_dry",
+      "salt": "tolerant",
+      "soils": {"sandy": "good", "loam": "good", "clay": "ok", "salt_affected": "good"},
+      "seed_kg_acre": 35,
+      "fertiliser": {"n": 25, "p": 12, "text_key": "fert_barley"},
+      "msp_key": "barley",
+      "source_ids": ["pau_pop_rabi", "pib_msp"]
+    }
+  }
+}
