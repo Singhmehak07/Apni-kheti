@@ -1,0 +1,71 @@
+{
+    "model_name": "Apni Kheti Crop Suitability Classifier (Research Baseline)",
+    "version": "1.0",
+    "model_type": "RandomForestClassifier(n_estimators=100, max_depth=15, random_state=42)",
+    "evaluation_standard": "TRD Section 5.1 & 5.2 Offline Research Protocol",
+    "dataset_sha256": "54a5a6e5408668e668667efc50de2fc867c1b875e0431b4f54dd331b0a109a4e",
+    "boundaries": {
+        "permitted_use": [
+            "Offline research & comparison baseline",
+            "Top-K candidate shortlisting when all feature compatibility gates pass"
+        ],
+        "prohibited_uses": [
+            "No field soil diagnosis",
+            "No wheat, mustard, or barley predictions (absent from dataset)",
+            "No guaranteed yield or profit representation",
+            "No unverified unit improvisation"
+        ]
+    },
+    "validation_comparison": {
+        "Majority_Baseline": {
+            "balanced_accuracy": 0.045454545454545456,
+            "macro_f1": 0.003952569169960474,
+            "weighted_f1": 0.003952569169960474,
+            "top_3_accuracy": 0.13636363636363635,
+            "brier_score": 0.9545454545454549
+        },
+        "Shallow_Decision_Tree": {
+            "balanced_accuracy": 0.40606060606060607,
+            "macro_f1": 0.32636131386038375,
+            "weighted_f1": 0.32636131386038375,
+            "top_3_accuracy": 0.6333333333333333,
+            "brier_score": 0.5982409600583234
+        },
+        "Random_Forest": {
+            "balanced_accuracy": 0.990909090909091,
+            "macro_f1": 0.9908989786631611,
+            "weighted_f1": 0.9908989786631611,
+            "top_3_accuracy": 1.0,
+            "brier_score": 0.022127916876056804
+        },
+        "Hist_Gradient_Boosting": {
+            "balanced_accuracy": 0.9878787878787879,
+            "macro_f1": 0.987844990104445,
+            "weighted_f1": 0.987844990104445,
+            "top_3_accuracy": 0.996969696969697,
+            "brier_score": 0.02175734374649951
+        }
+    },
+    "test_evaluation": {
+        "balanced_accuracy": 0.996969696969697,
+        "macro_f1": 0.9969663262210537,
+        "top_3_accuracy": 1.0,
+        "brier_score": 0.014993977165963124,
+        "accuracy": 0.996969696969697
+    },
+    "dataset_summary": {
+        "source": "Kaggle (Atharva Ingle Crop Recommendation Dataset)",
+        "total_records": 2200,
+        "features": [
+            "N",
+            "P",
+            "K",
+            "temperature",
+            "humidity",
+            "ph",
+            "rainfall"
+        ],
+        "classes_count": 22
+    },
+    "production_gate": "Disabled by default (rules_only). Requires TRD 5.3 5-gate verification to run."
+}
