@@ -1,0 +1,46 @@
+{
+    "title": "Apni Kheti Dataset Registry & Evidence Ledger",
+    "version": "1.0",
+    "datasets": [
+        {
+            "id": "crop_recommendation_kaggle",
+            "path": "ml/data/raw/crop_recommendation.csv",
+            "records": 2200,
+            "sha256": "54a5a6e5408668e668667efc50de2fc867c1b875e0431b4f54dd331b0a109a4e",
+            "source": "Kaggle (Atharva Ingle)",
+            "boundary": "Research baseline only. Synthetic/augmented. No wheat/mustard."
+        },
+        {
+            "id": "icrisat_punjab_yields",
+            "path": "data/icrisat/punjab_district_crop_yields_2015_2023.csv",
+            "records": 504,
+            "sha256": "c1b06d1a3aaacf48d335677cceab09e8bacae8d0da55187b14a2dc5cb1ed4b14",
+            "source": "ICRISAT Meso-Level Database & PAU Punjab Extracts",
+            "boundary": "Contextual district yield series (2015-2023). Not row-joined with Kaggle."
+        },
+        {
+            "id": "vdsa_punjab_indicators",
+            "path": "data/vdsa/punjab_district_agro_economic_indicators_2015_2023.csv",
+            "records": 72,
+            "sha256": "d17bad146f942238c366528e80717e4cd102286ba0424204b3e345a77078ba36",
+            "source": "ICRISAT VDSA Agro-economic indicators",
+            "boundary": "District irrigation, fertilizer, groundwater indicators."
+        },
+        {
+            "id": "soil_shc_12_reference",
+            "path": "data/reference/soil_health_card_12_parameters_reference.csv",
+            "records": 12,
+            "sha256": "b833b756043ee9cdb728f2fc6c096237a604b96cdbf246530a96fcf06ce46339",
+            "source": "ICAR & Soil Health Card Technical Guidelines / PAU",
+            "boundary": "Normative 12-parameter lab test threshold boundaries."
+        },
+        {
+            "id": "punjab_crop_economics",
+            "path": "data/reference/punjab_crop_economics_baseline.csv",
+            "records": 6,
+            "sha256": "3a0a5bde1ef964ea386efbe00c8571fec22816d730796f908c8f505b75a624c5",
+            "source": "PAU Cost of Cultivation Studies & CACP MSP (2024-25)",
+            "boundary": "Sourced cost components, expected yields, and baseline MSP."
+        }
+    ]
+}
