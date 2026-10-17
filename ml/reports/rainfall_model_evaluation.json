@@ -1,0 +1,61 @@
+{
+    "dataset_summary": {
+        "total_samples": 2376,
+        "train_samples": 1848,
+        "test_samples": 528,
+        "train_period": "2017-2023",
+        "test_period": "2024-2025",
+        "feature_count": 19,
+        "features": [
+            "grid_lat",
+            "grid_lon",
+            "month",
+            "month_sin",
+            "month_cos",
+            "season_code",
+            "same_month_lag_1yr",
+            "same_month_lag_2yr",
+            "same_month_lag_3yr",
+            "same_month_3yr_mean",
+            "same_month_5yr_mean",
+            "same_month_hist_mean",
+            "same_month_hist_std",
+            "same_month_hist_min",
+            "same_month_hist_max",
+            "same_month_trend_slope",
+            "same_month_rainy_days_avg",
+            "prior_month_rf",
+            "prior_2month_rf"
+        ]
+    },
+    "model_comparison": {
+        "Climatological_Baseline": {
+            "mae_mm": 37.88,
+            "rmse_mm": 66.92,
+            "r2_score": 0.5281,
+            "pearson_r": 0.727,
+            "anomaly_direction_accuracy": 0.0019
+        },
+        "Ridge_Trend_Regressor": {
+            "mae_mm": 45.6,
+            "rmse_mm": 77.42,
+            "r2_score": 0.3684,
+            "pearson_r": 0.66,
+            "anomaly_direction_accuracy": 0.428
+        },
+        "Random_Forest_Regressor": {
+            "mae_mm": 45.77,
+            "rmse_mm": 86.17,
+            "r2_score": 0.2178,
+            "pearson_r": 0.5902,
+            "anomaly_direction_accuracy": 0.483
+        },
+        "Hist_Gradient_Boosting": {
+            "mae_mm": 49.06,
+            "rmse_mm": 91.23,
+            "r2_score": 0.1232,
+            "pearson_r": 0.5782,
+            "anomaly_direction_accuracy": 0.4735
+        }
+    }
+}
