@@ -1,0 +1,13 @@
+parameter,unit,method,low_threshold,high_threshold,critical_low,critical_high,category_interpretation
+soil_pH,pH,1:2.5 soil-water suspension,6.5,8.5,5.5,9.0,6.5-8.5: Normal/Optimal; <6.5: Acidic; 8.5-9.0: Sodic tendency; >9.0: Highly alkali/sodic
+soil_EC,dS/m,1:2 soil-water suspension,0.0,0.8,0.0,1.6,<0.8 dS/m: Normal; 0.8-1.6 dS/m: Critical for sensitive crops; >1.6 dS/m: Injurious/saline
+organic_carbon,%,Walkley-Black wet oxidation,0.4,0.75,0.25,1.5,<0.4%: Low; 0.4-0.75%: Medium; >0.75%: High
+nitrogen_N,kg/ha,Subbiah and Asija alkaline permanganate,280.0,560.0,150.0,800.0,<280 kg/ha: Low; 280-560 kg/ha: Medium; >560 kg/ha: High
+phosphorus_P,kg/ha,Olsen method (0.5M NaHCO3),12.0,25.0,8.0,50.0,<12 kg/ha: Low; 12-25 kg/ha: Medium; >25 kg/ha: High
+potassium_K,kg/ha,1N Neutral ammonium acetate,110.0,280.0,80.0,500.0,<110 kg/ha: Low; 110-280 kg/ha: Medium; >280 kg/ha: High
+sulphur_S,mg/kg,0.15% CaCl2 extractable,10.0,20.0,7.5,40.0,<10 mg/kg: Deficient; 10-20 mg/kg: Sufficient; >20 mg/kg: High
+zinc_Zn,mg/kg,DTPA extractable,0.6,1.2,0.5,3.0,<0.6 mg/kg: Deficient; 0.6-1.2 mg/kg: Sufficient; >1.2 mg/kg: High
+iron_Fe,mg/kg,DTPA extractable,4.5,9.0,3.5,25.0,<4.5 mg/kg: Deficient; 4.5-9.0 mg/kg: Sufficient; >9.0 mg/kg: High
+copper_Cu,mg/kg,DTPA extractable,0.2,0.5,0.15,2.0,<0.2 mg/kg: Deficient; 0.2-0.5 mg/kg: Sufficient; >0.5 mg/kg: High
+manganese_Mn,mg/kg,DTPA extractable,3.5,7.0,2.5,20.0,<3.5 mg/kg: Deficient; 3.5-7.0 mg/kg: Sufficient; >7.0 mg/kg: High
+boron_B,mg/kg,Hot water soluble,0.5,1.0,0.3,2.5,<0.5 mg/kg: Deficient; 0.5-1.0 mg/kg: Sufficient; >1.0 mg/kg: High
