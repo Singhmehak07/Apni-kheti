@@ -1,0 +1,9 @@
+{
+  "pau_pop_rabi": {"title": "PAU Package of Practices for Crops of Punjab, Rabi 2025-26", "publisher": "Punjab Agricultural University, Ludhiana", "url": "https://www.pau.edu/content/ccil/pf/pp_rabi.pdf"},
+  "pib_msp": {"title": "MSP for Rabi crops, Marketing Season 2027-28 (with projected A2+FL cost)", "publisher": "Press Information Bureau, Govt. of India, 30 Sep 2026", "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2316941"},
+  "commodityonline": {"title": "Mandi price snapshot (AGMARKNET-based)", "publisher": "commodityonline.com, accessed Oct 2026", "url": "https://www.commodityonline.com/mandiprices"},
+  "agmarknet": {"title": "Current daily mandi prices (AGMARKNET)", "publisher": "data.gov.in / Ministry of Agriculture", "url": "https://www.data.gov.in/resource/current-daily-price-various-commodities-various-markets-mandi"},
+  "open_meteo": {"title": "7-day weather forecast", "publisher": "Open-Meteo", "url": "https://open-meteo.com/"},
+  "soil_report": {"title": "Your soil test report", "publisher": "Uploaded by farmer", "url": null},
+  "farmer": {"title": "Your answers", "publisher": "Farmer", "url": null}
+}

@@ -1,0 +1,365 @@
+{
+ "months": {
+  "en": [
+   "Jan",
+   "Feb",
+   "Mar",
+   "Apr",
+   "May",
+   "Jun",
+   "Jul",
+   "Aug",
+   "Sep",
+   "Oct",
+   "Nov",
+   "Dec"
+  ],
+  "pa": [
+   "ਜਨਵਰੀ",
+   "ਫ਼ਰਵਰੀ",
+   "ਮਾਰਚ",
+   "ਅਪ੍ਰੈਲ",
+   "ਮਈ",
+   "ਜੂਨ",
+   "ਜੁਲਾਈ",
+   "ਅਗਸਤ",
+   "ਸਤੰਬਰ",
+   "ਅਕਤੂਬਰ",
+   "ਨਵੰਬਰ",
+   "ਦਸੰਬਰ"
+  ],
+  "hi": [
+   "जनवरी",
+   "फ़रवरी",
+   "मार्च",
+   "अप्रैल",
+   "मई",
+   "जून",
+   "जुलाई",
+   "अगस्त",
+   "सितंबर",
+   "अक्टूबर",
+   "नवंबर",
+   "दिसंबर"
+  ]
+ },
+ "weekdays": {
+  "en": [
+   "Mon",
+   "Tue",
+   "Wed",
+   "Thu",
+   "Fri",
+   "Sat",
+   "Sun"
+  ],
+  "pa": [
+   "ਸੋਮ",
+   "ਮੰਗਲ",
+   "ਬੁੱਧ",
+   "ਵੀਰ",
+   "ਸ਼ੁੱਕਰ",
+   "ਸ਼ਨੀ",
+   "ਐਤ"
+  ],
+  "hi": [
+   "सोम",
+   "मंगल",
+   "बुध",
+   "गुरु",
+   "शुक्र",
+   "शनि",
+   "रवि"
+  ]
+ },
+ "units": {
+  "killa": {
+   "en": "killa",
+   "pa": "ਕਿੱਲੇ",
+   "hi": "किल्ले"
+  },
+  "acre": {
+   "en": "acre",
+   "pa": "ਏਕੜ",
+   "hi": "एकड़"
+  },
+  "kanal": {
+   "en": "kanal",
+   "pa": "ਕਨਾਲ",
+   "hi": "कनाल"
+  },
+  "marla": {
+   "en": "marla",
+   "pa": "ਮਰਲੇ",
+   "hi": "मरला"
+  },
+  "hectare": {
+   "en": "hectare",
+   "pa": "ਹੈਕਟੇਅਰ",
+   "hi": "हेक्टेयर"
+  },
+  "quintal": {
+   "en": "quintal",
+   "pa": "ਕੁਇੰਟਲ",
+   "hi": "क्विंटल"
+  }
+ },
+ "reasons": {
+  "sow_optimal": {
+   "en": "{date} falls in the best sowing time for {crop} ({window}).",
+   "pa": "{date} {crop} ਦੀ ਬਿਜਾਈ ਦੇ ਸਭ ਤੋਂ ਵਧੀਆ ਸਮੇਂ ({window}) ਵਿੱਚ ਆਉਂਦੀ ਹੈ।",
+   "hi": "{date} {crop} की बुवाई के सबसे अच्छे समय ({window}) में आती है।"
+  },
+  "sow_early": {
+   "en": "{date} is a little early; the best time for {crop} is {window}.",
+   "pa": "{date} ਥੋੜ੍ਹਾ ਜਲਦੀ ਹੈ; {crop} ਲਈ ਸਭ ਤੋਂ ਵਧੀਆ ਸਮਾਂ {window} ਹੈ।",
+   "hi": "{date} थोड़ा जल्दी है; {crop} के लिए सबसे अच्छा समय {window} है।"
+  },
+  "sow_early_wheat": {
+   "en": "{date} is early. From the 4th week of October sow only long-duration varieties, or wait for {window}.",
+   "pa": "{date} ਜਲਦੀ ਹੈ। ਅਕਤੂਬਰ ਦੇ ਚੌਥੇ ਹਫ਼ਤੇ ਤੋਂ ਸਿਰਫ਼ ਲੰਮੇ ਸਮੇਂ ਵਾਲੀਆਂ ਕਿਸਮਾਂ ਬੀਜੋ, ਜਾਂ {window} ਤੱਕ ਉਡੀਕ ਕਰੋ।",
+   "hi": "{date} जल्दी है। अक्टूबर के चौथे हफ्ते से सिर्फ़ लंबी अवधि वाली किस्में बोएं, या {window} तक इंतज़ार करें।"
+  },
+  "sow_early_gram": {
+   "en": "Sowing gram before {start} raises the risk of wilt. The best time is {window}.",
+   "pa": "{start} ਤੋਂ ਪਹਿਲਾਂ ਛੋਲੇ ਬੀਜਣ ਨਾਲ ਉਖੇੜੇ ਦਾ ਖ਼ਤਰਾ ਵਧਦਾ ਹੈ। ਸਭ ਤੋਂ ਵਧੀਆ ਸਮਾਂ {window} ਹੈ।",
+   "hi": "{start} से पहले चना बोने से उखेड़ा (विल्ट) का खतरा बढ़ता है। सबसे अच्छा समय {window} है।"
+  },
+  "sow_late": {
+   "en": "{date} is after the best time ({window}); yield may be lower.",
+   "pa": "{date} ਸਭ ਤੋਂ ਵਧੀਆ ਸਮੇਂ ({window}) ਤੋਂ ਬਾਅਦ ਹੈ; ਝਾੜ ਘੱਟ ਹੋ ਸਕਦਾ ਹੈ।",
+   "hi": "{date} सबसे अच्छे समय ({window}) के बाद है; पैदावार कम हो सकती है।"
+  },
+  "sow_late_wheat": {
+   "en": "{date} is about {weeks} week(s) after the best time. PAU says each week of delay cuts wheat yield by about 150 kg per acre — use a late variety like {late_variety}.",
+   "pa": "{date} ਸਭ ਤੋਂ ਵਧੀਆ ਸਮੇਂ ਤੋਂ ਲਗਭਗ {weeks} ਹਫ਼ਤੇ ਪਿੱਛੇ ਹੈ। PAU ਮੁਤਾਬਕ ਹਰ ਹਫ਼ਤੇ ਦੀ ਦੇਰੀ ਨਾਲ ਕਣਕ ਦਾ ਝਾੜ ਲਗਭਗ 150 ਕਿਲੋ ਪ੍ਰਤੀ ਏਕੜ ਘਟਦਾ ਹੈ — ਪਛੇਤੀ ਕਿਸਮ ਜਿਵੇਂ {late_variety} ਲਓ।",
+   "hi": "{date} सबसे अच्छे समय से लगभग {weeks} हफ्ते पीछे है। PAU के अनुसार हर हफ्ते की देरी से गेहूं की पैदावार लगभग 150 किलो प्रति एकड़ घटती है — पछेती किस्म जैसे {late_variety} लें।"
+  },
+  "sow_too_late": {
+   "en": "{date} is too late for {crop} (sow by {end}).",
+   "pa": "{date} {crop} ਲਈ ਬਹੁਤ ਪਛੇਤੀ ਹੈ ({end} ਤੱਕ ਬੀਜੋ)।",
+   "hi": "{date} {crop} के लिए बहुत देर है ({end} तक बोएं)।"
+  },
+  "sow_unknown": {
+   "en": "Sowing date not known; we assumed {date}.",
+   "pa": "ਬਿਜਾਈ ਦੀ ਤਾਰੀਖ਼ ਪਤਾ ਨਹੀਂ; ਅਸੀਂ {date} ਮੰਨੀ ਹੈ।",
+   "hi": "बुवाई की तारीख पता नहीं; हमने {date} मानी है।"
+  },
+  "water_ok": {
+   "en": "Your {irr} irrigations cover the need of about {need} after sowing.",
+   "pa": "ਤੁਹਾਡੇ {irr} ਪਾਣੀ ਬਿਜਾਈ ਤੋਂ ਬਾਅਦ ਲਗਭਗ {need} ਪਾਣੀਆਂ ਦੀ ਲੋੜ ਪੂਰੀ ਕਰਦੇ ਹਨ।",
+   "hi": "आपकी {irr} सिंचाइयां बुवाई के बाद लगभग {need} सिंचाई की ज़रूरत पूरी करती हैं।"
+  },
+  "water_short": {
+   "en": "{crop} needs about {need} irrigations after sowing; you said {irr}.",
+   "pa": "{crop} ਲਈ ਬਿਜਾਈ ਤੋਂ ਬਾਅਦ ਲਗਭਗ {need} ਪਾਣੀ ਚਾਹੀਦੇ ਹਨ; ਤੁਸੀਂ {irr} ਦੱਸੇ।",
+   "hi": "{crop} के लिए बुवाई के बाद लगभग {need} सिंचाई चाहिए; आपने {irr} बताईं।"
+  },
+  "water_none": {
+   "en": "{crop} needs irrigation; without water it is not suitable.",
+   "pa": "{crop} ਲਈ ਪਾਣੀ ਜ਼ਰੂਰੀ ਹੈ; ਬਿਨਾਂ ਪਾਣੀ ਇਹ ਢੁਕਵੀਂ ਨਹੀਂ।",
+   "hi": "{crop} के लिए सिंचाई ज़रूरी है; बिना पानी यह उपयुक्त नहीं।"
+  },
+  "water_rainfed": {
+   "en": "For {crop}, little or no irrigation is enough with a rainfed variety such as {variety}.",
+   "pa": "{crop} ਲਈ ਬਰਾਨੀ ਕਿਸਮ (ਜਿਵੇਂ {variety}) ਨਾਲ ਘੱਟ ਜਾਂ ਬਿਨਾਂ ਪਾਣੀ ਵੀ ਕੰਮ ਚੱਲ ਜਾਂਦਾ ਹੈ।",
+   "hi": "{crop} के लिए बरानी किस्म (जैसे {variety}) से कम या बिना सिंचाई भी काम चल जाता है।"
+  },
+  "water_low_need": {
+   "en": "{crop} needs only about {need} irrigation(s) after sowing — it saves water.",
+   "pa": "{crop} ਲਈ ਬਿਜਾਈ ਤੋਂ ਬਾਅਦ ਸਿਰਫ਼ ਲਗਭਗ {need} ਪਾਣੀ ਚਾਹੀਦੇ ਹਨ — ਪਾਣੀ ਦੀ ਬੱਚਤ।",
+   "hi": "{crop} के लिए बुवाई के बाद सिर्फ़ लगभग {need} सिंचाई चाहिए — पानी की बचत।"
+  },
+  "water_unknown": {
+   "en": "Irrigation not known — check that you can give about {need} irrigations.",
+   "pa": "ਪਾਣੀ ਦੀ ਜਾਣਕਾਰੀ ਨਹੀਂ — ਦੇਖ ਲਓ ਕਿ ਲਗਭਗ {need} ਪਾਣੀ ਲਾ ਸਕੋਗੇ।",
+   "hi": "सिंचाई की जानकारी नहीं — देख लें कि लगभग {need} सिंचाई कर पाएंगे।"
+  },
+  "after_paddy_wheat": {
+   "en": "After paddy, wheat usually doesn't need a pre-sowing irrigation.",
+   "pa": "ਝੋਨੇ ਤੋਂ ਬਾਅਦ ਕਣਕ ਲਈ ਆਮ ਤੌਰ 'ਤੇ ਰੌਣੀ ਦੀ ਲੋੜ ਨਹੀਂ।",
+   "hi": "धान के बाद गेहूं के लिए आमतौर पर पलेवा (रौणी) की ज़रूरत नहीं।"
+  },
+  "salt_tolerant": {
+   "en": "Barley tolerates salty (kallar) soil and water better than other rabi crops.",
+   "pa": "ਜੌਂ ਕੱਲਰ ਵਾਲੀ ਜ਼ਮੀਨ ਅਤੇ ਖਾਰਾ ਪਾਣੀ ਹਾੜੀ ਦੀਆਂ ਹੋਰ ਫ਼ਸਲਾਂ ਨਾਲੋਂ ਵੱਧ ਸਹਿ ਲੈਂਦੇ ਹਨ।",
+   "hi": "जौ कल्लर वाली ज़मीन और खारा पानी रबी की दूसरी फसलों से ज़्यादा सह लेता है।"
+  },
+  "salt_sensitive": {
+   "en": "Gram is not suited to salty or alkaline soil.",
+   "pa": "ਛੋਲੇ ਕੱਲਰ ਵਾਲੀ ਜਾਂ ਖਾਰੀ ਜ਼ਮੀਨ ਵਿੱਚ ਠੀਕ ਨਹੀਂ ਹੁੰਦੇ।",
+   "hi": "चना कल्लर या खारी ज़मीन में ठीक नहीं होता।"
+  },
+  "salt_reported": {
+   "en": "You said the soil is salty (kallar) — a soil test will confirm it.",
+   "pa": "ਤੁਸੀਂ ਜ਼ਮੀਨ ਕੱਲਰ ਵਾਲੀ ਦੱਸੀ — ਮਿੱਟੀ ਪਰਖ ਨਾਲ ਪੱਕਾ ਪਤਾ ਲੱਗੇਗਾ।",
+   "hi": "आपने ज़मीन कल्लर वाली बताई — मिट्टी जांच से पक्का पता चलेगा।"
+  },
+  "salt_extra_n": {
+   "en": "On salty (kallar) soil, PAU advises 25% more nitrogen for wheat.",
+   "pa": "ਕੱਲਰ ਵਾਲੀ ਜ਼ਮੀਨ ਵਿੱਚ PAU ਕਣਕ ਲਈ 25% ਵੱਧ ਨਾਈਟ੍ਰੋਜਨ ਦੀ ਸਲਾਹ ਦਿੰਦੀ ਹੈ।",
+   "hi": "कल्लर वाली ज़मीन में PAU गेहूं के लिए 25% ज़्यादा नाइट्रोजन की सलाह देता है।"
+  },
+  "salty_water": {
+   "en": "Salty tubewell water can reduce {crop} yield; get the water tested.",
+   "pa": "ਖਾਰਾ ਪਾਣੀ {crop} ਦਾ ਝਾੜ ਘਟਾ ਸਕਦਾ ਹੈ; ਪਾਣੀ ਦੀ ਜਾਂਚ ਕਰਵਾਓ।",
+   "hi": "खारा पानी {crop} की पैदावार घटा सकता है; पानी की जांच करवाएं।"
+  },
+  "report_saline": {
+   "en": "Your report shows EC {ec} — above 0.8, so the soil is saline.",
+   "pa": "ਤੁਹਾਡੀ ਰਿਪੋਰਟ ਵਿੱਚ EC {ec} ਹੈ — 0.8 ਤੋਂ ਵੱਧ, ਯਾਨੀ ਜ਼ਮੀਨ ਵਿੱਚ ਲੂਣ ਵੱਧ ਹੈ।",
+   "hi": "आपकी रिपोर्ट में EC {ec} है — 0.8 से ज़्यादा, यानी ज़मीन लवणीय है।"
+  },
+  "report_alkali": {
+   "en": "Your report shows pH {ph} — above 9.3 (alkali). Ask the soil lab about gypsum before sowing.",
+   "pa": "ਤੁਹਾਡੀ ਰਿਪੋਰਟ ਵਿੱਚ pH {ph} ਹੈ — 9.3 ਤੋਂ ਵੱਧ (ਖਾਰੀ)। ਬਿਜਾਈ ਤੋਂ ਪਹਿਲਾਂ ਜਿਪਸਮ ਬਾਰੇ ਮਿੱਟੀ ਪਰਖ ਲੈਬ ਤੋਂ ਪੁੱਛੋ।",
+   "hi": "आपकी रिपोर्ट में pH {ph} है — 9.3 से ज़्यादा (क्षारीय)। बुवाई से पहले जिप्सम के बारे में मिट्टी जांच लैब से पूछें।"
+  },
+  "report_normal": {
+   "en": "Your report's pH {ph} and EC {ec} are below PAU's alkali (9.3) and saline (0.8) limits.",
+   "pa": "ਤੁਹਾਡੀ ਰਿਪੋਰਟ ਦਾ pH {ph} ਅਤੇ EC {ec}, PAU ਦੀਆਂ ਖਾਰੀ (9.3) ਤੇ ਲੂਣੀ (0.8) ਹੱਦਾਂ ਤੋਂ ਘੱਟ ਹਨ।",
+   "hi": "आपकी रिपोर्ट का pH {ph} और EC {ec}, PAU की क्षारीय (9.3) और लवणीय (0.8) सीमा से कम हैं।"
+  },
+  "soil_good": {
+   "en": "{soil} soil suits {crop}.",
+   "pa": "{soil} ਜ਼ਮੀਨ {crop} ਲਈ ਢੁਕਵੀਂ ਹੈ।",
+   "hi": "{soil} ज़मीन {crop} के लिए उपयुक्त है।"
+  },
+  "soil_clay_gram": {
+   "en": "On heavy soil, especially after paddy, sow gram on raised beds and don't let water stand.",
+   "pa": "ਭਾਰੀ ਜ਼ਮੀਨ ਵਿੱਚ, ਖ਼ਾਸ ਕਰਕੇ ਝੋਨੇ ਤੋਂ ਬਾਅਦ, ਛੋਲੇ ਬੈੱਡਾਂ 'ਤੇ ਬੀਜੋ ਅਤੇ ਪਾਣੀ ਖੜ੍ਹਾ ਨਾ ਹੋਣ ਦਿਓ।",
+   "hi": "भारी ज़मीन में, खासकर धान के बाद, चना बेड पर बोएं और पानी खड़ा न होने दें।"
+  },
+  "zone_variety": {
+   "en": "For {district}, PAU recommends {variety}.",
+   "pa": "{district} ਲਈ PAU {variety} ਦੀ ਸਿਫ਼ਾਰਸ਼ ਕਰਦੀ ਹੈ।",
+   "hi": "{district} के लिए PAU {variety} की सिफ़ारिश करता है।"
+  },
+  "budget_over": {
+   "en": "Listed cost is about ₹{cost} per acre — more than your budget of ₹{budget}.",
+   "pa": "ਲਾਗਤ ਲਗਭਗ ₹{cost} ਪ੍ਰਤੀ ਏਕੜ ਹੈ — ਤੁਹਾਡੇ ₹{budget} ਦੇ ਬਜਟ ਤੋਂ ਵੱਧ।",
+   "hi": "लागत लगभग ₹{cost} प्रति एकड़ है — आपके ₹{budget} के बजट से ज़्यादा।"
+  },
+  "budget_ok": {
+   "en": "Listed cost of about ₹{cost} per acre fits your budget.",
+   "pa": "ਲਗਭਗ ₹{cost} ਪ੍ਰਤੀ ਏਕੜ ਦੀ ਲਾਗਤ ਤੁਹਾਡੇ ਬਜਟ ਵਿੱਚ ਹੈ।",
+   "hi": "लगभग ₹{cost} प्रति एकड़ की लागत आपके बजट में है।"
+  },
+  "money_base": {
+   "en": "Base case: about ₹{net} per acre above listed costs.",
+   "pa": "ਆਮ ਹਾਲਤ ਵਿੱਚ: ਲਾਗਤ ਕੱਢ ਕੇ ਲਗਭਗ ₹{net} ਪ੍ਰਤੀ ਏਕੜ।",
+   "hi": "सामान्य स्थिति में: लागत निकालकर लगभग ₹{net} प्रति एकड़।"
+  },
+  "vs_usual_more": {
+   "en": "About ₹{diff} per acre more than your usual {usual} (base case).",
+   "pa": "ਤੁਹਾਡੀ ਆਮ ਫ਼ਸਲ {usual} ਨਾਲੋਂ ਲਗਭਗ ₹{diff} ਪ੍ਰਤੀ ਏਕੜ ਵੱਧ (ਆਮ ਹਾਲਤ ਵਿੱਚ)।",
+   "hi": "आपकी आम फसल {usual} से लगभग ₹{diff} प्रति एकड़ ज़्यादा (सामान्य स्थिति में)।"
+  },
+  "vs_usual_less": {
+   "en": "About ₹{diff} per acre less than your usual {usual} (base case).",
+   "pa": "ਤੁਹਾਡੀ ਆਮ ਫ਼ਸਲ {usual} ਨਾਲੋਂ ਲਗਭਗ ₹{diff} ਪ੍ਰਤੀ ਏਕੜ ਘੱਟ (ਆਮ ਹਾਲਤ ਵਿੱਚ)।",
+   "hi": "आपकी आम फसल {usual} से लगभग ₹{diff} प्रति एकड़ कम (सामान्य स्थिति में)।"
+  },
+  "is_usual": {
+   "en": "This is the crop you usually grow.",
+   "pa": "ਇਹ ਉਹੀ ਫ਼ਸਲ ਹੈ ਜੋ ਤੁਸੀਂ ਆਮ ਤੌਰ 'ਤੇ ਬੀਜਦੇ ਹੋ।",
+   "hi": "यह वही फसल है जो आप आमतौर पर बोते हैं।"
+  },
+  "price_benchmark": {
+   "en": "No recent mandi price found for {crop}; MSP ₹{msp} per quintal is used as a benchmark.",
+   "pa": "{crop} ਦਾ ਤਾਜ਼ਾ ਮੰਡੀ ਭਾਅ ਨਹੀਂ ਮਿਲਿਆ; ਅੰਦਾਜ਼ੇ ਲਈ MSP ₹{msp} ਪ੍ਰਤੀ ਕੁਇੰਟਲ ਲਿਆ ਹੈ।",
+   "hi": "{crop} का ताज़ा मंडी भाव नहीं मिला; अनुमान के लिए MSP ₹{msp} प्रति क्विंटल लिया है।"
+  },
+  "price_mandi": {
+   "en": "Mandi price used: ₹{avg} per quintal ({scope}, {date}).",
+   "pa": "ਮੰਡੀ ਭਾਅ: ₹{avg} ਪ੍ਰਤੀ ਕੁਇੰਟਲ ({scope}, {date})।",
+   "hi": "मंडी भाव: ₹{avg} प्रति क्विंटल ({scope}, {date})।"
+  },
+  "weather_rain": {
+   "en": "About {mm} mm rain is forecast on {day} — plan the pre-sowing irrigation after it.",
+   "pa": "{day} ਨੂੰ ਲਗਭਗ {mm} ਮਿ.ਮੀ. ਮੀਂਹ ਦੀ ਸੰਭਾਵਨਾ ਹੈ — ਰੌਣੀ ਇਸ ਤੋਂ ਬਾਅਦ ਕਰੋ।",
+   "hi": "{day} को लगभग {mm} मि.मी. बारिश की संभावना है — पलेवा इसके बाद करें।"
+  },
+  "weather_warm_gram": {
+   "en": "Days are still warm (up to {tmax}°C); early-sown gram can get wilt.",
+   "pa": "ਦਿਨ ਹਾਲੇ ਗਰਮ ਹਨ ({tmax}°C ਤੱਕ); ਅਗੇਤੇ ਛੋਲਿਆਂ ਨੂੰ ਉਖੇੜਾ ਲੱਗ ਸਕਦਾ ਹੈ।",
+   "hi": "दिन अभी गर्म हैं ({tmax}°C तक); अगेती बुवाई वाले चने में उखेड़ा लग सकता है।"
+  },
+  "weather_warm_wheat": {
+   "en": "Days are still warm (up to {tmax}°C); don't sow wheat too early.",
+   "pa": "ਦਿਨ ਹਾਲੇ ਗਰਮ ਹਨ ({tmax}°C ਤੱਕ); ਕਣਕ ਬਹੁਤ ਅਗੇਤੀ ਨਾ ਬੀਜੋ।",
+   "hi": "दिन अभी गर्म हैं ({tmax}°C तक); गेहूं बहुत जल्दी न बोएं।"
+  },
+  "tractor_none": {
+   "en": "No own tractor — book a tractor or custom hiring centre early for sowing.",
+   "pa": "ਆਪਣਾ ਟਰੈਕਟਰ ਨਹੀਂ — ਬਿਜਾਈ ਲਈ ਟਰੈਕਟਰ ਜਾਂ ਕਸਟਮ ਹਾਇਰਿੰਗ ਸੈਂਟਰ ਪਹਿਲਾਂ ਹੀ ਬੁੱਕ ਕਰੋ।",
+   "hi": "अपना ट्रैक्टर नहीं — बुवाई के लिए ट्रैक्टर या कस्टम हायरिंग सेंटर पहले से बुक करें।"
+  },
+  "missing_info": {
+   "en": "Not known: {fields}. The result may change when you add these.",
+   "pa": "ਜਾਣਕਾਰੀ ਨਹੀਂ: {fields}। ਇਹ ਦੱਸਣ ਨਾਲ ਨਤੀਜਾ ਬਦਲ ਸਕਦਾ ਹੈ।",
+   "hi": "जानकारी नहीं: {fields}। ये बताने से नतीजा बदल सकता है।"
+  },
+  "water_borderline": {
+   "en": "{crop} needs about {need} irrigations after sowing; with {irr}, don't miss any.",
+   "pa": "{crop} ਲਈ ਬਿਜਾਈ ਤੋਂ ਬਾਅਦ ਲਗਭਗ {need} ਪਾਣੀ ਚਾਹੀਦੇ ਹਨ; {irr} ਪਾਣੀਆਂ ਨਾਲ ਕੋਈ ਪਾਣੀ ਖੁੰਝਣ ਨਾ ਦਿਓ।",
+   "hi": "{crop} के लिए बुवाई के बाद लगभग {need} सिंचाई चाहिए; {irr} सिंचाई में कोई भी न छोड़ें।"
+  }
+ },
+ "headlines": {
+  "feasible": {
+   "en": "Good fit for your field",
+   "pa": "ਤੁਹਾਡੇ ਖੇਤ ਲਈ ਵਧੀਆ",
+   "hi": "आपके खेत के लिए अच्छा"
+  },
+  "conditional": {
+   "en": "Possible, with care",
+   "pa": "ਧਿਆਨ ਰੱਖ ਕੇ ਸੰਭਵ",
+   "hi": "सावधानी से संभव"
+  },
+  "insufficient_information": {
+   "en": "Need more information",
+   "pa": "ਹੋਰ ਜਾਣਕਾਰੀ ਚਾਹੀਦੀ ਹੈ",
+   "hi": "और जानकारी चाहिए"
+  },
+  "not_suitable": {
+   "en": "Not suitable now",
+   "pa": "ਹੁਣ ਢੁਕਵੀਂ ਨਹੀਂ",
+   "hi": "अभी उपयुक्त नहीं"
+  }
+ },
+ "fertiliser": {
+  "fert_wheat": {
+   "en": "55 kg DAP per acre at sowing; 45 kg urea with the 1st irrigation and 45 kg with the 2nd (medium-fertility soil, no soil test).",
+   "pa": "ਬਿਜਾਈ ਵੇਲੇ 55 ਕਿਲੋ ਡੀਏਪੀ ਪ੍ਰਤੀ ਏਕੜ; ਪਹਿਲੇ ਪਾਣੀ ਨਾਲ 45 ਕਿਲੋ ਯੂਰੀਆ ਅਤੇ ਦੂਜੇ ਨਾਲ 45 ਕਿਲੋ (ਦਰਮਿਆਨੀ ਉਪਜਾਊ ਜ਼ਮੀਨ, ਬਿਨਾਂ ਮਿੱਟੀ ਪਰਖ)।",
+   "hi": "बुवाई के समय 55 किलो डीएपी प्रति एकड़; पहली सिंचाई के साथ 45 किलो यूरिया और दूसरी के साथ 45 किलो (मध्यम उपजाऊ ज़मीन, बिना मिट्टी जांच)।"
+  },
+  "fert_barley": {
+   "en": "Drill 45 kg urea + 27 kg DAP per acre at sowing (or 55 kg urea + 75 kg superphosphate).",
+   "pa": "ਬਿਜਾਈ ਵੇਲੇ 45 ਕਿਲੋ ਯੂਰੀਆ + 27 ਕਿਲੋ ਡੀਏਪੀ ਪ੍ਰਤੀ ਏਕੜ ਡਰਿੱਲ ਕਰੋ (ਜਾਂ 55 ਕਿਲੋ ਯੂਰੀਆ + 75 ਕਿਲੋ ਸੁਪਰਫਾਸਫੇਟ)।",
+   "hi": "बुवाई के समय 45 किलो यूरिया + 27 किलो डीएपी प्रति एकड़ ड्रिल करें (या 55 किलो यूरिया + 75 किलो सुपरफॉस्फेट)।"
+  },
+  "fert_gram": {
+   "en": "13 kg urea + 50 kg superphosphate per acre at sowing.",
+   "pa": "ਬਿਜਾਈ ਵੇਲੇ 13 ਕਿਲੋ ਯੂਰੀਆ + 50 ਕਿਲੋ ਸੁਪਰਫਾਸਫੇਟ ਪ੍ਰਤੀ ਏਕੜ।",
+   "hi": "बुवाई के समय 13 किलो यूरिया + 50 किलो सुपरफॉस्फेट प्रति एकड़।"
+  },
+  "fert_raya": {
+   "en": "90 kg urea + 75 kg superphosphate per acre if irrigated; 33 kg urea + 50 kg superphosphate if rainfed.",
+   "pa": "ਸੇਂਜੂ ਹਾਲਤ ਵਿੱਚ 90 ਕਿਲੋ ਯੂਰੀਆ + 75 ਕਿਲੋ ਸੁਪਰਫਾਸਫੇਟ ਪ੍ਰਤੀ ਏਕੜ; ਬਰਾਨੀ ਵਿੱਚ 33 ਕਿਲੋ ਯੂਰੀਆ + 50 ਕਿਲੋ ਸੁਪਰਫਾਸਫੇਟ।",
+   "hi": "सिंचित में 90 किलो यूरिया + 75 किलो सुपरफॉस्फेट प्रति एकड़; बरानी में 33 किलो यूरिया + 50 किलो सुपरफॉस्फेट।"
+  }
+ },
+ "assistant": {
+  "fallback": {
+   "en": "I can help with seed, sowing, fertiliser, irrigation, weeds, pests, harvest and price for your plan. For anything else, call the Kisan Call Centre at 1800-180-1551 or visit your KVK.",
+   "pa": "ਮੈਂ ਤੁਹਾਡੇ ਪਲਾਨ ਦੇ ਬੀਜ, ਬਿਜਾਈ, ਖਾਦ, ਪਾਣੀ, ਨਦੀਨ, ਕੀੜੇ, ਵਾਢੀ ਅਤੇ ਭਾਅ ਬਾਰੇ ਦੱਸ ਸਕਦਾ ਹਾਂ। ਹੋਰ ਗੱਲ ਲਈ ਕਿਸਾਨ ਕਾਲ ਸੈਂਟਰ 1800-180-1551 'ਤੇ ਫ਼ੋਨ ਕਰੋ ਜਾਂ ਆਪਣੇ ਕੇ.ਵੀ.ਕੇ. ਜਾਓ।",
+   "hi": "मैं आपके प्लान के बीज, बुवाई, खाद, सिंचाई, खरपतवार, कीट, कटाई और भाव के बारे में बता सकता हूं। और किसी बात के लिए किसान कॉल सेंटर 1800-180-1551 पर फ़ोन करें या अपने केवीके जाएं।"
+  },
+  "from_plan": {
+   "en": "From your plan:",
+   "pa": "ਤੁਹਾਡੇ ਪਲਾਨ ਵਿੱਚੋਂ:",
+   "hi": "आपके प्लान से:"
+  }
+ }
+}

@@ -1,0 +1,149 @@
+{
+  "order": ["soil_report", "district", "land_area", "soil_type", "water_source", "water_quality", "irrigations", "usual_crop", "previous_crop", "field_ready", "tractor", "budget"],
+  "questions": {
+    "soil_report": {
+      "kind": "choice", "icon": "file-text",
+      "label": {"en": "Soil report", "pa": "ਮਿੱਟੀ ਪਰਖ ਰਿਪੋਰਟ", "hi": "मिट्टी जांच रिपोर्ट"},
+      "prompt": {"en": "Do you have a soil test report (Soil Health Card)?", "pa": "ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਮਿੱਟੀ ਪਰਖ ਦੀ ਰਿਪੋਰਟ (ਸੋਇਲ ਹੈਲਥ ਕਾਰਡ) ਹੈ?", "hi": "क्या आपके पास मिट्टी जांच की रिपोर्ट (सॉइल हेल्थ कार्ड) है?"},
+      "rephrase": {"en": "Do you have the soil test paper? Please say yes or no.", "pa": "ਕੀ ਮਿੱਟੀ ਦੀ ਜਾਂਚ ਵਾਲਾ ਕਾਗਜ਼ ਹੈ? ਹਾਂ ਜਾਂ ਨਹੀਂ ਦੱਸੋ।", "hi": "क्या मिट्टी जांच वाला कागज़ है? हां या नहीं बताइए।"},
+      "options": [
+        {"id": "yes", "icon": "check", "label": {"en": "Yes, I have it", "pa": "ਹਾਂ, ਹੈ", "hi": "हां, है"}},
+        {"id": "no", "icon": "x", "label": {"en": "No", "pa": "ਨਹੀਂ", "hi": "नहीं"}}
+      ]
+    },
+    "district": {
+      "kind": "district", "icon": "map-pin",
+      "label": {"en": "District", "pa": "ਜ਼ਿਲ੍ਹਾ", "hi": "ज़िला"},
+      "prompt": {"en": "Which district is your farm in?", "pa": "ਤੁਹਾਡਾ ਖੇਤ ਕਿਹੜੇ ਜ਼ਿਲ੍ਹੇ ਵਿੱਚ ਹੈ?", "hi": "आपका खेत किस ज़िले में है?"},
+      "rephrase": {"en": "Say the district name, for example Bathinda, Ludhiana or Sangrur.", "pa": "ਜ਼ਿਲ੍ਹੇ ਦਾ ਨਾਂ ਦੱਸੋ, ਜਿਵੇਂ ਬਠਿੰਡਾ, ਲੁਧਿਆਣਾ ਜਾਂ ਸੰਗਰੂਰ।", "hi": "ज़िले का नाम बताइए, जैसे बठिंडा, लुधियाना या संगरूर।"}
+    },
+    "land_area": {
+      "kind": "number", "icon": "ruler",
+      "label": {"en": "Land for rabi", "pa": "ਹਾੜੀ ਲਈ ਜ਼ਮੀਨ", "hi": "रबी के लिए ज़मीन"},
+      "prompt": {"en": "How many killa (acres) will you sow this rabi season?", "pa": "ਇਸ ਹਾੜੀ ਵਿੱਚ ਤੁਸੀਂ ਕਿੰਨੇ ਕਿੱਲੇ (ਏਕੜ) ਬੀਜੋਗੇ?", "hi": "इस रबी में आप कितने किल्ले (एकड़) में बुवाई करेंगे?"},
+      "rephrase": {"en": "Just say the number, like 'five killa' or 'two and a half acres'.", "pa": "ਸਿਰਫ਼ ਗਿਣਤੀ ਦੱਸੋ, ਜਿਵੇਂ 'ਪੰਜ ਕਿੱਲੇ' ਜਾਂ 'ਢਾਈ ਏਕੜ'।", "hi": "सिर्फ़ गिनती बताइए, जैसे 'पांच किल्ले' या 'ढाई एकड़'।"},
+      "units": [
+        {"id": "killa", "label": {"en": "killa / acre", "pa": "ਕਿੱਲੇ / ਏਕੜ", "hi": "किल्ले / एकड़"}, "acres": 1},
+        {"id": "kanal", "label": {"en": "kanal", "pa": "ਕਨਾਲ", "hi": "कनाल"}, "acres": 0.125},
+        {"id": "hectare", "label": {"en": "hectare", "pa": "ਹੈਕਟੇਅਰ", "hi": "हेक्टेयर"}, "acres": 2.471}
+      ]
+    },
+    "soil_type": {
+      "kind": "choice", "icon": "layers",
+      "label": {"en": "Soil type", "pa": "ਜ਼ਮੀਨ ਦੀ ਕਿਸਮ", "hi": "मिट्टी का प्रकार"},
+      "prompt": {"en": "What kind of soil does your field have?", "pa": "ਤੁਹਾਡੀ ਜ਼ਮੀਨ ਕਿਹੋ ਜਿਹੀ ਹੈ?", "hi": "आपकी ज़मीन कैसी है?"},
+      "rephrase": {"en": "Is it sandy, loam (maira), heavy clay, or salty (kallar)?", "pa": "ਰੇਤਲੀ, ਮੈਰਾ, ਭਾਰੀ ਚੀਕਣੀ ਜਾਂ ਕੱਲਰ ਵਾਲੀ — ਕਿਹੜੀ ਹੈ?", "hi": "रेतीली, दोमट (मैरा), भारी चिकनी या कल्लर वाली — कौन सी है?"},
+      "options": [
+        {"id": "sandy", "icon": "sandy", "label": {"en": "Sandy", "pa": "ਰੇਤਲੀ / ਟਿੱਬੇ", "hi": "रेतीली"}},
+        {"id": "loam", "icon": "loam", "label": {"en": "Loam (maira)", "pa": "ਮੈਰਾ / ਦੋਸ਼ਾਹੀ", "hi": "दोमट (मैरा)"}},
+        {"id": "clay", "icon": "clay", "label": {"en": "Heavy clay", "pa": "ਭਾਰੀ / ਚੀਕਣੀ", "hi": "भारी / चिकनी"}},
+        {"id": "salt_affected", "icon": "salt", "label": {"en": "Salty (kallar)", "pa": "ਕੱਲਰ ਵਾਲੀ", "hi": "कल्लर / खारी"}}
+      ]
+    },
+    "water_source": {
+      "kind": "choice", "icon": "droplets",
+      "label": {"en": "Water source", "pa": "ਪਾਣੀ ਦਾ ਸਾਧਨ", "hi": "पानी का साधन"},
+      "prompt": {"en": "Where does your field get water from?", "pa": "ਖੇਤ ਨੂੰ ਪਾਣੀ ਕਿੱਥੋਂ ਮਿਲਦਾ ਹੈ?", "hi": "खेत को पानी कहां से मिलता है?"},
+      "rephrase": {"en": "Canal, tubewell, both, or only rain?", "pa": "ਨਹਿਰ, ਟਿਊਬਵੈੱਲ, ਦੋਵੇਂ, ਜਾਂ ਸਿਰਫ਼ ਮੀਂਹ?", "hi": "नहर, ट्यूबवेल, दोनों, या सिर्फ़ बारिश?"},
+      "options": [
+        {"id": "canal", "icon": "waves", "label": {"en": "Canal", "pa": "ਨਹਿਰ", "hi": "नहर"}},
+        {"id": "tubewell", "icon": "tubewell", "label": {"en": "Tubewell", "pa": "ਟਿਊਬਵੈੱਲ", "hi": "ट्यूबवेल"}},
+        {"id": "both", "icon": "both", "label": {"en": "Both", "pa": "ਦੋਵੇਂ", "hi": "दोनों"}},
+        {"id": "rain", "icon": "cloud-rain", "label": {"en": "Rain only", "pa": "ਸਿਰਫ਼ ਮੀਂਹ (ਬਰਾਨੀ)", "hi": "सिर्फ़ बारिश (बरानी)"}}
+      ]
+    },
+    "water_quality": {
+      "kind": "choice", "icon": "glass-water",
+      "label": {"en": "Tubewell water", "pa": "ਟਿਊਬਵੈੱਲ ਦਾ ਪਾਣੀ", "hi": "ट्यूबवेल का पानी"},
+      "prompt": {"en": "Is your tubewell water sweet or salty (khara)?", "pa": "ਟਿਊਬਵੈੱਲ ਦਾ ਪਾਣੀ ਮਿੱਠਾ ਹੈ ਜਾਂ ਖਾਰਾ?", "hi": "ट्यूबवेल का पानी मीठा है या खारा?"},
+      "rephrase": {"en": "Does the water taste sweet or salty?", "pa": "ਪਾਣੀ ਪੀਣ ਵਿੱਚ ਮਿੱਠਾ ਲੱਗਦਾ ਹੈ ਜਾਂ ਖਾਰਾ?", "hi": "पानी पीने में मीठा लगता है या खारा?"},
+      "options": [
+        {"id": "sweet", "icon": "sweet", "label": {"en": "Sweet", "pa": "ਮਿੱਠਾ", "hi": "मीठा"}},
+        {"id": "salty", "icon": "salt", "label": {"en": "Salty (khara)", "pa": "ਖਾਰਾ", "hi": "खारा"}}
+      ]
+    },
+    "irrigations": {
+      "kind": "choice", "icon": "droplet",
+      "label": {"en": "Irrigations possible", "pa": "ਕਿੰਨੇ ਪਾਣੀ ਲਾ ਸਕਦੇ ਹੋ", "hi": "कितनी सिंचाई संभव"},
+      "prompt": {"en": "How many irrigations can you give during rabi?", "pa": "ਹਾੜੀ ਵਿੱਚ ਤੁਸੀਂ ਕਿੰਨੇ ਪਾਣੀ ਲਾ ਸਕਦੇ ਹੋ?", "hi": "रबी में आप कितनी बार सिंचाई कर सकते हैं?"},
+      "rephrase": {"en": "From sowing to harvest, how many times can you water? For example two, four or five.", "pa": "ਬਿਜਾਈ ਤੋਂ ਵਾਢੀ ਤੱਕ ਕਿੰਨੀ ਵਾਰ ਪਾਣੀ ਲਾ ਸਕਦੇ ਹੋ? ਜਿਵੇਂ ਦੋ, ਚਾਰ ਜਾਂ ਪੰਜ।", "hi": "बुवाई से कटाई तक कितनी बार पानी दे सकते हैं? जैसे दो, चार या पांच।"},
+      "options": [
+        {"id": "0", "icon": "none", "value": 0, "label": {"en": "None", "pa": "ਕੋਈ ਨਹੀਂ", "hi": "कोई नहीं"}},
+        {"id": "1-2", "icon": "one", "value": 2, "label": {"en": "1–2", "pa": "1–2", "hi": "1–2"}},
+        {"id": "3-4", "icon": "few", "value": 4, "label": {"en": "3–4", "pa": "3–4", "hi": "3–4"}},
+        {"id": "5+", "icon": "many", "value": 5, "label": {"en": "5 or more", "pa": "5 ਜਾਂ ਵੱਧ", "hi": "5 या ज़्यादा"}}
+      ]
+    },
+    "usual_crop": {
+      "kind": "choice", "icon": "wheat",
+      "label": {"en": "Usual rabi crop", "pa": "ਆਮ ਹਾੜੀ ਦੀ ਫ਼ਸਲ", "hi": "आम रबी फसल"},
+      "prompt": {"en": "Which crop do you usually sow in rabi?", "pa": "ਤੁਸੀਂ ਆਮ ਤੌਰ 'ਤੇ ਹਾੜੀ ਵਿੱਚ ਕਿਹੜੀ ਫ਼ਸਲ ਬੀਜਦੇ ਹੋ?", "hi": "आप आमतौर पर रबी में कौन सी फसल बोते हैं?"},
+      "rephrase": {"en": "What did you sow last winter? Wheat, mustard, gram or barley?", "pa": "ਪਿਛਲੀਆਂ ਸਰਦੀਆਂ ਵਿੱਚ ਕੀ ਬੀਜਿਆ ਸੀ? ਕਣਕ, ਸਰ੍ਹੋਂ, ਛੋਲੇ ਜਾਂ ਜੌਂ?", "hi": "पिछली सर्दियों में क्या बोया था? गेहूं, सरसों, चना या जौ?"},
+      "options": [
+        {"id": "wheat", "icon": "wheat", "label": {"en": "Wheat", "pa": "ਕਣਕ", "hi": "गेहूं"}},
+        {"id": "raya", "icon": "raya", "label": {"en": "Mustard (raya)", "pa": "ਸਰ੍ਹੋਂ / ਰਾਇਆ", "hi": "सरसों / राया"}},
+        {"id": "gram", "icon": "gram", "label": {"en": "Gram", "pa": "ਛੋਲੇ", "hi": "चना"}},
+        {"id": "barley", "icon": "barley", "label": {"en": "Barley", "pa": "ਜੌਂ", "hi": "जौ"}},
+        {"id": "potato", "icon": "potato", "label": {"en": "Potato", "pa": "ਆਲੂ", "hi": "आलू"}},
+        {"id": "other", "icon": "other", "label": {"en": "Other", "pa": "ਹੋਰ", "hi": "अन्य"}}
+      ]
+    },
+    "previous_crop": {
+      "kind": "choice", "icon": "sprout",
+      "label": {"en": "Kharif crop in field", "pa": "ਖੇਤ ਵਿੱਚ ਸਾਉਣੀ ਦੀ ਫ਼ਸਲ", "hi": "खेत में खरीफ फसल"},
+      "prompt": {"en": "Which kharif crop is (or was) in this field this year?", "pa": "ਇਸ ਸਾਲ ਖੇਤ ਵਿੱਚ ਸਾਉਣੀ ਦੀ ਕਿਹੜੀ ਫ਼ਸਲ ਹੈ ਜਾਂ ਸੀ?", "hi": "इस साल खेत में खरीफ की कौन सी फसल है या थी?"},
+      "rephrase": {"en": "What did you grow this summer — paddy, basmati, cotton or maize?", "pa": "ਇਸ ਵਾਰ ਗਰਮੀਆਂ ਵਿੱਚ ਕੀ ਲਾਇਆ ਸੀ — ਝੋਨਾ, ਬਾਸਮਤੀ, ਨਰਮਾ ਜਾਂ ਮੱਕੀ?", "hi": "इस बार गर्मियों में क्या लगाया था — धान, बासमती, नरमा या मक्का?"},
+      "options": [
+        {"id": "paddy", "icon": "paddy", "label": {"en": "Paddy", "pa": "ਝੋਨਾ", "hi": "धान"}},
+        {"id": "basmati", "icon": "paddy", "label": {"en": "Basmati", "pa": "ਬਾਸਮਤੀ", "hi": "बासमती"}},
+        {"id": "cotton", "icon": "cotton", "label": {"en": "Cotton (narma)", "pa": "ਨਰਮਾ / ਕਪਾਹ", "hi": "नरमा / कपास"}},
+        {"id": "maize", "icon": "maize", "label": {"en": "Maize", "pa": "ਮੱਕੀ", "hi": "मक्का"}},
+        {"id": "fallow", "icon": "fallow", "label": {"en": "Empty (fallow)", "pa": "ਖਾਲੀ ਸੀ", "hi": "खाली था"}},
+        {"id": "other", "icon": "other", "label": {"en": "Other", "pa": "ਹੋਰ", "hi": "अन्य"}}
+      ]
+    },
+    "field_ready": {
+      "kind": "date", "icon": "calendar",
+      "label": {"en": "Field ready for sowing", "pa": "ਬਿਜਾਈ ਲਈ ਖੇਤ ਤਿਆਰ", "hi": "बुवाई के लिए खेत तैयार"},
+      "prompt": {"en": "When will the field be ready for sowing?", "pa": "ਖੇਤ ਬਿਜਾਈ ਲਈ ਕਦੋਂ ਤਿਆਰ ਹੋਵੇਗਾ?", "hi": "खेत बुवाई के लिए कब तैयार होगा?"},
+      "rephrase": {"en": "By when can you sow? For example 'first week of November' or 'in ten days'.", "pa": "ਤੁਸੀਂ ਕਦੋਂ ਤੱਕ ਬੀਜ ਸਕਦੇ ਹੋ? ਜਿਵੇਂ 'ਨਵੰਬਰ ਦੇ ਪਹਿਲੇ ਹਫ਼ਤੇ' ਜਾਂ 'ਦਸ ਦਿਨਾਂ ਵਿੱਚ'।", "hi": "आप कब तक बो सकते हैं? जैसे 'नवंबर के पहले हफ्ते' या 'दस दिन में'।"}
+    },
+    "tractor": {
+      "kind": "choice", "icon": "tractor",
+      "label": {"en": "Tractor", "pa": "ਟਰੈਕਟਰ", "hi": "ट्रैक्टर"},
+      "prompt": {"en": "Do you have your own tractor?", "pa": "ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਆਪਣਾ ਟਰੈਕਟਰ ਹੈ?", "hi": "क्या आपके पास अपना ट्रैक्टर है?"},
+      "rephrase": {"en": "Is the tractor your own, rented, or do you not use one?", "pa": "ਟਰੈਕਟਰ ਆਪਣਾ ਹੈ, ਕਿਰਾਏ 'ਤੇ ਲੈਂਦੇ ਹੋ, ਜਾਂ ਨਹੀਂ ਹੈ?", "hi": "ट्रैक्टर अपना है, किराए पर लेते हैं, या नहीं है?"},
+      "options": [
+        {"id": "own", "icon": "tractor", "label": {"en": "Own", "pa": "ਆਪਣਾ ਹੈ", "hi": "अपना है"}},
+        {"id": "rent", "icon": "rent", "label": {"en": "On rent", "pa": "ਕਿਰਾਏ 'ਤੇ", "hi": "किराए पर"}},
+        {"id": "none", "icon": "x", "label": {"en": "None", "pa": "ਨਹੀਂ ਹੈ", "hi": "नहीं है"}}
+      ]
+    },
+    "budget": {
+      "kind": "choice", "icon": "wallet",
+      "label": {"en": "Spend per acre", "pa": "ਪ੍ਰਤੀ ਕਿੱਲਾ ਖ਼ਰਚ", "hi": "प्रति किल्ला खर्च"},
+      "prompt": {"en": "How much can you spend per killa (acre) on this crop?", "pa": "ਇੱਕ ਕਿੱਲੇ ਦੀ ਫ਼ਸਲ 'ਤੇ ਤੁਸੀਂ ਕਿੰਨਾ ਖ਼ਰਚ ਕਰ ਸਕਦੇ ਹੋ?", "hi": "एक किल्ले की फसल पर आप कितना खर्च कर सकते हैं?"},
+      "rephrase": {"en": "Roughly how much per acre for seed, fertiliser and diesel? For example 'twenty thousand'.", "pa": "ਬੀਜ, ਖਾਦ ਤੇ ਡੀਜ਼ਲ ਲਈ ਇੱਕ ਕਿੱਲੇ ਦਾ ਲਗਭਗ ਖ਼ਰਚ ਦੱਸੋ, ਜਿਵੇਂ 'ਵੀਹ ਹਜ਼ਾਰ'।", "hi": "बीज, खाद और डीज़ल के लिए एक किल्ले का लगभग खर्च बताइए, जैसे 'बीस हज़ार'।"},
+      "options": [
+        {"id": "low", "icon": "wallet", "value": 12000, "label": {"en": "Under ₹15,000", "pa": "₹15,000 ਤੋਂ ਘੱਟ", "hi": "₹15,000 से कम"}},
+        {"id": "mid", "icon": "wallet", "value": 20000, "label": {"en": "₹15,000–25,000", "pa": "₹15,000–25,000", "hi": "₹15,000–25,000"}},
+        {"id": "high", "icon": "wallet", "value": 30000, "label": {"en": "Over ₹25,000", "pa": "₹25,000 ਤੋਂ ਵੱਧ", "hi": "₹25,000 से ज़्यादा"}}
+      ]
+    }
+  },
+  "field_ready_options": [
+    {"id": "this_week", "label": {"en": "This week", "pa": "ਇਸ ਹਫ਼ਤੇ", "hi": "इस हफ्ते"}},
+    {"id": "late_oct", "start": "10-21", "end": "10-31", "label": {"en": "End of October", "pa": "ਅਕਤੂਬਰ ਦੇ ਅਖੀਰ", "hi": "अक्टूबर के आखिर में"}},
+    {"id": "nov_1h", "start": "11-01", "end": "11-15", "label": {"en": "1–15 November", "pa": "1–15 ਨਵੰਬਰ", "hi": "1–15 नवंबर"}},
+    {"id": "nov_2h", "start": "11-16", "end": "11-30", "label": {"en": "16–30 November", "pa": "16–30 ਨਵੰਬਰ", "hi": "16–30 नवंबर"}},
+    {"id": "december", "start": "12-01", "end": "12-31", "label": {"en": "December", "pa": "ਦਸੰਬਰ", "hi": "दिसंबर"}}
+  ],
+  "common": {
+    "dont_know": {"en": "I don't know / don't have it", "pa": "ਪਤਾ ਨਹੀਂ / ਨਹੀਂ ਹੈ", "hi": "पता नहीं / नहीं है"},
+    "retry_prefix": {"en": "Sorry, I didn't catch that.", "pa": "ਮਾਫ਼ ਕਰਨਾ, ਸਮਝ ਨਹੀਂ ਆਇਆ।", "hi": "माफ़ कीजिए, समझ नहीं आया।"},
+    "retry_last": {"en": "You can also tap one of the buttons below.", "pa": "ਤੁਸੀਂ ਹੇਠਾਂ ਦਿੱਤਾ ਕੋਈ ਬਟਨ ਵੀ ਦਬਾ ਸਕਦੇ ਹੋ।", "hi": "आप नीचे दिया कोई बटन भी दबा सकते हैं।"},
+    "invalid_area": {"en": "That land size doesn't look right.", "pa": "ਇਹ ਜ਼ਮੀਨ ਦਾ ਮਾਪ ਠੀਕ ਨਹੀਂ ਲੱਗਦਾ।", "hi": "ज़मीन का यह माप सही नहीं लगता।"},
+    "bigha_unit": {"en": "Bigha size differs by area. Please tell in killa or acre.", "pa": "ਵਿੱਘੇ ਦਾ ਮਾਪ ਥਾਂ-ਥਾਂ ਵੱਖਰਾ ਹੁੰਦਾ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਕਿੱਲਿਆਂ ਜਾਂ ਏਕੜਾਂ ਵਿੱਚ ਦੱਸੋ।", "hi": "बीघे का माप जगह-जगह अलग होता है। कृपया किल्ले या एकड़ में बताइए।"},
+    "month_half": {"en": "Which part of the month — first half or second half?", "pa": "ਮਹੀਨੇ ਦਾ ਕਿਹੜਾ ਹਿੱਸਾ — ਪਹਿਲਾ ਅੱਧ ਜਾਂ ਦੂਜਾ ਅੱਧ?", "hi": "महीने का कौन सा हिस्सा — पहला आधा या दूसरा आधा?"}
+  }
+}
