@@ -31,3 +31,6 @@ Thumbs.db
 
 # Documentation & Markdown files
 *.md
+
+# Large binary weather/climate raster files
+*.nc
