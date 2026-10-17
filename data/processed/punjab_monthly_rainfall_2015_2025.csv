@@ -1,0 +1,2905 @@
+state,district,grid_lat,grid_lon,year,month,rainfall_mm,rainy_days,max_daily_mm
+Punjab,Ludhiana,31.0,75.75,2015,1,31.38,4,11.48
+Punjab,Ludhiana,31.0,75.75,2015,2,45.13,4,16.62
+Punjab,Ludhiana,31.0,75.75,2015,3,101.63,7,39.54
+Punjab,Ludhiana,31.0,75.75,2015,4,62.42,7,22.06
+Punjab,Ludhiana,31.0,75.75,2015,5,20.48,3,12.22
+Punjab,Ludhiana,31.0,75.75,2015,6,36.54,5,10.02
+Punjab,Ludhiana,31.0,75.75,2015,7,171.03,11,55.42
+Punjab,Ludhiana,31.0,75.75,2015,8,120.72,9,40.83
+Punjab,Ludhiana,31.0,75.75,2015,9,71.11,5,30.91
+Punjab,Ludhiana,31.0,75.75,2015,10,14.54,2,7.38
+Punjab,Ludhiana,31.0,75.75,2015,11,0.5,0,0.5
+Punjab,Ludhiana,31.0,75.75,2015,12,0.68,0,0.68
+Punjab,Amritsar,31.75,74.75,2015,1,33.2,2,23.96
+Punjab,Amritsar,31.75,74.75,2015,2,99.75,5,32.01
+Punjab,Amritsar,31.75,74.75,2015,3,88.71,4,65.05
+Punjab,Amritsar,31.75,74.75,2015,4,35.76,3,25.21
+Punjab,Amritsar,31.75,74.75,2015,5,26.58,2,14.12
+Punjab,Amritsar,31.75,74.75,2015,6,73.91,4,23.5
+Punjab,Amritsar,31.75,74.75,2015,7,167.31,8,49.89
+Punjab,Amritsar,31.75,74.75,2015,8,130.89,10,22.36
+Punjab,Amritsar,31.75,74.75,2015,9,118.66,3,63.68
+Punjab,Amritsar,31.75,74.75,2015,10,12.97,1,9.85
+Punjab,Amritsar,31.75,74.75,2015,11,1.55,0,1.55
+Punjab,Amritsar,31.75,74.75,2015,12,0.45,0,0.45
+Punjab,Patiala,30.25,76.5,2015,1,35.75,3,17.38
+Punjab,Patiala,30.25,76.5,2015,2,32.14,3,20.46
+Punjab,Patiala,30.25,76.5,2015,3,119.17,5,68.38
+Punjab,Patiala,30.25,76.5,2015,4,46.99,5,23.18
+Punjab,Patiala,30.25,76.5,2015,5,30.69,3,9.99
+Punjab,Patiala,30.25,76.5,2015,6,68.88,7,15.28
+Punjab,Patiala,30.25,76.5,2015,7,217.71,8,78.69
+Punjab,Patiala,30.25,76.5,2015,8,155.5,11,42.38
+Punjab,Patiala,30.25,76.5,2015,9,115.66,4,53.25
+Punjab,Patiala,30.25,76.5,2015,10,7.63,2,4.59
+Punjab,Patiala,30.25,76.5,2015,11,5.11,1,3.86
+Punjab,Patiala,30.25,76.5,2015,12,0.0,0,0.0
+Punjab,Bathinda,30.25,75.0,2015,1,20.73,2,10.05
+Punjab,Bathinda,30.25,75.0,2015,2,14.07,2,11.25
+Punjab,Bathinda,30.25,75.0,2015,3,78.04,5,35.75
+Punjab,Bathinda,30.25,75.0,2015,4,9.67,1,3.12
+Punjab,Bathinda,30.25,75.0,2015,5,15.75,3,7.46
+Punjab,Bathinda,30.25,75.0,2015,6,33.32,3,14.25
+Punjab,Bathinda,30.25,75.0,2015,7,113.68,10,28.11
+Punjab,Bathinda,30.25,75.0,2015,8,65.87,6,21.83
+Punjab,Bathinda,30.25,75.0,2015,9,61.96,3,45.5
+Punjab,Bathinda,30.25,75.0,2015,10,5.83,1,4.78
+Punjab,Bathinda,30.25,75.0,2015,11,0.0,0,0.0
+Punjab,Bathinda,30.25,75.0,2015,12,0.0,0,0.0
+Punjab,Jalandhar,31.25,75.5,2015,1,31.05,3,15.4
+Punjab,Jalandhar,31.25,75.5,2015,2,50.04,5,19.49
+Punjab,Jalandhar,31.25,75.5,2015,3,103.79,7,35.72
+Punjab,Jalandhar,31.25,75.5,2015,4,45.75,4,33.1
+Punjab,Jalandhar,31.25,75.5,2015,5,18.36,2,12.05
+Punjab,Jalandhar,31.25,75.5,2015,6,60.04,5,18.79
+Punjab,Jalandhar,31.25,75.5,2015,7,119.24,9,26.5
+Punjab,Jalandhar,31.25,75.5,2015,8,85.31,7,30.16
+Punjab,Jalandhar,31.25,75.5,2015,9,56.56,3,39.74
+Punjab,Jalandhar,31.25,75.5,2015,10,11.24,2,8.1
+Punjab,Jalandhar,31.25,75.5,2015,11,0.0,0,0.0
+Punjab,Jalandhar,31.25,75.5,2015,12,0.12,0,0.12
+Punjab,Sangrur,30.25,75.75,2015,1,20.04,3,8.75
+Punjab,Sangrur,30.25,75.75,2015,2,21.46,2,15.81
+Punjab,Sangrur,30.25,75.75,2015,3,42.78,3,22.08
+Punjab,Sangrur,30.25,75.75,2015,4,62.21,3,35.8
+Punjab,Sangrur,30.25,75.75,2015,5,28.78,3,15.15
+Punjab,Sangrur,30.25,75.75,2015,6,105.7,7,42.57
+Punjab,Sangrur,30.25,75.75,2015,7,113.23,6,66.53
+Punjab,Sangrur,30.25,75.75,2015,8,74.04,8,17.5
+Punjab,Sangrur,30.25,75.75,2015,9,106.36,3,76.05
+Punjab,Sangrur,30.25,75.75,2015,10,3.89,1,3.25
+Punjab,Sangrur,30.25,75.75,2015,11,0.81,0,0.81
+Punjab,Sangrur,30.25,75.75,2015,12,0.0,0,0.0
+Punjab,Firozpur,31.0,74.5,2015,1,3.37,1,2.88
+Punjab,Firozpur,31.0,74.5,2015,2,23.94,3,12.76
+Punjab,Firozpur,31.0,74.5,2015,3,39.36,4,24.0
+Punjab,Firozpur,31.0,74.5,2015,4,16.28,2,10.01
+Punjab,Firozpur,31.0,74.5,2015,5,0.17,0,0.17
+Punjab,Firozpur,31.0,74.5,2015,6,48.82,6,13.84
+Punjab,Firozpur,31.0,74.5,2015,7,146.81,4,87.2
+Punjab,Firozpur,31.0,74.5,2015,8,23.23,4,7.41
+Punjab,Firozpur,31.0,74.5,2015,9,41.86,4,18.01
+Punjab,Firozpur,31.0,74.5,2015,10,1.52,0,1.52
+Punjab,Firozpur,31.0,74.5,2015,11,0.0,0,0.0
+Punjab,Firozpur,31.0,74.5,2015,12,0.0,0,0.0
+Punjab,Gurdaspur,32.0,75.5,2015,1,17.89,3,9.93
+Punjab,Gurdaspur,32.0,75.5,2015,2,120.61,7,45.62
+Punjab,Gurdaspur,32.0,75.5,2015,3,125.46,8,36.27
+Punjab,Gurdaspur,32.0,75.5,2015,4,66.68,7,13.34
+Punjab,Gurdaspur,32.0,75.5,2015,5,14.8,2,10.21
+Punjab,Gurdaspur,32.0,75.5,2015,6,57.74,5,20.81
+Punjab,Gurdaspur,32.0,75.5,2015,7,314.57,14,73.51
+Punjab,Gurdaspur,32.0,75.5,2015,8,193.72,6,77.57
+Punjab,Gurdaspur,32.0,75.5,2015,9,187.52,3,168.84
+Punjab,Gurdaspur,32.0,75.5,2015,10,20.43,2,10.92
+Punjab,Gurdaspur,32.0,75.5,2015,11,0.18,0,0.18
+Punjab,Gurdaspur,32.0,75.5,2015,12,0.0,0,0.0
+Punjab,Hoshiarpur,31.5,76.0,2015,1,56.77,6,37.59
+Punjab,Hoshiarpur,31.5,76.0,2015,2,59.82,7,16.75
+Punjab,Hoshiarpur,31.5,76.0,2015,3,168.77,8,68.32
+Punjab,Hoshiarpur,31.5,76.0,2015,4,23.41,3,8.89
+Punjab,Hoshiarpur,31.5,76.0,2015,5,37.14,3,18.29
+Punjab,Hoshiarpur,31.5,76.0,2015,6,75.28,7,25.49
+Punjab,Hoshiarpur,31.5,76.0,2015,7,385.6,11,125.67
+Punjab,Hoshiarpur,31.5,76.0,2015,8,246.82,10,71.07
+Punjab,Hoshiarpur,31.5,76.0,2015,9,99.47,3,83.41
+Punjab,Hoshiarpur,31.5,76.0,2015,10,17.26,2,10.51
+Punjab,Hoshiarpur,31.5,76.0,2015,11,0.0,0,0.0
+Punjab,Hoshiarpur,31.5,76.0,2015,12,5.6,1,4.8
+Punjab,Mansa,30.0,75.5,2015,1,14.35,2,7.01
+Punjab,Mansa,30.0,75.5,2015,2,15.57,2,12.18
+Punjab,Mansa,30.0,75.5,2015,3,32.43,3,19.0
+Punjab,Mansa,30.0,75.5,2015,4,17.84,3,7.66
+Punjab,Mansa,30.0,75.5,2015,5,14.06,1,11.7
+Punjab,Mansa,30.0,75.5,2015,6,45.95,5,15.72
+Punjab,Mansa,30.0,75.5,2015,7,98.01,7,37.95
+Punjab,Mansa,30.0,75.5,2015,8,22.77,3,6.19
+Punjab,Mansa,30.0,75.5,2015,9,31.3,2,24.19
+Punjab,Mansa,30.0,75.5,2015,10,6.08,1,2.85
+Punjab,Mansa,30.0,75.5,2015,11,2.97,1,2.97
+Punjab,Mansa,30.0,75.5,2015,12,0.0,0,0.0
+Punjab,Mohali,30.75,76.75,2015,1,40.59,4,18.93
+Punjab,Mohali,30.75,76.75,2015,2,45.21,4,21.14
+Punjab,Mohali,30.75,76.75,2015,3,118.63,5,56.42
+Punjab,Mohali,30.75,76.75,2015,4,17.22,2,6.34
+Punjab,Mohali,30.75,76.75,2015,5,19.09,3,6.11
+Punjab,Mohali,30.75,76.75,2015,6,83.06,9,31.31
+Punjab,Mohali,30.75,76.75,2015,7,278.5,8,51.96
+Punjab,Mohali,30.75,76.75,2015,8,108.87,7,30.64
+Punjab,Mohali,30.75,76.75,2015,9,96.17,3,66.26
+Punjab,Mohali,30.75,76.75,2015,10,16.1,2,12.34
+Punjab,Mohali,30.75,76.75,2015,11,0.43,0,0.43
+Punjab,Mohali,30.75,76.75,2015,12,0.53,0,0.53
+Punjab,Rupnagar,31.0,76.5,2015,1,57.24,5,16.38
+Punjab,Rupnagar,31.0,76.5,2015,2,55.95,5,15.1
+Punjab,Rupnagar,31.0,76.5,2015,3,105.4,6,62.27
+Punjab,Rupnagar,31.0,76.5,2015,4,32.3,3,14.25
+Punjab,Rupnagar,31.0,76.5,2015,5,25.96,4,7.19
+Punjab,Rupnagar,31.0,76.5,2015,6,35.39,4,11.11
+Punjab,Rupnagar,31.0,76.5,2015,7,197.27,9,53.43
+Punjab,Rupnagar,31.0,76.5,2015,8,171.92,11,33.55
+Punjab,Rupnagar,31.0,76.5,2015,9,118.07,2,93.29
+Punjab,Rupnagar,31.0,76.5,2015,10,16.74,2,9.4
+Punjab,Rupnagar,31.0,76.5,2015,11,0.0,0,0.0
+Punjab,Rupnagar,31.0,76.5,2015,12,7.8,1,6.94
+Punjab,Fazilka,30.5,74.0,2015,1,2.22,0,1.29
+Punjab,Fazilka,30.5,74.0,2015,2,7.37,2,3.95
+Punjab,Fazilka,30.5,74.0,2015,3,23.09,4,9.87
+Punjab,Fazilka,30.5,74.0,2015,4,9.72,3,4.58
+Punjab,Fazilka,30.5,74.0,2015,5,10.79,1,9.93
+Punjab,Fazilka,30.5,74.0,2015,6,22.14,3,9.47
+Punjab,Fazilka,30.5,74.0,2015,7,26.65,4,7.61
+Punjab,Fazilka,30.5,74.0,2015,8,20.18,4,6.83
+Punjab,Fazilka,30.5,74.0,2015,9,21.6,3,10.03
+Punjab,Fazilka,30.5,74.0,2015,10,1.93,0,1.93
+Punjab,Fazilka,30.5,74.0,2015,11,0.0,0,0.0
+Punjab,Fazilka,30.5,74.0,2015,12,0.0,0,0.0
+Punjab,Kapurthala,31.5,75.5,2015,1,22.8,3,10.72
+Punjab,Kapurthala,31.5,75.5,2015,2,56.27,7,15.76
+Punjab,Kapurthala,31.5,75.5,2015,3,105.22,7,34.68
+Punjab,Kapurthala,31.5,75.5,2015,4,29.7,3,17.17
+Punjab,Kapurthala,31.5,75.5,2015,5,25.24,2,17.2
+Punjab,Kapurthala,31.5,75.5,2015,6,60.93,4,18.55
+Punjab,Kapurthala,31.5,75.5,2015,7,212.06,13,60.78
+Punjab,Kapurthala,31.5,75.5,2015,8,119.34,12,26.43
+Punjab,Kapurthala,31.5,75.5,2015,9,129.08,3,117.29
+Punjab,Kapurthala,31.5,75.5,2015,10,11.34,1,9.62
+Punjab,Kapurthala,31.5,75.5,2015,11,0.0,0,0.0
+Punjab,Kapurthala,31.5,75.5,2015,12,1.77,0,1.63
+Punjab,Muktsar,30.5,74.5,2015,1,19.21,4,5.22
+Punjab,Muktsar,30.5,74.5,2015,2,19.64,2,10.72
+Punjab,Muktsar,30.5,74.5,2015,3,67.27,4,35.21
+Punjab,Muktsar,30.5,74.5,2015,4,26.31,3,12.02
+Punjab,Muktsar,30.5,74.5,2015,5,21.86,1,21.86
+Punjab,Muktsar,30.5,74.5,2015,6,57.15,7,14.62
+Punjab,Muktsar,30.5,74.5,2015,7,90.35,7,40.7
+Punjab,Muktsar,30.5,74.5,2015,8,47.09,6,9.64
+Punjab,Muktsar,30.5,74.5,2015,9,40.18,3,18.44
+Punjab,Muktsar,30.5,74.5,2015,10,2.56,1,2.56
+Punjab,Muktsar,30.5,74.5,2015,11,0.0,0,0.0
+Punjab,Muktsar,30.5,74.5,2015,12,0.0,0,0.0
+Punjab,Faridkot,30.75,74.75,2015,1,3.26,0,1.69
+Punjab,Faridkot,30.75,74.75,2015,2,14.81,2,6.39
+Punjab,Faridkot,30.75,74.75,2015,3,68.15,4,41.11
+Punjab,Faridkot,30.75,74.75,2015,4,21.0,2,13.21
+Punjab,Faridkot,30.75,74.75,2015,5,0.75,0,0.75
+Punjab,Faridkot,30.75,74.75,2015,6,64.09,6,25.28
+Punjab,Faridkot,30.75,74.75,2015,7,91.88,7,42.84
+Punjab,Faridkot,30.75,74.75,2015,8,68.49,6,22.92
+Punjab,Faridkot,30.75,74.75,2015,9,44.39,4,15.87
+Punjab,Faridkot,30.75,74.75,2015,10,0.73,0,0.73
+Punjab,Faridkot,30.75,74.75,2015,11,0.0,0,0.0
+Punjab,Faridkot,30.75,74.75,2015,12,0.0,0,0.0
+Punjab,Barnala,30.5,75.5,2015,1,24.06,3,9.69
+Punjab,Barnala,30.5,75.5,2015,2,8.64,2,4.71
+Punjab,Barnala,30.5,75.5,2015,3,34.94,4,17.0
+Punjab,Barnala,30.5,75.5,2015,4,49.09,5,12.8
+Punjab,Barnala,30.5,75.5,2015,5,19.52,2,14.07
+Punjab,Barnala,30.5,75.5,2015,6,68.33,5,37.46
+Punjab,Barnala,30.5,75.5,2015,7,80.43,5,26.64
+Punjab,Barnala,30.5,75.5,2015,8,78.22,8,29.9
+Punjab,Barnala,30.5,75.5,2015,9,79.17,3,62.72
+Punjab,Barnala,30.5,75.5,2015,10,15.76,2,12.6
+Punjab,Barnala,30.5,75.5,2015,11,0.0,0,0.0
+Punjab,Barnala,30.5,75.5,2015,12,0.0,0,0.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2015,1,46.49,4,20.95
+Punjab,Fatehgarh Sahib,30.75,76.5,2015,2,44.77,4,19.35
+Punjab,Fatehgarh Sahib,30.75,76.5,2015,3,114.96,6,62.66
+Punjab,Fatehgarh Sahib,30.75,76.5,2015,4,20.62,3,8.21
+Punjab,Fatehgarh Sahib,30.75,76.5,2015,5,22.92,4,6.29
+Punjab,Fatehgarh Sahib,30.75,76.5,2015,6,79.82,9,22.52
+Punjab,Fatehgarh Sahib,30.75,76.5,2015,7,256.38,10,60.38
+Punjab,Fatehgarh Sahib,30.75,76.5,2015,8,135.15,10,34.12
+Punjab,Fatehgarh Sahib,30.75,76.5,2015,9,117.89,3,89.48
+Punjab,Fatehgarh Sahib,30.75,76.5,2015,10,14.79,2,10.78
+Punjab,Fatehgarh Sahib,30.75,76.5,2015,11,0.0,0,0.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2015,12,1.84,0,1.84
+Punjab,SBS Nagar,31.25,76.0,2015,1,21.39,4,10.46
+Punjab,SBS Nagar,31.25,76.0,2015,2,22.84,4,7.54
+Punjab,SBS Nagar,31.25,76.0,2015,3,76.87,7,34.82
+Punjab,SBS Nagar,31.25,76.0,2015,4,8.35,1,5.16
+Punjab,SBS Nagar,31.25,76.0,2015,5,8.14,1,6.16
+Punjab,SBS Nagar,31.25,76.0,2015,6,24.6,4,7.09
+Punjab,SBS Nagar,31.25,76.0,2015,7,143.21,10,28.57
+Punjab,SBS Nagar,31.25,76.0,2015,8,86.55,9,22.4
+Punjab,SBS Nagar,31.25,76.0,2015,9,20.78,2,13.67
+Punjab,SBS Nagar,31.25,76.0,2015,10,5.34,1,3.63
+Punjab,SBS Nagar,31.25,76.0,2015,11,0.0,0,0.0
+Punjab,SBS Nagar,31.25,76.0,2015,12,3.2,1,2.94
+Punjab,Pathankot,32.25,75.75,2015,1,20.27,3,8.14
+Punjab,Pathankot,32.25,75.75,2015,2,92.37,9,16.1
+Punjab,Pathankot,32.25,75.75,2015,3,157.45,10,35.34
+Punjab,Pathankot,32.25,75.75,2015,4,76.57,7,27.13
+Punjab,Pathankot,32.25,75.75,2015,5,11.93,2,4.62
+Punjab,Pathankot,32.25,75.75,2015,6,94.3,9,20.31
+Punjab,Pathankot,32.25,75.75,2015,7,287.38,19,52.13
+Punjab,Pathankot,32.25,75.75,2015,8,411.81,19,69.1
+Punjab,Pathankot,32.25,75.75,2015,9,90.75,3,78.92
+Punjab,Pathankot,32.25,75.75,2015,10,22.59,2,12.71
+Punjab,Pathankot,32.25,75.75,2015,11,6.63,1,4.42
+Punjab,Pathankot,32.25,75.75,2015,12,6.52,1,6.52
+Punjab,Tarn Taran,31.5,75.0,2015,1,17.51,2,9.42
+Punjab,Tarn Taran,31.5,75.0,2015,2,55.46,6,17.54
+Punjab,Tarn Taran,31.5,75.0,2015,3,82.96,6,35.19
+Punjab,Tarn Taran,31.5,75.0,2015,4,61.03,2,35.47
+Punjab,Tarn Taran,31.5,75.0,2015,5,42.69,2,29.14
+Punjab,Tarn Taran,31.5,75.0,2015,6,47.01,2,28.13
+Punjab,Tarn Taran,31.5,75.0,2015,7,127.12,9,34.42
+Punjab,Tarn Taran,31.5,75.0,2015,8,38.82,4,10.42
+Punjab,Tarn Taran,31.5,75.0,2015,9,102.44,3,62.01
+Punjab,Tarn Taran,31.5,75.0,2015,10,6.58,2,3.48
+Punjab,Tarn Taran,31.5,75.0,2015,11,2.6,1,2.6
+Punjab,Tarn Taran,31.5,75.0,2015,12,0.26,0,0.26
+Punjab,Malerkotla,30.5,76.0,2015,1,12.12,3,3.25
+Punjab,Malerkotla,30.5,76.0,2015,2,19.02,2,9.57
+Punjab,Malerkotla,30.5,76.0,2015,3,78.44,4,47.53
+Punjab,Malerkotla,30.5,76.0,2015,4,16.55,2,6.81
+Punjab,Malerkotla,30.5,76.0,2015,5,9.54,2,3.83
+Punjab,Malerkotla,30.5,76.0,2015,6,55.52,4,32.63
+Punjab,Malerkotla,30.5,76.0,2015,7,310.81,6,118.67
+Punjab,Malerkotla,30.5,76.0,2015,8,117.85,8,45.88
+Punjab,Malerkotla,30.5,76.0,2015,9,98.06,3,53.32
+Punjab,Malerkotla,30.5,76.0,2015,10,2.22,0,1.46
+Punjab,Malerkotla,30.5,76.0,2015,11,0.0,0,0.0
+Punjab,Malerkotla,30.5,76.0,2015,12,0.31,0,0.31
+Punjab,Ludhiana,31.0,75.75,2016,1,12.41,2,9.27
+Punjab,Ludhiana,31.0,75.75,2016,2,11.45,1,9.39
+Punjab,Ludhiana,31.0,75.75,2016,3,27.03,4,10.54
+Punjab,Ludhiana,31.0,75.75,2016,4,2.64,0,1.61
+Punjab,Ludhiana,31.0,75.75,2016,5,25.4,2,11.1
+Punjab,Ludhiana,31.0,75.75,2016,6,83.03,2,45.8
+Punjab,Ludhiana,31.0,75.75,2016,7,185.66,8,64.89
+Punjab,Ludhiana,31.0,75.75,2016,8,110.56,8,43.57
+Punjab,Ludhiana,31.0,75.75,2016,9,21.24,3,7.04
+Punjab,Ludhiana,31.0,75.75,2016,10,3.8,1,3.8
+Punjab,Ludhiana,31.0,75.75,2016,11,4.0,1,4.0
+Punjab,Ludhiana,31.0,75.75,2016,12,0.0,0,0.0
+Punjab,Amritsar,31.75,74.75,2016,1,24.34,3,12.69
+Punjab,Amritsar,31.75,74.75,2016,2,6.52,1,6.29
+Punjab,Amritsar,31.75,74.75,2016,3,37.32,2,15.21
+Punjab,Amritsar,31.75,74.75,2016,4,0.0,0,0.0
+Punjab,Amritsar,31.75,74.75,2016,5,35.46,2,21.33
+Punjab,Amritsar,31.75,74.75,2016,6,89.57,4,42.39
+Punjab,Amritsar,31.75,74.75,2016,7,236.44,11,69.17
+Punjab,Amritsar,31.75,74.75,2016,8,106.59,7,31.87
+Punjab,Amritsar,31.75,74.75,2016,9,30.18,2,19.73
+Punjab,Amritsar,31.75,74.75,2016,10,0.0,0,0.0
+Punjab,Amritsar,31.75,74.75,2016,11,2.33,0,2.33
+Punjab,Amritsar,31.75,74.75,2016,12,0.0,0,0.0
+Punjab,Patiala,30.25,76.5,2016,1,0.51,0,0.51
+Punjab,Patiala,30.25,76.5,2016,2,5.22,0,2.28
+Punjab,Patiala,30.25,76.5,2016,3,44.55,4,22.78
+Punjab,Patiala,30.25,76.5,2016,4,2.9,0,1.65
+Punjab,Patiala,30.25,76.5,2016,5,66.52,5,31.64
+Punjab,Patiala,30.25,76.5,2016,6,43.93,6,11.74
+Punjab,Patiala,30.25,76.5,2016,7,117.24,9,30.52
+Punjab,Patiala,30.25,76.5,2016,8,167.99,8,71.72
+Punjab,Patiala,30.25,76.5,2016,9,33.89,3,18.28
+Punjab,Patiala,30.25,76.5,2016,10,0.0,0,0.0
+Punjab,Patiala,30.25,76.5,2016,11,0.0,0,0.0
+Punjab,Patiala,30.25,76.5,2016,12,2.38,0,2.12
+Punjab,Bathinda,30.25,75.0,2016,1,0.1,0,0.1
+Punjab,Bathinda,30.25,75.0,2016,2,8.04,1,8.04
+Punjab,Bathinda,30.25,75.0,2016,3,41.13,4,16.94
+Punjab,Bathinda,30.25,75.0,2016,4,0.0,0,0.0
+Punjab,Bathinda,30.25,75.0,2016,5,24.39,2,19.14
+Punjab,Bathinda,30.25,75.0,2016,6,24.33,3,10.06
+Punjab,Bathinda,30.25,75.0,2016,7,122.89,7,33.8
+Punjab,Bathinda,30.25,75.0,2016,8,192.52,10,73.7
+Punjab,Bathinda,30.25,75.0,2016,9,0.98,0,0.98
+Punjab,Bathinda,30.25,75.0,2016,10,0.0,0,0.0
+Punjab,Bathinda,30.25,75.0,2016,11,0.0,0,0.0
+Punjab,Bathinda,30.25,75.0,2016,12,0.0,0,0.0
+Punjab,Jalandhar,31.25,75.5,2016,1,4.39,1,3.32
+Punjab,Jalandhar,31.25,75.5,2016,2,10.08,1,9.51
+Punjab,Jalandhar,31.25,75.5,2016,3,50.7,3,32.37
+Punjab,Jalandhar,31.25,75.5,2016,4,1.3,0,1.15
+Punjab,Jalandhar,31.25,75.5,2016,5,31.98,3,12.91
+Punjab,Jalandhar,31.25,75.5,2016,6,70.92,6,32.7
+Punjab,Jalandhar,31.25,75.5,2016,7,232.65,14,49.14
+Punjab,Jalandhar,31.25,75.5,2016,8,307.57,15,93.81
+Punjab,Jalandhar,31.25,75.5,2016,9,27.61,3,16.19
+Punjab,Jalandhar,31.25,75.5,2016,10,0.0,0,0.0
+Punjab,Jalandhar,31.25,75.5,2016,11,0.24,0,0.24
+Punjab,Jalandhar,31.25,75.5,2016,12,0.0,0,0.0
+Punjab,Sangrur,30.25,75.75,2016,1,0.0,0,0.0
+Punjab,Sangrur,30.25,75.75,2016,2,6.25,1,5.83
+Punjab,Sangrur,30.25,75.75,2016,3,51.88,6,18.64
+Punjab,Sangrur,30.25,75.75,2016,4,0.2,0,0.2
+Punjab,Sangrur,30.25,75.75,2016,5,62.43,4,29.23
+Punjab,Sangrur,30.25,75.75,2016,6,113.53,5,38.51
+Punjab,Sangrur,30.25,75.75,2016,7,168.57,8,57.85
+Punjab,Sangrur,30.25,75.75,2016,8,113.76,7,49.99
+Punjab,Sangrur,30.25,75.75,2016,9,1.48,0,1.48
+Punjab,Sangrur,30.25,75.75,2016,10,0.0,0,0.0
+Punjab,Sangrur,30.25,75.75,2016,11,0.0,0,0.0
+Punjab,Sangrur,30.25,75.75,2016,12,0.0,0,0.0
+Punjab,Firozpur,31.0,74.5,2016,1,3.15,1,2.85
+Punjab,Firozpur,31.0,74.5,2016,2,5.9,1,4.09
+Punjab,Firozpur,31.0,74.5,2016,3,50.08,5,20.66
+Punjab,Firozpur,31.0,74.5,2016,4,0.0,0,0.0
+Punjab,Firozpur,31.0,74.5,2016,5,7.09,1,3.35
+Punjab,Firozpur,31.0,74.5,2016,6,11.03,1,7.95
+Punjab,Firozpur,31.0,74.5,2016,7,76.76,6,26.95
+Punjab,Firozpur,31.0,74.5,2016,8,105.11,6,28.57
+Punjab,Firozpur,31.0,74.5,2016,9,9.63,1,9.38
+Punjab,Firozpur,31.0,74.5,2016,10,0.58,0,0.58
+Punjab,Firozpur,31.0,74.5,2016,11,0.0,0,0.0
+Punjab,Firozpur,31.0,74.5,2016,12,0.0,0,0.0
+Punjab,Gurdaspur,32.0,75.5,2016,1,7.38,1,6.93
+Punjab,Gurdaspur,32.0,75.5,2016,2,12.38,1,10.21
+Punjab,Gurdaspur,32.0,75.5,2016,3,46.15,5,20.7
+Punjab,Gurdaspur,32.0,75.5,2016,4,8.17,1,5.6
+Punjab,Gurdaspur,32.0,75.5,2016,5,48.92,3,22.96
+Punjab,Gurdaspur,32.0,75.5,2016,6,91.92,8,32.07
+Punjab,Gurdaspur,32.0,75.5,2016,7,141.34,8,42.38
+Punjab,Gurdaspur,32.0,75.5,2016,8,380.36,7,135.6
+Punjab,Gurdaspur,32.0,75.5,2016,9,16.0,2,9.94
+Punjab,Gurdaspur,32.0,75.5,2016,10,0.11,0,0.11
+Punjab,Gurdaspur,32.0,75.5,2016,11,0.51,0,0.51
+Punjab,Gurdaspur,32.0,75.5,2016,12,0.0,0,0.0
+Punjab,Hoshiarpur,31.5,76.0,2016,1,11.46,2,7.65
+Punjab,Hoshiarpur,31.5,76.0,2016,2,15.61,3,6.55
+Punjab,Hoshiarpur,31.5,76.0,2016,3,47.27,4,19.52
+Punjab,Hoshiarpur,31.5,76.0,2016,4,0.94,0,0.66
+Punjab,Hoshiarpur,31.5,76.0,2016,5,78.29,5,39.94
+Punjab,Hoshiarpur,31.5,76.0,2016,6,166.09,13,35.31
+Punjab,Hoshiarpur,31.5,76.0,2016,7,178.26,12,38.87
+Punjab,Hoshiarpur,31.5,76.0,2016,8,250.29,13,64.59
+Punjab,Hoshiarpur,31.5,76.0,2016,9,86.31,8,39.3
+Punjab,Hoshiarpur,31.5,76.0,2016,10,1.02,0,0.88
+Punjab,Hoshiarpur,31.5,76.0,2016,11,0.0,0,0.0
+Punjab,Hoshiarpur,31.5,76.0,2016,12,0.47,0,0.47
+Punjab,Mansa,30.0,75.5,2016,1,0.11,0,0.11
+Punjab,Mansa,30.0,75.5,2016,2,2.39,0,2.39
+Punjab,Mansa,30.0,75.5,2016,3,28.33,3,13.08
+Punjab,Mansa,30.0,75.5,2016,4,0.0,0,0.0
+Punjab,Mansa,30.0,75.5,2016,5,21.66,2,14.01
+Punjab,Mansa,30.0,75.5,2016,6,33.52,3,11.71
+Punjab,Mansa,30.0,75.5,2016,7,120.42,8,34.17
+Punjab,Mansa,30.0,75.5,2016,8,83.72,7,25.25
+Punjab,Mansa,30.0,75.5,2016,9,0.66,0,0.66
+Punjab,Mansa,30.0,75.5,2016,10,0.0,0,0.0
+Punjab,Mansa,30.0,75.5,2016,11,0.0,0,0.0
+Punjab,Mansa,30.0,75.5,2016,12,0.0,0,0.0
+Punjab,Mohali,30.75,76.75,2016,1,0.0,0,0.0
+Punjab,Mohali,30.75,76.75,2016,2,1.32,0,1.32
+Punjab,Mohali,30.75,76.75,2016,3,49.77,5,22.28
+Punjab,Mohali,30.75,76.75,2016,4,18.97,1,17.49
+Punjab,Mohali,30.75,76.75,2016,5,56.5,3,21.09
+Punjab,Mohali,30.75,76.75,2016,6,126.77,8,44.39
+Punjab,Mohali,30.75,76.75,2016,7,116.27,10,57.5
+Punjab,Mohali,30.75,76.75,2016,8,125.1,10,22.26
+Punjab,Mohali,30.75,76.75,2016,9,54.86,5,33.32
+Punjab,Mohali,30.75,76.75,2016,10,0.3,0,0.16
+Punjab,Mohali,30.75,76.75,2016,11,0.0,0,0.0
+Punjab,Mohali,30.75,76.75,2016,12,25.38,2,13.73
+Punjab,Rupnagar,31.0,76.5,2016,1,7.72,2,4.93
+Punjab,Rupnagar,31.0,76.5,2016,2,3.03,1,2.8
+Punjab,Rupnagar,31.0,76.5,2016,3,41.78,7,18.11
+Punjab,Rupnagar,31.0,76.5,2016,4,2.55,0,1.41
+Punjab,Rupnagar,31.0,76.5,2016,5,30.67,6,10.4
+Punjab,Rupnagar,31.0,76.5,2016,6,156.06,9,47.99
+Punjab,Rupnagar,31.0,76.5,2016,7,164.59,11,38.94
+Punjab,Rupnagar,31.0,76.5,2016,8,222.12,12,71.38
+Punjab,Rupnagar,31.0,76.5,2016,9,102.29,6,26.78
+Punjab,Rupnagar,31.0,76.5,2016,10,0.9,0,0.9
+Punjab,Rupnagar,31.0,76.5,2016,11,0.0,0,0.0
+Punjab,Rupnagar,31.0,76.5,2016,12,10.26,1,9.52
+Punjab,Fazilka,30.5,74.0,2016,1,0.9,0,0.69
+Punjab,Fazilka,30.5,74.0,2016,2,3.99,1,3.56
+Punjab,Fazilka,30.5,74.0,2016,3,20.26,3,8.67
+Punjab,Fazilka,30.5,74.0,2016,4,0.0,0,0.0
+Punjab,Fazilka,30.5,74.0,2016,5,0.37,0,0.25
+Punjab,Fazilka,30.5,74.0,2016,6,3.27,0,1.88
+Punjab,Fazilka,30.5,74.0,2016,7,25.28,4,6.6
+Punjab,Fazilka,30.5,74.0,2016,8,48.94,4,27.65
+Punjab,Fazilka,30.5,74.0,2016,9,3.52,1,3.52
+Punjab,Fazilka,30.5,74.0,2016,10,0.0,0,0.0
+Punjab,Fazilka,30.5,74.0,2016,11,0.0,0,0.0
+Punjab,Fazilka,30.5,74.0,2016,12,0.0,0,0.0
+Punjab,Kapurthala,31.5,75.5,2016,1,8.31,1,4.12
+Punjab,Kapurthala,31.5,75.5,2016,2,2.02,0,2.02
+Punjab,Kapurthala,31.5,75.5,2016,3,31.28,3,21.66
+Punjab,Kapurthala,31.5,75.5,2016,4,0.0,0,0.0
+Punjab,Kapurthala,31.5,75.5,2016,5,23.13,2,11.78
+Punjab,Kapurthala,31.5,75.5,2016,6,85.27,7,18.45
+Punjab,Kapurthala,31.5,75.5,2016,7,70.44,8,26.36
+Punjab,Kapurthala,31.5,75.5,2016,8,226.89,9,51.8
+Punjab,Kapurthala,31.5,75.5,2016,9,31.42,2,22.45
+Punjab,Kapurthala,31.5,75.5,2016,10,0.5,0,0.5
+Punjab,Kapurthala,31.5,75.5,2016,11,1.12,0,1.12
+Punjab,Kapurthala,31.5,75.5,2016,12,0.0,0,0.0
+Punjab,Muktsar,30.5,74.5,2016,1,3.8,1,3.8
+Punjab,Muktsar,30.5,74.5,2016,2,6.85,1,6.21
+Punjab,Muktsar,30.5,74.5,2016,3,89.35,6,32.22
+Punjab,Muktsar,30.5,74.5,2016,4,0.0,0,0.0
+Punjab,Muktsar,30.5,74.5,2016,5,23.52,2,17.57
+Punjab,Muktsar,30.5,74.5,2016,6,12.46,2,8.1
+Punjab,Muktsar,30.5,74.5,2016,7,143.4,5,47.29
+Punjab,Muktsar,30.5,74.5,2016,8,134.52,6,45.28
+Punjab,Muktsar,30.5,74.5,2016,9,0.18,0,0.18
+Punjab,Muktsar,30.5,74.5,2016,10,0.0,0,0.0
+Punjab,Muktsar,30.5,74.5,2016,11,0.0,0,0.0
+Punjab,Muktsar,30.5,74.5,2016,12,0.0,0,0.0
+Punjab,Faridkot,30.75,74.75,2016,1,1.66,0,1.16
+Punjab,Faridkot,30.75,74.75,2016,2,7.52,1,5.16
+Punjab,Faridkot,30.75,74.75,2016,3,53.87,6,25.21
+Punjab,Faridkot,30.75,74.75,2016,4,0.0,0,0.0
+Punjab,Faridkot,30.75,74.75,2016,5,28.41,2,22.82
+Punjab,Faridkot,30.75,74.75,2016,6,39.75,4,21.77
+Punjab,Faridkot,30.75,74.75,2016,7,86.4,5,26.43
+Punjab,Faridkot,30.75,74.75,2016,8,168.99,8,39.66
+Punjab,Faridkot,30.75,74.75,2016,9,5.37,1,4.93
+Punjab,Faridkot,30.75,74.75,2016,10,1.14,0,1.03
+Punjab,Faridkot,30.75,74.75,2016,11,0.0,0,0.0
+Punjab,Faridkot,30.75,74.75,2016,12,0.0,0,0.0
+Punjab,Barnala,30.5,75.5,2016,1,0.55,0,0.55
+Punjab,Barnala,30.5,75.5,2016,2,7.22,1,7.05
+Punjab,Barnala,30.5,75.5,2016,3,36.36,4,21.9
+Punjab,Barnala,30.5,75.5,2016,4,0.0,0,0.0
+Punjab,Barnala,30.5,75.5,2016,5,19.33,2,10.64
+Punjab,Barnala,30.5,75.5,2016,6,15.3,3,4.9
+Punjab,Barnala,30.5,75.5,2016,7,88.63,8,25.79
+Punjab,Barnala,30.5,75.5,2016,8,115.59,10,21.7
+Punjab,Barnala,30.5,75.5,2016,9,3.05,0,1.36
+Punjab,Barnala,30.5,75.5,2016,10,0.0,0,0.0
+Punjab,Barnala,30.5,75.5,2016,11,0.0,0,0.0
+Punjab,Barnala,30.5,75.5,2016,12,2.71,1,2.71
+Punjab,Fatehgarh Sahib,30.75,76.5,2016,1,0.0,0,0.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2016,2,1.7,0,1.49
+Punjab,Fatehgarh Sahib,30.75,76.5,2016,3,44.11,6,17.21
+Punjab,Fatehgarh Sahib,30.75,76.5,2016,4,0.93,0,0.53
+Punjab,Fatehgarh Sahib,30.75,76.5,2016,5,38.7,4,13.92
+Punjab,Fatehgarh Sahib,30.75,76.5,2016,6,103.03,4,37.21
+Punjab,Fatehgarh Sahib,30.75,76.5,2016,7,132.48,12,49.21
+Punjab,Fatehgarh Sahib,30.75,76.5,2016,8,160.31,10,27.12
+Punjab,Fatehgarh Sahib,30.75,76.5,2016,9,54.79,7,10.07
+Punjab,Fatehgarh Sahib,30.75,76.5,2016,10,0.41,0,0.41
+Punjab,Fatehgarh Sahib,30.75,76.5,2016,11,0.0,0,0.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2016,12,17.44,2,10.11
+Punjab,SBS Nagar,31.25,76.0,2016,1,8.35,1,6.03
+Punjab,SBS Nagar,31.25,76.0,2016,2,4.79,1,3.38
+Punjab,SBS Nagar,31.25,76.0,2016,3,21.24,5,6.42
+Punjab,SBS Nagar,31.25,76.0,2016,4,1.35,0,0.81
+Punjab,SBS Nagar,31.25,76.0,2016,5,23.26,2,11.23
+Punjab,SBS Nagar,31.25,76.0,2016,6,77.8,5,48.92
+Punjab,SBS Nagar,31.25,76.0,2016,7,96.77,9,20.33
+Punjab,SBS Nagar,31.25,76.0,2016,8,102.44,9,26.21
+Punjab,SBS Nagar,31.25,76.0,2016,9,20.93,3,7.4
+Punjab,SBS Nagar,31.25,76.0,2016,10,4.3,1,4.3
+Punjab,SBS Nagar,31.25,76.0,2016,11,0.0,0,0.0
+Punjab,SBS Nagar,31.25,76.0,2016,12,0.33,0,0.33
+Punjab,Pathankot,32.25,75.75,2016,1,12.09,1,12.09
+Punjab,Pathankot,32.25,75.75,2016,2,30.8,2,15.45
+Punjab,Pathankot,32.25,75.75,2016,3,73.78,5,24.11
+Punjab,Pathankot,32.25,75.75,2016,4,6.03,2,3.11
+Punjab,Pathankot,32.25,75.75,2016,5,80.05,4,36.56
+Punjab,Pathankot,32.25,75.75,2016,6,196.82,10,52.99
+Punjab,Pathankot,32.25,75.75,2016,7,302.36,14,79.63
+Punjab,Pathankot,32.25,75.75,2016,8,415.7,18,73.88
+Punjab,Pathankot,32.25,75.75,2016,9,65.61,4,39.07
+Punjab,Pathankot,32.25,75.75,2016,10,0.0,0,0.0
+Punjab,Pathankot,32.25,75.75,2016,11,0.0,0,0.0
+Punjab,Pathankot,32.25,75.75,2016,12,3.31,1,3.31
+Punjab,Tarn Taran,31.5,75.0,2016,1,16.43,3,8.34
+Punjab,Tarn Taran,31.5,75.0,2016,2,4.08,1,4.08
+Punjab,Tarn Taran,31.5,75.0,2016,3,34.19,4,17.49
+Punjab,Tarn Taran,31.5,75.0,2016,4,0.0,0,0.0
+Punjab,Tarn Taran,31.5,75.0,2016,5,25.69,2,16.22
+Punjab,Tarn Taran,31.5,75.0,2016,6,59.53,6,27.35
+Punjab,Tarn Taran,31.5,75.0,2016,7,197.37,13,30.15
+Punjab,Tarn Taran,31.5,75.0,2016,8,152.28,12,34.71
+Punjab,Tarn Taran,31.5,75.0,2016,9,20.91,2,10.89
+Punjab,Tarn Taran,31.5,75.0,2016,10,2.39,0,2.39
+Punjab,Tarn Taran,31.5,75.0,2016,11,1.33,0,1.33
+Punjab,Tarn Taran,31.5,75.0,2016,12,0.0,0,0.0
+Punjab,Malerkotla,30.5,76.0,2016,1,0.28,0,0.15
+Punjab,Malerkotla,30.5,76.0,2016,2,7.7,1,7.5
+Punjab,Malerkotla,30.5,76.0,2016,3,59.95,4,44.98
+Punjab,Malerkotla,30.5,76.0,2016,4,0.0,0,0.0
+Punjab,Malerkotla,30.5,76.0,2016,5,40.11,3,19.97
+Punjab,Malerkotla,30.5,76.0,2016,6,56.72,3,43.45
+Punjab,Malerkotla,30.5,76.0,2016,7,138.37,10,44.0
+Punjab,Malerkotla,30.5,76.0,2016,8,89.19,9,20.92
+Punjab,Malerkotla,30.5,76.0,2016,9,0.31,0,0.31
+Punjab,Malerkotla,30.5,76.0,2016,10,1.77,0,1.38
+Punjab,Malerkotla,30.5,76.0,2016,11,0.31,0,0.31
+Punjab,Malerkotla,30.5,76.0,2016,12,2.75,0,2.44
+Punjab,Ludhiana,31.0,75.75,2017,1,42.86,4,19.19
+Punjab,Ludhiana,31.0,75.75,2017,2,4.75,1,4.2
+Punjab,Ludhiana,31.0,75.75,2017,3,48.22,4,15.98
+Punjab,Ludhiana,31.0,75.75,2017,4,14.79,2,7.12
+Punjab,Ludhiana,31.0,75.75,2017,5,15.53,2,10.56
+Punjab,Ludhiana,31.0,75.75,2017,6,96.05,6,27.99
+Punjab,Ludhiana,31.0,75.75,2017,7,105.22,7,30.84
+Punjab,Ludhiana,31.0,75.75,2017,8,169.84,10,39.6
+Punjab,Ludhiana,31.0,75.75,2017,9,72.94,3,36.66
+Punjab,Ludhiana,31.0,75.75,2017,10,0.0,0,0.0
+Punjab,Ludhiana,31.0,75.75,2017,11,8.89,1,8.73
+Punjab,Ludhiana,31.0,75.75,2017,12,17.99,1,17.82
+Punjab,Amritsar,31.75,74.75,2017,1,49.96,3,20.39
+Punjab,Amritsar,31.75,74.75,2017,2,2.96,1,2.96
+Punjab,Amritsar,31.75,74.75,2017,3,19.99,1,17.93
+Punjab,Amritsar,31.75,74.75,2017,4,34.5,3,19.44
+Punjab,Amritsar,31.75,74.75,2017,5,19.69,2,13.81
+Punjab,Amritsar,31.75,74.75,2017,6,156.61,10,50.79
+Punjab,Amritsar,31.75,74.75,2017,7,233.38,11,127.05
+Punjab,Amritsar,31.75,74.75,2017,8,110.97,8,24.1
+Punjab,Amritsar,31.75,74.75,2017,9,13.84,2,9.81
+Punjab,Amritsar,31.75,74.75,2017,10,0.0,0,0.0
+Punjab,Amritsar,31.75,74.75,2017,11,2.79,1,2.79
+Punjab,Amritsar,31.75,74.75,2017,12,16.67,2,13.11
+Punjab,Patiala,30.25,76.5,2017,1,75.46,4,27.92
+Punjab,Patiala,30.25,76.5,2017,2,2.51,0,2.08
+Punjab,Patiala,30.25,76.5,2017,3,19.09,2,11.94
+Punjab,Patiala,30.25,76.5,2017,4,10.55,1,6.15
+Punjab,Patiala,30.25,76.5,2017,5,2.62,0,1.94
+Punjab,Patiala,30.25,76.5,2017,6,112.6,7,48.37
+Punjab,Patiala,30.25,76.5,2017,7,110.35,9,31.11
+Punjab,Patiala,30.25,76.5,2017,8,154.01,8,39.91
+Punjab,Patiala,30.25,76.5,2017,9,111.34,4,66.95
+Punjab,Patiala,30.25,76.5,2017,10,0.0,0,0.0
+Punjab,Patiala,30.25,76.5,2017,11,0.0,0,0.0
+Punjab,Patiala,30.25,76.5,2017,12,12.29,1,12.15
+Punjab,Bathinda,30.25,75.0,2017,1,12.95,2,7.52
+Punjab,Bathinda,30.25,75.0,2017,2,0.26,0,0.26
+Punjab,Bathinda,30.25,75.0,2017,3,2.74,0,2.43
+Punjab,Bathinda,30.25,75.0,2017,4,11.23,1,8.73
+Punjab,Bathinda,30.25,75.0,2017,5,1.06,0,1.06
+Punjab,Bathinda,30.25,75.0,2017,6,146.98,9,55.18
+Punjab,Bathinda,30.25,75.0,2017,7,26.35,3,10.73
+Punjab,Bathinda,30.25,75.0,2017,8,92.2,6,31.75
+Punjab,Bathinda,30.25,75.0,2017,9,33.3,3,20.42
+Punjab,Bathinda,30.25,75.0,2017,10,0.0,0,0.0
+Punjab,Bathinda,30.25,75.0,2017,11,12.38,2,9.44
+Punjab,Bathinda,30.25,75.0,2017,12,6.71,1,6.11
+Punjab,Jalandhar,31.25,75.5,2017,1,34.33,3,22.68
+Punjab,Jalandhar,31.25,75.5,2017,2,3.81,1,3.17
+Punjab,Jalandhar,31.25,75.5,2017,3,37.03,4,11.03
+Punjab,Jalandhar,31.25,75.5,2017,4,16.85,3,6.6
+Punjab,Jalandhar,31.25,75.5,2017,5,20.04,2,15.45
+Punjab,Jalandhar,31.25,75.5,2017,6,127.05,7,63.57
+Punjab,Jalandhar,31.25,75.5,2017,7,176.64,10,40.24
+Punjab,Jalandhar,31.25,75.5,2017,8,310.27,13,74.53
+Punjab,Jalandhar,31.25,75.5,2017,9,42.86,3,20.72
+Punjab,Jalandhar,31.25,75.5,2017,10,0.0,0,0.0
+Punjab,Jalandhar,31.25,75.5,2017,11,4.91,1,4.69
+Punjab,Jalandhar,31.25,75.5,2017,12,28.13,1,27.09
+Punjab,Sangrur,30.25,75.75,2017,1,57.41,3,28.57
+Punjab,Sangrur,30.25,75.75,2017,2,3.4,1,3.4
+Punjab,Sangrur,30.25,75.75,2017,3,17.43,2,11.8
+Punjab,Sangrur,30.25,75.75,2017,4,13.65,1,11.09
+Punjab,Sangrur,30.25,75.75,2017,5,8.55,1,4.81
+Punjab,Sangrur,30.25,75.75,2017,6,80.38,9,24.95
+Punjab,Sangrur,30.25,75.75,2017,7,63.45,5,16.57
+Punjab,Sangrur,30.25,75.75,2017,8,47.92,4,18.22
+Punjab,Sangrur,30.25,75.75,2017,9,43.08,3,20.61
+Punjab,Sangrur,30.25,75.75,2017,10,0.0,0,0.0
+Punjab,Sangrur,30.25,75.75,2017,11,3.75,1,3.55
+Punjab,Sangrur,30.25,75.75,2017,12,14.04,1,12.56
+Punjab,Firozpur,31.0,74.5,2017,1,15.63,4,5.03
+Punjab,Firozpur,31.0,74.5,2017,2,0.42,0,0.42
+Punjab,Firozpur,31.0,74.5,2017,3,13.57,2,8.8
+Punjab,Firozpur,31.0,74.5,2017,4,6.52,1,5.65
+Punjab,Firozpur,31.0,74.5,2017,5,0.0,0,0.0
+Punjab,Firozpur,31.0,74.5,2017,6,53.87,6,18.11
+Punjab,Firozpur,31.0,74.5,2017,7,15.28,2,8.83
+Punjab,Firozpur,31.0,74.5,2017,8,14.36,2,8.53
+Punjab,Firozpur,31.0,74.5,2017,9,19.2,2,10.13
+Punjab,Firozpur,31.0,74.5,2017,10,0.0,0,0.0
+Punjab,Firozpur,31.0,74.5,2017,11,0.98,0,0.98
+Punjab,Firozpur,31.0,74.5,2017,12,11.25,2,7.38
+Punjab,Gurdaspur,32.0,75.5,2017,1,82.85,5,27.42
+Punjab,Gurdaspur,32.0,75.5,2017,2,12.71,1,12.12
+Punjab,Gurdaspur,32.0,75.5,2017,3,19.91,2,11.04
+Punjab,Gurdaspur,32.0,75.5,2017,4,17.54,3,4.87
+Punjab,Gurdaspur,32.0,75.5,2017,5,11.84,2,4.82
+Punjab,Gurdaspur,32.0,75.5,2017,6,81.91,4,35.46
+Punjab,Gurdaspur,32.0,75.5,2017,7,334.25,15,85.01
+Punjab,Gurdaspur,32.0,75.5,2017,8,301.14,12,70.48
+Punjab,Gurdaspur,32.0,75.5,2017,9,75.89,2,56.08
+Punjab,Gurdaspur,32.0,75.5,2017,10,0.0,0,0.0
+Punjab,Gurdaspur,32.0,75.5,2017,11,0.36,0,0.18
+Punjab,Gurdaspur,32.0,75.5,2017,12,49.85,2,40.14
+Punjab,Hoshiarpur,31.5,76.0,2017,1,92.38,5,33.57
+Punjab,Hoshiarpur,31.5,76.0,2017,2,13.39,2,6.72
+Punjab,Hoshiarpur,31.5,76.0,2017,3,16.85,3,7.96
+Punjab,Hoshiarpur,31.5,76.0,2017,4,22.77,3,8.73
+Punjab,Hoshiarpur,31.5,76.0,2017,5,39.38,4,14.53
+Punjab,Hoshiarpur,31.5,76.0,2017,6,126.36,7,38.5
+Punjab,Hoshiarpur,31.5,76.0,2017,7,199.6,13,47.94
+Punjab,Hoshiarpur,31.5,76.0,2017,8,423.2,20,63.24
+Punjab,Hoshiarpur,31.5,76.0,2017,9,61.76,5,24.12
+Punjab,Hoshiarpur,31.5,76.0,2017,10,0.0,0,0.0
+Punjab,Hoshiarpur,31.5,76.0,2017,11,1.45,0,0.98
+Punjab,Hoshiarpur,31.5,76.0,2017,12,41.81,2,37.45
+Punjab,Mansa,30.0,75.5,2017,1,26.61,3,10.47
+Punjab,Mansa,30.0,75.5,2017,2,1.22,0,1.22
+Punjab,Mansa,30.0,75.5,2017,3,8.09,1,5.68
+Punjab,Mansa,30.0,75.5,2017,4,0.8,0,0.57
+Punjab,Mansa,30.0,75.5,2017,5,11.97,2,5.9
+Punjab,Mansa,30.0,75.5,2017,6,91.15,8,27.43
+Punjab,Mansa,30.0,75.5,2017,7,29.89,4,13.32
+Punjab,Mansa,30.0,75.5,2017,8,57.7,4,23.65
+Punjab,Mansa,30.0,75.5,2017,9,41.92,2,21.72
+Punjab,Mansa,30.0,75.5,2017,10,0.0,0,0.0
+Punjab,Mansa,30.0,75.5,2017,11,3.94,1,2.63
+Punjab,Mansa,30.0,75.5,2017,12,7.62,1,6.96
+Punjab,Mohali,30.75,76.75,2017,1,127.83,5,56.18
+Punjab,Mohali,30.75,76.75,2017,2,2.29,0,2.29
+Punjab,Mohali,30.75,76.75,2017,3,21.12,3,14.35
+Punjab,Mohali,30.75,76.75,2017,4,11.54,1,5.21
+Punjab,Mohali,30.75,76.75,2017,5,4.97,1,3.52
+Punjab,Mohali,30.75,76.75,2017,6,78.67,4,30.69
+Punjab,Mohali,30.75,76.75,2017,7,207.55,7,97.48
+Punjab,Mohali,30.75,76.75,2017,8,278.37,19,75.34
+Punjab,Mohali,30.75,76.75,2017,9,147.12,6,45.78
+Punjab,Mohali,30.75,76.75,2017,10,0.0,0,0.0
+Punjab,Mohali,30.75,76.75,2017,11,0.0,0,0.0
+Punjab,Mohali,30.75,76.75,2017,12,16.56,1,16.56
+Punjab,Rupnagar,31.0,76.5,2017,1,132.75,5,41.75
+Punjab,Rupnagar,31.0,76.5,2017,2,3.16,0,2.11
+Punjab,Rupnagar,31.0,76.5,2017,3,21.37,3,9.51
+Punjab,Rupnagar,31.0,76.5,2017,4,18.2,3,9.26
+Punjab,Rupnagar,31.0,76.5,2017,5,15.99,2,10.58
+Punjab,Rupnagar,31.0,76.5,2017,6,136.65,5,59.63
+Punjab,Rupnagar,31.0,76.5,2017,7,135.45,9,40.46
+Punjab,Rupnagar,31.0,76.5,2017,8,308.26,14,63.53
+Punjab,Rupnagar,31.0,76.5,2017,9,130.06,5,74.48
+Punjab,Rupnagar,31.0,76.5,2017,10,0.0,0,0.0
+Punjab,Rupnagar,31.0,76.5,2017,11,0.0,0,0.0
+Punjab,Rupnagar,31.0,76.5,2017,12,21.62,1,21.42
+Punjab,Fazilka,30.5,74.0,2017,1,6.49,0,2.16
+Punjab,Fazilka,30.5,74.0,2017,2,0.0,0,0.0
+Punjab,Fazilka,30.5,74.0,2017,3,0.52,0,0.52
+Punjab,Fazilka,30.5,74.0,2017,4,10.16,3,3.69
+Punjab,Fazilka,30.5,74.0,2017,5,7.84,2,4.06
+Punjab,Fazilka,30.5,74.0,2017,6,44.36,8,7.63
+Punjab,Fazilka,30.5,74.0,2017,7,16.29,2,8.96
+Punjab,Fazilka,30.5,74.0,2017,8,11.91,3,4.27
+Punjab,Fazilka,30.5,74.0,2017,9,13.78,2,7.7
+Punjab,Fazilka,30.5,74.0,2017,10,0.0,0,0.0
+Punjab,Fazilka,30.5,74.0,2017,11,1.05,0,1.05
+Punjab,Fazilka,30.5,74.0,2017,12,3.6,1,2.67
+Punjab,Kapurthala,31.5,75.5,2017,1,40.01,3,24.77
+Punjab,Kapurthala,31.5,75.5,2017,2,3.71,0,2.39
+Punjab,Kapurthala,31.5,75.5,2017,3,17.07,2,8.11
+Punjab,Kapurthala,31.5,75.5,2017,4,23.82,4,9.46
+Punjab,Kapurthala,31.5,75.5,2017,5,29.76,3,14.45
+Punjab,Kapurthala,31.5,75.5,2017,6,133.41,7,37.92
+Punjab,Kapurthala,31.5,75.5,2017,7,135.24,8,39.18
+Punjab,Kapurthala,31.5,75.5,2017,8,267.54,14,89.97
+Punjab,Kapurthala,31.5,75.5,2017,9,23.26,3,12.42
+Punjab,Kapurthala,31.5,75.5,2017,10,0.0,0,0.0
+Punjab,Kapurthala,31.5,75.5,2017,11,0.71,0,0.71
+Punjab,Kapurthala,31.5,75.5,2017,12,34.76,1,33.09
+Punjab,Muktsar,30.5,74.5,2017,1,9.47,2,3.8
+Punjab,Muktsar,30.5,74.5,2017,2,0.0,0,0.0
+Punjab,Muktsar,30.5,74.5,2017,3,10.42,1,9.76
+Punjab,Muktsar,30.5,74.5,2017,4,9.65,1,6.75
+Punjab,Muktsar,30.5,74.5,2017,5,0.99,0,0.99
+Punjab,Muktsar,30.5,74.5,2017,6,151.44,8,63.63
+Punjab,Muktsar,30.5,74.5,2017,7,24.11,3,10.68
+Punjab,Muktsar,30.5,74.5,2017,8,16.64,4,4.88
+Punjab,Muktsar,30.5,74.5,2017,9,58.18,5,24.98
+Punjab,Muktsar,30.5,74.5,2017,10,0.0,0,0.0
+Punjab,Muktsar,30.5,74.5,2017,11,10.78,1,9.32
+Punjab,Muktsar,30.5,74.5,2017,12,11.9,2,6.7
+Punjab,Faridkot,30.75,74.75,2017,1,15.49,2,7.33
+Punjab,Faridkot,30.75,74.75,2017,2,0.0,0,0.0
+Punjab,Faridkot,30.75,74.75,2017,3,4.9,1,2.76
+Punjab,Faridkot,30.75,74.75,2017,4,20.81,2,14.71
+Punjab,Faridkot,30.75,74.75,2017,5,0.0,0,0.0
+Punjab,Faridkot,30.75,74.75,2017,6,125.48,7,45.2
+Punjab,Faridkot,30.75,74.75,2017,7,24.68,4,13.28
+Punjab,Faridkot,30.75,74.75,2017,8,17.74,3,6.08
+Punjab,Faridkot,30.75,74.75,2017,9,73.76,2,58.95
+Punjab,Faridkot,30.75,74.75,2017,10,0.0,0,0.0
+Punjab,Faridkot,30.75,74.75,2017,11,5.91,1,5.91
+Punjab,Faridkot,30.75,74.75,2017,12,9.6,2,6.0
+Punjab,Barnala,30.5,75.5,2017,1,68.68,3,29.52
+Punjab,Barnala,30.5,75.5,2017,2,1.31,0,1.31
+Punjab,Barnala,30.5,75.5,2017,3,16.57,2,12.75
+Punjab,Barnala,30.5,75.5,2017,4,7.58,1,3.48
+Punjab,Barnala,30.5,75.5,2017,5,8.12,1,7.52
+Punjab,Barnala,30.5,75.5,2017,6,106.43,8,21.71
+Punjab,Barnala,30.5,75.5,2017,7,102.51,6,44.72
+Punjab,Barnala,30.5,75.5,2017,8,70.69,9,23.39
+Punjab,Barnala,30.5,75.5,2017,9,121.04,6,45.43
+Punjab,Barnala,30.5,75.5,2017,10,0.0,0,0.0
+Punjab,Barnala,30.5,75.5,2017,11,2.16,0,1.36
+Punjab,Barnala,30.5,75.5,2017,12,6.05,2,3.34
+Punjab,Fatehgarh Sahib,30.75,76.5,2017,1,116.93,4,44.43
+Punjab,Fatehgarh Sahib,30.75,76.5,2017,2,1.59,0,0.86
+Punjab,Fatehgarh Sahib,30.75,76.5,2017,3,16.02,2,10.86
+Punjab,Fatehgarh Sahib,30.75,76.5,2017,4,7.49,1,5.6
+Punjab,Fatehgarh Sahib,30.75,76.5,2017,5,2.72,1,2.72
+Punjab,Fatehgarh Sahib,30.75,76.5,2017,6,120.83,4,57.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2017,7,39.91,4,13.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2017,8,137.6,8,42.6
+Punjab,Fatehgarh Sahib,30.75,76.5,2017,9,106.45,5,32.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2017,10,0.0,0,0.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2017,11,0.0,0,0.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2017,12,23.0,1,23.0
+Punjab,SBS Nagar,31.25,76.0,2017,1,42.77,4,15.77
+Punjab,SBS Nagar,31.25,76.0,2017,2,4.42,1,3.44
+Punjab,SBS Nagar,31.25,76.0,2017,3,8.78,2,4.61
+Punjab,SBS Nagar,31.25,76.0,2017,4,9.71,1,4.48
+Punjab,SBS Nagar,31.25,76.0,2017,5,19.17,2,11.09
+Punjab,SBS Nagar,31.25,76.0,2017,6,65.0,5,25.43
+Punjab,SBS Nagar,31.25,76.0,2017,7,82.31,8,19.69
+Punjab,SBS Nagar,31.25,76.0,2017,8,106.81,11,20.74
+Punjab,SBS Nagar,31.25,76.0,2017,9,65.62,4,42.45
+Punjab,SBS Nagar,31.25,76.0,2017,10,0.0,0,0.0
+Punjab,SBS Nagar,31.25,76.0,2017,11,1.4,0,1.4
+Punjab,SBS Nagar,31.25,76.0,2017,12,19.72,1,19.57
+Punjab,Pathankot,32.25,75.75,2017,1,163.31,6,49.99
+Punjab,Pathankot,32.25,75.75,2017,2,17.83,1,12.8
+Punjab,Pathankot,32.25,75.75,2017,3,51.5,3,23.21
+Punjab,Pathankot,32.25,75.75,2017,4,36.41,5,15.97
+Punjab,Pathankot,32.25,75.75,2017,5,88.37,7,33.79
+Punjab,Pathankot,32.25,75.75,2017,6,74.65,8,21.59
+Punjab,Pathankot,32.25,75.75,2017,7,218.81,14,56.66
+Punjab,Pathankot,32.25,75.75,2017,8,453.86,20,68.23
+Punjab,Pathankot,32.25,75.75,2017,9,82.81,4,28.93
+Punjab,Pathankot,32.25,75.75,2017,10,0.0,0,0.0
+Punjab,Pathankot,32.25,75.75,2017,11,0.0,0,0.0
+Punjab,Pathankot,32.25,75.75,2017,12,64.59,2,42.56
+Punjab,Tarn Taran,31.5,75.0,2017,1,46.37,3,21.79
+Punjab,Tarn Taran,31.5,75.0,2017,2,3.63,1,3.08
+Punjab,Tarn Taran,31.5,75.0,2017,3,14.77,2,9.79
+Punjab,Tarn Taran,31.5,75.0,2017,4,18.64,2,6.16
+Punjab,Tarn Taran,31.5,75.0,2017,5,32.29,3,18.12
+Punjab,Tarn Taran,31.5,75.0,2017,6,128.29,9,47.44
+Punjab,Tarn Taran,31.5,75.0,2017,7,129.31,7,59.57
+Punjab,Tarn Taran,31.5,75.0,2017,8,110.98,9,27.26
+Punjab,Tarn Taran,31.5,75.0,2017,9,6.26,1,3.84
+Punjab,Tarn Taran,31.5,75.0,2017,10,0.0,0,0.0
+Punjab,Tarn Taran,31.5,75.0,2017,11,1.3,0,0.7
+Punjab,Tarn Taran,31.5,75.0,2017,12,20.97,2,14.28
+Punjab,Malerkotla,30.5,76.0,2017,1,45.0,4,20.38
+Punjab,Malerkotla,30.5,76.0,2017,2,1.82,0,1.82
+Punjab,Malerkotla,30.5,76.0,2017,3,17.01,1,15.24
+Punjab,Malerkotla,30.5,76.0,2017,4,5.83,1,2.91
+Punjab,Malerkotla,30.5,76.0,2017,5,0.58,0,0.31
+Punjab,Malerkotla,30.5,76.0,2017,6,69.82,6,19.15
+Punjab,Malerkotla,30.5,76.0,2017,7,67.64,7,16.68
+Punjab,Malerkotla,30.5,76.0,2017,8,118.32,7,33.88
+Punjab,Malerkotla,30.5,76.0,2017,9,68.55,3,29.06
+Punjab,Malerkotla,30.5,76.0,2017,10,0.0,0,0.0
+Punjab,Malerkotla,30.5,76.0,2017,11,1.45,0,1.45
+Punjab,Malerkotla,30.5,76.0,2017,12,12.72,1,11.76
+Punjab,Ludhiana,31.0,75.75,2018,1,17.68,1,15.75
+Punjab,Ludhiana,31.0,75.75,2018,2,17.22,3,9.3
+Punjab,Ludhiana,31.0,75.75,2018,3,1.19,0,0.65
+Punjab,Ludhiana,31.0,75.75,2018,4,5.46,1,5.22
+Punjab,Ludhiana,31.0,75.75,2018,5,7.78,1,2.97
+Punjab,Ludhiana,31.0,75.75,2018,6,132.0,6,64.1
+Punjab,Ludhiana,31.0,75.75,2018,7,242.46,12,90.56
+Punjab,Ludhiana,31.0,75.75,2018,8,88.05,8,16.55
+Punjab,Ludhiana,31.0,75.75,2018,9,184.59,7,72.16
+Punjab,Ludhiana,31.0,75.75,2018,10,0.0,0,0.0
+Punjab,Ludhiana,31.0,75.75,2018,11,1.13,0,0.76
+Punjab,Ludhiana,31.0,75.75,2018,12,0.0,0,0.0
+Punjab,Amritsar,31.75,74.75,2018,1,7.71,1,7.56
+Punjab,Amritsar,31.75,74.75,2018,2,19.69,2,15.31
+Punjab,Amritsar,31.75,74.75,2018,3,4.73,1,2.55
+Punjab,Amritsar,31.75,74.75,2018,4,23.27,2,10.78
+Punjab,Amritsar,31.75,74.75,2018,5,2.13,0,1.08
+Punjab,Amritsar,31.75,74.75,2018,6,77.79,7,24.78
+Punjab,Amritsar,31.75,74.75,2018,7,220.24,9,68.18
+Punjab,Amritsar,31.75,74.75,2018,8,62.06,5,17.7
+Punjab,Amritsar,31.75,74.75,2018,9,296.55,5,200.22
+Punjab,Amritsar,31.75,74.75,2018,10,16.95,2,9.71
+Punjab,Amritsar,31.75,74.75,2018,11,6.01,1,5.86
+Punjab,Amritsar,31.75,74.75,2018,12,1.85,0,1.1
+Punjab,Patiala,30.25,76.5,2018,1,3.26,1,3.26
+Punjab,Patiala,30.25,76.5,2018,2,22.31,2,13.64
+Punjab,Patiala,30.25,76.5,2018,3,2.36,0,1.16
+Punjab,Patiala,30.25,76.5,2018,4,9.08,0,2.5
+Punjab,Patiala,30.25,76.5,2018,5,25.6,4,11.11
+Punjab,Patiala,30.25,76.5,2018,6,146.04,9,39.72
+Punjab,Patiala,30.25,76.5,2018,7,245.38,16,41.94
+Punjab,Patiala,30.25,76.5,2018,8,153.24,14,25.75
+Punjab,Patiala,30.25,76.5,2018,9,294.22,11,60.17
+Punjab,Patiala,30.25,76.5,2018,10,22.93,1,22.93
+Punjab,Patiala,30.25,76.5,2018,11,0.32,0,0.32
+Punjab,Patiala,30.25,76.5,2018,12,33.15,2,23.32
+Punjab,Bathinda,30.25,75.0,2018,1,16.93,1,16.93
+Punjab,Bathinda,30.25,75.0,2018,2,2.25,0,1.97
+Punjab,Bathinda,30.25,75.0,2018,3,2.7,0,1.97
+Punjab,Bathinda,30.25,75.0,2018,4,7.76,2,4.01
+Punjab,Bathinda,30.25,75.0,2018,5,7.52,1,5.75
+Punjab,Bathinda,30.25,75.0,2018,6,47.59,5,11.61
+Punjab,Bathinda,30.25,75.0,2018,7,99.97,6,43.92
+Punjab,Bathinda,30.25,75.0,2018,8,34.12,5,10.9
+Punjab,Bathinda,30.25,75.0,2018,9,49.8,3,36.26
+Punjab,Bathinda,30.25,75.0,2018,10,0.0,0,0.0
+Punjab,Bathinda,30.25,75.0,2018,11,0.0,0,0.0
+Punjab,Bathinda,30.25,75.0,2018,12,0.0,0,0.0
+Punjab,Jalandhar,31.25,75.5,2018,1,12.83,1,12.65
+Punjab,Jalandhar,31.25,75.5,2018,2,19.03,3,10.5
+Punjab,Jalandhar,31.25,75.5,2018,3,5.97,1,3.45
+Punjab,Jalandhar,31.25,75.5,2018,4,13.21,2,9.4
+Punjab,Jalandhar,31.25,75.5,2018,5,6.43,1,2.6
+Punjab,Jalandhar,31.25,75.5,2018,6,93.21,7,22.28
+Punjab,Jalandhar,31.25,75.5,2018,7,209.31,17,40.82
+Punjab,Jalandhar,31.25,75.5,2018,8,104.66,11,28.3
+Punjab,Jalandhar,31.25,75.5,2018,9,311.45,9,110.68
+Punjab,Jalandhar,31.25,75.5,2018,10,0.12,0,0.12
+Punjab,Jalandhar,31.25,75.5,2018,11,0.23,0,0.12
+Punjab,Jalandhar,31.25,75.5,2018,12,2.25,0,2.03
+Punjab,Sangrur,30.25,75.75,2018,1,14.2,1,12.68
+Punjab,Sangrur,30.25,75.75,2018,2,2.24,0,1.12
+Punjab,Sangrur,30.25,75.75,2018,3,0.41,0,0.26
+Punjab,Sangrur,30.25,75.75,2018,4,17.79,2,10.26
+Punjab,Sangrur,30.25,75.75,2018,5,13.5,3,5.23
+Punjab,Sangrur,30.25,75.75,2018,6,131.37,6,43.96
+Punjab,Sangrur,30.25,75.75,2018,7,241.36,10,86.76
+Punjab,Sangrur,30.25,75.75,2018,8,42.24,4,10.78
+Punjab,Sangrur,30.25,75.75,2018,9,109.4,7,57.29
+Punjab,Sangrur,30.25,75.75,2018,10,0.0,0,0.0
+Punjab,Sangrur,30.25,75.75,2018,11,0.12,0,0.12
+Punjab,Sangrur,30.25,75.75,2018,12,4.09,1,4.09
+Punjab,Firozpur,31.0,74.5,2018,1,0.14,0,0.14
+Punjab,Firozpur,31.0,74.5,2018,2,0.98,0,0.58
+Punjab,Firozpur,31.0,74.5,2018,3,5.23,1,3.35
+Punjab,Firozpur,31.0,74.5,2018,4,5.29,1,4.25
+Punjab,Firozpur,31.0,74.5,2018,5,4.95,1,2.63
+Punjab,Firozpur,31.0,74.5,2018,6,31.81,4,12.3
+Punjab,Firozpur,31.0,74.5,2018,7,94.4,9,19.99
+Punjab,Firozpur,31.0,74.5,2018,8,21.78,3,9.22
+Punjab,Firozpur,31.0,74.5,2018,9,50.99,4,19.02
+Punjab,Firozpur,31.0,74.5,2018,10,0.0,0,0.0
+Punjab,Firozpur,31.0,74.5,2018,11,0.0,0,0.0
+Punjab,Firozpur,31.0,74.5,2018,12,1.09,0,1.09
+Punjab,Gurdaspur,32.0,75.5,2018,1,22.93,1,22.93
+Punjab,Gurdaspur,32.0,75.5,2018,2,28.71,2,20.23
+Punjab,Gurdaspur,32.0,75.5,2018,3,22.76,1,21.75
+Punjab,Gurdaspur,32.0,75.5,2018,4,16.42,2,9.43
+Punjab,Gurdaspur,32.0,75.5,2018,5,8.34,1,7.11
+Punjab,Gurdaspur,32.0,75.5,2018,6,96.75,6,46.18
+Punjab,Gurdaspur,32.0,75.5,2018,7,158.28,10,37.27
+Punjab,Gurdaspur,32.0,75.5,2018,8,217.59,12,37.9
+Punjab,Gurdaspur,32.0,75.5,2018,9,322.28,6,176.84
+Punjab,Gurdaspur,32.0,75.5,2018,10,10.11,1,9.89
+Punjab,Gurdaspur,32.0,75.5,2018,11,5.74,1,5.74
+Punjab,Gurdaspur,32.0,75.5,2018,12,1.14,0,0.69
+Punjab,Hoshiarpur,31.5,76.0,2018,1,19.39,1,19.39
+Punjab,Hoshiarpur,31.5,76.0,2018,2,24.24,2,15.95
+Punjab,Hoshiarpur,31.5,76.0,2018,3,19.3,1,16.95
+Punjab,Hoshiarpur,31.5,76.0,2018,4,34.31,2,20.85
+Punjab,Hoshiarpur,31.5,76.0,2018,5,4.81,0,1.38
+Punjab,Hoshiarpur,31.5,76.0,2018,6,235.01,7,85.54
+Punjab,Hoshiarpur,31.5,76.0,2018,7,289.08,15,46.86
+Punjab,Hoshiarpur,31.5,76.0,2018,8,391.51,19,50.2
+Punjab,Hoshiarpur,31.5,76.0,2018,9,436.06,12,116.52
+Punjab,Hoshiarpur,31.5,76.0,2018,10,8.28,1,8.06
+Punjab,Hoshiarpur,31.5,76.0,2018,11,8.29,1,7.67
+Punjab,Hoshiarpur,31.5,76.0,2018,12,1.9,0,1.9
+Punjab,Mansa,30.0,75.5,2018,1,11.23,1,9.73
+Punjab,Mansa,30.0,75.5,2018,2,0.76,0,0.52
+Punjab,Mansa,30.0,75.5,2018,3,1.7,0,1.22
+Punjab,Mansa,30.0,75.5,2018,4,8.44,1,3.46
+Punjab,Mansa,30.0,75.5,2018,5,8.61,2,3.15
+Punjab,Mansa,30.0,75.5,2018,6,103.81,8,29.86
+Punjab,Mansa,30.0,75.5,2018,7,110.18,9,43.28
+Punjab,Mansa,30.0,75.5,2018,8,46.09,6,15.39
+Punjab,Mansa,30.0,75.5,2018,9,61.53,4,38.18
+Punjab,Mansa,30.0,75.5,2018,10,0.0,0,0.0
+Punjab,Mansa,30.0,75.5,2018,11,0.0,0,0.0
+Punjab,Mansa,30.0,75.5,2018,12,2.83,0,1.96
+Punjab,Mohali,30.75,76.75,2018,1,5.69,1,5.69
+Punjab,Mohali,30.75,76.75,2018,2,51.57,3,20.05
+Punjab,Mohali,30.75,76.75,2018,3,3.03,0,1.9
+Punjab,Mohali,30.75,76.75,2018,4,27.22,5,8.16
+Punjab,Mohali,30.75,76.75,2018,5,10.19,2,4.35
+Punjab,Mohali,30.75,76.75,2018,6,121.44,7,32.11
+Punjab,Mohali,30.75,76.75,2018,7,280.3,13,71.07
+Punjab,Mohali,30.75,76.75,2018,8,286.67,16,64.84
+Punjab,Mohali,30.75,76.75,2018,9,261.21,13,63.43
+Punjab,Mohali,30.75,76.75,2018,10,14.43,1,13.52
+Punjab,Mohali,30.75,76.75,2018,11,8.91,1,6.83
+Punjab,Mohali,30.75,76.75,2018,12,7.55,1,7.26
+Punjab,Rupnagar,31.0,76.5,2018,1,12.3,2,9.13
+Punjab,Rupnagar,31.0,76.5,2018,2,51.67,3,21.19
+Punjab,Rupnagar,31.0,76.5,2018,3,10.02,2,5.43
+Punjab,Rupnagar,31.0,76.5,2018,4,22.25,2,10.98
+Punjab,Rupnagar,31.0,76.5,2018,5,9.95,1,4.93
+Punjab,Rupnagar,31.0,76.5,2018,6,176.44,5,70.98
+Punjab,Rupnagar,31.0,76.5,2018,7,245.09,16,56.77
+Punjab,Rupnagar,31.0,76.5,2018,8,212.4,13,83.47
+Punjab,Rupnagar,31.0,76.5,2018,9,375.19,13,85.66
+Punjab,Rupnagar,31.0,76.5,2018,10,7.02,1,6.79
+Punjab,Rupnagar,31.0,76.5,2018,11,14.08,2,8.06
+Punjab,Rupnagar,31.0,76.5,2018,12,1.34,0,1.19
+Punjab,Fazilka,30.5,74.0,2018,1,0.0,0,0.0
+Punjab,Fazilka,30.5,74.0,2018,2,4.03,1,4.03
+Punjab,Fazilka,30.5,74.0,2018,3,0.86,0,0.86
+Punjab,Fazilka,30.5,74.0,2018,4,3.55,1,3.27
+Punjab,Fazilka,30.5,74.0,2018,5,1.05,0,0.56
+Punjab,Fazilka,30.5,74.0,2018,6,28.71,4,9.1
+Punjab,Fazilka,30.5,74.0,2018,7,31.21,4,16.94
+Punjab,Fazilka,30.5,74.0,2018,8,13.45,1,7.95
+Punjab,Fazilka,30.5,74.0,2018,9,12.89,2,7.49
+Punjab,Fazilka,30.5,74.0,2018,10,3.06,1,3.06
+Punjab,Fazilka,30.5,74.0,2018,11,0.0,0,0.0
+Punjab,Fazilka,30.5,74.0,2018,12,0.0,0,0.0
+Punjab,Kapurthala,31.5,75.5,2018,1,14.15,1,14.15
+Punjab,Kapurthala,31.5,75.5,2018,2,16.64,2,10.69
+Punjab,Kapurthala,31.5,75.5,2018,3,10.37,1,9.51
+Punjab,Kapurthala,31.5,75.5,2018,4,21.02,2,10.2
+Punjab,Kapurthala,31.5,75.5,2018,5,2.5,0,1.06
+Punjab,Kapurthala,31.5,75.5,2018,6,176.55,9,58.16
+Punjab,Kapurthala,31.5,75.5,2018,7,168.46,13,30.37
+Punjab,Kapurthala,31.5,75.5,2018,8,141.04,12,39.69
+Punjab,Kapurthala,31.5,75.5,2018,9,410.35,11,133.12
+Punjab,Kapurthala,31.5,75.5,2018,10,0.32,0,0.32
+Punjab,Kapurthala,31.5,75.5,2018,11,0.38,0,0.38
+Punjab,Kapurthala,31.5,75.5,2018,12,3.42,1,2.72
+Punjab,Muktsar,30.5,74.5,2018,1,0.5,0,0.5
+Punjab,Muktsar,30.5,74.5,2018,2,4.69,1,4.45
+Punjab,Muktsar,30.5,74.5,2018,3,2.24,0,2.24
+Punjab,Muktsar,30.5,74.5,2018,4,13.61,1,11.49
+Punjab,Muktsar,30.5,74.5,2018,5,18.42,3,9.9
+Punjab,Muktsar,30.5,74.5,2018,6,91.02,6,46.31
+Punjab,Muktsar,30.5,74.5,2018,7,172.89,8,40.11
+Punjab,Muktsar,30.5,74.5,2018,8,29.58,3,11.67
+Punjab,Muktsar,30.5,74.5,2018,9,79.13,3,62.08
+Punjab,Muktsar,30.5,74.5,2018,10,0.0,0,0.0
+Punjab,Muktsar,30.5,74.5,2018,11,0.0,0,0.0
+Punjab,Muktsar,30.5,74.5,2018,12,0.37,0,0.37
+Punjab,Faridkot,30.75,74.75,2018,1,1.62,0,1.48
+Punjab,Faridkot,30.75,74.75,2018,2,5.71,1,5.02
+Punjab,Faridkot,30.75,74.75,2018,3,2.84,0,1.7
+Punjab,Faridkot,30.75,74.75,2018,4,12.41,2,7.17
+Punjab,Faridkot,30.75,74.75,2018,5,4.44,0,2.43
+Punjab,Faridkot,30.75,74.75,2018,6,74.65,4,29.66
+Punjab,Faridkot,30.75,74.75,2018,7,109.74,10,31.11
+Punjab,Faridkot,30.75,74.75,2018,8,49.53,3,20.47
+Punjab,Faridkot,30.75,74.75,2018,9,76.56,2,44.47
+Punjab,Faridkot,30.75,74.75,2018,10,0.0,0,0.0
+Punjab,Faridkot,30.75,74.75,2018,11,0.0,0,0.0
+Punjab,Faridkot,30.75,74.75,2018,12,0.37,0,0.37
+Punjab,Barnala,30.5,75.5,2018,1,3.25,1,3.25
+Punjab,Barnala,30.5,75.5,2018,2,9.65,2,5.27
+Punjab,Barnala,30.5,75.5,2018,3,3.76,1,3.76
+Punjab,Barnala,30.5,75.5,2018,4,12.26,2,7.07
+Punjab,Barnala,30.5,75.5,2018,5,3.7,1,2.64
+Punjab,Barnala,30.5,75.5,2018,6,92.19,6,41.17
+Punjab,Barnala,30.5,75.5,2018,7,193.37,9,49.87
+Punjab,Barnala,30.5,75.5,2018,8,92.02,12,21.54
+Punjab,Barnala,30.5,75.5,2018,9,247.67,9,79.56
+Punjab,Barnala,30.5,75.5,2018,10,5.01,1,5.01
+Punjab,Barnala,30.5,75.5,2018,11,0.63,0,0.63
+Punjab,Barnala,30.5,75.5,2018,12,2.23,0,1.49
+Punjab,Fatehgarh Sahib,30.75,76.5,2018,1,10.5,1,10.5
+Punjab,Fatehgarh Sahib,30.75,76.5,2018,2,41.0,3,22.5
+Punjab,Fatehgarh Sahib,30.75,76.5,2018,3,3.5,1,2.5
+Punjab,Fatehgarh Sahib,30.75,76.5,2018,4,34.5,2,24.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2018,5,22.14,4,7.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2018,6,138.29,7,42.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2018,7,189.82,10,59.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2018,8,152.26,11,54.42
+Punjab,Fatehgarh Sahib,30.75,76.5,2018,9,303.39,12,65.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2018,10,3.48,0,2.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2018,11,6.61,1,5.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2018,12,3.42,1,2.65
+Punjab,SBS Nagar,31.25,76.0,2018,1,9.09,1,9.09
+Punjab,SBS Nagar,31.25,76.0,2018,2,18.21,2,13.16
+Punjab,SBS Nagar,31.25,76.0,2018,3,2.18,0,1.83
+Punjab,SBS Nagar,31.25,76.0,2018,4,9.13,1,7.55
+Punjab,SBS Nagar,31.25,76.0,2018,5,8.83,1,8.37
+Punjab,SBS Nagar,31.25,76.0,2018,6,152.02,6,50.87
+Punjab,SBS Nagar,31.25,76.0,2018,7,136.39,11,41.19
+Punjab,SBS Nagar,31.25,76.0,2018,8,68.15,9,18.72
+Punjab,SBS Nagar,31.25,76.0,2018,9,183.29,9,68.09
+Punjab,SBS Nagar,31.25,76.0,2018,10,0.23,0,0.23
+Punjab,SBS Nagar,31.25,76.0,2018,11,2.22,0,1.7
+Punjab,SBS Nagar,31.25,76.0,2018,12,0.0,0,0.0
+Punjab,Pathankot,32.25,75.75,2018,1,16.38,1,16.38
+Punjab,Pathankot,32.25,75.75,2018,2,56.34,3,29.15
+Punjab,Pathankot,32.25,75.75,2018,3,21.32,2,11.63
+Punjab,Pathankot,32.25,75.75,2018,4,84.71,6,28.1
+Punjab,Pathankot,32.25,75.75,2018,5,12.96,1,12.7
+Punjab,Pathankot,32.25,75.75,2018,6,138.71,7,38.67
+Punjab,Pathankot,32.25,75.75,2018,7,273.71,13,73.34
+Punjab,Pathankot,32.25,75.75,2018,8,429.53,16,124.24
+Punjab,Pathankot,32.25,75.75,2018,9,318.29,9,123.52
+Punjab,Pathankot,32.25,75.75,2018,10,12.43,1,12.43
+Punjab,Pathankot,32.25,75.75,2018,11,12.1,1,12.1
+Punjab,Pathankot,32.25,75.75,2018,12,4.28,1,4.28
+Punjab,Tarn Taran,31.5,75.0,2018,1,14.59,1,14.59
+Punjab,Tarn Taran,31.5,75.0,2018,2,18.49,2,13.39
+Punjab,Tarn Taran,31.5,75.0,2018,3,5.93,1,4.23
+Punjab,Tarn Taran,31.5,75.0,2018,4,14.01,2,7.69
+Punjab,Tarn Taran,31.5,75.0,2018,5,1.77,0,1.12
+Punjab,Tarn Taran,31.5,75.0,2018,6,82.16,8,20.2
+Punjab,Tarn Taran,31.5,75.0,2018,7,172.87,12,39.81
+Punjab,Tarn Taran,31.5,75.0,2018,8,59.68,8,10.19
+Punjab,Tarn Taran,31.5,75.0,2018,9,296.88,7,176.83
+Punjab,Tarn Taran,31.5,75.0,2018,10,9.97,2,7.03
+Punjab,Tarn Taran,31.5,75.0,2018,11,2.28,0,2.28
+Punjab,Tarn Taran,31.5,75.0,2018,12,3.78,1,3.53
+Punjab,Malerkotla,30.5,76.0,2018,1,9.7,1,8.57
+Punjab,Malerkotla,30.5,76.0,2018,2,7.75,2,4.41
+Punjab,Malerkotla,30.5,76.0,2018,3,2.45,0,1.99
+Punjab,Malerkotla,30.5,76.0,2018,4,14.86,2,8.7
+Punjab,Malerkotla,30.5,76.0,2018,5,12.38,2,6.51
+Punjab,Malerkotla,30.5,76.0,2018,6,78.19,5,23.65
+Punjab,Malerkotla,30.5,76.0,2018,7,162.73,10,40.08
+Punjab,Malerkotla,30.5,76.0,2018,8,106.93,7,35.12
+Punjab,Malerkotla,30.5,76.0,2018,9,302.31,11,63.41
+Punjab,Malerkotla,30.5,76.0,2018,10,0.16,0,0.16
+Punjab,Malerkotla,30.5,76.0,2018,11,0.84,0,0.84
+Punjab,Malerkotla,30.5,76.0,2018,12,10.5,1,9.51
+Punjab,Ludhiana,31.0,75.75,2019,1,48.3,2,36.44
+Punjab,Ludhiana,31.0,75.75,2019,2,65.67,5,26.07
+Punjab,Ludhiana,31.0,75.75,2019,3,4.91,1,3.81
+Punjab,Ludhiana,31.0,75.75,2019,4,24.4,2,16.09
+Punjab,Ludhiana,31.0,75.75,2019,5,26.32,3,10.19
+Punjab,Ludhiana,31.0,75.75,2019,6,47.13,2,32.4
+Punjab,Ludhiana,31.0,75.75,2019,7,169.22,12,37.72
+Punjab,Ludhiana,31.0,75.75,2019,8,261.08,11,116.66
+Punjab,Ludhiana,31.0,75.75,2019,9,97.32,5,51.05
+Punjab,Ludhiana,31.0,75.75,2019,10,0.49,0,0.34
+Punjab,Ludhiana,31.0,75.75,2019,11,9.43,2,5.36
+Punjab,Ludhiana,31.0,75.75,2019,12,30.17,3,15.86
+Punjab,Amritsar,31.75,74.75,2019,1,21.44,2,14.97
+Punjab,Amritsar,31.75,74.75,2019,2,107.38,7,44.63
+Punjab,Amritsar,31.75,74.75,2019,3,7.83,2,4.15
+Punjab,Amritsar,31.75,74.75,2019,4,25.99,1,21.44
+Punjab,Amritsar,31.75,74.75,2019,5,12.52,1,6.5
+Punjab,Amritsar,31.75,74.75,2019,6,20.4,4,7.38
+Punjab,Amritsar,31.75,74.75,2019,7,204.68,11,40.82
+Punjab,Amritsar,31.75,74.75,2019,8,91.06,4,30.03
+Punjab,Amritsar,31.75,74.75,2019,9,69.13,5,34.32
+Punjab,Amritsar,31.75,74.75,2019,10,10.53,1,4.01
+Punjab,Amritsar,31.75,74.75,2019,11,42.86,2,37.81
+Punjab,Amritsar,31.75,74.75,2019,12,47.35,1,45.36
+Punjab,Patiala,30.25,76.5,2019,1,19.14,2,12.0
+Punjab,Patiala,30.25,76.5,2019,2,49.86,6,17.18
+Punjab,Patiala,30.25,76.5,2019,3,15.98,2,7.81
+Punjab,Patiala,30.25,76.5,2019,4,31.2,1,29.79
+Punjab,Patiala,30.25,76.5,2019,5,14.21,2,6.61
+Punjab,Patiala,30.25,76.5,2019,6,34.57,2,29.96
+Punjab,Patiala,30.25,76.5,2019,7,343.97,14,114.21
+Punjab,Patiala,30.25,76.5,2019,8,215.25,9,104.43
+Punjab,Patiala,30.25,76.5,2019,9,181.63,8,100.03
+Punjab,Patiala,30.25,76.5,2019,10,3.72,1,3.5
+Punjab,Patiala,30.25,76.5,2019,11,41.93,3,31.94
+Punjab,Patiala,30.25,76.5,2019,12,17.56,2,11.8
+Punjab,Bathinda,30.25,75.0,2019,1,12.4,2,7.29
+Punjab,Bathinda,30.25,75.0,2019,2,16.41,3,4.45
+Punjab,Bathinda,30.25,75.0,2019,3,7.84,1,4.18
+Punjab,Bathinda,30.25,75.0,2019,4,7.79,1,3.47
+Punjab,Bathinda,30.25,75.0,2019,5,24.63,4,11.87
+Punjab,Bathinda,30.25,75.0,2019,6,36.43,3,25.73
+Punjab,Bathinda,30.25,75.0,2019,7,313.64,8,139.45
+Punjab,Bathinda,30.25,75.0,2019,8,58.35,3,46.34
+Punjab,Bathinda,30.25,75.0,2019,9,19.22,3,11.99
+Punjab,Bathinda,30.25,75.0,2019,10,15.91,1,15.91
+Punjab,Bathinda,30.25,75.0,2019,11,15.84,3,10.07
+Punjab,Bathinda,30.25,75.0,2019,12,9.37,1,7.91
+Punjab,Jalandhar,31.25,75.5,2019,1,62.01,2,48.23
+Punjab,Jalandhar,31.25,75.5,2019,2,111.54,5,35.06
+Punjab,Jalandhar,31.25,75.5,2019,3,14.9,2,9.46
+Punjab,Jalandhar,31.25,75.5,2019,4,13.02,1,7.61
+Punjab,Jalandhar,31.25,75.5,2019,5,21.48,2,14.94
+Punjab,Jalandhar,31.25,75.5,2019,6,16.21,2,8.05
+Punjab,Jalandhar,31.25,75.5,2019,7,214.56,11,51.92
+Punjab,Jalandhar,31.25,75.5,2019,8,305.56,13,112.9
+Punjab,Jalandhar,31.25,75.5,2019,9,115.96,7,30.57
+Punjab,Jalandhar,31.25,75.5,2019,10,1.76,0,1.76
+Punjab,Jalandhar,31.25,75.5,2019,11,17.49,3,6.62
+Punjab,Jalandhar,31.25,75.5,2019,12,51.6,3,27.58
+Punjab,Sangrur,30.25,75.75,2019,1,15.72,2,12.78
+Punjab,Sangrur,30.25,75.75,2019,2,23.79,5,7.91
+Punjab,Sangrur,30.25,75.75,2019,3,11.07,2,5.91
+Punjab,Sangrur,30.25,75.75,2019,4,36.89,2,28.83
+Punjab,Sangrur,30.25,75.75,2019,5,30.91,2,19.28
+Punjab,Sangrur,30.25,75.75,2019,6,30.52,4,11.42
+Punjab,Sangrur,30.25,75.75,2019,7,178.73,6,51.86
+Punjab,Sangrur,30.25,75.75,2019,8,101.93,2,90.61
+Punjab,Sangrur,30.25,75.75,2019,9,43.36,2,37.16
+Punjab,Sangrur,30.25,75.75,2019,10,0.17,0,0.17
+Punjab,Sangrur,30.25,75.75,2019,11,20.7,3,9.13
+Punjab,Sangrur,30.25,75.75,2019,12,15.98,2,8.67
+Punjab,Firozpur,31.0,74.5,2019,1,5.47,1,4.51
+Punjab,Firozpur,31.0,74.5,2019,2,43.84,7,9.03
+Punjab,Firozpur,31.0,74.5,2019,3,5.22,1,2.82
+Punjab,Firozpur,31.0,74.5,2019,4,28.96,3,10.05
+Punjab,Firozpur,31.0,74.5,2019,5,33.59,2,22.25
+Punjab,Firozpur,31.0,74.5,2019,6,8.35,1,3.11
+Punjab,Firozpur,31.0,74.5,2019,7,148.12,8,65.27
+Punjab,Firozpur,31.0,74.5,2019,8,74.63,5,25.35
+Punjab,Firozpur,31.0,74.5,2019,9,28.29,3,19.44
+Punjab,Firozpur,31.0,74.5,2019,10,6.6,1,5.95
+Punjab,Firozpur,31.0,74.5,2019,11,10.6,1,7.55
+Punjab,Firozpur,31.0,74.5,2019,12,14.07,2,9.61
+Punjab,Gurdaspur,32.0,75.5,2019,1,97.81,4,68.35
+Punjab,Gurdaspur,32.0,75.5,2019,2,221.3,7,134.39
+Punjab,Gurdaspur,32.0,75.5,2019,3,12.13,2,6.81
+Punjab,Gurdaspur,32.0,75.5,2019,4,21.34,3,11.32
+Punjab,Gurdaspur,32.0,75.5,2019,5,28.49,1,28.49
+Punjab,Gurdaspur,32.0,75.5,2019,6,22.64,1,20.06
+Punjab,Gurdaspur,32.0,75.5,2019,7,160.05,8,81.94
+Punjab,Gurdaspur,32.0,75.5,2019,8,161.1,12,37.55
+Punjab,Gurdaspur,32.0,75.5,2019,9,59.67,4,20.67
+Punjab,Gurdaspur,32.0,75.5,2019,10,10.66,2,6.77
+Punjab,Gurdaspur,32.0,75.5,2019,11,38.5,2,22.78
+Punjab,Gurdaspur,32.0,75.5,2019,12,45.16,2,32.14
+Punjab,Hoshiarpur,31.5,76.0,2019,1,58.91,2,28.87
+Punjab,Hoshiarpur,31.5,76.0,2019,2,148.02,7,56.09
+Punjab,Hoshiarpur,31.5,76.0,2019,3,19.82,3,10.85
+Punjab,Hoshiarpur,31.5,76.0,2019,4,32.17,3,14.17
+Punjab,Hoshiarpur,31.5,76.0,2019,5,25.75,2,21.07
+Punjab,Hoshiarpur,31.5,76.0,2019,6,31.1,3,17.64
+Punjab,Hoshiarpur,31.5,76.0,2019,7,275.18,15,57.72
+Punjab,Hoshiarpur,31.5,76.0,2019,8,533.75,14,156.33
+Punjab,Hoshiarpur,31.5,76.0,2019,9,143.29,10,48.51
+Punjab,Hoshiarpur,31.5,76.0,2019,10,25.24,2,22.25
+Punjab,Hoshiarpur,31.5,76.0,2019,11,17.43,3,6.87
+Punjab,Hoshiarpur,31.5,76.0,2019,12,59.42,2,39.51
+Punjab,Mansa,30.0,75.5,2019,1,13.84,2,10.75
+Punjab,Mansa,30.0,75.5,2019,2,19.45,3,6.51
+Punjab,Mansa,30.0,75.5,2019,3,6.81,1,3.49
+Punjab,Mansa,30.0,75.5,2019,4,13.61,2,8.23
+Punjab,Mansa,30.0,75.5,2019,5,16.94,2,10.5
+Punjab,Mansa,30.0,75.5,2019,6,23.59,2,17.01
+Punjab,Mansa,30.0,75.5,2019,7,141.26,7,54.69
+Punjab,Mansa,30.0,75.5,2019,8,59.25,4,47.92
+Punjab,Mansa,30.0,75.5,2019,9,14.46,1,11.85
+Punjab,Mansa,30.0,75.5,2019,10,3.16,1,3.16
+Punjab,Mansa,30.0,75.5,2019,11,18.03,3,7.72
+Punjab,Mansa,30.0,75.5,2019,12,12.33,2,8.45
+Punjab,Mohali,30.75,76.75,2019,1,19.66,2,10.55
+Punjab,Mohali,30.75,76.75,2019,2,57.81,6,32.86
+Punjab,Mohali,30.75,76.75,2019,3,25.92,3,11.06
+Punjab,Mohali,30.75,76.75,2019,4,35.2,3,27.19
+Punjab,Mohali,30.75,76.75,2019,5,19.92,3,8.65
+Punjab,Mohali,30.75,76.75,2019,6,22.05,2,10.39
+Punjab,Mohali,30.75,76.75,2019,7,297.44,17,64.48
+Punjab,Mohali,30.75,76.75,2019,8,244.6,12,92.51
+Punjab,Mohali,30.75,76.75,2019,9,148.09,7,68.93
+Punjab,Mohali,30.75,76.75,2019,10,0.11,0,0.11
+Punjab,Mohali,30.75,76.75,2019,11,31.84,4,11.42
+Punjab,Mohali,30.75,76.75,2019,12,32.11,2,24.11
+Punjab,Rupnagar,31.0,76.5,2019,1,42.85,2,21.67
+Punjab,Rupnagar,31.0,76.5,2019,2,81.44,5,34.73
+Punjab,Rupnagar,31.0,76.5,2019,3,11.21,2,6.84
+Punjab,Rupnagar,31.0,76.5,2019,4,53.61,3,28.09
+Punjab,Rupnagar,31.0,76.5,2019,5,7.66,0,1.98
+Punjab,Rupnagar,31.0,76.5,2019,6,67.4,4,48.2
+Punjab,Rupnagar,31.0,76.5,2019,7,217.29,15,34.87
+Punjab,Rupnagar,31.0,76.5,2019,8,185.0,9,70.42
+Punjab,Rupnagar,31.0,76.5,2019,9,211.36,11,54.02
+Punjab,Rupnagar,31.0,76.5,2019,10,1.04,0,0.85
+Punjab,Rupnagar,31.0,76.5,2019,11,17.6,4,8.08
+Punjab,Rupnagar,31.0,76.5,2019,12,53.07,2,45.01
+Punjab,Fazilka,30.5,74.0,2019,1,2.9,0,1.72
+Punjab,Fazilka,30.5,74.0,2019,2,17.29,3,4.74
+Punjab,Fazilka,30.5,74.0,2019,3,1.64,0,0.91
+Punjab,Fazilka,30.5,74.0,2019,4,18.81,3,8.66
+Punjab,Fazilka,30.5,74.0,2019,5,8.7,2,3.17
+Punjab,Fazilka,30.5,74.0,2019,6,5.14,0,1.93
+Punjab,Fazilka,30.5,74.0,2019,7,131.32,10,45.47
+Punjab,Fazilka,30.5,74.0,2019,8,11.0,2,6.35
+Punjab,Fazilka,30.5,74.0,2019,9,0.92,0,0.92
+Punjab,Fazilka,30.5,74.0,2019,10,2.97,1,2.97
+Punjab,Fazilka,30.5,74.0,2019,11,10.08,2,4.61
+Punjab,Fazilka,30.5,74.0,2019,12,22.41,1,22.1
+Punjab,Kapurthala,31.5,75.5,2019,1,67.93,3,51.84
+Punjab,Kapurthala,31.5,75.5,2019,2,150.11,6,63.58
+Punjab,Kapurthala,31.5,75.5,2019,3,13.21,2,6.71
+Punjab,Kapurthala,31.5,75.5,2019,4,26.07,3,16.81
+Punjab,Kapurthala,31.5,75.5,2019,5,24.35,3,13.19
+Punjab,Kapurthala,31.5,75.5,2019,6,28.71,2,18.94
+Punjab,Kapurthala,31.5,75.5,2019,7,124.77,13,36.64
+Punjab,Kapurthala,31.5,75.5,2019,8,347.62,12,121.39
+Punjab,Kapurthala,31.5,75.5,2019,9,167.22,9,75.36
+Punjab,Kapurthala,31.5,75.5,2019,10,2.25,0,1.19
+Punjab,Kapurthala,31.5,75.5,2019,11,24.07,4,13.05
+Punjab,Kapurthala,31.5,75.5,2019,12,54.29,2,32.7
+Punjab,Muktsar,30.5,74.5,2019,1,6.46,1,6.09
+Punjab,Muktsar,30.5,74.5,2019,2,45.2,6,10.44
+Punjab,Muktsar,30.5,74.5,2019,3,5.96,0,2.44
+Punjab,Muktsar,30.5,74.5,2019,4,29.97,3,12.21
+Punjab,Muktsar,30.5,74.5,2019,5,35.22,3,20.4
+Punjab,Muktsar,30.5,74.5,2019,6,48.11,2,37.28
+Punjab,Muktsar,30.5,74.5,2019,7,260.26,11,136.95
+Punjab,Muktsar,30.5,74.5,2019,8,83.29,5,43.46
+Punjab,Muktsar,30.5,74.5,2019,9,25.5,1,23.51
+Punjab,Muktsar,30.5,74.5,2019,10,4.7,0,2.3
+Punjab,Muktsar,30.5,74.5,2019,11,9.45,1,5.4
+Punjab,Muktsar,30.5,74.5,2019,12,15.69,2,10.43
+Punjab,Faridkot,30.75,74.75,2019,1,4.15,0,2.33
+Punjab,Faridkot,30.75,74.75,2019,2,31.84,7,5.4
+Punjab,Faridkot,30.75,74.75,2019,3,6.94,1,2.73
+Punjab,Faridkot,30.75,74.75,2019,4,21.92,2,10.92
+Punjab,Faridkot,30.75,74.75,2019,5,43.03,3,16.36
+Punjab,Faridkot,30.75,74.75,2019,6,22.63,3,11.0
+Punjab,Faridkot,30.75,74.75,2019,7,129.26,8,36.22
+Punjab,Faridkot,30.75,74.75,2019,8,65.68,8,20.57
+Punjab,Faridkot,30.75,74.75,2019,9,26.15,3,12.17
+Punjab,Faridkot,30.75,74.75,2019,10,14.46,2,9.89
+Punjab,Faridkot,30.75,74.75,2019,11,12.18,2,4.13
+Punjab,Faridkot,30.75,74.75,2019,12,19.16,2,13.01
+Punjab,Barnala,30.5,75.5,2019,1,27.57,2,14.21
+Punjab,Barnala,30.5,75.5,2019,2,44.34,4,21.65
+Punjab,Barnala,30.5,75.5,2019,3,4.95,1,3.41
+Punjab,Barnala,30.5,75.5,2019,4,35.13,1,33.04
+Punjab,Barnala,30.5,75.5,2019,5,9.97,1,4.62
+Punjab,Barnala,30.5,75.5,2019,6,55.53,2,27.77
+Punjab,Barnala,30.5,75.5,2019,7,214.17,10,69.27
+Punjab,Barnala,30.5,75.5,2019,8,125.07,4,81.45
+Punjab,Barnala,30.5,75.5,2019,9,26.54,4,11.87
+Punjab,Barnala,30.5,75.5,2019,10,10.45,1,10.45
+Punjab,Barnala,30.5,75.5,2019,11,12.89,2,6.51
+Punjab,Barnala,30.5,75.5,2019,12,17.39,2,10.45
+Punjab,Fatehgarh Sahib,30.75,76.5,2019,1,10.0,1,10.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2019,2,40.78,5,13.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2019,3,15.21,2,7.37
+Punjab,Fatehgarh Sahib,30.75,76.5,2019,4,31.31,3,20.31
+Punjab,Fatehgarh Sahib,30.75,76.5,2019,5,7.17,1,2.79
+Punjab,Fatehgarh Sahib,30.75,76.5,2019,6,72.81,3,54.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2019,7,219.99,15,32.52
+Punjab,Fatehgarh Sahib,30.75,76.5,2019,8,222.19,14,85.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2019,9,92.35,7,23.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2019,10,0.13,0,0.13
+Punjab,Fatehgarh Sahib,30.75,76.5,2019,11,23.99,4,8.2
+Punjab,Fatehgarh Sahib,30.75,76.5,2019,12,40.34,2,32.57
+Punjab,SBS Nagar,31.25,76.0,2019,1,28.62,2,19.26
+Punjab,SBS Nagar,31.25,76.0,2019,2,79.7,6,31.33
+Punjab,SBS Nagar,31.25,76.0,2019,3,4.58,0,1.81
+Punjab,SBS Nagar,31.25,76.0,2019,4,18.28,2,13.7
+Punjab,SBS Nagar,31.25,76.0,2019,5,9.63,1,3.15
+Punjab,SBS Nagar,31.25,76.0,2019,6,21.42,2,14.41
+Punjab,SBS Nagar,31.25,76.0,2019,7,130.54,16,20.98
+Punjab,SBS Nagar,31.25,76.0,2019,8,198.67,7,111.41
+Punjab,SBS Nagar,31.25,76.0,2019,9,56.52,5,22.76
+Punjab,SBS Nagar,31.25,76.0,2019,10,3.05,0,2.05
+Punjab,SBS Nagar,31.25,76.0,2019,11,16.98,2,10.89
+Punjab,SBS Nagar,31.25,76.0,2019,12,38.07,2,29.66
+Punjab,Pathankot,32.25,75.75,2019,1,72.62,6,28.03
+Punjab,Pathankot,32.25,75.75,2019,2,247.06,10,103.03
+Punjab,Pathankot,32.25,75.75,2019,3,26.31,3,14.14
+Punjab,Pathankot,32.25,75.75,2019,4,32.04,2,23.02
+Punjab,Pathankot,32.25,75.75,2019,5,20.13,3,10.74
+Punjab,Pathankot,32.25,75.75,2019,6,50.75,4,31.72
+Punjab,Pathankot,32.25,75.75,2019,7,362.4,19,47.78
+Punjab,Pathankot,32.25,75.75,2019,8,471.04,14,141.64
+Punjab,Pathankot,32.25,75.75,2019,9,111.42,5,26.54
+Punjab,Pathankot,32.25,75.75,2019,10,16.33,2,8.47
+Punjab,Pathankot,32.25,75.75,2019,11,27.68,3,9.86
+Punjab,Pathankot,32.25,75.75,2019,12,51.17,2,32.38
+Punjab,Tarn Taran,31.5,75.0,2019,1,25.65,2,21.39
+Punjab,Tarn Taran,31.5,75.0,2019,2,99.41,7,29.19
+Punjab,Tarn Taran,31.5,75.0,2019,3,14.37,2,8.79
+Punjab,Tarn Taran,31.5,75.0,2019,4,21.13,2,10.64
+Punjab,Tarn Taran,31.5,75.0,2019,5,17.98,2,6.93
+Punjab,Tarn Taran,31.5,75.0,2019,6,14.63,2,5.82
+Punjab,Tarn Taran,31.5,75.0,2019,7,205.66,14,36.97
+Punjab,Tarn Taran,31.5,75.0,2019,8,239.95,13,57.21
+Punjab,Tarn Taran,31.5,75.0,2019,9,81.54,5,31.16
+Punjab,Tarn Taran,31.5,75.0,2019,10,7.3,1,4.17
+Punjab,Tarn Taran,31.5,75.0,2019,11,26.77,1,24.16
+Punjab,Tarn Taran,31.5,75.0,2019,12,57.16,2,41.55
+Punjab,Malerkotla,30.5,76.0,2019,1,21.8,2,18.94
+Punjab,Malerkotla,30.5,76.0,2019,2,83.68,5,51.11
+Punjab,Malerkotla,30.5,76.0,2019,3,9.01,2,5.61
+Punjab,Malerkotla,30.5,76.0,2019,4,32.7,2,25.84
+Punjab,Malerkotla,30.5,76.0,2019,5,19.48,3,13.46
+Punjab,Malerkotla,30.5,76.0,2019,6,44.31,2,25.85
+Punjab,Malerkotla,30.5,76.0,2019,7,215.02,11,45.8
+Punjab,Malerkotla,30.5,76.0,2019,8,274.38,7,188.76
+Punjab,Malerkotla,30.5,76.0,2019,9,84.07,6,36.2
+Punjab,Malerkotla,30.5,76.0,2019,10,4.3,1,4.15
+Punjab,Malerkotla,30.5,76.0,2019,11,50.39,3,23.3
+Punjab,Malerkotla,30.5,76.0,2019,12,8.94,2,5.93
+Punjab,Ludhiana,31.0,75.75,2020,1,23.69,3,10.79
+Punjab,Ludhiana,31.0,75.75,2020,2,1.56,0,1.56
+Punjab,Ludhiana,31.0,75.75,2020,3,84.02,7,23.46
+Punjab,Ludhiana,31.0,75.75,2020,4,15.31,3,5.86
+Punjab,Ludhiana,31.0,75.75,2020,5,58.3,5,29.54
+Punjab,Ludhiana,31.0,75.75,2020,6,34.8,4,10.38
+Punjab,Ludhiana,31.0,75.75,2020,7,139.23,11,27.31
+Punjab,Ludhiana,31.0,75.75,2020,8,136.41,12,22.43
+Punjab,Ludhiana,31.0,75.75,2020,9,12.41,1,11.0
+Punjab,Ludhiana,31.0,75.75,2020,10,0.0,0,0.0
+Punjab,Ludhiana,31.0,75.75,2020,11,17.95,1,16.59
+Punjab,Ludhiana,31.0,75.75,2020,12,12.15,1,10.78
+Punjab,Amritsar,31.75,74.75,2020,1,58.64,4,24.19
+Punjab,Amritsar,31.75,74.75,2020,2,19.18,2,16.04
+Punjab,Amritsar,31.75,74.75,2020,3,67.05,5,18.0
+Punjab,Amritsar,31.75,74.75,2020,4,29.77,2,13.19
+Punjab,Amritsar,31.75,74.75,2020,5,12.06,1,6.01
+Punjab,Amritsar,31.75,74.75,2020,6,40.91,7,10.49
+Punjab,Amritsar,31.75,74.75,2020,7,179.75,13,39.25
+Punjab,Amritsar,31.75,74.75,2020,8,175.17,11,62.9
+Punjab,Amritsar,31.75,74.75,2020,9,20.26,2,15.14
+Punjab,Amritsar,31.75,74.75,2020,10,0.0,0,0.0
+Punjab,Amritsar,31.75,74.75,2020,11,17.99,1,16.4
+Punjab,Amritsar,31.75,74.75,2020,12,14.75,2,10.6
+Punjab,Patiala,30.25,76.5,2020,1,54.92,6,13.55
+Punjab,Patiala,30.25,76.5,2020,2,0.64,0,0.64
+Punjab,Patiala,30.25,76.5,2020,3,89.87,10,26.23
+Punjab,Patiala,30.25,76.5,2020,4,45.92,4,14.89
+Punjab,Patiala,30.25,76.5,2020,5,68.68,7,17.82
+Punjab,Patiala,30.25,76.5,2020,6,108.19,7,28.1
+Punjab,Patiala,30.25,76.5,2020,7,251.1,12,56.13
+Punjab,Patiala,30.25,76.5,2020,8,245.68,13,62.04
+Punjab,Patiala,30.25,76.5,2020,9,4.2,1,4.2
+Punjab,Patiala,30.25,76.5,2020,10,0.0,0,0.0
+Punjab,Patiala,30.25,76.5,2020,11,12.82,2,8.39
+Punjab,Patiala,30.25,76.5,2020,12,12.38,2,9.76
+Punjab,Bathinda,30.25,75.0,2020,1,33.2,3,14.57
+Punjab,Bathinda,30.25,75.0,2020,2,8.08,1,6.66
+Punjab,Bathinda,30.25,75.0,2020,3,61.25,5,17.71
+Punjab,Bathinda,30.25,75.0,2020,4,0.34,0,0.34
+Punjab,Bathinda,30.25,75.0,2020,5,23.79,2,20.47
+Punjab,Bathinda,30.25,75.0,2020,6,44.29,2,32.48
+Punjab,Bathinda,30.25,75.0,2020,7,187.29,8,64.64
+Punjab,Bathinda,30.25,75.0,2020,8,98.23,9,18.2
+Punjab,Bathinda,30.25,75.0,2020,9,21.46,1,19.59
+Punjab,Bathinda,30.25,75.0,2020,10,0.0,0,0.0
+Punjab,Bathinda,30.25,75.0,2020,11,8.95,2,5.94
+Punjab,Bathinda,30.25,75.0,2020,12,1.98,0,1.98
+Punjab,Jalandhar,31.25,75.5,2020,1,50.39,5,22.18
+Punjab,Jalandhar,31.25,75.5,2020,2,15.72,1,14.82
+Punjab,Jalandhar,31.25,75.5,2020,3,128.0,9,32.25
+Punjab,Jalandhar,31.25,75.5,2020,4,36.2,4,18.49
+Punjab,Jalandhar,31.25,75.5,2020,5,20.75,3,10.8
+Punjab,Jalandhar,31.25,75.5,2020,6,113.15,6,40.75
+Punjab,Jalandhar,31.25,75.5,2020,7,161.46,9,60.95
+Punjab,Jalandhar,31.25,75.5,2020,8,111.3,10,24.9
+Punjab,Jalandhar,31.25,75.5,2020,9,30.96,2,24.21
+Punjab,Jalandhar,31.25,75.5,2020,10,0.0,0,0.0
+Punjab,Jalandhar,31.25,75.5,2020,11,11.19,1,11.08
+Punjab,Jalandhar,31.25,75.5,2020,12,7.39,1,5.47
+Punjab,Sangrur,30.25,75.75,2020,1,41.82,5,18.9
+Punjab,Sangrur,30.25,75.75,2020,2,5.32,1,5.32
+Punjab,Sangrur,30.25,75.75,2020,3,78.88,4,38.41
+Punjab,Sangrur,30.25,75.75,2020,4,7.33,2,4.01
+Punjab,Sangrur,30.25,75.75,2020,5,34.5,5,9.86
+Punjab,Sangrur,30.25,75.75,2020,6,62.17,4,22.55
+Punjab,Sangrur,30.25,75.75,2020,7,322.09,11,98.22
+Punjab,Sangrur,30.25,75.75,2020,8,79.18,7,18.84
+Punjab,Sangrur,30.25,75.75,2020,9,15.56,1,13.44
+Punjab,Sangrur,30.25,75.75,2020,10,0.0,0,0.0
+Punjab,Sangrur,30.25,75.75,2020,11,7.33,2,4.16
+Punjab,Sangrur,30.25,75.75,2020,12,3.02,1,3.02
+Punjab,Firozpur,31.0,74.5,2020,1,46.86,4,28.9
+Punjab,Firozpur,31.0,74.5,2020,2,0.2,0,0.2
+Punjab,Firozpur,31.0,74.5,2020,3,77.09,7,14.04
+Punjab,Firozpur,31.0,74.5,2020,4,12.71,2,6.9
+Punjab,Firozpur,31.0,74.5,2020,5,17.35,2,8.61
+Punjab,Firozpur,31.0,74.5,2020,6,13.75,2,5.65
+Punjab,Firozpur,31.0,74.5,2020,7,129.33,6,52.2
+Punjab,Firozpur,31.0,74.5,2020,8,103.6,5,57.41
+Punjab,Firozpur,31.0,74.5,2020,9,66.12,2,48.8
+Punjab,Firozpur,31.0,74.5,2020,10,0.0,0,0.0
+Punjab,Firozpur,31.0,74.5,2020,11,6.4,1,6.4
+Punjab,Firozpur,31.0,74.5,2020,12,3.65,1,3.65
+Punjab,Gurdaspur,32.0,75.5,2020,1,52.95,4,20.51
+Punjab,Gurdaspur,32.0,75.5,2020,2,6.74,1,5.58
+Punjab,Gurdaspur,32.0,75.5,2020,3,81.55,8,14.77
+Punjab,Gurdaspur,32.0,75.5,2020,4,39.76,4,24.32
+Punjab,Gurdaspur,32.0,75.5,2020,5,32.9,3,19.82
+Punjab,Gurdaspur,32.0,75.5,2020,6,116.05,5,68.92
+Punjab,Gurdaspur,32.0,75.5,2020,7,100.93,6,35.55
+Punjab,Gurdaspur,32.0,75.5,2020,8,148.2,11,24.22
+Punjab,Gurdaspur,32.0,75.5,2020,9,18.06,3,7.34
+Punjab,Gurdaspur,32.0,75.5,2020,10,0.0,0,0.0
+Punjab,Gurdaspur,32.0,75.5,2020,11,21.07,1,20.08
+Punjab,Gurdaspur,32.0,75.5,2020,12,20.04,2,11.15
+Punjab,Hoshiarpur,31.5,76.0,2020,1,57.43,4,26.47
+Punjab,Hoshiarpur,31.5,76.0,2020,2,5.32,1,4.85
+Punjab,Hoshiarpur,31.5,76.0,2020,3,129.24,10,22.78
+Punjab,Hoshiarpur,31.5,76.0,2020,4,21.62,3,8.09
+Punjab,Hoshiarpur,31.5,76.0,2020,5,52.91,4,27.49
+Punjab,Hoshiarpur,31.5,76.0,2020,6,79.6,5,43.02
+Punjab,Hoshiarpur,31.5,76.0,2020,7,252.07,14,41.28
+Punjab,Hoshiarpur,31.5,76.0,2020,8,339.9,17,77.62
+Punjab,Hoshiarpur,31.5,76.0,2020,9,17.56,2,9.34
+Punjab,Hoshiarpur,31.5,76.0,2020,10,0.0,0,0.0
+Punjab,Hoshiarpur,31.5,76.0,2020,11,21.22,1,17.61
+Punjab,Hoshiarpur,31.5,76.0,2020,12,24.15,2,13.33
+Punjab,Mansa,30.0,75.5,2020,1,26.84,4,10.4
+Punjab,Mansa,30.0,75.5,2020,2,9.18,1,8.47
+Punjab,Mansa,30.0,75.5,2020,3,59.97,4,29.17
+Punjab,Mansa,30.0,75.5,2020,4,4.05,1,3.51
+Punjab,Mansa,30.0,75.5,2020,5,34.1,3,17.46
+Punjab,Mansa,30.0,75.5,2020,6,41.7,6,17.24
+Punjab,Mansa,30.0,75.5,2020,7,205.09,11,46.81
+Punjab,Mansa,30.0,75.5,2020,8,94.78,7,27.15
+Punjab,Mansa,30.0,75.5,2020,9,8.85,1,7.57
+Punjab,Mansa,30.0,75.5,2020,10,0.0,0,0.0
+Punjab,Mansa,30.0,75.5,2020,11,6.26,1,3.99
+Punjab,Mansa,30.0,75.5,2020,12,1.75,0,1.75
+Punjab,Mohali,30.75,76.75,2020,1,52.56,6,17.78
+Punjab,Mohali,30.75,76.75,2020,2,8.29,2,5.04
+Punjab,Mohali,30.75,76.75,2020,3,81.37,7,24.57
+Punjab,Mohali,30.75,76.75,2020,4,29.02,3,10.97
+Punjab,Mohali,30.75,76.75,2020,5,48.85,5,19.88
+Punjab,Mohali,30.75,76.75,2020,6,98.68,8,27.48
+Punjab,Mohali,30.75,76.75,2020,7,234.59,12,48.03
+Punjab,Mohali,30.75,76.75,2020,8,315.56,13,71.53
+Punjab,Mohali,30.75,76.75,2020,9,17.8,2,11.38
+Punjab,Mohali,30.75,76.75,2020,10,0.0,0,0.0
+Punjab,Mohali,30.75,76.75,2020,11,29.19,2,19.94
+Punjab,Mohali,30.75,76.75,2020,12,9.06,2,6.07
+Punjab,Rupnagar,31.0,76.5,2020,1,59.18,6,16.58
+Punjab,Rupnagar,31.0,76.5,2020,2,9.91,2,4.12
+Punjab,Rupnagar,31.0,76.5,2020,3,111.87,11,21.08
+Punjab,Rupnagar,31.0,76.5,2020,4,28.87,6,8.72
+Punjab,Rupnagar,31.0,76.5,2020,5,33.94,5,8.37
+Punjab,Rupnagar,31.0,76.5,2020,6,107.36,9,24.67
+Punjab,Rupnagar,31.0,76.5,2020,7,241.45,13,42.5
+Punjab,Rupnagar,31.0,76.5,2020,8,277.21,12,64.13
+Punjab,Rupnagar,31.0,76.5,2020,9,7.85,2,3.45
+Punjab,Rupnagar,31.0,76.5,2020,10,0.0,0,0.0
+Punjab,Rupnagar,31.0,76.5,2020,11,18.67,2,11.1
+Punjab,Rupnagar,31.0,76.5,2020,12,20.27,2,11.18
+Punjab,Fazilka,30.5,74.0,2020,1,30.77,4,13.23
+Punjab,Fazilka,30.5,74.0,2020,2,0.87,0,0.69
+Punjab,Fazilka,30.5,74.0,2020,3,53.75,6,19.25
+Punjab,Fazilka,30.5,74.0,2020,4,1.67,0,1.16
+Punjab,Fazilka,30.5,74.0,2020,5,12.84,2,5.43
+Punjab,Fazilka,30.5,74.0,2020,6,16.13,3,9.75
+Punjab,Fazilka,30.5,74.0,2020,7,100.51,6,53.26
+Punjab,Fazilka,30.5,74.0,2020,8,102.52,5,32.26
+Punjab,Fazilka,30.5,74.0,2020,9,46.1,2,39.5
+Punjab,Fazilka,30.5,74.0,2020,10,0.0,0,0.0
+Punjab,Fazilka,30.5,74.0,2020,11,1.48,0,1.48
+Punjab,Fazilka,30.5,74.0,2020,12,2.42,0,2.42
+Punjab,Kapurthala,31.5,75.5,2020,1,44.95,5,20.39
+Punjab,Kapurthala,31.5,75.5,2020,2,26.49,1,26.07
+Punjab,Kapurthala,31.5,75.5,2020,3,88.23,9,24.47
+Punjab,Kapurthala,31.5,75.5,2020,4,12.48,2,4.37
+Punjab,Kapurthala,31.5,75.5,2020,5,27.68,2,18.46
+Punjab,Kapurthala,31.5,75.5,2020,6,97.94,6,29.67
+Punjab,Kapurthala,31.5,75.5,2020,7,168.53,11,64.48
+Punjab,Kapurthala,31.5,75.5,2020,8,108.55,10,24.72
+Punjab,Kapurthala,31.5,75.5,2020,9,29.02,4,18.23
+Punjab,Kapurthala,31.5,75.5,2020,10,0.0,0,0.0
+Punjab,Kapurthala,31.5,75.5,2020,11,14.9,1,14.62
+Punjab,Kapurthala,31.5,75.5,2020,12,9.28,1,7.31
+Punjab,Muktsar,30.5,74.5,2020,1,40.44,2,23.27
+Punjab,Muktsar,30.5,74.5,2020,2,14.33,1,13.69
+Punjab,Muktsar,30.5,74.5,2020,3,56.8,7,15.07
+Punjab,Muktsar,30.5,74.5,2020,4,4.99,1,4.74
+Punjab,Muktsar,30.5,74.5,2020,5,23.17,4,9.31
+Punjab,Muktsar,30.5,74.5,2020,6,23.62,3,12.29
+Punjab,Muktsar,30.5,74.5,2020,7,272.38,8,127.54
+Punjab,Muktsar,30.5,74.5,2020,8,94.31,9,31.89
+Punjab,Muktsar,30.5,74.5,2020,9,82.35,3,72.14
+Punjab,Muktsar,30.5,74.5,2020,10,0.0,0,0.0
+Punjab,Muktsar,30.5,74.5,2020,11,3.81,1,3.3
+Punjab,Muktsar,30.5,74.5,2020,12,4.16,1,4.16
+Punjab,Faridkot,30.75,74.75,2020,1,41.59,5,15.71
+Punjab,Faridkot,30.75,74.75,2020,2,0.58,0,0.58
+Punjab,Faridkot,30.75,74.75,2020,3,70.31,7,14.38
+Punjab,Faridkot,30.75,74.75,2020,4,5.9,1,3.73
+Punjab,Faridkot,30.75,74.75,2020,5,23.05,4,7.64
+Punjab,Faridkot,30.75,74.75,2020,6,25.51,5,7.21
+Punjab,Faridkot,30.75,74.75,2020,7,195.94,8,62.9
+Punjab,Faridkot,30.75,74.75,2020,8,140.28,7,54.6
+Punjab,Faridkot,30.75,74.75,2020,9,53.19,3,44.05
+Punjab,Faridkot,30.75,74.75,2020,10,0.0,0,0.0
+Punjab,Faridkot,30.75,74.75,2020,11,9.49,1,9.49
+Punjab,Faridkot,30.75,74.75,2020,12,1.46,0,1.46
+Punjab,Barnala,30.5,75.5,2020,1,24.99,4,9.49
+Punjab,Barnala,30.5,75.5,2020,2,4.75,1,4.75
+Punjab,Barnala,30.5,75.5,2020,3,84.54,4,42.66
+Punjab,Barnala,30.5,75.5,2020,4,7.51,2,4.5
+Punjab,Barnala,30.5,75.5,2020,5,43.06,3,24.06
+Punjab,Barnala,30.5,75.5,2020,6,27.85,3,17.53
+Punjab,Barnala,30.5,75.5,2020,7,245.75,11,64.5
+Punjab,Barnala,30.5,75.5,2020,8,91.51,8,33.22
+Punjab,Barnala,30.5,75.5,2020,9,7.86,1,6.84
+Punjab,Barnala,30.5,75.5,2020,10,0.0,0,0.0
+Punjab,Barnala,30.5,75.5,2020,11,12.82,2,10.03
+Punjab,Barnala,30.5,75.5,2020,12,2.84,0,1.93
+Punjab,Fatehgarh Sahib,30.75,76.5,2020,1,45.84,5,14.27
+Punjab,Fatehgarh Sahib,30.75,76.5,2020,2,6.41,1,3.07
+Punjab,Fatehgarh Sahib,30.75,76.5,2020,3,61.71,6,18.82
+Punjab,Fatehgarh Sahib,30.75,76.5,2020,4,25.3,3,12.57
+Punjab,Fatehgarh Sahib,30.75,76.5,2020,5,23.41,3,9.79
+Punjab,Fatehgarh Sahib,30.75,76.5,2020,6,140.92,9,47.3
+Punjab,Fatehgarh Sahib,30.75,76.5,2020,7,178.36,10,50.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2020,8,200.27,11,71.16
+Punjab,Fatehgarh Sahib,30.75,76.5,2020,9,15.5,1,15.5
+Punjab,Fatehgarh Sahib,30.75,76.5,2020,10,0.0,0,0.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2020,11,14.74,2,11.2
+Punjab,Fatehgarh Sahib,30.75,76.5,2020,12,9.9,2,5.5
+Punjab,SBS Nagar,31.25,76.0,2020,1,30.3,4,18.47
+Punjab,SBS Nagar,31.25,76.0,2020,2,4.64,1,4.64
+Punjab,SBS Nagar,31.25,76.0,2020,3,53.75,6,14.84
+Punjab,SBS Nagar,31.25,76.0,2020,4,6.26,1,3.21
+Punjab,SBS Nagar,31.25,76.0,2020,5,13.4,2,7.07
+Punjab,SBS Nagar,31.25,76.0,2020,6,37.2,3,21.01
+Punjab,SBS Nagar,31.25,76.0,2020,7,57.09,7,9.85
+Punjab,SBS Nagar,31.25,76.0,2020,8,58.43,7,18.92
+Punjab,SBS Nagar,31.25,76.0,2020,9,1.93,0,1.73
+Punjab,SBS Nagar,31.25,76.0,2020,10,0.0,0,0.0
+Punjab,SBS Nagar,31.25,76.0,2020,11,6.44,1,6.19
+Punjab,SBS Nagar,31.25,76.0,2020,12,9.85,2,5.78
+Punjab,Pathankot,32.25,75.75,2020,1,110.16,7,30.9
+Punjab,Pathankot,32.25,75.75,2020,2,12.95,3,6.8
+Punjab,Pathankot,32.25,75.75,2020,3,187.27,10,69.22
+Punjab,Pathankot,32.25,75.75,2020,4,67.97,4,30.29
+Punjab,Pathankot,32.25,75.75,2020,5,41.11,3,24.1
+Punjab,Pathankot,32.25,75.75,2020,6,120.53,9,33.4
+Punjab,Pathankot,32.25,75.75,2020,7,320.89,16,60.67
+Punjab,Pathankot,32.25,75.75,2020,8,335.46,22,59.62
+Punjab,Pathankot,32.25,75.75,2020,9,21.24,2,18.74
+Punjab,Pathankot,32.25,75.75,2020,10,0.0,0,0.0
+Punjab,Pathankot,32.25,75.75,2020,11,22.99,2,18.46
+Punjab,Pathankot,32.25,75.75,2020,12,61.54,2,30.53
+Punjab,Tarn Taran,31.5,75.0,2020,1,54.52,4,20.86
+Punjab,Tarn Taran,31.5,75.0,2020,2,17.8,1,16.69
+Punjab,Tarn Taran,31.5,75.0,2020,3,84.84,7,19.2
+Punjab,Tarn Taran,31.5,75.0,2020,4,26.34,3,11.56
+Punjab,Tarn Taran,31.5,75.0,2020,5,26.11,3,17.55
+Punjab,Tarn Taran,31.5,75.0,2020,6,45.46,5,15.22
+Punjab,Tarn Taran,31.5,75.0,2020,7,164.9,12,32.66
+Punjab,Tarn Taran,31.5,75.0,2020,8,152.97,12,38.61
+Punjab,Tarn Taran,31.5,75.0,2020,9,31.1,2,15.61
+Punjab,Tarn Taran,31.5,75.0,2020,10,0.0,0,0.0
+Punjab,Tarn Taran,31.5,75.0,2020,11,20.0,1,19.16
+Punjab,Tarn Taran,31.5,75.0,2020,12,8.88,1,7.47
+Punjab,Malerkotla,30.5,76.0,2020,1,47.04,4,20.03
+Punjab,Malerkotla,30.5,76.0,2020,2,2.18,0,1.39
+Punjab,Malerkotla,30.5,76.0,2020,3,79.37,7,26.55
+Punjab,Malerkotla,30.5,76.0,2020,4,16.17,2,6.07
+Punjab,Malerkotla,30.5,76.0,2020,5,85.69,7,24.14
+Punjab,Malerkotla,30.5,76.0,2020,6,64.96,5,20.49
+Punjab,Malerkotla,30.5,76.0,2020,7,189.53,10,46.51
+Punjab,Malerkotla,30.5,76.0,2020,8,99.83,9,24.18
+Punjab,Malerkotla,30.5,76.0,2020,9,3.1,0,1.9
+Punjab,Malerkotla,30.5,76.0,2020,10,0.0,0,0.0
+Punjab,Malerkotla,30.5,76.0,2020,11,13.25,2,7.89
+Punjab,Malerkotla,30.5,76.0,2020,12,6.79,1,5.37
+Punjab,Ludhiana,31.0,75.75,2021,1,8.9,2,4.53
+Punjab,Ludhiana,31.0,75.75,2021,2,3.99,0,2.06
+Punjab,Ludhiana,31.0,75.75,2021,3,6.28,0,2.35
+Punjab,Ludhiana,31.0,75.75,2021,4,16.37,4,6.56
+Punjab,Ludhiana,31.0,75.75,2021,5,19.97,4,5.28
+Punjab,Ludhiana,31.0,75.75,2021,6,100.64,11,16.81
+Punjab,Ludhiana,31.0,75.75,2021,7,253.48,10,85.51
+Punjab,Ludhiana,31.0,75.75,2021,8,77.93,6,28.93
+Punjab,Ludhiana,31.0,75.75,2021,9,139.09,7,52.26
+Punjab,Ludhiana,31.0,75.75,2021,10,30.43,2,20.82
+Punjab,Ludhiana,31.0,75.75,2021,11,0.0,0,0.0
+Punjab,Ludhiana,31.0,75.75,2021,12,0.0,0,0.0
+Punjab,Amritsar,31.75,74.75,2021,1,23.58,2,12.68
+Punjab,Amritsar,31.75,74.75,2021,2,3.24,0,1.59
+Punjab,Amritsar,31.75,74.75,2021,3,13.03,2,8.3
+Punjab,Amritsar,31.75,74.75,2021,4,21.96,2,16.15
+Punjab,Amritsar,31.75,74.75,2021,5,19.75,3,7.19
+Punjab,Amritsar,31.75,74.75,2021,6,51.18,5,22.15
+Punjab,Amritsar,31.75,74.75,2021,7,216.91,13,49.28
+Punjab,Amritsar,31.75,74.75,2021,8,76.15,4,30.69
+Punjab,Amritsar,31.75,74.75,2021,9,256.28,7,122.24
+Punjab,Amritsar,31.75,74.75,2021,10,33.04,3,11.87
+Punjab,Amritsar,31.75,74.75,2021,11,0.9,0,0.9
+Punjab,Amritsar,31.75,74.75,2021,12,0.0,0,0.0
+Punjab,Patiala,30.25,76.5,2021,1,13.08,2,6.98
+Punjab,Patiala,30.25,76.5,2021,2,18.0,2,12.16
+Punjab,Patiala,30.25,76.5,2021,3,7.32,1,3.2
+Punjab,Patiala,30.25,76.5,2021,4,18.22,3,6.08
+Punjab,Patiala,30.25,76.5,2021,5,52.71,5,13.53
+Punjab,Patiala,30.25,76.5,2021,6,85.15,6,26.31
+Punjab,Patiala,30.25,76.5,2021,7,293.78,9,58.43
+Punjab,Patiala,30.25,76.5,2021,8,91.56,9,16.98
+Punjab,Patiala,30.25,76.5,2021,9,148.51,9,71.59
+Punjab,Patiala,30.25,76.5,2021,10,33.53,3,15.99
+Punjab,Patiala,30.25,76.5,2021,11,0.0,0,0.0
+Punjab,Patiala,30.25,76.5,2021,12,0.48,0,0.48
+Punjab,Bathinda,30.25,75.0,2021,1,4.91,1,2.83
+Punjab,Bathinda,30.25,75.0,2021,2,0.0,0,0.0
+Punjab,Bathinda,30.25,75.0,2021,3,1.77,0,1.31
+Punjab,Bathinda,30.25,75.0,2021,4,12.36,1,6.99
+Punjab,Bathinda,30.25,75.0,2021,5,17.42,2,10.94
+Punjab,Bathinda,30.25,75.0,2021,6,40.69,4,13.65
+Punjab,Bathinda,30.25,75.0,2021,7,121.87,7,30.29
+Punjab,Bathinda,30.25,75.0,2021,8,109.0,5,44.3
+Punjab,Bathinda,30.25,75.0,2021,9,84.11,6,21.0
+Punjab,Bathinda,30.25,75.0,2021,10,39.44,1,37.32
+Punjab,Bathinda,30.25,75.0,2021,11,0.0,0,0.0
+Punjab,Bathinda,30.25,75.0,2021,12,0.0,0,0.0
+Punjab,Jalandhar,31.25,75.5,2021,1,17.84,3,8.37
+Punjab,Jalandhar,31.25,75.5,2021,2,5.54,1,5.07
+Punjab,Jalandhar,31.25,75.5,2021,3,8.78,2,4.09
+Punjab,Jalandhar,31.25,75.5,2021,4,15.6,1,10.56
+Punjab,Jalandhar,31.25,75.5,2021,5,27.03,5,11.12
+Punjab,Jalandhar,31.25,75.5,2021,6,73.56,8,23.8
+Punjab,Jalandhar,31.25,75.5,2021,7,287.72,10,72.35
+Punjab,Jalandhar,31.25,75.5,2021,8,81.6,8,17.57
+Punjab,Jalandhar,31.25,75.5,2021,9,301.25,11,72.72
+Punjab,Jalandhar,31.25,75.5,2021,10,56.42,2,40.41
+Punjab,Jalandhar,31.25,75.5,2021,11,0.67,0,0.67
+Punjab,Jalandhar,31.25,75.5,2021,12,0.23,0,0.23
+Punjab,Sangrur,30.25,75.75,2021,1,4.13,1,4.13
+Punjab,Sangrur,30.25,75.75,2021,2,2.66,0,1.36
+Punjab,Sangrur,30.25,75.75,2021,3,6.57,0,2.17
+Punjab,Sangrur,30.25,75.75,2021,4,12.6,3,5.56
+Punjab,Sangrur,30.25,75.75,2021,5,38.54,3,22.42
+Punjab,Sangrur,30.25,75.75,2021,6,29.73,3,15.03
+Punjab,Sangrur,30.25,75.75,2021,7,121.14,7,32.76
+Punjab,Sangrur,30.25,75.75,2021,8,52.35,4,15.82
+Punjab,Sangrur,30.25,75.75,2021,9,95.23,5,36.84
+Punjab,Sangrur,30.25,75.75,2021,10,28.37,5,9.25
+Punjab,Sangrur,30.25,75.75,2021,11,0.0,0,0.0
+Punjab,Sangrur,30.25,75.75,2021,12,0.0,0,0.0
+Punjab,Firozpur,31.0,74.5,2021,1,9.14,1,8.92
+Punjab,Firozpur,31.0,74.5,2021,2,0.0,0,0.0
+Punjab,Firozpur,31.0,74.5,2021,3,9.25,1,6.75
+Punjab,Firozpur,31.0,74.5,2021,4,25.65,4,10.07
+Punjab,Firozpur,31.0,74.5,2021,5,6.82,1,2.57
+Punjab,Firozpur,31.0,74.5,2021,6,24.55,2,10.76
+Punjab,Firozpur,31.0,74.5,2021,7,116.17,6,63.85
+Punjab,Firozpur,31.0,74.5,2021,8,101.98,6,43.26
+Punjab,Firozpur,31.0,74.5,2021,9,125.5,7,45.9
+Punjab,Firozpur,31.0,74.5,2021,10,27.14,2,22.48
+Punjab,Firozpur,31.0,74.5,2021,11,0.0,0,0.0
+Punjab,Firozpur,31.0,74.5,2021,12,0.0,0,0.0
+Punjab,Gurdaspur,32.0,75.5,2021,1,18.19,3,6.76
+Punjab,Gurdaspur,32.0,75.5,2021,2,5.34,1,3.0
+Punjab,Gurdaspur,32.0,75.5,2021,3,7.13,1,3.4
+Punjab,Gurdaspur,32.0,75.5,2021,4,52.5,5,22.08
+Punjab,Gurdaspur,32.0,75.5,2021,5,19.54,4,6.66
+Punjab,Gurdaspur,32.0,75.5,2021,6,88.21,9,24.71
+Punjab,Gurdaspur,32.0,75.5,2021,7,314.47,12,95.15
+Punjab,Gurdaspur,32.0,75.5,2021,8,77.8,9,19.35
+Punjab,Gurdaspur,32.0,75.5,2021,9,190.35,10,51.7
+Punjab,Gurdaspur,32.0,75.5,2021,10,59.57,3,43.32
+Punjab,Gurdaspur,32.0,75.5,2021,11,0.36,0,0.36
+Punjab,Gurdaspur,32.0,75.5,2021,12,0.0,0,0.0
+Punjab,Hoshiarpur,31.5,76.0,2021,1,21.38,3,11.77
+Punjab,Hoshiarpur,31.5,76.0,2021,2,5.21,1,4.19
+Punjab,Hoshiarpur,31.5,76.0,2021,3,10.2,2,4.77
+Punjab,Hoshiarpur,31.5,76.0,2021,4,51.99,6,16.28
+Punjab,Hoshiarpur,31.5,76.0,2021,5,17.76,4,3.77
+Punjab,Hoshiarpur,31.5,76.0,2021,6,88.86,10,16.73
+Punjab,Hoshiarpur,31.5,76.0,2021,7,328.45,11,71.09
+Punjab,Hoshiarpur,31.5,76.0,2021,8,99.22,11,19.08
+Punjab,Hoshiarpur,31.5,76.0,2021,9,198.95,13,41.81
+Punjab,Hoshiarpur,31.5,76.0,2021,10,62.21,2,40.01
+Punjab,Hoshiarpur,31.5,76.0,2021,11,0.0,0,0.0
+Punjab,Hoshiarpur,31.5,76.0,2021,12,1.74,0,1.74
+Punjab,Mansa,30.0,75.5,2021,1,4.57,1,3.51
+Punjab,Mansa,30.0,75.5,2021,2,1.6,0,1.6
+Punjab,Mansa,30.0,75.5,2021,3,4.96,0,1.7
+Punjab,Mansa,30.0,75.5,2021,4,10.12,2,4.29
+Punjab,Mansa,30.0,75.5,2021,5,20.09,2,12.58
+Punjab,Mansa,30.0,75.5,2021,6,37.74,4,17.76
+Punjab,Mansa,30.0,75.5,2021,7,88.02,5,30.58
+Punjab,Mansa,30.0,75.5,2021,8,31.74,5,10.64
+Punjab,Mansa,30.0,75.5,2021,9,91.55,8,23.7
+Punjab,Mansa,30.0,75.5,2021,10,16.19,3,5.24
+Punjab,Mansa,30.0,75.5,2021,11,0.0,0,0.0
+Punjab,Mansa,30.0,75.5,2021,12,0.47,0,0.47
+Punjab,Mohali,30.75,76.75,2021,1,10.48,1,7.98
+Punjab,Mohali,30.75,76.75,2021,2,16.68,2,12.37
+Punjab,Mohali,30.75,76.75,2021,3,7.53,1,5.06
+Punjab,Mohali,30.75,76.75,2021,4,17.85,3,10.45
+Punjab,Mohali,30.75,76.75,2021,5,60.91,3,26.36
+Punjab,Mohali,30.75,76.75,2021,6,103.39,6,26.32
+Punjab,Mohali,30.75,76.75,2021,7,198.82,10,44.86
+Punjab,Mohali,30.75,76.75,2021,8,196.07,13,53.92
+Punjab,Mohali,30.75,76.75,2021,9,183.63,12,51.57
+Punjab,Mohali,30.75,76.75,2021,10,50.75,4,28.61
+Punjab,Mohali,30.75,76.75,2021,11,0.12,0,0.12
+Punjab,Mohali,30.75,76.75,2021,12,1.36,0,1.36
+Punjab,Rupnagar,31.0,76.5,2021,1,10.24,2,4.95
+Punjab,Rupnagar,31.0,76.5,2021,2,2.34,0,1.7
+Punjab,Rupnagar,31.0,76.5,2021,3,5.3,0,1.51
+Punjab,Rupnagar,31.0,76.5,2021,4,23.52,3,14.84
+Punjab,Rupnagar,31.0,76.5,2021,5,25.13,4,7.13
+Punjab,Rupnagar,31.0,76.5,2021,6,65.38,5,23.14
+Punjab,Rupnagar,31.0,76.5,2021,7,207.32,13,84.57
+Punjab,Rupnagar,31.0,76.5,2021,8,149.67,11,29.72
+Punjab,Rupnagar,31.0,76.5,2021,9,252.89,11,53.83
+Punjab,Rupnagar,31.0,76.5,2021,10,67.08,2,59.09
+Punjab,Rupnagar,31.0,76.5,2021,11,0.0,0,0.0
+Punjab,Rupnagar,31.0,76.5,2021,12,0.0,0,0.0
+Punjab,Fazilka,30.5,74.0,2021,1,12.16,1,11.07
+Punjab,Fazilka,30.5,74.0,2021,2,0.0,0,0.0
+Punjab,Fazilka,30.5,74.0,2021,3,6.31,2,3.26
+Punjab,Fazilka,30.5,74.0,2021,4,8.45,2,5.93
+Punjab,Fazilka,30.5,74.0,2021,5,9.12,2,4.4
+Punjab,Fazilka,30.5,74.0,2021,6,20.6,2,13.33
+Punjab,Fazilka,30.5,74.0,2021,7,60.45,3,30.51
+Punjab,Fazilka,30.5,74.0,2021,8,2.83,0,1.86
+Punjab,Fazilka,30.5,74.0,2021,9,133.75,5,53.23
+Punjab,Fazilka,30.5,74.0,2021,10,16.52,2,10.22
+Punjab,Fazilka,30.5,74.0,2021,11,0.0,0,0.0
+Punjab,Fazilka,30.5,74.0,2021,12,0.0,0,0.0
+Punjab,Kapurthala,31.5,75.5,2021,1,13.74,2,6.02
+Punjab,Kapurthala,31.5,75.5,2021,2,12.51,1,11.09
+Punjab,Kapurthala,31.5,75.5,2021,3,11.69,1,7.91
+Punjab,Kapurthala,31.5,75.5,2021,4,26.04,2,17.5
+Punjab,Kapurthala,31.5,75.5,2021,5,40.26,5,12.76
+Punjab,Kapurthala,31.5,75.5,2021,6,108.09,8,46.85
+Punjab,Kapurthala,31.5,75.5,2021,7,247.65,11,65.8
+Punjab,Kapurthala,31.5,75.5,2021,8,76.73,8,16.71
+Punjab,Kapurthala,31.5,75.5,2021,9,286.68,12,85.17
+Punjab,Kapurthala,31.5,75.5,2021,10,45.78,2,36.13
+Punjab,Kapurthala,31.5,75.5,2021,11,1.99,0,1.99
+Punjab,Kapurthala,31.5,75.5,2021,12,0.0,0,0.0
+Punjab,Muktsar,30.5,74.5,2021,1,12.63,1,11.15
+Punjab,Muktsar,30.5,74.5,2021,2,0.0,0,0.0
+Punjab,Muktsar,30.5,74.5,2021,3,6.72,1,4.88
+Punjab,Muktsar,30.5,74.5,2021,4,13.75,2,7.84
+Punjab,Muktsar,30.5,74.5,2021,5,16.83,3,10.09
+Punjab,Muktsar,30.5,74.5,2021,6,81.45,5,42.63
+Punjab,Muktsar,30.5,74.5,2021,7,149.17,3,98.7
+Punjab,Muktsar,30.5,74.5,2021,8,86.63,4,42.79
+Punjab,Muktsar,30.5,74.5,2021,9,172.6,5,86.7
+Punjab,Muktsar,30.5,74.5,2021,10,8.4,1,6.26
+Punjab,Muktsar,30.5,74.5,2021,11,0.0,0,0.0
+Punjab,Muktsar,30.5,74.5,2021,12,0.0,0,0.0
+Punjab,Faridkot,30.75,74.75,2021,1,5.16,1,4.88
+Punjab,Faridkot,30.75,74.75,2021,2,0.0,0,0.0
+Punjab,Faridkot,30.75,74.75,2021,3,6.41,1,4.15
+Punjab,Faridkot,30.75,74.75,2021,4,7.19,1,3.01
+Punjab,Faridkot,30.75,74.75,2021,5,3.03,0,1.63
+Punjab,Faridkot,30.75,74.75,2021,6,37.18,4,10.87
+Punjab,Faridkot,30.75,74.75,2021,7,155.04,8,67.75
+Punjab,Faridkot,30.75,74.75,2021,8,115.14,3,64.88
+Punjab,Faridkot,30.75,74.75,2021,9,126.55,6,41.2
+Punjab,Faridkot,30.75,74.75,2021,10,8.17,2,4.71
+Punjab,Faridkot,30.75,74.75,2021,11,0.0,0,0.0
+Punjab,Faridkot,30.75,74.75,2021,12,0.0,0,0.0
+Punjab,Barnala,30.5,75.5,2021,1,7.23,1,4.76
+Punjab,Barnala,30.5,75.5,2021,2,1.92,0,1.55
+Punjab,Barnala,30.5,75.5,2021,3,7.3,1,3.12
+Punjab,Barnala,30.5,75.5,2021,4,12.03,2,5.65
+Punjab,Barnala,30.5,75.5,2021,5,29.76,3,16.11
+Punjab,Barnala,30.5,75.5,2021,6,30.01,6,6.89
+Punjab,Barnala,30.5,75.5,2021,7,130.62,8,38.84
+Punjab,Barnala,30.5,75.5,2021,8,34.6,6,13.98
+Punjab,Barnala,30.5,75.5,2021,9,152.72,6,75.63
+Punjab,Barnala,30.5,75.5,2021,10,29.75,2,23.06
+Punjab,Barnala,30.5,75.5,2021,11,0.0,0,0.0
+Punjab,Barnala,30.5,75.5,2021,12,0.0,0,0.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2021,1,5.7,1,4.5
+Punjab,Fatehgarh Sahib,30.75,76.5,2021,2,3.0,0,2.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2021,3,10.3,1,3.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2021,4,15.4,3,7.3
+Punjab,Fatehgarh Sahib,30.75,76.5,2021,5,34.3,4,9.5
+Punjab,Fatehgarh Sahib,30.75,76.5,2021,6,56.4,6,14.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2021,7,166.95,9,60.36
+Punjab,Fatehgarh Sahib,30.75,76.5,2021,8,9.66,1,5.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2021,9,82.18,7,23.3
+Punjab,Fatehgarh Sahib,30.75,76.5,2021,10,23.3,2,12.2
+Punjab,Fatehgarh Sahib,30.75,76.5,2021,11,0.0,0,0.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2021,12,0.0,0,0.0
+Punjab,SBS Nagar,31.25,76.0,2021,1,8.02,1,2.99
+Punjab,SBS Nagar,31.25,76.0,2021,2,2.21,0,1.92
+Punjab,SBS Nagar,31.25,76.0,2021,3,3.42,0,1.96
+Punjab,SBS Nagar,31.25,76.0,2021,4,14.12,2,5.74
+Punjab,SBS Nagar,31.25,76.0,2021,5,9.11,1,2.97
+Punjab,SBS Nagar,31.25,76.0,2021,6,49.08,7,11.48
+Punjab,SBS Nagar,31.25,76.0,2021,7,184.87,7,44.0
+Punjab,SBS Nagar,31.25,76.0,2021,8,25.18,3,9.43
+Punjab,SBS Nagar,31.25,76.0,2021,9,83.58,7,27.66
+Punjab,SBS Nagar,31.25,76.0,2021,10,20.8,1,19.32
+Punjab,SBS Nagar,31.25,76.0,2021,11,0.0,0,0.0
+Punjab,SBS Nagar,31.25,76.0,2021,12,0.0,0,0.0
+Punjab,Pathankot,32.25,75.75,2021,1,16.65,2,11.01
+Punjab,Pathankot,32.25,75.75,2021,2,11.05,2,6.92
+Punjab,Pathankot,32.25,75.75,2021,3,18.69,3,8.94
+Punjab,Pathankot,32.25,75.75,2021,4,55.93,7,14.72
+Punjab,Pathankot,32.25,75.75,2021,5,26.69,4,7.67
+Punjab,Pathankot,32.25,75.75,2021,6,135.03,6,43.68
+Punjab,Pathankot,32.25,75.75,2021,7,878.32,17,120.13
+Punjab,Pathankot,32.25,75.75,2021,8,250.17,13,56.29
+Punjab,Pathankot,32.25,75.75,2021,9,180.75,10,40.34
+Punjab,Pathankot,32.25,75.75,2021,10,46.97,2,30.06
+Punjab,Pathankot,32.25,75.75,2021,11,0.0,0,0.0
+Punjab,Pathankot,32.25,75.75,2021,12,0.0,0,0.0
+Punjab,Tarn Taran,31.5,75.0,2021,1,19.45,2,12.71
+Punjab,Tarn Taran,31.5,75.0,2021,2,4.85,1,4.17
+Punjab,Tarn Taran,31.5,75.0,2021,3,16.12,4,6.47
+Punjab,Tarn Taran,31.5,75.0,2021,4,26.73,3,18.73
+Punjab,Tarn Taran,31.5,75.0,2021,5,25.97,2,10.07
+Punjab,Tarn Taran,31.5,75.0,2021,6,59.06,6,12.51
+Punjab,Tarn Taran,31.5,75.0,2021,7,234.85,13,55.22
+Punjab,Tarn Taran,31.5,75.0,2021,8,96.82,8,20.64
+Punjab,Tarn Taran,31.5,75.0,2021,9,266.29,12,71.29
+Punjab,Tarn Taran,31.5,75.0,2021,10,38.04,3,25.19
+Punjab,Tarn Taran,31.5,75.0,2021,11,0.62,0,0.62
+Punjab,Tarn Taran,31.5,75.0,2021,12,0.0,0,0.0
+Punjab,Malerkotla,30.5,76.0,2021,1,4.94,1,4.18
+Punjab,Malerkotla,30.5,76.0,2021,2,1.58,0,0.78
+Punjab,Malerkotla,30.5,76.0,2021,3,14.13,1,8.79
+Punjab,Malerkotla,30.5,76.0,2021,4,11.88,2,6.37
+Punjab,Malerkotla,30.5,76.0,2021,5,32.61,3,14.66
+Punjab,Malerkotla,30.5,76.0,2021,6,66.63,6,14.48
+Punjab,Malerkotla,30.5,76.0,2021,7,256.7,11,46.15
+Punjab,Malerkotla,30.5,76.0,2021,8,96.38,5,29.12
+Punjab,Malerkotla,30.5,76.0,2021,9,139.96,6,86.91
+Punjab,Malerkotla,30.5,76.0,2021,10,94.78,4,74.48
+Punjab,Malerkotla,30.5,76.0,2021,11,0.0,0,0.0
+Punjab,Malerkotla,30.5,76.0,2021,12,1.36,0,1.36
+Punjab,Ludhiana,31.0,75.75,2022,1,98.22,6,36.99
+Punjab,Ludhiana,31.0,75.75,2022,2,39.91,4,13.72
+Punjab,Ludhiana,31.0,75.75,2022,3,0.83,0,0.83
+Punjab,Ludhiana,31.0,75.75,2022,4,0.0,0,0.0
+Punjab,Ludhiana,31.0,75.75,2022,5,23.21,3,11.3
+Punjab,Ludhiana,31.0,75.75,2022,6,45.12,3,17.5
+Punjab,Ludhiana,31.0,75.75,2022,7,320.0,16,71.47
+Punjab,Ludhiana,31.0,75.75,2022,8,72.9,4,42.84
+Punjab,Ludhiana,31.0,75.75,2022,9,188.64,7,113.93
+Punjab,Ludhiana,31.0,75.75,2022,10,42.41,1,42.41
+Punjab,Ludhiana,31.0,75.75,2022,11,1.79,0,1.79
+Punjab,Ludhiana,31.0,75.75,2022,12,0.67,0,0.67
+Punjab,Amritsar,31.75,74.75,2022,1,113.76,4,37.31
+Punjab,Amritsar,31.75,74.75,2022,2,28.09,3,16.56
+Punjab,Amritsar,31.75,74.75,2022,3,1.66,0,1.66
+Punjab,Amritsar,31.75,74.75,2022,4,1.02,0,1.02
+Punjab,Amritsar,31.75,74.75,2022,5,6.1,1,5.29
+Punjab,Amritsar,31.75,74.75,2022,6,50.86,3,22.31
+Punjab,Amritsar,31.75,74.75,2022,7,241.33,14,70.75
+Punjab,Amritsar,31.75,74.75,2022,8,186.07,9,50.69
+Punjab,Amritsar,31.75,74.75,2022,9,90.17,5,31.0
+Punjab,Amritsar,31.75,74.75,2022,10,1.9,0,1.13
+Punjab,Amritsar,31.75,74.75,2022,11,1.12,0,0.45
+Punjab,Amritsar,31.75,74.75,2022,12,1.15,0,1.15
+Punjab,Patiala,30.25,76.5,2022,1,146.27,7,37.64
+Punjab,Patiala,30.25,76.5,2022,2,18.72,2,7.54
+Punjab,Patiala,30.25,76.5,2022,3,0.0,0,0.0
+Punjab,Patiala,30.25,76.5,2022,4,0.29,0,0.29
+Punjab,Patiala,30.25,76.5,2022,5,51.42,4,16.77
+Punjab,Patiala,30.25,76.5,2022,6,60.64,3,27.17
+Punjab,Patiala,30.25,76.5,2022,7,355.72,17,57.93
+Punjab,Patiala,30.25,76.5,2022,8,65.95,6,26.22
+Punjab,Patiala,30.25,76.5,2022,9,238.78,6,101.8
+Punjab,Patiala,30.25,76.5,2022,10,41.04,1,37.07
+Punjab,Patiala,30.25,76.5,2022,11,0.71,0,0.71
+Punjab,Patiala,30.25,76.5,2022,12,0.0,0,0.0
+Punjab,Bathinda,30.25,75.0,2022,1,77.25,6,16.76
+Punjab,Bathinda,30.25,75.0,2022,2,15.42,2,8.6
+Punjab,Bathinda,30.25,75.0,2022,3,0.0,0,0.0
+Punjab,Bathinda,30.25,75.0,2022,4,0.0,0,0.0
+Punjab,Bathinda,30.25,75.0,2022,5,14.49,2,6.05
+Punjab,Bathinda,30.25,75.0,2022,6,21.22,4,7.74
+Punjab,Bathinda,30.25,75.0,2022,7,137.22,12,34.43
+Punjab,Bathinda,30.25,75.0,2022,8,54.3,5,18.42
+Punjab,Bathinda,30.25,75.0,2022,9,103.14,4,63.53
+Punjab,Bathinda,30.25,75.0,2022,10,0.33,0,0.33
+Punjab,Bathinda,30.25,75.0,2022,11,0.0,0,0.0
+Punjab,Bathinda,30.25,75.0,2022,12,0.0,0,0.0
+Punjab,Jalandhar,31.25,75.5,2022,1,159.8,7,41.16
+Punjab,Jalandhar,31.25,75.5,2022,2,37.31,4,15.62
+Punjab,Jalandhar,31.25,75.5,2022,3,3.69,1,3.69
+Punjab,Jalandhar,31.25,75.5,2022,4,0.13,0,0.13
+Punjab,Jalandhar,31.25,75.5,2022,5,19.65,3,9.72
+Punjab,Jalandhar,31.25,75.5,2022,6,33.11,5,11.82
+Punjab,Jalandhar,31.25,75.5,2022,7,252.67,16,73.43
+Punjab,Jalandhar,31.25,75.5,2022,8,49.85,5,21.77
+Punjab,Jalandhar,31.25,75.5,2022,9,142.68,7,98.3
+Punjab,Jalandhar,31.25,75.5,2022,10,8.98,1,8.98
+Punjab,Jalandhar,31.25,75.5,2022,11,2.22,0,2.22
+Punjab,Jalandhar,31.25,75.5,2022,12,1.49,0,1.35
+Punjab,Sangrur,30.25,75.75,2022,1,86.18,5,23.31
+Punjab,Sangrur,30.25,75.75,2022,2,11.81,2,7.48
+Punjab,Sangrur,30.25,75.75,2022,3,0.0,0,0.0
+Punjab,Sangrur,30.25,75.75,2022,4,0.0,0,0.0
+Punjab,Sangrur,30.25,75.75,2022,5,38.61,4,20.22
+Punjab,Sangrur,30.25,75.75,2022,6,25.08,2,12.89
+Punjab,Sangrur,30.25,75.75,2022,7,265.07,11,77.12
+Punjab,Sangrur,30.25,75.75,2022,8,31.25,5,12.71
+Punjab,Sangrur,30.25,75.75,2022,9,145.77,5,93.42
+Punjab,Sangrur,30.25,75.75,2022,10,22.53,1,21.17
+Punjab,Sangrur,30.25,75.75,2022,11,0.0,0,0.0
+Punjab,Sangrur,30.25,75.75,2022,12,0.0,0,0.0
+Punjab,Firozpur,31.0,74.5,2022,1,118.18,5,36.8
+Punjab,Firozpur,31.0,74.5,2022,2,25.69,4,14.22
+Punjab,Firozpur,31.0,74.5,2022,3,0.15,0,0.15
+Punjab,Firozpur,31.0,74.5,2022,4,1.21,0,1.21
+Punjab,Firozpur,31.0,74.5,2022,5,1.74,0,1.74
+Punjab,Firozpur,31.0,74.5,2022,6,43.94,3,23.65
+Punjab,Firozpur,31.0,74.5,2022,7,213.48,10,63.44
+Punjab,Firozpur,31.0,74.5,2022,8,64.38,7,20.84
+Punjab,Firozpur,31.0,74.5,2022,9,58.48,6,30.86
+Punjab,Firozpur,31.0,74.5,2022,10,0.0,0,0.0
+Punjab,Firozpur,31.0,74.5,2022,11,0.11,0,0.11
+Punjab,Firozpur,31.0,74.5,2022,12,2.75,1,2.75
+Punjab,Gurdaspur,32.0,75.5,2022,1,196.43,8,77.89
+Punjab,Gurdaspur,32.0,75.5,2022,2,41.55,2,24.74
+Punjab,Gurdaspur,32.0,75.5,2022,3,2.56,1,2.56
+Punjab,Gurdaspur,32.0,75.5,2022,4,0.0,0,0.0
+Punjab,Gurdaspur,32.0,75.5,2022,5,24.29,3,9.33
+Punjab,Gurdaspur,32.0,75.5,2022,6,69.32,4,26.02
+Punjab,Gurdaspur,32.0,75.5,2022,7,304.88,14,62.64
+Punjab,Gurdaspur,32.0,75.5,2022,8,120.64,6,31.07
+Punjab,Gurdaspur,32.0,75.5,2022,9,131.72,5,68.11
+Punjab,Gurdaspur,32.0,75.5,2022,10,2.11,0,2.11
+Punjab,Gurdaspur,32.0,75.5,2022,11,11.89,1,9.64
+Punjab,Gurdaspur,32.0,75.5,2022,12,0.15,0,0.15
+Punjab,Hoshiarpur,31.5,76.0,2022,1,194.79,8,50.0
+Punjab,Hoshiarpur,31.5,76.0,2022,2,50.24,4,33.69
+Punjab,Hoshiarpur,31.5,76.0,2022,3,0.91,0,0.91
+Punjab,Hoshiarpur,31.5,76.0,2022,4,1.51,0,1.51
+Punjab,Hoshiarpur,31.5,76.0,2022,5,17.58,3,6.72
+Punjab,Hoshiarpur,31.5,76.0,2022,6,78.55,10,15.65
+Punjab,Hoshiarpur,31.5,76.0,2022,7,294.83,19,42.0
+Punjab,Hoshiarpur,31.5,76.0,2022,8,137.32,10,26.83
+Punjab,Hoshiarpur,31.5,76.0,2022,9,180.9,10,62.83
+Punjab,Hoshiarpur,31.5,76.0,2022,10,25.11,1,22.93
+Punjab,Hoshiarpur,31.5,76.0,2022,11,0.0,0,0.0
+Punjab,Hoshiarpur,31.5,76.0,2022,12,2.2,0,2.2
+Punjab,Mansa,30.0,75.5,2022,1,65.75,5,25.21
+Punjab,Mansa,30.0,75.5,2022,2,13.59,2,6.37
+Punjab,Mansa,30.0,75.5,2022,3,0.0,0,0.0
+Punjab,Mansa,30.0,75.5,2022,4,0.0,0,0.0
+Punjab,Mansa,30.0,75.5,2022,5,27.52,4,10.87
+Punjab,Mansa,30.0,75.5,2022,6,13.28,3,4.63
+Punjab,Mansa,30.0,75.5,2022,7,190.79,12,69.17
+Punjab,Mansa,30.0,75.5,2022,8,20.47,3,9.88
+Punjab,Mansa,30.0,75.5,2022,9,183.98,4,109.49
+Punjab,Mansa,30.0,75.5,2022,10,16.98,1,16.33
+Punjab,Mansa,30.0,75.5,2022,11,0.0,0,0.0
+Punjab,Mansa,30.0,75.5,2022,12,0.0,0,0.0
+Punjab,Mohali,30.75,76.75,2022,1,205.54,7,50.47
+Punjab,Mohali,30.75,76.75,2022,2,37.57,4,19.0
+Punjab,Mohali,30.75,76.75,2022,3,0.0,0,0.0
+Punjab,Mohali,30.75,76.75,2022,4,0.37,0,0.27
+Punjab,Mohali,30.75,76.75,2022,5,33.03,4,12.26
+Punjab,Mohali,30.75,76.75,2022,6,75.14,4,29.39
+Punjab,Mohali,30.75,76.75,2022,7,453.83,18,60.34
+Punjab,Mohali,30.75,76.75,2022,8,191.71,6,79.2
+Punjab,Mohali,30.75,76.75,2022,9,220.73,8,101.05
+Punjab,Mohali,30.75,76.75,2022,10,40.07,2,35.15
+Punjab,Mohali,30.75,76.75,2022,11,0.13,0,0.13
+Punjab,Mohali,30.75,76.75,2022,12,0.0,0,0.0
+Punjab,Rupnagar,31.0,76.5,2022,1,186.93,7,41.27
+Punjab,Rupnagar,31.0,76.5,2022,2,55.37,3,33.93
+Punjab,Rupnagar,31.0,76.5,2022,3,0.0,0,0.0
+Punjab,Rupnagar,31.0,76.5,2022,4,0.0,0,0.0
+Punjab,Rupnagar,31.0,76.5,2022,5,24.62,2,14.12
+Punjab,Rupnagar,31.0,76.5,2022,6,154.52,6,58.03
+Punjab,Rupnagar,31.0,76.5,2022,7,408.41,20,59.62
+Punjab,Rupnagar,31.0,76.5,2022,8,226.15,9,70.85
+Punjab,Rupnagar,31.0,76.5,2022,9,155.83,5,90.89
+Punjab,Rupnagar,31.0,76.5,2022,10,6.44,1,5.27
+Punjab,Rupnagar,31.0,76.5,2022,11,0.0,0,0.0
+Punjab,Rupnagar,31.0,76.5,2022,12,0.0,0,0.0
+Punjab,Fazilka,30.5,74.0,2022,1,44.16,5,15.9
+Punjab,Fazilka,30.5,74.0,2022,2,3.36,1,3.22
+Punjab,Fazilka,30.5,74.0,2022,3,0.86,0,0.86
+Punjab,Fazilka,30.5,74.0,2022,4,0.0,0,0.0
+Punjab,Fazilka,30.5,74.0,2022,5,2.73,0,1.82
+Punjab,Fazilka,30.5,74.0,2022,6,40.38,2,20.42
+Punjab,Fazilka,30.5,74.0,2022,7,129.54,9,48.02
+Punjab,Fazilka,30.5,74.0,2022,8,16.83,2,9.18
+Punjab,Fazilka,30.5,74.0,2022,9,22.25,2,15.36
+Punjab,Fazilka,30.5,74.0,2022,10,0.0,0,0.0
+Punjab,Fazilka,30.5,74.0,2022,11,0.0,0,0.0
+Punjab,Fazilka,30.5,74.0,2022,12,0.0,0,0.0
+Punjab,Kapurthala,31.5,75.5,2022,1,204.36,7,53.79
+Punjab,Kapurthala,31.5,75.5,2022,2,42.07,4,24.51
+Punjab,Kapurthala,31.5,75.5,2022,3,1.29,0,1.29
+Punjab,Kapurthala,31.5,75.5,2022,4,0.42,0,0.42
+Punjab,Kapurthala,31.5,75.5,2022,5,27.85,3,9.59
+Punjab,Kapurthala,31.5,75.5,2022,6,59.33,6,19.38
+Punjab,Kapurthala,31.5,75.5,2022,7,347.89,16,93.62
+Punjab,Kapurthala,31.5,75.5,2022,8,73.21,6,18.28
+Punjab,Kapurthala,31.5,75.5,2022,9,138.0,6,69.72
+Punjab,Kapurthala,31.5,75.5,2022,10,2.8,1,2.8
+Punjab,Kapurthala,31.5,75.5,2022,11,0.83,0,0.69
+Punjab,Kapurthala,31.5,75.5,2022,12,1.23,0,1.23
+Punjab,Muktsar,30.5,74.5,2022,1,87.76,5,44.64
+Punjab,Muktsar,30.5,74.5,2022,2,14.13,1,12.22
+Punjab,Muktsar,30.5,74.5,2022,3,0.66,0,0.66
+Punjab,Muktsar,30.5,74.5,2022,4,1.1,0,0.94
+Punjab,Muktsar,30.5,74.5,2022,5,6.41,0,2.28
+Punjab,Muktsar,30.5,74.5,2022,6,32.34,2,25.02
+Punjab,Muktsar,30.5,74.5,2022,7,242.98,10,84.42
+Punjab,Muktsar,30.5,74.5,2022,8,73.67,4,33.84
+Punjab,Muktsar,30.5,74.5,2022,9,33.93,1,29.47
+Punjab,Muktsar,30.5,74.5,2022,10,0.0,0,0.0
+Punjab,Muktsar,30.5,74.5,2022,11,0.0,0,0.0
+Punjab,Muktsar,30.5,74.5,2022,12,0.19,0,0.19
+Punjab,Faridkot,30.75,74.75,2022,1,109.33,6,34.89
+Punjab,Faridkot,30.75,74.75,2022,2,25.09,3,13.63
+Punjab,Faridkot,30.75,74.75,2022,3,0.19,0,0.19
+Punjab,Faridkot,30.75,74.75,2022,4,0.46,0,0.33
+Punjab,Faridkot,30.75,74.75,2022,5,8.39,1,8.19
+Punjab,Faridkot,30.75,74.75,2022,6,60.1,3,32.01
+Punjab,Faridkot,30.75,74.75,2022,7,164.73,10,39.95
+Punjab,Faridkot,30.75,74.75,2022,8,77.08,5,30.0
+Punjab,Faridkot,30.75,74.75,2022,9,55.67,2,48.15
+Punjab,Faridkot,30.75,74.75,2022,10,0.0,0,0.0
+Punjab,Faridkot,30.75,74.75,2022,11,0.56,0,0.56
+Punjab,Faridkot,30.75,74.75,2022,12,1.65,0,1.65
+Punjab,Barnala,30.5,75.5,2022,1,113.01,6,32.75
+Punjab,Barnala,30.5,75.5,2022,2,12.84,2,8.01
+Punjab,Barnala,30.5,75.5,2022,3,0.0,0,0.0
+Punjab,Barnala,30.5,75.5,2022,4,0.23,0,0.23
+Punjab,Barnala,30.5,75.5,2022,5,11.98,2,6.4
+Punjab,Barnala,30.5,75.5,2022,6,22.96,3,10.77
+Punjab,Barnala,30.5,75.5,2022,7,249.67,11,100.07
+Punjab,Barnala,30.5,75.5,2022,8,20.67,3,6.19
+Punjab,Barnala,30.5,75.5,2022,9,107.73,5,80.23
+Punjab,Barnala,30.5,75.5,2022,10,3.74,1,3.74
+Punjab,Barnala,30.5,75.5,2022,11,0.0,0,0.0
+Punjab,Barnala,30.5,75.5,2022,12,0.13,0,0.13
+Punjab,Fatehgarh Sahib,30.75,76.5,2022,1,144.14,7,31.57
+Punjab,Fatehgarh Sahib,30.75,76.5,2022,2,37.37,4,20.44
+Punjab,Fatehgarh Sahib,30.75,76.5,2022,3,0.0,0,0.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2022,4,0.48,0,0.48
+Punjab,Fatehgarh Sahib,30.75,76.5,2022,5,27.18,3,11.34
+Punjab,Fatehgarh Sahib,30.75,76.5,2022,6,37.98,3,16.2
+Punjab,Fatehgarh Sahib,30.75,76.5,2022,7,416.88,17,62.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2022,8,10.6,2,7.2
+Punjab,Fatehgarh Sahib,30.75,76.5,2022,9,188.9,5,113.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2022,10,6.4,1,6.4
+Punjab,Fatehgarh Sahib,30.75,76.5,2022,11,0.0,0,0.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2022,12,0.0,0,0.0
+Punjab,SBS Nagar,31.25,76.0,2022,1,127.53,6,31.7
+Punjab,SBS Nagar,31.25,76.0,2022,2,23.07,3,13.47
+Punjab,SBS Nagar,31.25,76.0,2022,3,0.83,0,0.83
+Punjab,SBS Nagar,31.25,76.0,2022,4,0.0,0,0.0
+Punjab,SBS Nagar,31.25,76.0,2022,5,8.88,1,3.86
+Punjab,SBS Nagar,31.25,76.0,2022,6,41.35,5,16.08
+Punjab,SBS Nagar,31.25,76.0,2022,7,166.05,15,25.25
+Punjab,SBS Nagar,31.25,76.0,2022,8,62.8,4,44.09
+Punjab,SBS Nagar,31.25,76.0,2022,9,107.67,3,70.57
+Punjab,SBS Nagar,31.25,76.0,2022,10,31.37,1,31.37
+Punjab,SBS Nagar,31.25,76.0,2022,11,1.06,0,1.06
+Punjab,SBS Nagar,31.25,76.0,2022,12,0.24,0,0.24
+Punjab,Pathankot,32.25,75.75,2022,1,191.89,8,35.37
+Punjab,Pathankot,32.25,75.75,2022,2,50.38,5,26.85
+Punjab,Pathankot,32.25,75.75,2022,3,5.99,1,5.99
+Punjab,Pathankot,32.25,75.75,2022,4,5.43,1,3.93
+Punjab,Pathankot,32.25,75.75,2022,5,52.21,5,24.24
+Punjab,Pathankot,32.25,75.75,2022,6,285.66,10,63.74
+Punjab,Pathankot,32.25,75.75,2022,7,486.78,17,59.78
+Punjab,Pathankot,32.25,75.75,2022,8,324.19,13,114.05
+Punjab,Pathankot,32.25,75.75,2022,9,146.38,7,36.18
+Punjab,Pathankot,32.25,75.75,2022,10,32.26,2,24.7
+Punjab,Pathankot,32.25,75.75,2022,11,5.7,0,2.16
+Punjab,Pathankot,32.25,75.75,2022,12,0.28,0,0.28
+Punjab,Tarn Taran,31.5,75.0,2022,1,143.44,6,47.25
+Punjab,Tarn Taran,31.5,75.0,2022,2,34.63,4,14.78
+Punjab,Tarn Taran,31.5,75.0,2022,3,0.7,0,0.7
+Punjab,Tarn Taran,31.5,75.0,2022,4,1.2,0,1.2
+Punjab,Tarn Taran,31.5,75.0,2022,5,10.53,1,6.81
+Punjab,Tarn Taran,31.5,75.0,2022,6,59.47,5,17.2
+Punjab,Tarn Taran,31.5,75.0,2022,7,303.83,15,96.97
+Punjab,Tarn Taran,31.5,75.0,2022,8,129.92,11,26.86
+Punjab,Tarn Taran,31.5,75.0,2022,9,116.55,6,68.23
+Punjab,Tarn Taran,31.5,75.0,2022,10,1.14,0,0.9
+Punjab,Tarn Taran,31.5,75.0,2022,11,1.2,0,1.05
+Punjab,Tarn Taran,31.5,75.0,2022,12,1.75,0,1.75
+Punjab,Malerkotla,30.5,76.0,2022,1,111.94,6,43.87
+Punjab,Malerkotla,30.5,76.0,2022,2,16.11,2,11.44
+Punjab,Malerkotla,30.5,76.0,2022,3,0.31,0,0.31
+Punjab,Malerkotla,30.5,76.0,2022,4,0.0,0,0.0
+Punjab,Malerkotla,30.5,76.0,2022,5,41.17,4,16.87
+Punjab,Malerkotla,30.5,76.0,2022,6,45.52,5,20.17
+Punjab,Malerkotla,30.5,76.0,2022,7,262.39,12,77.44
+Punjab,Malerkotla,30.5,76.0,2022,8,25.44,3,9.76
+Punjab,Malerkotla,30.5,76.0,2022,9,200.55,6,129.36
+Punjab,Malerkotla,30.5,76.0,2022,10,21.24,1,20.15
+Punjab,Malerkotla,30.5,76.0,2022,11,0.0,0,0.0
+Punjab,Malerkotla,30.5,76.0,2022,12,0.15,0,0.15
+Punjab,Ludhiana,31.0,75.75,2023,1,20.92,2,14.08
+Punjab,Ludhiana,31.0,75.75,2023,2,0.0,0,0.0
+Punjab,Ludhiana,31.0,75.75,2023,3,58.38,3,27.33
+Punjab,Ludhiana,31.0,75.75,2023,4,43.93,6,8.72
+Punjab,Ludhiana,31.0,75.75,2023,5,52.9,3,21.77
+Punjab,Ludhiana,31.0,75.75,2023,6,49.24,5,19.89
+Punjab,Ludhiana,31.0,75.75,2023,7,268.4,15,74.09
+Punjab,Ludhiana,31.0,75.75,2023,8,140.7,9,32.07
+Punjab,Ludhiana,31.0,75.75,2023,9,113.95,6,39.48
+Punjab,Ludhiana,31.0,75.75,2023,10,31.1,4,12.38
+Punjab,Ludhiana,31.0,75.75,2023,11,4.52,1,3.95
+Punjab,Ludhiana,31.0,75.75,2023,12,7.99,1,7.99
+Punjab,Amritsar,31.75,74.75,2023,1,17.95,3,7.02
+Punjab,Amritsar,31.75,74.75,2023,2,0.13,0,0.13
+Punjab,Amritsar,31.75,74.75,2023,3,39.99,2,24.64
+Punjab,Amritsar,31.75,74.75,2023,4,24.1,3,9.08
+Punjab,Amritsar,31.75,74.75,2023,5,43.91,6,12.2
+Punjab,Amritsar,31.75,74.75,2023,6,249.83,7,97.12
+Punjab,Amritsar,31.75,74.75,2023,7,358.31,13,80.05
+Punjab,Amritsar,31.75,74.75,2023,8,102.79,6,29.67
+Punjab,Amritsar,31.75,74.75,2023,9,134.84,4,52.11
+Punjab,Amritsar,31.75,74.75,2023,10,26.44,3,13.74
+Punjab,Amritsar,31.75,74.75,2023,11,21.57,3,10.17
+Punjab,Amritsar,31.75,74.75,2023,12,0.55,0,0.55
+Punjab,Patiala,30.25,76.5,2023,1,10.18,1,3.13
+Punjab,Patiala,30.25,76.5,2023,2,0.0,0,0.0
+Punjab,Patiala,30.25,76.5,2023,3,102.93,5,47.66
+Punjab,Patiala,30.25,76.5,2023,4,21.9,3,12.75
+Punjab,Patiala,30.25,76.5,2023,5,59.85,6,22.57
+Punjab,Patiala,30.25,76.5,2023,6,44.18,5,11.79
+Punjab,Patiala,30.25,76.5,2023,7,584.75,15,200.67
+Punjab,Patiala,30.25,76.5,2023,8,160.5,9,34.16
+Punjab,Patiala,30.25,76.5,2023,9,130.39,6,48.03
+Punjab,Patiala,30.25,76.5,2023,10,30.28,2,15.54
+Punjab,Patiala,30.25,76.5,2023,11,5.08,1,3.89
+Punjab,Patiala,30.25,76.5,2023,12,12.21,1,12.21
+Punjab,Bathinda,30.25,75.0,2023,1,2.73,0,2.2
+Punjab,Bathinda,30.25,75.0,2023,2,0.0,0,0.0
+Punjab,Bathinda,30.25,75.0,2023,3,43.16,6,18.38
+Punjab,Bathinda,30.25,75.0,2023,4,4.96,0,2.38
+Punjab,Bathinda,30.25,75.0,2023,5,30.71,3,11.82
+Punjab,Bathinda,30.25,75.0,2023,6,60.14,4,30.55
+Punjab,Bathinda,30.25,75.0,2023,7,74.54,8,18.88
+Punjab,Bathinda,30.25,75.0,2023,8,3.86,0,1.73
+Punjab,Bathinda,30.25,75.0,2023,9,24.92,3,9.28
+Punjab,Bathinda,30.25,75.0,2023,10,14.53,2,7.49
+Punjab,Bathinda,30.25,75.0,2023,11,6.07,1,6.02
+Punjab,Bathinda,30.25,75.0,2023,12,0.0,0,0.0
+Punjab,Jalandhar,31.25,75.5,2023,1,31.68,3,13.06
+Punjab,Jalandhar,31.25,75.5,2023,2,0.0,0,0.0
+Punjab,Jalandhar,31.25,75.5,2023,3,59.79,3,43.09
+Punjab,Jalandhar,31.25,75.5,2023,4,59.18,6,32.56
+Punjab,Jalandhar,31.25,75.5,2023,5,66.58,5,30.22
+Punjab,Jalandhar,31.25,75.5,2023,6,53.34,5,19.89
+Punjab,Jalandhar,31.25,75.5,2023,7,229.2,14,59.67
+Punjab,Jalandhar,31.25,75.5,2023,8,62.11,5,19.79
+Punjab,Jalandhar,31.25,75.5,2023,9,45.84,5,12.16
+Punjab,Jalandhar,31.25,75.5,2023,10,26.45,4,11.23
+Punjab,Jalandhar,31.25,75.5,2023,11,13.15,2,7.92
+Punjab,Jalandhar,31.25,75.5,2023,12,5.22,1,5.22
+Punjab,Sangrur,30.25,75.75,2023,1,14.84,2,11.41
+Punjab,Sangrur,30.25,75.75,2023,2,0.01,0,0.01
+Punjab,Sangrur,30.25,75.75,2023,3,45.03,3,17.61
+Punjab,Sangrur,30.25,75.75,2023,4,5.28,0,1.96
+Punjab,Sangrur,30.25,75.75,2023,5,90.46,6,28.23
+Punjab,Sangrur,30.25,75.75,2023,6,30.41,4,10.77
+Punjab,Sangrur,30.25,75.75,2023,7,125.15,7,52.74
+Punjab,Sangrur,30.25,75.75,2023,8,21.68,2,12.52
+Punjab,Sangrur,30.25,75.75,2023,9,130.34,5,95.55
+Punjab,Sangrur,30.25,75.75,2023,10,16.35,3,6.88
+Punjab,Sangrur,30.25,75.75,2023,11,5.56,1,2.71
+Punjab,Sangrur,30.25,75.75,2023,12,1.1,0,1.1
+Punjab,Firozpur,31.0,74.5,2023,1,9.04,1,5.55
+Punjab,Firozpur,31.0,74.5,2023,2,1.48,0,1.48
+Punjab,Firozpur,31.0,74.5,2023,3,58.7,6,29.99
+Punjab,Firozpur,31.0,74.5,2023,4,63.75,4,31.49
+Punjab,Firozpur,31.0,74.5,2023,5,63.46,6,30.28
+Punjab,Firozpur,31.0,74.5,2023,6,57.27,4,41.04
+Punjab,Firozpur,31.0,74.5,2023,7,348.52,16,118.1
+Punjab,Firozpur,31.0,74.5,2023,8,7.43,1,3.03
+Punjab,Firozpur,31.0,74.5,2023,9,110.93,5,35.67
+Punjab,Firozpur,31.0,74.5,2023,10,28.97,4,9.85
+Punjab,Firozpur,31.0,74.5,2023,11,11.55,1,11.49
+Punjab,Firozpur,31.0,74.5,2023,12,0.0,0,0.0
+Punjab,Gurdaspur,32.0,75.5,2023,1,45.31,5,20.08
+Punjab,Gurdaspur,32.0,75.5,2023,2,0.1,0,0.1
+Punjab,Gurdaspur,32.0,75.5,2023,3,59.38,5,31.56
+Punjab,Gurdaspur,32.0,75.5,2023,4,31.34,3,12.32
+Punjab,Gurdaspur,32.0,75.5,2023,5,35.96,5,11.93
+Punjab,Gurdaspur,32.0,75.5,2023,6,122.78,9,32.43
+Punjab,Gurdaspur,32.0,75.5,2023,7,415.6,11,152.05
+Punjab,Gurdaspur,32.0,75.5,2023,8,209.17,10,40.91
+Punjab,Gurdaspur,32.0,75.5,2023,9,135.02,8,70.7
+Punjab,Gurdaspur,32.0,75.5,2023,10,30.14,3,10.22
+Punjab,Gurdaspur,32.0,75.5,2023,11,31.57,2,24.52
+Punjab,Gurdaspur,32.0,75.5,2023,12,6.74,1,6.74
+Punjab,Hoshiarpur,31.5,76.0,2023,1,74.81,5,51.09
+Punjab,Hoshiarpur,31.5,76.0,2023,2,0.17,0,0.17
+Punjab,Hoshiarpur,31.5,76.0,2023,3,48.63,5,18.88
+Punjab,Hoshiarpur,31.5,76.0,2023,4,45.92,5,10.16
+Punjab,Hoshiarpur,31.5,76.0,2023,5,100.74,7,39.31
+Punjab,Hoshiarpur,31.5,76.0,2023,6,99.06,10,34.46
+Punjab,Hoshiarpur,31.5,76.0,2023,7,496.65,15,171.53
+Punjab,Hoshiarpur,31.5,76.0,2023,8,321.51,13,100.35
+Punjab,Hoshiarpur,31.5,76.0,2023,9,143.54,5,54.27
+Punjab,Hoshiarpur,31.5,76.0,2023,10,28.1,3,10.08
+Punjab,Hoshiarpur,31.5,76.0,2023,11,31.93,2,18.16
+Punjab,Hoshiarpur,31.5,76.0,2023,12,8.19,1,5.86
+Punjab,Mansa,30.0,75.5,2023,1,8.31,1,4.42
+Punjab,Mansa,30.0,75.5,2023,2,0.0,0,0.0
+Punjab,Mansa,30.0,75.5,2023,3,25.18,3,12.23
+Punjab,Mansa,30.0,75.5,2023,4,4.72,0,2.35
+Punjab,Mansa,30.0,75.5,2023,5,35.23,6,9.12
+Punjab,Mansa,30.0,75.5,2023,6,36.35,5,9.19
+Punjab,Mansa,30.0,75.5,2023,7,85.28,10,23.01
+Punjab,Mansa,30.0,75.5,2023,8,9.11,1,6.75
+Punjab,Mansa,30.0,75.5,2023,9,51.59,6,18.69
+Punjab,Mansa,30.0,75.5,2023,10,9.69,1,7.32
+Punjab,Mansa,30.0,75.5,2023,11,1.66,0,1.66
+Punjab,Mansa,30.0,75.5,2023,12,0.0,0,0.0
+Punjab,Mohali,30.75,76.75,2023,1,29.25,4,9.82
+Punjab,Mohali,30.75,76.75,2023,2,0.0,0,0.0
+Punjab,Mohali,30.75,76.75,2023,3,79.25,5,35.41
+Punjab,Mohali,30.75,76.75,2023,4,43.22,4,14.12
+Punjab,Mohali,30.75,76.75,2023,5,90.3,9,21.26
+Punjab,Mohali,30.75,76.75,2023,6,111.45,7,27.45
+Punjab,Mohali,30.75,76.75,2023,7,810.33,16,283.01
+Punjab,Mohali,30.75,76.75,2023,8,260.76,13,65.27
+Punjab,Mohali,30.75,76.75,2023,9,72.97,5,30.9
+Punjab,Mohali,30.75,76.75,2023,10,20.73,3,11.98
+Punjab,Mohali,30.75,76.75,2023,11,18.04,2,14.6
+Punjab,Mohali,30.75,76.75,2023,12,26.78,1,26.78
+Punjab,Rupnagar,31.0,76.5,2023,1,20.17,2,10.27
+Punjab,Rupnagar,31.0,76.5,2023,2,0.01,0,0.01
+Punjab,Rupnagar,31.0,76.5,2023,3,70.1,3,34.23
+Punjab,Rupnagar,31.0,76.5,2023,4,64.96,4,23.58
+Punjab,Rupnagar,31.0,76.5,2023,5,130.05,9,49.77
+Punjab,Rupnagar,31.0,76.5,2023,6,103.04,7,28.4
+Punjab,Rupnagar,31.0,76.5,2023,7,835.71,16,261.58
+Punjab,Rupnagar,31.0,76.5,2023,8,250.99,13,52.39
+Punjab,Rupnagar,31.0,76.5,2023,9,56.99,4,23.29
+Punjab,Rupnagar,31.0,76.5,2023,10,11.4,2,5.51
+Punjab,Rupnagar,31.0,76.5,2023,11,25.39,2,22.79
+Punjab,Rupnagar,31.0,76.5,2023,12,36.37,1,36.34
+Punjab,Fazilka,30.5,74.0,2023,1,4.3,1,4.3
+Punjab,Fazilka,30.5,74.0,2023,2,0.0,0,0.0
+Punjab,Fazilka,30.5,74.0,2023,3,70.92,3,45.52
+Punjab,Fazilka,30.5,74.0,2023,4,32.26,4,8.67
+Punjab,Fazilka,30.5,74.0,2023,5,41.34,4,19.61
+Punjab,Fazilka,30.5,74.0,2023,6,47.1,4,12.89
+Punjab,Fazilka,30.5,74.0,2023,7,99.69,9,21.9
+Punjab,Fazilka,30.5,74.0,2023,8,0.66,0,0.27
+Punjab,Fazilka,30.5,74.0,2023,9,46.83,3,22.44
+Punjab,Fazilka,30.5,74.0,2023,10,29.12,2,26.14
+Punjab,Fazilka,30.5,74.0,2023,11,0.58,0,0.49
+Punjab,Fazilka,30.5,74.0,2023,12,0.0,0,0.0
+Punjab,Kapurthala,31.5,75.5,2023,1,37.55,3,18.94
+Punjab,Kapurthala,31.5,75.5,2023,2,0.0,0,0.0
+Punjab,Kapurthala,31.5,75.5,2023,3,67.89,3,45.52
+Punjab,Kapurthala,31.5,75.5,2023,4,52.73,3,31.09
+Punjab,Kapurthala,31.5,75.5,2023,5,72.53,5,27.7
+Punjab,Kapurthala,31.5,75.5,2023,6,93.58,8,20.4
+Punjab,Kapurthala,31.5,75.5,2023,7,395.01,15,111.08
+Punjab,Kapurthala,31.5,75.5,2023,8,120.04,5,35.54
+Punjab,Kapurthala,31.5,75.5,2023,9,80.06,5,31.28
+Punjab,Kapurthala,31.5,75.5,2023,10,35.4,4,15.37
+Punjab,Kapurthala,31.5,75.5,2023,11,14.54,2,6.66
+Punjab,Kapurthala,31.5,75.5,2023,12,1.47,0,1.47
+Punjab,Muktsar,30.5,74.5,2023,1,0.84,0,0.44
+Punjab,Muktsar,30.5,74.5,2023,2,0.17,0,0.17
+Punjab,Muktsar,30.5,74.5,2023,3,57.18,5,34.66
+Punjab,Muktsar,30.5,74.5,2023,4,21.86,2,7.87
+Punjab,Muktsar,30.5,74.5,2023,5,63.76,7,19.87
+Punjab,Muktsar,30.5,74.5,2023,6,64.09,4,36.25
+Punjab,Muktsar,30.5,74.5,2023,7,108.47,11,26.26
+Punjab,Muktsar,30.5,74.5,2023,8,18.11,3,7.59
+Punjab,Muktsar,30.5,74.5,2023,9,74.88,6,35.05
+Punjab,Muktsar,30.5,74.5,2023,10,23.32,3,10.87
+Punjab,Muktsar,30.5,74.5,2023,11,4.17,1,3.5
+Punjab,Muktsar,30.5,74.5,2023,12,0.0,0,0.0
+Punjab,Faridkot,30.75,74.75,2023,1,3.5,0,2.16
+Punjab,Faridkot,30.75,74.75,2023,2,0.08,0,0.08
+Punjab,Faridkot,30.75,74.75,2023,3,57.17,4,39.55
+Punjab,Faridkot,30.75,74.75,2023,4,32.26,5,14.42
+Punjab,Faridkot,30.75,74.75,2023,5,44.09,6,13.21
+Punjab,Faridkot,30.75,74.75,2023,6,75.75,6,31.8
+Punjab,Faridkot,30.75,74.75,2023,7,224.41,13,80.31
+Punjab,Faridkot,30.75,74.75,2023,8,6.56,0,1.9
+Punjab,Faridkot,30.75,74.75,2023,9,72.21,5,21.85
+Punjab,Faridkot,30.75,74.75,2023,10,29.14,3,12.19
+Punjab,Faridkot,30.75,74.75,2023,11,9.5,1,9.13
+Punjab,Faridkot,30.75,74.75,2023,12,0.0,0,0.0
+Punjab,Barnala,30.5,75.5,2023,1,23.37,2,10.61
+Punjab,Barnala,30.5,75.5,2023,2,0.27,0,0.27
+Punjab,Barnala,30.5,75.5,2023,3,62.07,4,25.29
+Punjab,Barnala,30.5,75.5,2023,4,17.38,2,10.75
+Punjab,Barnala,30.5,75.5,2023,5,58.65,3,34.36
+Punjab,Barnala,30.5,75.5,2023,6,59.99,6,21.1
+Punjab,Barnala,30.5,75.5,2023,7,371.25,13,95.6
+Punjab,Barnala,30.5,75.5,2023,8,108.34,11,14.6
+Punjab,Barnala,30.5,75.5,2023,9,44.4,4,20.83
+Punjab,Barnala,30.5,75.5,2023,10,28.76,3,12.91
+Punjab,Barnala,30.5,75.5,2023,11,11.14,1,10.07
+Punjab,Barnala,30.5,75.5,2023,12,4.28,1,4.28
+Punjab,Fatehgarh Sahib,30.75,76.5,2023,1,16.5,2,8.3
+Punjab,Fatehgarh Sahib,30.75,76.5,2023,2,0.0,0,0.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2023,3,111.04,5,40.44
+Punjab,Fatehgarh Sahib,30.75,76.5,2023,4,24.9,4,12.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2023,5,76.0,9,25.5
+Punjab,Fatehgarh Sahib,30.75,76.5,2023,6,52.4,4,21.7
+Punjab,Fatehgarh Sahib,30.75,76.5,2023,7,477.14,12,143.7
+Punjab,Fatehgarh Sahib,30.75,76.5,2023,8,43.3,3,28.6
+Punjab,Fatehgarh Sahib,30.75,76.5,2023,9,25.2,4,8.9
+Punjab,Fatehgarh Sahib,30.75,76.5,2023,10,17.08,3,8.5
+Punjab,Fatehgarh Sahib,30.75,76.5,2023,11,16.2,1,16.2
+Punjab,Fatehgarh Sahib,30.75,76.5,2023,12,12.8,1,12.8
+Punjab,SBS Nagar,31.25,76.0,2023,1,42.68,1,35.94
+Punjab,SBS Nagar,31.25,76.0,2023,2,0.0,0,0.0
+Punjab,SBS Nagar,31.25,76.0,2023,3,50.23,3,30.54
+Punjab,SBS Nagar,31.25,76.0,2023,4,69.27,7,27.46
+Punjab,SBS Nagar,31.25,76.0,2023,5,57.2,4,20.27
+Punjab,SBS Nagar,31.25,76.0,2023,6,18.78,2,9.11
+Punjab,SBS Nagar,31.25,76.0,2023,7,368.16,7,120.3
+Punjab,SBS Nagar,31.25,76.0,2023,8,129.84,9,24.21
+Punjab,SBS Nagar,31.25,76.0,2023,9,20.99,2,9.67
+Punjab,SBS Nagar,31.25,76.0,2023,10,17.08,4,5.22
+Punjab,SBS Nagar,31.25,76.0,2023,11,21.7,2,14.8
+Punjab,SBS Nagar,31.25,76.0,2023,12,0.57,0,0.4
+Punjab,Pathankot,32.25,75.75,2023,1,45.26,3,27.27
+Punjab,Pathankot,32.25,75.75,2023,2,1.44,0,1.38
+Punjab,Pathankot,32.25,75.75,2023,3,89.35,7,29.8
+Punjab,Pathankot,32.25,75.75,2023,4,78.37,6,19.79
+Punjab,Pathankot,32.25,75.75,2023,5,91.19,8,26.63
+Punjab,Pathankot,32.25,75.75,2023,6,211.81,9,41.99
+Punjab,Pathankot,32.25,75.75,2023,7,535.31,19,131.89
+Punjab,Pathankot,32.25,75.75,2023,8,542.01,13,81.67
+Punjab,Pathankot,32.25,75.75,2023,9,54.5,4,39.89
+Punjab,Pathankot,32.25,75.75,2023,10,24.53,2,15.7
+Punjab,Pathankot,32.25,75.75,2023,11,27.09,1,25.67
+Punjab,Pathankot,32.25,75.75,2023,12,1.34,0,1.34
+Punjab,Tarn Taran,31.5,75.0,2023,1,7.62,2,4.18
+Punjab,Tarn Taran,31.5,75.0,2023,2,0.0,0,0.0
+Punjab,Tarn Taran,31.5,75.0,2023,3,37.59,2,29.62
+Punjab,Tarn Taran,31.5,75.0,2023,4,45.46,3,19.57
+Punjab,Tarn Taran,31.5,75.0,2023,5,70.36,6,30.03
+Punjab,Tarn Taran,31.5,75.0,2023,6,116.49,8,46.31
+Punjab,Tarn Taran,31.5,75.0,2023,7,299.02,13,81.52
+Punjab,Tarn Taran,31.5,75.0,2023,8,34.48,4,16.33
+Punjab,Tarn Taran,31.5,75.0,2023,9,102.34,6,32.01
+Punjab,Tarn Taran,31.5,75.0,2023,10,21.12,4,10.76
+Punjab,Tarn Taran,31.5,75.0,2023,11,16.8,3,9.76
+Punjab,Tarn Taran,31.5,75.0,2023,12,0.0,0,0.0
+Punjab,Malerkotla,30.5,76.0,2023,1,6.88,1,4.99
+Punjab,Malerkotla,30.5,76.0,2023,2,0.0,0,0.0
+Punjab,Malerkotla,30.5,76.0,2023,3,69.59,2,48.99
+Punjab,Malerkotla,30.5,76.0,2023,4,17.25,2,11.05
+Punjab,Malerkotla,30.5,76.0,2023,5,46.89,4,17.5
+Punjab,Malerkotla,30.5,76.0,2023,6,59.62,5,27.88
+Punjab,Malerkotla,30.5,76.0,2023,7,282.43,15,37.31
+Punjab,Malerkotla,30.5,76.0,2023,8,39.66,4,10.27
+Punjab,Malerkotla,30.5,76.0,2023,9,83.5,6,26.12
+Punjab,Malerkotla,30.5,76.0,2023,10,27.57,3,18.52
+Punjab,Malerkotla,30.5,76.0,2023,11,1.8,0,1.8
+Punjab,Malerkotla,30.5,76.0,2023,12,0.4,0,0.4
+Punjab,Ludhiana,31.0,75.75,2024,1,2.42,0,2.42
+Punjab,Ludhiana,31.0,75.75,2024,2,34.34,3,23.7
+Punjab,Ludhiana,31.0,75.75,2024,3,30.64,3,14.46
+Punjab,Ludhiana,31.0,75.75,2024,4,8.61,1,2.74
+Punjab,Ludhiana,31.0,75.75,2024,5,0.11,0,0.11
+Punjab,Ludhiana,31.0,75.75,2024,6,26.04,3,8.66
+Punjab,Ludhiana,31.0,75.75,2024,7,115.69,6,49.6
+Punjab,Ludhiana,31.0,75.75,2024,8,173.4,10,46.83
+Punjab,Ludhiana,31.0,75.75,2024,9,53.74,2,36.31
+Punjab,Ludhiana,31.0,75.75,2024,10,0.45,0,0.45
+Punjab,Ludhiana,31.0,75.75,2024,11,0.0,0,0.0
+Punjab,Ludhiana,31.0,75.75,2024,12,22.4,1,22.23
+Punjab,Amritsar,31.75,74.75,2024,1,1.01,0,1.01
+Punjab,Amritsar,31.75,74.75,2024,2,25.68,2,19.37
+Punjab,Amritsar,31.75,74.75,2024,3,35.27,4,20.35
+Punjab,Amritsar,31.75,74.75,2024,4,24.01,4,8.42
+Punjab,Amritsar,31.75,74.75,2024,5,1.53,0,0.93
+Punjab,Amritsar,31.75,74.75,2024,6,45.83,3,36.75
+Punjab,Amritsar,31.75,74.75,2024,7,130.31,8,24.68
+Punjab,Amritsar,31.75,74.75,2024,8,294.73,13,91.13
+Punjab,Amritsar,31.75,74.75,2024,9,30.15,3,18.6
+Punjab,Amritsar,31.75,74.75,2024,10,15.44,1,15.44
+Punjab,Amritsar,31.75,74.75,2024,11,0.0,0,0.0
+Punjab,Amritsar,31.75,74.75,2024,12,23.28,1,22.67
+Punjab,Patiala,30.25,76.5,2024,1,0.48,0,0.48
+Punjab,Patiala,30.25,76.5,2024,2,27.62,4,15.15
+Punjab,Patiala,30.25,76.5,2024,3,40.63,2,36.48
+Punjab,Patiala,30.25,76.5,2024,4,4.09,0,1.97
+Punjab,Patiala,30.25,76.5,2024,5,0.0,0,0.0
+Punjab,Patiala,30.25,76.5,2024,6,11.9,2,7.88
+Punjab,Patiala,30.25,76.5,2024,7,109.24,8,32.25
+Punjab,Patiala,30.25,76.5,2024,8,346.55,14,93.14
+Punjab,Patiala,30.25,76.5,2024,9,137.95,10,35.89
+Punjab,Patiala,30.25,76.5,2024,10,1.84,0,1.84
+Punjab,Patiala,30.25,76.5,2024,11,0.0,0,0.0
+Punjab,Patiala,30.25,76.5,2024,12,29.41,2,24.12
+Punjab,Bathinda,30.25,75.0,2024,1,1.4,0,1.4
+Punjab,Bathinda,30.25,75.0,2024,2,3.56,1,3.56
+Punjab,Bathinda,30.25,75.0,2024,3,3.94,0,2.46
+Punjab,Bathinda,30.25,75.0,2024,4,4.6,0,1.64
+Punjab,Bathinda,30.25,75.0,2024,5,2.25,0,1.36
+Punjab,Bathinda,30.25,75.0,2024,6,19.73,2,11.16
+Punjab,Bathinda,30.25,75.0,2024,7,63.32,4,23.74
+Punjab,Bathinda,30.25,75.0,2024,8,76.46,9,14.15
+Punjab,Bathinda,30.25,75.0,2024,9,12.32,2,5.3
+Punjab,Bathinda,30.25,75.0,2024,10,0.54,0,0.54
+Punjab,Bathinda,30.25,75.0,2024,11,0.0,0,0.0
+Punjab,Bathinda,30.25,75.0,2024,12,16.29,2,10.22
+Punjab,Jalandhar,31.25,75.5,2024,1,0.81,0,0.81
+Punjab,Jalandhar,31.25,75.5,2024,2,29.85,3,18.39
+Punjab,Jalandhar,31.25,75.5,2024,3,29.88,3,19.15
+Punjab,Jalandhar,31.25,75.5,2024,4,4.79,0,2.27
+Punjab,Jalandhar,31.25,75.5,2024,5,0.74,0,0.31
+Punjab,Jalandhar,31.25,75.5,2024,6,24.51,2,11.41
+Punjab,Jalandhar,31.25,75.5,2024,7,66.71,8,15.64
+Punjab,Jalandhar,31.25,75.5,2024,8,128.02,12,22.93
+Punjab,Jalandhar,31.25,75.5,2024,9,12.61,2,5.59
+Punjab,Jalandhar,31.25,75.5,2024,10,3.41,1,3.41
+Punjab,Jalandhar,31.25,75.5,2024,11,0.0,0,0.0
+Punjab,Jalandhar,31.25,75.5,2024,12,20.23,1,19.68
+Punjab,Sangrur,30.25,75.75,2024,1,2.15,0,2.15
+Punjab,Sangrur,30.25,75.75,2024,2,2.68,0,1.81
+Punjab,Sangrur,30.25,75.75,2024,3,13.38,1,9.54
+Punjab,Sangrur,30.25,75.75,2024,4,9.38,1,4.46
+Punjab,Sangrur,30.25,75.75,2024,5,0.42,0,0.42
+Punjab,Sangrur,30.25,75.75,2024,6,118.12,4,54.65
+Punjab,Sangrur,30.25,75.75,2024,7,77.46,5,46.66
+Punjab,Sangrur,30.25,75.75,2024,8,167.24,10,32.01
+Punjab,Sangrur,30.25,75.75,2024,9,26.97,4,12.14
+Punjab,Sangrur,30.25,75.75,2024,10,0.3,0,0.3
+Punjab,Sangrur,30.25,75.75,2024,11,0.0,0,0.0
+Punjab,Sangrur,30.25,75.75,2024,12,39.81,4,25.32
+Punjab,Firozpur,31.0,74.5,2024,1,1.22,0,1.22
+Punjab,Firozpur,31.0,74.5,2024,2,12.09,1,9.55
+Punjab,Firozpur,31.0,74.5,2024,3,9.09,2,4.73
+Punjab,Firozpur,31.0,74.5,2024,4,4.14,0,1.38
+Punjab,Firozpur,31.0,74.5,2024,5,0.79,0,0.55
+Punjab,Firozpur,31.0,74.5,2024,6,2.81,0,2.27
+Punjab,Firozpur,31.0,74.5,2024,7,31.4,4,18.24
+Punjab,Firozpur,31.0,74.5,2024,8,114.49,9,46.11
+Punjab,Firozpur,31.0,74.5,2024,9,30.52,2,26.32
+Punjab,Firozpur,31.0,74.5,2024,10,1.04,0,1.04
+Punjab,Firozpur,31.0,74.5,2024,11,0.0,0,0.0
+Punjab,Firozpur,31.0,74.5,2024,12,23.61,1,22.38
+Punjab,Gurdaspur,32.0,75.5,2024,1,0.54,0,0.54
+Punjab,Gurdaspur,32.0,75.5,2024,2,31.99,3,14.06
+Punjab,Gurdaspur,32.0,75.5,2024,3,42.54,4,16.79
+Punjab,Gurdaspur,32.0,75.5,2024,4,19.03,2,11.5
+Punjab,Gurdaspur,32.0,75.5,2024,5,7.22,2,3.61
+Punjab,Gurdaspur,32.0,75.5,2024,6,9.67,1,3.43
+Punjab,Gurdaspur,32.0,75.5,2024,7,183.19,13,42.97
+Punjab,Gurdaspur,32.0,75.5,2024,8,193.5,13,32.33
+Punjab,Gurdaspur,32.0,75.5,2024,9,28.82,4,10.98
+Punjab,Gurdaspur,32.0,75.5,2024,10,9.36,1,9.36
+Punjab,Gurdaspur,32.0,75.5,2024,11,0.0,0,0.0
+Punjab,Gurdaspur,32.0,75.5,2024,12,34.93,1,34.79
+Punjab,Hoshiarpur,31.5,76.0,2024,1,1.36,0,1.36
+Punjab,Hoshiarpur,31.5,76.0,2024,2,54.51,5,21.94
+Punjab,Hoshiarpur,31.5,76.0,2024,3,81.99,4,35.63
+Punjab,Hoshiarpur,31.5,76.0,2024,4,15.38,2,6.74
+Punjab,Hoshiarpur,31.5,76.0,2024,5,11.1,1,9.56
+Punjab,Hoshiarpur,31.5,76.0,2024,6,47.95,4,22.75
+Punjab,Hoshiarpur,31.5,76.0,2024,7,178.1,11,39.98
+Punjab,Hoshiarpur,31.5,76.0,2024,8,348.95,17,102.13
+Punjab,Hoshiarpur,31.5,76.0,2024,9,94.07,9,21.87
+Punjab,Hoshiarpur,31.5,76.0,2024,10,13.27,1,13.27
+Punjab,Hoshiarpur,31.5,76.0,2024,11,0.0,0,0.0
+Punjab,Hoshiarpur,31.5,76.0,2024,12,50.91,2,41.44
+Punjab,Mansa,30.0,75.5,2024,1,1.5,0,1.5
+Punjab,Mansa,30.0,75.5,2024,2,7.34,1,4.27
+Punjab,Mansa,30.0,75.5,2024,3,4.35,1,3.64
+Punjab,Mansa,30.0,75.5,2024,4,6.62,0,2.11
+Punjab,Mansa,30.0,75.5,2024,5,4.46,1,4.26
+Punjab,Mansa,30.0,75.5,2024,6,68.59,3,48.98
+Punjab,Mansa,30.0,75.5,2024,7,59.82,4,30.15
+Punjab,Mansa,30.0,75.5,2024,8,94.1,11,17.76
+Punjab,Mansa,30.0,75.5,2024,9,19.67,4,5.73
+Punjab,Mansa,30.0,75.5,2024,10,1.41,0,1.41
+Punjab,Mansa,30.0,75.5,2024,11,0.0,0,0.0
+Punjab,Mansa,30.0,75.5,2024,12,18.75,2,9.59
+Punjab,Mohali,30.75,76.75,2024,1,0.0,0,0.0
+Punjab,Mohali,30.75,76.75,2024,2,72.73,5,29.73
+Punjab,Mohali,30.75,76.75,2024,3,37.52,4,13.38
+Punjab,Mohali,30.75,76.75,2024,4,19.94,2,8.91
+Punjab,Mohali,30.75,76.75,2024,5,0.0,0,0.0
+Punjab,Mohali,30.75,76.75,2024,6,14.34,2,7.9
+Punjab,Mohali,30.75,76.75,2024,7,151.81,11,31.07
+Punjab,Mohali,30.75,76.75,2024,8,337.39,17,89.75
+Punjab,Mohali,30.75,76.75,2024,9,186.68,13,51.43
+Punjab,Mohali,30.75,76.75,2024,10,0.0,0,0.0
+Punjab,Mohali,30.75,76.75,2024,11,0.0,0,0.0
+Punjab,Mohali,30.75,76.75,2024,12,38.95,3,30.87
+Punjab,Rupnagar,31.0,76.5,2024,1,0.26,0,0.26
+Punjab,Rupnagar,31.0,76.5,2024,2,39.2,3,16.81
+Punjab,Rupnagar,31.0,76.5,2024,3,47.36,4,17.34
+Punjab,Rupnagar,31.0,76.5,2024,4,7.94,1,5.69
+Punjab,Rupnagar,31.0,76.5,2024,5,1.69,0,1.69
+Punjab,Rupnagar,31.0,76.5,2024,6,19.93,3,10.51
+Punjab,Rupnagar,31.0,76.5,2024,7,96.39,10,14.39
+Punjab,Rupnagar,31.0,76.5,2024,8,204.56,10,45.75
+Punjab,Rupnagar,31.0,76.5,2024,9,184.39,7,47.76
+Punjab,Rupnagar,31.0,76.5,2024,10,0.0,0,0.0
+Punjab,Rupnagar,31.0,76.5,2024,11,0.0,0,0.0
+Punjab,Rupnagar,31.0,76.5,2024,12,34.36,2,24.32
+Punjab,Fazilka,30.5,74.0,2024,1,0.0,0,0.0
+Punjab,Fazilka,30.5,74.0,2024,2,0.1,0,0.1
+Punjab,Fazilka,30.5,74.0,2024,3,9.37,1,5.24
+Punjab,Fazilka,30.5,74.0,2024,4,4.3,1,2.57
+Punjab,Fazilka,30.5,74.0,2024,5,2.85,1,2.85
+Punjab,Fazilka,30.5,74.0,2024,6,36.87,2,24.8
+Punjab,Fazilka,30.5,74.0,2024,7,71.77,4,31.05
+Punjab,Fazilka,30.5,74.0,2024,8,129.5,8,42.23
+Punjab,Fazilka,30.5,74.0,2024,9,36.32,2,30.3
+Punjab,Fazilka,30.5,74.0,2024,10,0.97,0,0.97
+Punjab,Fazilka,30.5,74.0,2024,11,0.0,0,0.0
+Punjab,Fazilka,30.5,74.0,2024,12,2.03,0,1.39
+Punjab,Kapurthala,31.5,75.5,2024,1,1.66,0,1.66
+Punjab,Kapurthala,31.5,75.5,2024,2,31.01,4,15.29
+Punjab,Kapurthala,31.5,75.5,2024,3,18.87,3,10.94
+Punjab,Kapurthala,31.5,75.5,2024,4,8.47,2,3.26
+Punjab,Kapurthala,31.5,75.5,2024,5,1.31,0,0.81
+Punjab,Kapurthala,31.5,75.5,2024,6,43.96,2,31.21
+Punjab,Kapurthala,31.5,75.5,2024,7,103.52,10,32.62
+Punjab,Kapurthala,31.5,75.5,2024,8,141.08,11,21.42
+Punjab,Kapurthala,31.5,75.5,2024,9,21.42,2,10.87
+Punjab,Kapurthala,31.5,75.5,2024,10,4.25,1,4.25
+Punjab,Kapurthala,31.5,75.5,2024,11,0.0,0,0.0
+Punjab,Kapurthala,31.5,75.5,2024,12,17.0,1,16.87
+Punjab,Muktsar,30.5,74.5,2024,1,0.48,0,0.48
+Punjab,Muktsar,30.5,74.5,2024,2,3.27,0,1.96
+Punjab,Muktsar,30.5,74.5,2024,3,9.08,2,4.38
+Punjab,Muktsar,30.5,74.5,2024,4,0.98,0,0.36
+Punjab,Muktsar,30.5,74.5,2024,5,4.12,1,3.71
+Punjab,Muktsar,30.5,74.5,2024,6,19.91,1,15.32
+Punjab,Muktsar,30.5,74.5,2024,7,60.25,3,43.77
+Punjab,Muktsar,30.5,74.5,2024,8,111.07,9,34.86
+Punjab,Muktsar,30.5,74.5,2024,9,61.66,2,55.77
+Punjab,Muktsar,30.5,74.5,2024,10,0.0,0,0.0
+Punjab,Muktsar,30.5,74.5,2024,11,0.0,0,0.0
+Punjab,Muktsar,30.5,74.5,2024,12,14.18,2,8.21
+Punjab,Faridkot,30.75,74.75,2024,1,3.34,1,3.34
+Punjab,Faridkot,30.75,74.75,2024,2,5.36,1,3.33
+Punjab,Faridkot,30.75,74.75,2024,3,13.26,2,6.99
+Punjab,Faridkot,30.75,74.75,2024,4,6.6,1,3.97
+Punjab,Faridkot,30.75,74.75,2024,5,5.28,1,4.45
+Punjab,Faridkot,30.75,74.75,2024,6,10.04,2,4.78
+Punjab,Faridkot,30.75,74.75,2024,7,36.58,3,17.32
+Punjab,Faridkot,30.75,74.75,2024,8,103.63,10,22.9
+Punjab,Faridkot,30.75,74.75,2024,9,41.05,3,32.65
+Punjab,Faridkot,30.75,74.75,2024,10,0.19,0,0.19
+Punjab,Faridkot,30.75,74.75,2024,11,0.0,0,0.0
+Punjab,Faridkot,30.75,74.75,2024,12,32.98,3,24.95
+Punjab,Barnala,30.5,75.5,2024,1,0.94,0,0.94
+Punjab,Barnala,30.5,75.5,2024,2,15.29,3,5.0
+Punjab,Barnala,30.5,75.5,2024,3,22.49,3,16.32
+Punjab,Barnala,30.5,75.5,2024,4,4.89,0,2.04
+Punjab,Barnala,30.5,75.5,2024,5,2.11,0,0.8
+Punjab,Barnala,30.5,75.5,2024,6,26.72,3,12.11
+Punjab,Barnala,30.5,75.5,2024,7,77.77,4,36.7
+Punjab,Barnala,30.5,75.5,2024,8,150.29,9,43.26
+Punjab,Barnala,30.5,75.5,2024,9,86.45,6,28.75
+Punjab,Barnala,30.5,75.5,2024,10,0.55,0,0.55
+Punjab,Barnala,30.5,75.5,2024,11,0.0,0,0.0
+Punjab,Barnala,30.5,75.5,2024,12,22.67,3,10.08
+Punjab,Fatehgarh Sahib,30.75,76.5,2024,1,0.3,0,0.3
+Punjab,Fatehgarh Sahib,30.75,76.5,2024,2,28.3,2,18.2
+Punjab,Fatehgarh Sahib,30.75,76.5,2024,3,6.0,1,5.1
+Punjab,Fatehgarh Sahib,30.75,76.5,2024,4,2.3,0,1.4
+Punjab,Fatehgarh Sahib,30.75,76.5,2024,5,0.0,0,0.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2024,6,12.4,2,9.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2024,7,55.1,6,15.3
+Punjab,Fatehgarh Sahib,30.75,76.5,2024,8,184.73,9,38.3
+Punjab,Fatehgarh Sahib,30.75,76.5,2024,9,109.3,7,33.6
+Punjab,Fatehgarh Sahib,30.75,76.5,2024,10,0.5,0,0.5
+Punjab,Fatehgarh Sahib,30.75,76.5,2024,11,0.0,0,0.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2024,12,8.3,1,5.2
+Punjab,SBS Nagar,31.25,76.0,2024,1,0.0,0,0.0
+Punjab,SBS Nagar,31.25,76.0,2024,2,28.81,4,16.94
+Punjab,SBS Nagar,31.25,76.0,2024,3,56.74,3,33.5
+Punjab,SBS Nagar,31.25,76.0,2024,4,4.62,1,4.07
+Punjab,SBS Nagar,31.25,76.0,2024,5,0.97,0,0.97
+Punjab,SBS Nagar,31.25,76.0,2024,6,15.05,3,5.33
+Punjab,SBS Nagar,31.25,76.0,2024,7,123.86,11,23.16
+Punjab,SBS Nagar,31.25,76.0,2024,8,323.92,16,82.14
+Punjab,SBS Nagar,31.25,76.0,2024,9,69.17,7,13.74
+Punjab,SBS Nagar,31.25,76.0,2024,10,7.15,1,7.15
+Punjab,SBS Nagar,31.25,76.0,2024,11,0.0,0,0.0
+Punjab,SBS Nagar,31.25,76.0,2024,12,32.36,2,24.57
+Punjab,Pathankot,32.25,75.75,2024,1,7.15,1,7.15
+Punjab,Pathankot,32.25,75.75,2024,2,99.18,6,26.39
+Punjab,Pathankot,32.25,75.75,2024,3,120.86,5,39.87
+Punjab,Pathankot,32.25,75.75,2024,4,16.83,3,10.0
+Punjab,Pathankot,32.25,75.75,2024,5,0.13,0,0.13
+Punjab,Pathankot,32.25,75.75,2024,6,63.87,5,33.83
+Punjab,Pathankot,32.25,75.75,2024,7,240.65,11,84.35
+Punjab,Pathankot,32.25,75.75,2024,8,373.15,14,52.08
+Punjab,Pathankot,32.25,75.75,2024,9,141.41,7,54.67
+Punjab,Pathankot,32.25,75.75,2024,10,0.0,0,0.0
+Punjab,Pathankot,32.25,75.75,2024,11,0.0,0,0.0
+Punjab,Pathankot,32.25,75.75,2024,12,61.99,2,48.33
+Punjab,Tarn Taran,31.5,75.0,2024,1,1.84,0,1.84
+Punjab,Tarn Taran,31.5,75.0,2024,2,26.0,2,17.41
+Punjab,Tarn Taran,31.5,75.0,2024,3,31.29,4,14.24
+Punjab,Tarn Taran,31.5,75.0,2024,4,10.95,1,4.29
+Punjab,Tarn Taran,31.5,75.0,2024,5,3.05,0,1.36
+Punjab,Tarn Taran,31.5,75.0,2024,6,33.9,2,26.18
+Punjab,Tarn Taran,31.5,75.0,2024,7,85.66,8,23.14
+Punjab,Tarn Taran,31.5,75.0,2024,8,287.98,11,86.75
+Punjab,Tarn Taran,31.5,75.0,2024,9,45.28,2,27.99
+Punjab,Tarn Taran,31.5,75.0,2024,10,8.83,1,8.83
+Punjab,Tarn Taran,31.5,75.0,2024,11,0.0,0,0.0
+Punjab,Tarn Taran,31.5,75.0,2024,12,16.53,1,14.14
+Punjab,Malerkotla,30.5,76.0,2024,1,0.0,0,0.0
+Punjab,Malerkotla,30.5,76.0,2024,2,9.14,1,5.78
+Punjab,Malerkotla,30.5,76.0,2024,3,19.56,2,9.07
+Punjab,Malerkotla,30.5,76.0,2024,4,11.18,2,4.2
+Punjab,Malerkotla,30.5,76.0,2024,5,1.82,0,1.82
+Punjab,Malerkotla,30.5,76.0,2024,6,24.34,2,19.88
+Punjab,Malerkotla,30.5,76.0,2024,7,47.55,7,15.46
+Punjab,Malerkotla,30.5,76.0,2024,8,283.38,7,83.93
+Punjab,Malerkotla,30.5,76.0,2024,9,56.53,5,35.78
+Punjab,Malerkotla,30.5,76.0,2024,10,0.0,0,0.0
+Punjab,Malerkotla,30.5,76.0,2024,11,0.0,0,0.0
+Punjab,Malerkotla,30.5,76.0,2024,12,29.08,1,25.74
+Punjab,Ludhiana,31.0,75.75,2025,1,6.69,1,6.1
+Punjab,Ludhiana,31.0,75.75,2025,2,17.81,3,6.28
+Punjab,Ludhiana,31.0,75.75,2025,3,3.35,1,2.57
+Punjab,Ludhiana,31.0,75.75,2025,4,1.55,0,0.96
+Punjab,Ludhiana,31.0,75.75,2025,5,27.92,5,9.77
+Punjab,Ludhiana,31.0,75.75,2025,6,266.1,8,94.39
+Punjab,Ludhiana,31.0,75.75,2025,7,168.38,9,32.76
+Punjab,Ludhiana,31.0,75.75,2025,8,213.06,15,37.88
+Punjab,Ludhiana,31.0,75.75,2025,9,336.23,8,108.73
+Punjab,Ludhiana,31.0,75.75,2025,10,37.99,3,24.74
+Punjab,Ludhiana,31.0,75.75,2025,11,0.15,0,0.15
+Punjab,Ludhiana,31.0,75.75,2025,12,0.0,0,0.0
+Punjab,Amritsar,31.75,74.75,2025,1,7.33,2,4.56
+Punjab,Amritsar,31.75,74.75,2025,2,53.48,3,27.38
+Punjab,Amritsar,31.75,74.75,2025,3,20.87,1,20.16
+Punjab,Amritsar,31.75,74.75,2025,4,7.67,2,3.44
+Punjab,Amritsar,31.75,74.75,2025,5,53.76,5,22.17
+Punjab,Amritsar,31.75,74.75,2025,6,97.76,6,30.63
+Punjab,Amritsar,31.75,74.75,2025,7,332.63,17,49.43
+Punjab,Amritsar,31.75,74.75,2025,8,298.06,11,149.25
+Punjab,Amritsar,31.75,74.75,2025,9,174.15,7,42.96
+Punjab,Amritsar,31.75,74.75,2025,10,50.07,3,21.57
+Punjab,Amritsar,31.75,74.75,2025,11,1.89,0,1.89
+Punjab,Amritsar,31.75,74.75,2025,12,0.0,0,0.0
+Punjab,Patiala,30.25,76.5,2025,1,22.89,2,13.39
+Punjab,Patiala,30.25,76.5,2025,2,18.3,3,7.85
+Punjab,Patiala,30.25,76.5,2025,3,12.11,2,5.9
+Punjab,Patiala,30.25,76.5,2025,4,2.04,0,1.07
+Punjab,Patiala,30.25,76.5,2025,5,107.12,5,52.63
+Punjab,Patiala,30.25,76.5,2025,6,114.7,9,30.73
+Punjab,Patiala,30.25,76.5,2025,7,131.39,14,31.63
+Punjab,Patiala,30.25,76.5,2025,8,192.94,18,23.04
+Punjab,Patiala,30.25,76.5,2025,9,183.3,6,53.59
+Punjab,Patiala,30.25,76.5,2025,10,44.25,3,23.66
+Punjab,Patiala,30.25,76.5,2025,11,0.78,0,0.78
+Punjab,Patiala,30.25,76.5,2025,12,0.0,0,0.0
+Punjab,Bathinda,30.25,75.0,2025,1,15.93,1,15.93
+Punjab,Bathinda,30.25,75.0,2025,2,4.76,1,2.66
+Punjab,Bathinda,30.25,75.0,2025,3,1.96,0,1.53
+Punjab,Bathinda,30.25,75.0,2025,4,1.51,0,1.51
+Punjab,Bathinda,30.25,75.0,2025,5,44.34,4,15.52
+Punjab,Bathinda,30.25,75.0,2025,6,76.45,4,35.88
+Punjab,Bathinda,30.25,75.0,2025,7,74.49,9,25.0
+Punjab,Bathinda,30.25,75.0,2025,8,137.87,8,47.65
+Punjab,Bathinda,30.25,75.0,2025,9,83.56,7,26.02
+Punjab,Bathinda,30.25,75.0,2025,10,7.68,1,3.46
+Punjab,Bathinda,30.25,75.0,2025,11,0.48,0,0.48
+Punjab,Bathinda,30.25,75.0,2025,12,0.0,0,0.0
+Punjab,Jalandhar,31.25,75.5,2025,1,4.44,1,2.84
+Punjab,Jalandhar,31.25,75.5,2025,2,15.19,3,7.54
+Punjab,Jalandhar,31.25,75.5,2025,3,4.77,1,4.5
+Punjab,Jalandhar,31.25,75.5,2025,4,5.37,1,3.3
+Punjab,Jalandhar,31.25,75.5,2025,5,21.97,2,7.53
+Punjab,Jalandhar,31.25,75.5,2025,6,41.38,6,9.6
+Punjab,Jalandhar,31.25,75.5,2025,7,82.35,11,14.02
+Punjab,Jalandhar,31.25,75.5,2025,8,286.46,19,44.74
+Punjab,Jalandhar,31.25,75.5,2025,9,205.5,7,85.08
+Punjab,Jalandhar,31.25,75.5,2025,10,34.1,4,12.35
+Punjab,Jalandhar,31.25,75.5,2025,11,0.0,0,0.0
+Punjab,Jalandhar,31.25,75.5,2025,12,0.0,0,0.0
+Punjab,Sangrur,30.25,75.75,2025,1,4.38,1,4.09
+Punjab,Sangrur,30.25,75.75,2025,2,20.08,3,11.74
+Punjab,Sangrur,30.25,75.75,2025,3,5.97,1,3.53
+Punjab,Sangrur,30.25,75.75,2025,4,10.51,1,9.49
+Punjab,Sangrur,30.25,75.75,2025,5,41.13,5,14.72
+Punjab,Sangrur,30.25,75.75,2025,6,37.85,3,13.8
+Punjab,Sangrur,30.25,75.75,2025,7,130.42,9,35.45
+Punjab,Sangrur,30.25,75.75,2025,8,303.88,10,164.68
+Punjab,Sangrur,30.25,75.75,2025,9,251.62,7,127.0
+Punjab,Sangrur,30.25,75.75,2025,10,16.01,2,12.02
+Punjab,Sangrur,30.25,75.75,2025,11,1.45,0,1.45
+Punjab,Sangrur,30.25,75.75,2025,12,0.0,0,0.0
+Punjab,Firozpur,31.0,74.5,2025,1,3.5,1,2.71
+Punjab,Firozpur,31.0,74.5,2025,2,22.15,3,10.28
+Punjab,Firozpur,31.0,74.5,2025,3,1.61,0,1.61
+Punjab,Firozpur,31.0,74.5,2025,4,0.66,0,0.39
+Punjab,Firozpur,31.0,74.5,2025,5,19.88,2,8.43
+Punjab,Firozpur,31.0,74.5,2025,6,47.81,3,28.38
+Punjab,Firozpur,31.0,74.5,2025,7,162.0,10,35.75
+Punjab,Firozpur,31.0,74.5,2025,8,139.65,6,66.29
+Punjab,Firozpur,31.0,74.5,2025,9,48.27,5,17.13
+Punjab,Firozpur,31.0,74.5,2025,10,13.31,3,5.55
+Punjab,Firozpur,31.0,74.5,2025,11,10.44,1,10.44
+Punjab,Firozpur,31.0,74.5,2025,12,0.0,0,0.0
+Punjab,Gurdaspur,32.0,75.5,2025,1,4.99,1,2.91
+Punjab,Gurdaspur,32.0,75.5,2025,2,48.94,4,22.03
+Punjab,Gurdaspur,32.0,75.5,2025,3,16.78,1,14.39
+Punjab,Gurdaspur,32.0,75.5,2025,4,16.92,2,11.57
+Punjab,Gurdaspur,32.0,75.5,2025,5,36.51,3,15.27
+Punjab,Gurdaspur,32.0,75.5,2025,6,49.19,3,20.93
+Punjab,Gurdaspur,32.0,75.5,2025,7,158.94,13,46.88
+Punjab,Gurdaspur,32.0,75.5,2025,8,493.69,21,158.61
+Punjab,Gurdaspur,32.0,75.5,2025,9,144.08,9,51.8
+Punjab,Gurdaspur,32.0,75.5,2025,10,49.89,4,14.98
+Punjab,Gurdaspur,32.0,75.5,2025,11,0.1,0,0.1
+Punjab,Gurdaspur,32.0,75.5,2025,12,0.0,0,0.0
+Punjab,Hoshiarpur,31.5,76.0,2025,1,2.52,0,1.73
+Punjab,Hoshiarpur,31.5,76.0,2025,2,49.26,5,23.01
+Punjab,Hoshiarpur,31.5,76.0,2025,3,18.77,2,12.45
+Punjab,Hoshiarpur,31.5,76.0,2025,4,20.38,3,9.0
+Punjab,Hoshiarpur,31.5,76.0,2025,5,69.8,7,22.64
+Punjab,Hoshiarpur,31.5,76.0,2025,6,150.6,12,43.25
+Punjab,Hoshiarpur,31.5,76.0,2025,7,366.7,15,58.69
+Punjab,Hoshiarpur,31.5,76.0,2025,8,789.41,25,164.75
+Punjab,Hoshiarpur,31.5,76.0,2025,9,211.1,9,96.26
+Punjab,Hoshiarpur,31.5,76.0,2025,10,58.37,4,31.9
+Punjab,Hoshiarpur,31.5,76.0,2025,11,0.82,0,0.82
+Punjab,Hoshiarpur,31.5,76.0,2025,12,0.0,0,0.0
+Punjab,Mansa,30.0,75.5,2025,1,7.58,1,7.58
+Punjab,Mansa,30.0,75.5,2025,2,11.42,2,4.22
+Punjab,Mansa,30.0,75.5,2025,3,3.07,1,2.96
+Punjab,Mansa,30.0,75.5,2025,4,2.1,0,0.91
+Punjab,Mansa,30.0,75.5,2025,5,34.52,4,10.26
+Punjab,Mansa,30.0,75.5,2025,6,30.13,5,6.62
+Punjab,Mansa,30.0,75.5,2025,7,107.07,9,29.72
+Punjab,Mansa,30.0,75.5,2025,8,189.78,8,75.67
+Punjab,Mansa,30.0,75.5,2025,9,180.56,8,66.9
+Punjab,Mansa,30.0,75.5,2025,10,15.36,1,11.1
+Punjab,Mansa,30.0,75.5,2025,11,3.34,1,3.34
+Punjab,Mansa,30.0,75.5,2025,12,0.0,0,0.0
+Punjab,Mohali,30.75,76.75,2025,1,20.01,2,13.89
+Punjab,Mohali,30.75,76.75,2025,2,15.5,2,9.21
+Punjab,Mohali,30.75,76.75,2025,3,7.0,2,3.71
+Punjab,Mohali,30.75,76.75,2025,4,8.59,2,4.36
+Punjab,Mohali,30.75,76.75,2025,5,66.87,5,15.57
+Punjab,Mohali,30.75,76.75,2025,6,196.38,9,81.8
+Punjab,Mohali,30.75,76.75,2025,7,196.49,15,27.59
+Punjab,Mohali,30.75,76.75,2025,8,332.79,19,56.2
+Punjab,Mohali,30.75,76.75,2025,9,304.08,11,74.42
+Punjab,Mohali,30.75,76.75,2025,10,71.86,2,38.18
+Punjab,Mohali,30.75,76.75,2025,11,0.44,0,0.44
+Punjab,Mohali,30.75,76.75,2025,12,0.0,0,0.0
+Punjab,Rupnagar,31.0,76.5,2025,1,3.78,0,1.93
+Punjab,Rupnagar,31.0,76.5,2025,2,11.67,1,9.01
+Punjab,Rupnagar,31.0,76.5,2025,3,9.19,1,5.16
+Punjab,Rupnagar,31.0,76.5,2025,4,15.81,2,7.74
+Punjab,Rupnagar,31.0,76.5,2025,5,27.76,4,6.75
+Punjab,Rupnagar,31.0,76.5,2025,6,95.39,5,41.61
+Punjab,Rupnagar,31.0,76.5,2025,7,250.57,12,58.66
+Punjab,Rupnagar,31.0,76.5,2025,8,800.53,22,86.56
+Punjab,Rupnagar,31.0,76.5,2025,9,274.59,10,84.08
+Punjab,Rupnagar,31.0,76.5,2025,10,6.23,2,2.93
+Punjab,Rupnagar,31.0,76.5,2025,11,0.0,0,0.0
+Punjab,Rupnagar,31.0,76.5,2025,12,0.0,0,0.0
+Punjab,Fazilka,30.5,74.0,2025,1,4.97,1,4.97
+Punjab,Fazilka,30.5,74.0,2025,2,3.97,1,2.63
+Punjab,Fazilka,30.5,74.0,2025,3,1.51,0,1.06
+Punjab,Fazilka,30.5,74.0,2025,4,0.0,0,0.0
+Punjab,Fazilka,30.5,74.0,2025,5,16.44,1,14.16
+Punjab,Fazilka,30.5,74.0,2025,6,82.05,5,35.51
+Punjab,Fazilka,30.5,74.0,2025,7,89.91,8,27.58
+Punjab,Fazilka,30.5,74.0,2025,8,185.06,9,51.35
+Punjab,Fazilka,30.5,74.0,2025,9,32.77,3,13.45
+Punjab,Fazilka,30.5,74.0,2025,10,3.61,1,3.22
+Punjab,Fazilka,30.5,74.0,2025,11,1.61,0,1.61
+Punjab,Fazilka,30.5,74.0,2025,12,0.0,0,0.0
+Punjab,Kapurthala,31.5,75.5,2025,1,3.67,1,2.68
+Punjab,Kapurthala,31.5,75.5,2025,2,25.19,3,12.82
+Punjab,Kapurthala,31.5,75.5,2025,3,2.56,0,2.25
+Punjab,Kapurthala,31.5,75.5,2025,4,2.09,0,1.16
+Punjab,Kapurthala,31.5,75.5,2025,5,28.24,5,9.46
+Punjab,Kapurthala,31.5,75.5,2025,6,40.2,6,11.61
+Punjab,Kapurthala,31.5,75.5,2025,7,112.24,7,28.41
+Punjab,Kapurthala,31.5,75.5,2025,8,281.12,13,57.72
+Punjab,Kapurthala,31.5,75.5,2025,9,243.96,7,88.28
+Punjab,Kapurthala,31.5,75.5,2025,10,28.7,2,17.16
+Punjab,Kapurthala,31.5,75.5,2025,11,0.22,0,0.22
+Punjab,Kapurthala,31.5,75.5,2025,12,0.0,0,0.0
+Punjab,Muktsar,30.5,74.5,2025,1,22.71,1,22.71
+Punjab,Muktsar,30.5,74.5,2025,2,8.95,2,4.76
+Punjab,Muktsar,30.5,74.5,2025,3,0.5,0,0.36
+Punjab,Muktsar,30.5,74.5,2025,4,0.0,0,0.0
+Punjab,Muktsar,30.5,74.5,2025,5,48.71,3,38.14
+Punjab,Muktsar,30.5,74.5,2025,6,50.36,4,18.49
+Punjab,Muktsar,30.5,74.5,2025,7,118.44,9,50.0
+Punjab,Muktsar,30.5,74.5,2025,8,156.25,8,43.39
+Punjab,Muktsar,30.5,74.5,2025,9,51.21,4,30.57
+Punjab,Muktsar,30.5,74.5,2025,10,9.53,2,4.77
+Punjab,Muktsar,30.5,74.5,2025,11,6.29,1,6.29
+Punjab,Muktsar,30.5,74.5,2025,12,0.0,0,0.0
+Punjab,Faridkot,30.75,74.75,2025,1,9.33,1,9.2
+Punjab,Faridkot,30.75,74.75,2025,2,13.89,2,8.59
+Punjab,Faridkot,30.75,74.75,2025,3,1.73,0,1.54
+Punjab,Faridkot,30.75,74.75,2025,4,3.96,1,3.77
+Punjab,Faridkot,30.75,74.75,2025,5,28.56,3,9.93
+Punjab,Faridkot,30.75,74.75,2025,6,74.83,8,20.56
+Punjab,Faridkot,30.75,74.75,2025,7,165.79,11,36.43
+Punjab,Faridkot,30.75,74.75,2025,8,189.07,7,66.63
+Punjab,Faridkot,30.75,74.75,2025,9,40.18,4,21.9
+Punjab,Faridkot,30.75,74.75,2025,10,17.62,2,10.89
+Punjab,Faridkot,30.75,74.75,2025,11,0.89,0,0.89
+Punjab,Faridkot,30.75,74.75,2025,12,0.0,0,0.0
+Punjab,Barnala,30.5,75.5,2025,1,7.7,1,7.49
+Punjab,Barnala,30.5,75.5,2025,2,17.42,2,8.11
+Punjab,Barnala,30.5,75.5,2025,3,7.11,1,3.65
+Punjab,Barnala,30.5,75.5,2025,4,8.61,2,5.02
+Punjab,Barnala,30.5,75.5,2025,5,69.23,6,25.22
+Punjab,Barnala,30.5,75.5,2025,6,83.02,7,33.65
+Punjab,Barnala,30.5,75.5,2025,7,117.82,12,19.8
+Punjab,Barnala,30.5,75.5,2025,8,244.51,12,84.11
+Punjab,Barnala,30.5,75.5,2025,9,202.57,8,57.82
+Punjab,Barnala,30.5,75.5,2025,10,43.03,3,22.57
+Punjab,Barnala,30.5,75.5,2025,11,1.91,0,1.91
+Punjab,Barnala,30.5,75.5,2025,12,0.0,0,0.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2025,1,4.8,1,2.7
+Punjab,Fatehgarh Sahib,30.75,76.5,2025,2,5.0,1,3.5
+Punjab,Fatehgarh Sahib,30.75,76.5,2025,3,6.1,1,4.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2025,4,27.8,2,22.3
+Punjab,Fatehgarh Sahib,30.75,76.5,2025,5,13.4,2,5.8
+Punjab,Fatehgarh Sahib,30.75,76.5,2025,6,59.5,3,36.4
+Punjab,Fatehgarh Sahib,30.75,76.5,2025,7,79.3,8,24.2
+Punjab,Fatehgarh Sahib,30.75,76.5,2025,8,151.1,10,48.3
+Punjab,Fatehgarh Sahib,30.75,76.5,2025,9,84.9,6,23.2
+Punjab,Fatehgarh Sahib,30.75,76.5,2025,10,20.4,2,9.3
+Punjab,Fatehgarh Sahib,30.75,76.5,2025,11,0.0,0,0.0
+Punjab,Fatehgarh Sahib,30.75,76.5,2025,12,0.0,0,0.0
+Punjab,SBS Nagar,31.25,76.0,2025,1,12.61,1,11.4
+Punjab,SBS Nagar,31.25,76.0,2025,2,19.72,3,7.89
+Punjab,SBS Nagar,31.25,76.0,2025,3,13.5,2,10.18
+Punjab,SBS Nagar,31.25,76.0,2025,4,5.13,1,4.85
+Punjab,SBS Nagar,31.25,76.0,2025,5,29.68,5,9.28
+Punjab,SBS Nagar,31.25,76.0,2025,6,133.55,8,59.92
+Punjab,SBS Nagar,31.25,76.0,2025,7,147.26,8,37.64
+Punjab,SBS Nagar,31.25,76.0,2025,8,460.57,14,67.0
+Punjab,SBS Nagar,31.25,76.0,2025,9,148.41,7,84.38
+Punjab,SBS Nagar,31.25,76.0,2025,10,39.7,1,36.99
+Punjab,SBS Nagar,31.25,76.0,2025,11,1.99,0,1.99
+Punjab,SBS Nagar,31.25,76.0,2025,12,0.0,0,0.0
+Punjab,Pathankot,32.25,75.75,2025,1,0.52,0,0.52
+Punjab,Pathankot,32.25,75.75,2025,2,73.43,4,43.32
+Punjab,Pathankot,32.25,75.75,2025,3,52.61,4,18.59
+Punjab,Pathankot,32.25,75.75,2025,4,90.99,4,56.27
+Punjab,Pathankot,32.25,75.75,2025,5,61.0,7,22.62
+Punjab,Pathankot,32.25,75.75,2025,6,190.8,11,37.75
+Punjab,Pathankot,32.25,75.75,2025,7,514.57,12,113.93
+Punjab,Pathankot,32.25,75.75,2025,8,554.93,19,110.85
+Punjab,Pathankot,32.25,75.75,2025,9,278.53,17,71.79
+Punjab,Pathankot,32.25,75.75,2025,10,123.1,4,49.86
+Punjab,Pathankot,32.25,75.75,2025,11,0.0,0,0.0
+Punjab,Pathankot,32.25,75.75,2025,12,0.0,0,0.0
+Punjab,Tarn Taran,31.5,75.0,2025,1,5.85,2,2.96
+Punjab,Tarn Taran,31.5,75.0,2025,2,42.37,4,16.09
+Punjab,Tarn Taran,31.5,75.0,2025,3,2.63,0,2.17
+Punjab,Tarn Taran,31.5,75.0,2025,4,2.12,0,1.1
+Punjab,Tarn Taran,31.5,75.0,2025,5,36.44,5,12.73
+Punjab,Tarn Taran,31.5,75.0,2025,6,71.5,3,33.21
+Punjab,Tarn Taran,31.5,75.0,2025,7,234.13,18,35.8
+Punjab,Tarn Taran,31.5,75.0,2025,8,231.83,12,110.64
+Punjab,Tarn Taran,31.5,75.0,2025,9,160.2,7,45.84
+Punjab,Tarn Taran,31.5,75.0,2025,10,33.34,3,16.72
+Punjab,Tarn Taran,31.5,75.0,2025,11,4.36,1,4.36
+Punjab,Tarn Taran,31.5,75.0,2025,12,0.0,0,0.0
+Punjab,Malerkotla,30.5,76.0,2025,1,7.97,2,5.18
+Punjab,Malerkotla,30.5,76.0,2025,2,11.54,2,6.08
+Punjab,Malerkotla,30.5,76.0,2025,3,24.74,1,23.06
+Punjab,Malerkotla,30.5,76.0,2025,4,3.12,1,2.67
+Punjab,Malerkotla,30.5,76.0,2025,5,12.53,1,5.21
+Punjab,Malerkotla,30.5,76.0,2025,6,191.9,10,50.84
+Punjab,Malerkotla,30.5,76.0,2025,7,127.34,10,34.45
+Punjab,Malerkotla,30.5,76.0,2025,8,149.5,10,34.55
+Punjab,Malerkotla,30.5,76.0,2025,9,211.98,5,95.99
+Punjab,Malerkotla,30.5,76.0,2025,10,8.27,1,3.56
+Punjab,Malerkotla,30.5,76.0,2025,11,1.14,0,1.14
+Punjab,Malerkotla,30.5,76.0,2025,12,0.0,0,0.0
