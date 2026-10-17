@@ -1,0 +1,1620 @@
+{
+    "model_type": "Random_Forest_Regressor",
+    "feature_names": [
+        "grid_lat",
+        "grid_lon",
+        "month",
+        "month_sin",
+        "month_cos",
+        "season_code",
+        "same_month_lag_1yr",
+        "same_month_lag_2yr",
+        "same_month_lag_3yr",
+        "same_month_3yr_mean",
+        "same_month_5yr_mean",
+        "same_month_hist_mean",
+        "same_month_hist_std",
+        "same_month_hist_min",
+        "same_month_hist_max",
+        "same_month_trend_slope",
+        "same_month_rainy_days_avg",
+        "prior_month_rf",
+        "prior_2month_rf"
+    ],
+    "units": "millimeters (mm)",
+    "train_period": "2015-2023 historical base",
+    "evaluation_period": "2024-2025 out-of-time test",
+    "metrics": {
+        "mae_mm": 45.77,
+        "rmse_mm": 86.17,
+        "r2_score": 0.2178,
+        "pearson_r": 0.5902,
+        "anomaly_direction_accuracy": 0.483
+    },
+    "normals_by_district_month": {
+        "Amritsar_1": {
+            "normal_mm": 33.49,
+            "std_mm": 35.77,
+            "min_mm": 1.01,
+            "max_mm": 113.76
+        },
+        "Amritsar_2": {
+            "normal_mm": 28.87,
+            "std_mm": 33.75,
+            "min_mm": 0.13,
+            "max_mm": 107.38
+        },
+        "Amritsar_3": {
+            "normal_mm": 23.38,
+            "std_mm": 20.95,
+            "min_mm": 1.66,
+            "max_mm": 67.05
+        },
+        "Amritsar_4": {
+            "normal_mm": 21.37,
+            "std_mm": 10.51,
+            "min_mm": 1.02,
+            "max_mm": 34.5
+        },
+        "Amritsar_5": {
+            "normal_mm": 19.05,
+            "std_mm": 18.29,
+            "min_mm": 1.53,
+            "max_mm": 53.76
+        },
+        "Amritsar_6": {
+            "normal_mm": 87.91,
+            "std_mm": 72.8,
+            "min_mm": 20.4,
+            "max_mm": 249.83
+        },
+        "Amritsar_7": {
+            "normal_mm": 235.28,
+            "std_mm": 70.94,
+            "min_mm": 130.31,
+            "max_mm": 358.31
+        },
+        "Amritsar_8": {
+            "normal_mm": 155.23,
+            "std_mm": 90.12,
+            "min_mm": 62.06,
+            "max_mm": 298.06
+        },
+        "Amritsar_9": {
+            "normal_mm": 120.6,
+            "std_mm": 103.48,
+            "min_mm": 13.84,
+            "max_mm": 296.55
+        },
+        "Amritsar_10": {
+            "normal_mm": 17.15,
+            "std_mm": 16.92,
+            "min_mm": 0.0,
+            "max_mm": 50.07
+        },
+        "Amritsar_11": {
+            "normal_mm": 10.57,
+            "std_mm": 14.45,
+            "min_mm": 0.0,
+            "max_mm": 42.86
+        },
+        "Amritsar_12": {
+            "normal_mm": 11.73,
+            "std_mm": 15.99,
+            "min_mm": 0.0,
+            "max_mm": 47.35
+        },
+        "Barnala_1": {
+            "normal_mm": 30.75,
+            "std_mm": 37.14,
+            "min_mm": 0.94,
+            "max_mm": 113.01
+        },
+        "Barnala_2": {
+            "normal_mm": 11.98,
+            "std_mm": 13.69,
+            "min_mm": 0.27,
+            "max_mm": 44.34
+        },
+        "Barnala_3": {
+            "normal_mm": 23.2,
+            "std_mm": 29.75,
+            "min_mm": 0.0,
+            "max_mm": 84.54
+        },
+        "Barnala_4": {
+            "normal_mm": 11.74,
+            "std_mm": 10.02,
+            "min_mm": 0.23,
+            "max_mm": 35.13
+        },
+        "Barnala_5": {
+            "normal_mm": 26.29,
+            "std_mm": 25.2,
+            "min_mm": 2.11,
+            "max_mm": 69.23
+        },
+        "Barnala_6": {
+            "normal_mm": 56.08,
+            "std_mm": 31.65,
+            "min_mm": 22.96,
+            "max_mm": 106.43
+        },
+        "Barnala_7": {
+            "normal_mm": 189.21,
+            "std_mm": 92.94,
+            "min_mm": 77.77,
+            "max_mm": 371.25
+        },
+        "Barnala_8": {
+            "normal_mm": 104.19,
+            "std_mm": 66.63,
+            "min_mm": 20.67,
+            "max_mm": 244.51
+        },
+        "Barnala_9": {
+            "normal_mm": 110.78,
+            "std_mm": 80.41,
+            "min_mm": 7.86,
+            "max_mm": 247.67
+        },
+        "Barnala_10": {
+            "normal_mm": 13.48,
+            "std_mm": 16.12,
+            "min_mm": 0.0,
+            "max_mm": 43.03
+        },
+        "Barnala_11": {
+            "normal_mm": 4.62,
+            "std_mm": 5.83,
+            "min_mm": 0.0,
+            "max_mm": 12.89
+        },
+        "Barnala_12": {
+            "normal_mm": 6.18,
+            "std_mm": 8.22,
+            "min_mm": 0.0,
+            "max_mm": 22.67
+        },
+        "Bathinda_1": {
+            "normal_mm": 19.74,
+            "std_mm": 23.6,
+            "min_mm": 1.4,
+            "max_mm": 77.25
+        },
+        "Bathinda_2": {
+            "normal_mm": 5.64,
+            "std_mm": 6.39,
+            "min_mm": 0.0,
+            "max_mm": 16.41
+        },
+        "Bathinda_3": {
+            "normal_mm": 13.93,
+            "std_mm": 22.27,
+            "min_mm": 0.0,
+            "max_mm": 61.25
+        },
+        "Bathinda_4": {
+            "normal_mm": 5.62,
+            "std_mm": 4.53,
+            "min_mm": 0.0,
+            "max_mm": 12.36
+        },
+        "Bathinda_5": {
+            "normal_mm": 18.47,
+            "std_mm": 14.09,
+            "min_mm": 1.06,
+            "max_mm": 44.34
+        },
+        "Bathinda_6": {
+            "normal_mm": 54.84,
+            "std_mm": 38.81,
+            "min_mm": 19.73,
+            "max_mm": 146.98
+        },
+        "Bathinda_7": {
+            "normal_mm": 122.08,
+            "std_mm": 85.74,
+            "min_mm": 26.35,
+            "max_mm": 313.64
+        },
+        "Bathinda_8": {
+            "normal_mm": 73.82,
+            "std_mm": 40.88,
+            "min_mm": 3.86,
+            "max_mm": 137.87
+        },
+        "Bathinda_9": {
+            "normal_mm": 47.98,
+            "std_mm": 33.85,
+            "min_mm": 12.32,
+            "max_mm": 103.14
+        },
+        "Bathinda_10": {
+            "normal_mm": 8.71,
+            "std_mm": 13.21,
+            "min_mm": 0.0,
+            "max_mm": 39.44
+        },
+        "Bathinda_11": {
+            "normal_mm": 4.86,
+            "std_mm": 6.21,
+            "min_mm": 0.0,
+            "max_mm": 15.84
+        },
+        "Bathinda_12": {
+            "normal_mm": 3.82,
+            "std_mm": 5.82,
+            "min_mm": 0.0,
+            "max_mm": 16.29
+        },
+        "Faridkot_1": {
+            "normal_mm": 21.5,
+            "std_mm": 35.21,
+            "min_mm": 1.62,
+            "max_mm": 109.33
+        },
+        "Faridkot_2": {
+            "normal_mm": 9.17,
+            "std_mm": 11.94,
+            "min_mm": 0.0,
+            "max_mm": 31.84
+        },
+        "Faridkot_3": {
+            "normal_mm": 18.19,
+            "std_mm": 26.3,
+            "min_mm": 0.19,
+            "max_mm": 70.31
+        },
+        "Faridkot_4": {
+            "normal_mm": 12.39,
+            "std_mm": 10.44,
+            "min_mm": 0.46,
+            "max_mm": 32.26
+        },
+        "Faridkot_5": {
+            "normal_mm": 17.76,
+            "std_mm": 17.43,
+            "min_mm": 0.0,
+            "max_mm": 44.09
+        },
+        "Faridkot_6": {
+            "normal_mm": 56.24,
+            "std_mm": 36.14,
+            "min_mm": 10.04,
+            "max_mm": 125.48
+        },
+        "Faridkot_7": {
+            "normal_mm": 134.02,
+            "std_mm": 67.51,
+            "min_mm": 24.68,
+            "max_mm": 224.41
+        },
+        "Faridkot_8": {
+            "normal_mm": 84.97,
+            "std_mm": 58.64,
+            "min_mm": 6.56,
+            "max_mm": 189.07
+        },
+        "Faridkot_9": {
+            "normal_mm": 62.81,
+            "std_mm": 29.44,
+            "min_mm": 26.15,
+            "max_mm": 126.55
+        },
+        "Faridkot_10": {
+            "normal_mm": 7.73,
+            "std_mm": 10.59,
+            "min_mm": 0.0,
+            "max_mm": 29.14
+        },
+        "Faridkot_11": {
+            "normal_mm": 4.28,
+            "std_mm": 5.0,
+            "min_mm": 0.0,
+            "max_mm": 12.18
+        },
+        "Faridkot_12": {
+            "normal_mm": 7.25,
+            "std_mm": 11.62,
+            "min_mm": 0.0,
+            "max_mm": 32.98
+        },
+        "Fatehgarh Sahib_1": {
+            "normal_mm": 39.41,
+            "std_mm": 53.75,
+            "min_mm": 0.3,
+            "max_mm": 144.14
+        },
+        "Fatehgarh Sahib_2": {
+            "normal_mm": 18.16,
+            "std_mm": 18.2,
+            "min_mm": 0.0,
+            "max_mm": 41.0
+        },
+        "Fatehgarh Sahib_3": {
+            "normal_mm": 25.54,
+            "std_mm": 36.99,
+            "min_mm": 0.0,
+            "max_mm": 111.04
+        },
+        "Fatehgarh Sahib_4": {
+            "normal_mm": 18.83,
+            "std_mm": 12.8,
+            "min_mm": 0.48,
+            "max_mm": 34.5
+        },
+        "Fatehgarh Sahib_5": {
+            "normal_mm": 22.92,
+            "std_mm": 23.02,
+            "min_mm": 0.0,
+            "max_mm": 76.0
+        },
+        "Fatehgarh Sahib_6": {
+            "normal_mm": 76.84,
+            "std_mm": 45.84,
+            "min_mm": 12.4,
+            "max_mm": 140.92
+        },
+        "Fatehgarh Sahib_7": {
+            "normal_mm": 202.61,
+            "std_mm": 152.91,
+            "min_mm": 39.91,
+            "max_mm": 477.14
+        },
+        "Fatehgarh Sahib_8": {
+            "normal_mm": 123.52,
+            "std_mm": 81.63,
+            "min_mm": 9.66,
+            "max_mm": 222.19
+        },
+        "Fatehgarh Sahib_9": {
+            "normal_mm": 112.02,
+            "std_mm": 87.63,
+            "min_mm": 15.5,
+            "max_mm": 303.39
+        },
+        "Fatehgarh Sahib_10": {
+            "normal_mm": 7.92,
+            "std_mm": 9.61,
+            "min_mm": 0.0,
+            "max_mm": 23.3
+        },
+        "Fatehgarh Sahib_11": {
+            "normal_mm": 6.84,
+            "std_mm": 9.21,
+            "min_mm": 0.0,
+            "max_mm": 23.99
+        },
+        "Fatehgarh Sahib_12": {
+            "normal_mm": 10.86,
+            "std_mm": 13.4,
+            "min_mm": 0.0,
+            "max_mm": 40.34
+        },
+        "Fazilka_1": {
+            "normal_mm": 11.75,
+            "std_mm": 15.39,
+            "min_mm": 0.0,
+            "max_mm": 44.16
+        },
+        "Fazilka_2": {
+            "normal_mm": 3.29,
+            "std_mm": 5.54,
+            "min_mm": 0.0,
+            "max_mm": 17.29
+        },
+        "Fazilka_3": {
+            "normal_mm": 16.19,
+            "std_mm": 26.68,
+            "min_mm": 0.52,
+            "max_mm": 70.92
+        },
+        "Fazilka_4": {
+            "normal_mm": 8.8,
+            "std_mm": 10.64,
+            "min_mm": 0.0,
+            "max_mm": 32.26
+        },
+        "Fazilka_5": {
+            "normal_mm": 11.43,
+            "std_mm": 12.27,
+            "min_mm": 1.05,
+            "max_mm": 41.34
+        },
+        "Fazilka_6": {
+            "normal_mm": 35.7,
+            "std_mm": 22.28,
+            "min_mm": 5.14,
+            "max_mm": 82.05
+        },
+        "Fazilka_7": {
+            "normal_mm": 81.19,
+            "std_mm": 40.11,
+            "min_mm": 16.29,
+            "max_mm": 131.32
+        },
+        "Fazilka_8": {
+            "normal_mm": 52.64,
+            "std_mm": 68.3,
+            "min_mm": 0.66,
+            "max_mm": 185.06
+        },
+        "Fazilka_9": {
+            "normal_mm": 38.4,
+            "std_mm": 39.02,
+            "min_mm": 0.92,
+            "max_mm": 133.75
+        },
+        "Fazilka_10": {
+            "normal_mm": 6.25,
+            "std_mm": 10.01,
+            "min_mm": 0.0,
+            "max_mm": 29.12
+        },
+        "Fazilka_11": {
+            "normal_mm": 1.64,
+            "std_mm": 3.23,
+            "min_mm": 0.0,
+            "max_mm": 10.08
+        },
+        "Fazilka_12": {
+            "normal_mm": 3.38,
+            "std_mm": 7.26,
+            "min_mm": 0.0,
+            "max_mm": 22.41
+        },
+        "Firozpur_1": {
+            "normal_mm": 23.24,
+            "std_mm": 38.33,
+            "min_mm": 0.14,
+            "max_mm": 118.18
+        },
+        "Firozpur_2": {
+            "normal_mm": 11.87,
+            "std_mm": 15.63,
+            "min_mm": 0.0,
+            "max_mm": 43.84
+        },
+        "Firozpur_3": {
+            "normal_mm": 19.99,
+            "std_mm": 27.84,
+            "min_mm": 0.15,
+            "max_mm": 77.09
+        },
+        "Firozpur_4": {
+            "normal_mm": 16.54,
+            "std_mm": 20.46,
+            "min_mm": 0.66,
+            "max_mm": 63.75
+        },
+        "Firozpur_5": {
+            "normal_mm": 16.51,
+            "std_mm": 20.84,
+            "min_mm": 0.0,
+            "max_mm": 63.46
+        },
+        "Firozpur_6": {
+            "normal_mm": 31.57,
+            "std_mm": 20.33,
+            "min_mm": 2.81,
+            "max_mm": 57.27
+        },
+        "Firozpur_7": {
+            "normal_mm": 139.86,
+            "std_mm": 99.71,
+            "min_mm": 15.28,
+            "max_mm": 348.52
+        },
+        "Firozpur_8": {
+            "normal_mm": 71.37,
+            "std_mm": 47.9,
+            "min_mm": 7.43,
+            "max_mm": 139.65
+        },
+        "Firozpur_9": {
+            "normal_mm": 59.81,
+            "std_mm": 36.54,
+            "min_mm": 19.2,
+            "max_mm": 125.5
+        },
+        "Firozpur_10": {
+            "normal_mm": 8.56,
+            "std_mm": 11.93,
+            "min_mm": 0.0,
+            "max_mm": 28.97
+        },
+        "Firozpur_11": {
+            "normal_mm": 4.45,
+            "std_mm": 5.22,
+            "min_mm": 0.0,
+            "max_mm": 11.55
+        },
+        "Firozpur_12": {
+            "normal_mm": 6.27,
+            "std_mm": 8.29,
+            "min_mm": 0.0,
+            "max_mm": 23.61
+        },
+        "Gurdaspur_1": {
+            "normal_mm": 58.0,
+            "std_mm": 61.72,
+            "min_mm": 0.54,
+            "max_mm": 196.43
+        },
+        "Gurdaspur_2": {
+            "normal_mm": 44.15,
+            "std_mm": 68.59,
+            "min_mm": 0.1,
+            "max_mm": 221.3
+        },
+        "Gurdaspur_3": {
+            "normal_mm": 29.42,
+            "std_mm": 26.46,
+            "min_mm": 2.56,
+            "max_mm": 81.55
+        },
+        "Gurdaspur_4": {
+            "normal_mm": 23.87,
+            "std_mm": 15.29,
+            "min_mm": 0.0,
+            "max_mm": 52.5
+        },
+        "Gurdaspur_5": {
+            "normal_mm": 22.79,
+            "std_mm": 11.62,
+            "min_mm": 7.22,
+            "max_mm": 36.51
+        },
+        "Gurdaspur_6": {
+            "normal_mm": 72.95,
+            "std_mm": 39.26,
+            "min_mm": 9.67,
+            "max_mm": 122.78
+        },
+        "Gurdaspur_7": {
+            "normal_mm": 236.73,
+            "std_mm": 107.0,
+            "min_mm": 100.93,
+            "max_mm": 415.6
+        },
+        "Gurdaspur_8": {
+            "normal_mm": 213.65,
+            "std_mm": 122.82,
+            "min_mm": 77.8,
+            "max_mm": 493.69
+        },
+        "Gurdaspur_9": {
+            "normal_mm": 122.88,
+            "std_mm": 94.22,
+            "min_mm": 18.06,
+            "max_mm": 322.28
+        },
+        "Gurdaspur_10": {
+            "normal_mm": 19.09,
+            "std_mm": 22.28,
+            "min_mm": 0.0,
+            "max_mm": 59.57
+        },
+        "Gurdaspur_11": {
+            "normal_mm": 12.18,
+            "std_mm": 14.85,
+            "min_mm": 0.0,
+            "max_mm": 38.5
+        },
+        "Gurdaspur_12": {
+            "normal_mm": 17.56,
+            "std_mm": 20.67,
+            "min_mm": 0.0,
+            "max_mm": 49.85
+        },
+        "Hoshiarpur_1": {
+            "normal_mm": 58.11,
+            "std_mm": 60.51,
+            "min_mm": 1.36,
+            "max_mm": 194.79
+        },
+        "Hoshiarpur_2": {
+            "normal_mm": 38.93,
+            "std_mm": 46.12,
+            "min_mm": 0.17,
+            "max_mm": 148.02
+        },
+        "Hoshiarpur_3": {
+            "normal_mm": 38.41,
+            "std_mm": 41.86,
+            "min_mm": 0.91,
+            "max_mm": 129.24
+        },
+        "Hoshiarpur_4": {
+            "normal_mm": 27.34,
+            "std_mm": 15.56,
+            "min_mm": 1.51,
+            "max_mm": 51.99
+        },
+        "Hoshiarpur_5": {
+            "normal_mm": 37.76,
+            "std_mm": 31.57,
+            "min_mm": 4.81,
+            "max_mm": 100.74
+        },
+        "Hoshiarpur_6": {
+            "normal_mm": 104.12,
+            "std_mm": 61.02,
+            "min_mm": 31.1,
+            "max_mm": 235.01
+        },
+        "Hoshiarpur_7": {
+            "normal_mm": 297.85,
+            "std_mm": 94.79,
+            "min_mm": 178.1,
+            "max_mm": 496.65
+        },
+        "Hoshiarpur_8": {
+            "normal_mm": 376.09,
+            "std_mm": 205.2,
+            "min_mm": 99.22,
+            "max_mm": 789.41
+        },
+        "Hoshiarpur_9": {
+            "normal_mm": 165.25,
+            "std_mm": 120.09,
+            "min_mm": 17.56,
+            "max_mm": 436.06
+        },
+        "Hoshiarpur_10": {
+            "normal_mm": 24.51,
+            "std_mm": 22.84,
+            "min_mm": 0.0,
+            "max_mm": 62.21
+        },
+        "Hoshiarpur_11": {
+            "normal_mm": 9.02,
+            "std_mm": 11.8,
+            "min_mm": 0.0,
+            "max_mm": 31.93
+        },
+        "Hoshiarpur_12": {
+            "normal_mm": 21.15,
+            "std_mm": 23.74,
+            "min_mm": 0.0,
+            "max_mm": 59.42
+        },
+        "Jalandhar_1": {
+            "normal_mm": 41.57,
+            "std_mm": 48.8,
+            "min_mm": 0.81,
+            "max_mm": 159.8
+        },
+        "Jalandhar_2": {
+            "normal_mm": 26.44,
+            "std_mm": 34.13,
+            "min_mm": 0.0,
+            "max_mm": 111.54
+        },
+        "Jalandhar_3": {
+            "normal_mm": 32.53,
+            "std_mm": 40.42,
+            "min_mm": 3.69,
+            "max_mm": 128.0
+        },
+        "Jalandhar_4": {
+            "normal_mm": 18.26,
+            "std_mm": 18.49,
+            "min_mm": 0.13,
+            "max_mm": 59.18
+        },
+        "Jalandhar_5": {
+            "normal_mm": 22.74,
+            "std_mm": 18.42,
+            "min_mm": 0.74,
+            "max_mm": 66.58
+        },
+        "Jalandhar_6": {
+            "normal_mm": 63.95,
+            "std_mm": 39.94,
+            "min_mm": 16.21,
+            "max_mm": 127.05
+        },
+        "Jalandhar_7": {
+            "normal_mm": 186.74,
+            "std_mm": 73.89,
+            "min_mm": 66.71,
+            "max_mm": 287.72
+        },
+        "Jalandhar_8": {
+            "normal_mm": 159.98,
+            "std_mm": 108.44,
+            "min_mm": 49.85,
+            "max_mm": 310.27
+        },
+        "Jalandhar_9": {
+            "normal_mm": 134.35,
+            "std_mm": 115.33,
+            "min_mm": 12.61,
+            "max_mm": 311.45
+        },
+        "Jalandhar_10": {
+            "normal_mm": 14.58,
+            "std_mm": 20.08,
+            "min_mm": 0.0,
+            "max_mm": 56.42
+        },
+        "Jalandhar_11": {
+            "normal_mm": 5.54,
+            "std_mm": 6.68,
+            "min_mm": 0.0,
+            "max_mm": 17.49
+        },
+        "Jalandhar_12": {
+            "normal_mm": 12.95,
+            "std_mm": 17.48,
+            "min_mm": 0.0,
+            "max_mm": 51.6
+        },
+        "Kapurthala_1": {
+            "normal_mm": 47.56,
+            "std_mm": 62.71,
+            "min_mm": 1.66,
+            "max_mm": 204.36
+        },
+        "Kapurthala_2": {
+            "normal_mm": 34.19,
+            "std_mm": 45.45,
+            "min_mm": 0.0,
+            "max_mm": 150.11
+        },
+        "Kapurthala_3": {
+            "normal_mm": 25.69,
+            "std_mm": 30.68,
+            "min_mm": 1.29,
+            "max_mm": 88.23
+        },
+        "Kapurthala_4": {
+            "normal_mm": 19.24,
+            "std_mm": 16.0,
+            "min_mm": 0.42,
+            "max_mm": 52.73
+        },
+        "Kapurthala_5": {
+            "normal_mm": 28.28,
+            "std_mm": 20.95,
+            "min_mm": 1.31,
+            "max_mm": 72.53
+        },
+        "Kapurthala_6": {
+            "normal_mm": 86.86,
+            "std_mm": 48.72,
+            "min_mm": 28.71,
+            "max_mm": 176.55
+        },
+        "Kapurthala_7": {
+            "normal_mm": 200.37,
+            "std_mm": 106.66,
+            "min_mm": 103.52,
+            "max_mm": 395.01
+        },
+        "Kapurthala_8": {
+            "normal_mm": 172.99,
+            "std_mm": 99.59,
+            "min_mm": 73.21,
+            "max_mm": 347.62
+        },
+        "Kapurthala_9": {
+            "normal_mm": 155.55,
+            "std_mm": 135.82,
+            "min_mm": 21.42,
+            "max_mm": 410.35
+        },
+        "Kapurthala_10": {
+            "normal_mm": 13.28,
+            "std_mm": 18.09,
+            "min_mm": 0.0,
+            "max_mm": 45.78
+        },
+        "Kapurthala_11": {
+            "normal_mm": 6.4,
+            "std_mm": 9.01,
+            "min_mm": 0.0,
+            "max_mm": 24.07
+        },
+        "Kapurthala_12": {
+            "normal_mm": 13.49,
+            "std_mm": 19.06,
+            "min_mm": 0.0,
+            "max_mm": 54.29
+        },
+        "Ludhiana_1": {
+            "normal_mm": 29.96,
+            "std_mm": 29.95,
+            "min_mm": 2.42,
+            "max_mm": 98.22
+        },
+        "Ludhiana_2": {
+            "normal_mm": 20.58,
+            "std_mm": 22.15,
+            "min_mm": 0.0,
+            "max_mm": 65.67
+        },
+        "Ludhiana_3": {
+            "normal_mm": 26.42,
+            "std_mm": 30.67,
+            "min_mm": 0.83,
+            "max_mm": 84.02
+        },
+        "Ludhiana_4": {
+            "normal_mm": 14.49,
+            "std_mm": 13.52,
+            "min_mm": 0.0,
+            "max_mm": 43.93
+        },
+        "Ludhiana_5": {
+            "normal_mm": 25.78,
+            "std_mm": 19.13,
+            "min_mm": 0.11,
+            "max_mm": 58.3
+        },
+        "Ludhiana_6": {
+            "normal_mm": 88.57,
+            "std_mm": 75.46,
+            "min_mm": 26.04,
+            "max_mm": 266.1
+        },
+        "Ludhiana_7": {
+            "normal_mm": 198.01,
+            "std_mm": 75.36,
+            "min_mm": 105.22,
+            "max_mm": 320.0
+        },
+        "Ludhiana_8": {
+            "normal_mm": 148.15,
+            "std_mm": 63.71,
+            "min_mm": 72.9,
+            "max_mm": 261.08
+        },
+        "Ludhiana_9": {
+            "normal_mm": 133.21,
+            "std_mm": 95.63,
+            "min_mm": 12.41,
+            "max_mm": 336.23
+        },
+        "Ludhiana_10": {
+            "normal_mm": 15.87,
+            "std_mm": 18.93,
+            "min_mm": 0.0,
+            "max_mm": 42.41
+        },
+        "Ludhiana_11": {
+            "normal_mm": 4.87,
+            "std_mm": 6.14,
+            "min_mm": 0.0,
+            "max_mm": 17.95
+        },
+        "Ludhiana_12": {
+            "normal_mm": 10.15,
+            "std_mm": 11.29,
+            "min_mm": 0.0,
+            "max_mm": 30.17
+        },
+        "Malerkotla_1": {
+            "normal_mm": 28.36,
+            "std_mm": 35.76,
+            "min_mm": 0.0,
+            "max_mm": 111.94
+        },
+        "Malerkotla_2": {
+            "normal_mm": 14.87,
+            "std_mm": 26.36,
+            "min_mm": 0.0,
+            "max_mm": 83.68
+        },
+        "Malerkotla_3": {
+            "normal_mm": 26.24,
+            "std_mm": 28.54,
+            "min_mm": 0.31,
+            "max_mm": 79.37
+        },
+        "Malerkotla_4": {
+            "normal_mm": 12.55,
+            "std_mm": 9.62,
+            "min_mm": 0.0,
+            "max_mm": 32.7
+        },
+        "Malerkotla_5": {
+            "normal_mm": 28.13,
+            "std_mm": 27.09,
+            "min_mm": 0.58,
+            "max_mm": 85.69
+        },
+        "Malerkotla_6": {
+            "normal_mm": 71.7,
+            "std_mm": 47.94,
+            "min_mm": 24.34,
+            "max_mm": 191.9
+        },
+        "Malerkotla_7": {
+            "normal_mm": 179.04,
+            "std_mm": 84.93,
+            "min_mm": 47.55,
+            "max_mm": 282.43
+        },
+        "Malerkotla_8": {
+            "normal_mm": 132.65,
+            "std_mm": 91.17,
+            "min_mm": 25.44,
+            "max_mm": 283.38
+        },
+        "Malerkotla_9": {
+            "normal_mm": 127.84,
+            "std_mm": 94.2,
+            "min_mm": 3.1,
+            "max_mm": 302.31
+        },
+        "Malerkotla_10": {
+            "normal_mm": 17.37,
+            "std_mm": 30.75,
+            "min_mm": 0.0,
+            "max_mm": 94.78
+        },
+        "Malerkotla_11": {
+            "normal_mm": 7.65,
+            "std_mm": 16.56,
+            "min_mm": 0.0,
+            "max_mm": 50.39
+        },
+        "Malerkotla_12": {
+            "normal_mm": 7.77,
+            "std_mm": 9.37,
+            "min_mm": 0.0,
+            "max_mm": 29.08
+        },
+        "Mansa_1": {
+            "normal_mm": 18.47,
+            "std_mm": 19.84,
+            "min_mm": 1.5,
+            "max_mm": 65.75
+        },
+        "Mansa_2": {
+            "normal_mm": 7.17,
+            "std_mm": 6.83,
+            "min_mm": 0.0,
+            "max_mm": 19.45
+        },
+        "Mansa_3": {
+            "normal_mm": 12.68,
+            "std_mm": 19.21,
+            "min_mm": 0.0,
+            "max_mm": 59.97
+        },
+        "Mansa_4": {
+            "normal_mm": 5.61,
+            "std_mm": 4.52,
+            "min_mm": 0.0,
+            "max_mm": 13.61
+        },
+        "Mansa_5": {
+            "normal_mm": 21.49,
+            "std_mm": 11.85,
+            "min_mm": 4.46,
+            "max_mm": 35.23
+        },
+        "Mansa_6": {
+            "normal_mm": 49.59,
+            "std_mm": 31.18,
+            "min_mm": 13.28,
+            "max_mm": 103.81
+        },
+        "Mansa_7": {
+            "normal_mm": 113.04,
+            "std_mm": 57.56,
+            "min_mm": 29.89,
+            "max_mm": 205.09
+        },
+        "Mansa_8": {
+            "normal_mm": 67.0,
+            "std_mm": 54.69,
+            "min_mm": 9.11,
+            "max_mm": 189.78
+        },
+        "Mansa_9": {
+            "normal_mm": 72.68,
+            "std_mm": 67.24,
+            "min_mm": 8.85,
+            "max_mm": 183.98
+        },
+        "Mansa_10": {
+            "normal_mm": 6.98,
+            "std_mm": 7.53,
+            "min_mm": 0.0,
+            "max_mm": 16.98
+        },
+        "Mansa_11": {
+            "normal_mm": 3.69,
+            "std_mm": 5.82,
+            "min_mm": 0.0,
+            "max_mm": 18.03
+        },
+        "Mansa_12": {
+            "normal_mm": 4.86,
+            "std_mm": 6.71,
+            "min_mm": 0.0,
+            "max_mm": 18.75
+        },
+        "Mohali_1": {
+            "normal_mm": 52.34,
+            "std_mm": 69.36,
+            "min_mm": 0.0,
+            "max_mm": 205.54
+        },
+        "Mohali_2": {
+            "normal_mm": 29.16,
+            "std_mm": 26.56,
+            "min_mm": 0.0,
+            "max_mm": 72.73
+        },
+        "Mohali_3": {
+            "normal_mm": 29.19,
+            "std_mm": 31.37,
+            "min_mm": 0.0,
+            "max_mm": 81.37
+        },
+        "Mohali_4": {
+            "normal_mm": 21.44,
+            "std_mm": 13.59,
+            "min_mm": 0.37,
+            "max_mm": 43.22
+        },
+        "Mohali_5": {
+            "normal_mm": 37.23,
+            "std_mm": 31.36,
+            "min_mm": 0.0,
+            "max_mm": 90.3
+        },
+        "Mohali_6": {
+            "normal_mm": 91.28,
+            "std_mm": 54.42,
+            "min_mm": 14.34,
+            "max_mm": 196.38
+        },
+        "Mohali_7": {
+            "normal_mm": 314.57,
+            "std_mm": 205.65,
+            "min_mm": 151.81,
+            "max_mm": 810.33
+        },
+        "Mohali_8": {
+            "normal_mm": 271.55,
+            "std_mm": 53.87,
+            "min_mm": 191.71,
+            "max_mm": 337.39
+        },
+        "Mohali_9": {
+            "normal_mm": 171.37,
+            "std_mm": 88.67,
+            "min_mm": 17.8,
+            "max_mm": 304.08
+        },
+        "Mohali_10": {
+            "normal_mm": 21.99,
+            "std_mm": 26.53,
+            "min_mm": 0.0,
+            "max_mm": 71.86
+        },
+        "Mohali_11": {
+            "normal_mm": 9.85,
+            "std_mm": 13.22,
+            "min_mm": 0.0,
+            "max_mm": 31.84
+        },
+        "Mohali_12": {
+            "normal_mm": 14.71,
+            "std_mm": 14.72,
+            "min_mm": 0.0,
+            "max_mm": 38.95
+        },
+        "Muktsar_1": {
+            "normal_mm": 20.14,
+            "std_mm": 28.49,
+            "min_mm": 0.48,
+            "max_mm": 87.76
+        },
+        "Muktsar_2": {
+            "normal_mm": 10.08,
+            "std_mm": 14.34,
+            "min_mm": 0.0,
+            "max_mm": 45.2
+        },
+        "Muktsar_3": {
+            "normal_mm": 16.62,
+            "std_mm": 23.15,
+            "min_mm": 0.5,
+            "max_mm": 57.18
+        },
+        "Muktsar_4": {
+            "normal_mm": 10.66,
+            "std_mm": 10.3,
+            "min_mm": 0.0,
+            "max_mm": 29.97
+        },
+        "Muktsar_5": {
+            "normal_mm": 24.18,
+            "std_mm": 21.31,
+            "min_mm": 0.99,
+            "max_mm": 63.76
+        },
+        "Muktsar_6": {
+            "normal_mm": 62.48,
+            "std_mm": 41.34,
+            "min_mm": 19.91,
+            "max_mm": 151.44
+        },
+        "Muktsar_7": {
+            "normal_mm": 156.55,
+            "std_mm": 88.42,
+            "min_mm": 24.11,
+            "max_mm": 272.38
+        },
+        "Muktsar_8": {
+            "normal_mm": 74.39,
+            "std_mm": 46.35,
+            "min_mm": 16.64,
+            "max_mm": 156.25
+        },
+        "Muktsar_9": {
+            "normal_mm": 71.05,
+            "std_mm": 42.75,
+            "min_mm": 25.5,
+            "max_mm": 172.6
+        },
+        "Muktsar_10": {
+            "normal_mm": 5.11,
+            "std_mm": 7.85,
+            "min_mm": 0.0,
+            "max_mm": 23.32
+        },
+        "Muktsar_11": {
+            "normal_mm": 3.83,
+            "std_mm": 4.25,
+            "min_mm": 0.0,
+            "max_mm": 10.78
+        },
+        "Muktsar_12": {
+            "normal_mm": 5.17,
+            "std_mm": 6.77,
+            "min_mm": 0.0,
+            "max_mm": 15.69
+        },
+        "Pathankot_1": {
+            "normal_mm": 69.33,
+            "std_mm": 70.97,
+            "min_mm": 0.52,
+            "max_mm": 191.89
+        },
+        "Pathankot_2": {
+            "normal_mm": 63.3,
+            "std_mm": 76.27,
+            "min_mm": 1.44,
+            "max_mm": 247.06
+        },
+        "Pathankot_3": {
+            "normal_mm": 63.77,
+            "std_mm": 59.18,
+            "min_mm": 5.99,
+            "max_mm": 187.27
+        },
+        "Pathankot_4": {
+            "normal_mm": 52.08,
+            "std_mm": 30.83,
+            "min_mm": 5.43,
+            "max_mm": 90.99
+        },
+        "Pathankot_5": {
+            "normal_mm": 43.75,
+            "std_mm": 32.24,
+            "min_mm": 0.13,
+            "max_mm": 91.19
+        },
+        "Pathankot_6": {
+            "normal_mm": 141.31,
+            "std_mm": 76.95,
+            "min_mm": 50.75,
+            "max_mm": 285.66
+        },
+        "Pathankot_7": {
+            "normal_mm": 425.72,
+            "std_mm": 207.26,
+            "min_mm": 218.81,
+            "max_mm": 878.32
+        },
+        "Pathankot_8": {
+            "normal_mm": 414.93,
+            "std_mm": 102.51,
+            "min_mm": 250.17,
+            "max_mm": 554.93
+        },
+        "Pathankot_9": {
+            "normal_mm": 148.37,
+            "std_mm": 98.46,
+            "min_mm": 21.24,
+            "max_mm": 318.29
+        },
+        "Pathankot_10": {
+            "normal_mm": 28.4,
+            "std_mm": 38.99,
+            "min_mm": 0.0,
+            "max_mm": 123.1
+        },
+        "Pathankot_11": {
+            "normal_mm": 10.62,
+            "std_mm": 12.21,
+            "min_mm": 0.0,
+            "max_mm": 27.68
+        },
+        "Pathankot_12": {
+            "normal_mm": 27.24,
+            "std_mm": 31.15,
+            "min_mm": 0.0,
+            "max_mm": 64.59
+        },
+        "Patiala_1": {
+            "normal_mm": 38.41,
+            "std_mm": 47.44,
+            "min_mm": 0.48,
+            "max_mm": 146.27
+        },
+        "Patiala_2": {
+            "normal_mm": 17.55,
+            "std_mm": 15.77,
+            "min_mm": 0.0,
+            "max_mm": 49.86
+        },
+        "Patiala_3": {
+            "normal_mm": 32.25,
+            "std_mm": 38.38,
+            "min_mm": 0.0,
+            "max_mm": 102.93
+        },
+        "Patiala_4": {
+            "normal_mm": 15.92,
+            "std_mm": 15.11,
+            "min_mm": 0.29,
+            "max_mm": 45.92
+        },
+        "Patiala_5": {
+            "normal_mm": 42.47,
+            "std_mm": 35.05,
+            "min_mm": 0.0,
+            "max_mm": 107.12
+        },
+        "Patiala_6": {
+            "normal_mm": 79.77,
+            "std_mm": 44.45,
+            "min_mm": 11.9,
+            "max_mm": 146.04
+        },
+        "Patiala_7": {
+            "normal_mm": 269.52,
+            "std_mm": 151.64,
+            "min_mm": 109.24,
+            "max_mm": 584.75
+        },
+        "Patiala_8": {
+            "normal_mm": 180.63,
+            "std_mm": 83.71,
+            "min_mm": 65.95,
+            "max_mm": 346.55
+        },
+        "Patiala_9": {
+            "normal_mm": 158.92,
+            "std_mm": 81.67,
+            "min_mm": 4.2,
+            "max_mm": 294.22
+        },
+        "Patiala_10": {
+            "normal_mm": 19.73,
+            "std_mm": 18.45,
+            "min_mm": 0.0,
+            "max_mm": 44.25
+        },
+        "Patiala_11": {
+            "normal_mm": 6.85,
+            "std_mm": 13.82,
+            "min_mm": 0.0,
+            "max_mm": 41.93
+        },
+        "Patiala_12": {
+            "normal_mm": 13.05,
+            "std_mm": 12.21,
+            "min_mm": 0.0,
+            "max_mm": 33.15
+        },
+        "Rupnagar_1": {
+            "normal_mm": 52.05,
+            "std_mm": 65.38,
+            "min_mm": 0.26,
+            "max_mm": 186.93
+        },
+        "Rupnagar_2": {
+            "normal_mm": 28.31,
+            "std_mm": 29.46,
+            "min_mm": 0.01,
+            "max_mm": 81.44
+        },
+        "Rupnagar_3": {
+            "normal_mm": 31.82,
+            "std_mm": 37.67,
+            "min_mm": 0.0,
+            "max_mm": 111.87
+        },
+        "Rupnagar_4": {
+            "normal_mm": 26.13,
+            "std_mm": 20.84,
+            "min_mm": 0.0,
+            "max_mm": 64.96
+        },
+        "Rupnagar_5": {
+            "normal_mm": 30.75,
+            "std_mm": 38.69,
+            "min_mm": 1.69,
+            "max_mm": 130.05
+        },
+        "Rupnagar_6": {
+            "normal_mm": 102.9,
+            "std_mm": 48.53,
+            "min_mm": 19.93,
+            "max_mm": 176.44
+        },
+        "Rupnagar_7": {
+            "normal_mm": 293.08,
+            "std_mm": 221.12,
+            "min_mm": 96.39,
+            "max_mm": 835.71
+        },
+        "Rupnagar_8": {
+            "normal_mm": 290.53,
+            "std_mm": 197.1,
+            "min_mm": 149.67,
+            "max_mm": 800.53
+        },
+        "Rupnagar_9": {
+            "normal_mm": 183.24,
+            "std_mm": 112.42,
+            "min_mm": 7.85,
+            "max_mm": 375.19
+        },
+        "Rupnagar_10": {
+            "normal_mm": 11.02,
+            "std_mm": 21.41,
+            "min_mm": 0.0,
+            "max_mm": 67.08
+        },
+        "Rupnagar_11": {
+            "normal_mm": 8.42,
+            "std_mm": 10.39,
+            "min_mm": 0.0,
+            "max_mm": 25.39
+        },
+        "Rupnagar_12": {
+            "normal_mm": 18.56,
+            "std_mm": 19.69,
+            "min_mm": 0.0,
+            "max_mm": 53.07
+        },
+        "SBS Nagar_1": {
+            "normal_mm": 33.51,
+            "std_mm": 38.49,
+            "min_mm": 0.0,
+            "max_mm": 127.53
+        },
+        "SBS Nagar_2": {
+            "normal_mm": 20.09,
+            "std_mm": 24.62,
+            "min_mm": 0.0,
+            "max_mm": 79.7
+        },
+        "SBS Nagar_3": {
+            "normal_mm": 21.56,
+            "std_mm": 24.36,
+            "min_mm": 0.83,
+            "max_mm": 56.74
+        },
+        "SBS Nagar_4": {
+            "normal_mm": 15.17,
+            "std_mm": 20.99,
+            "min_mm": 0.0,
+            "max_mm": 69.27
+        },
+        "SBS Nagar_5": {
+            "normal_mm": 17.43,
+            "std_mm": 16.95,
+            "min_mm": 0.97,
+            "max_mm": 57.2
+        },
+        "SBS Nagar_6": {
+            "normal_mm": 59.27,
+            "std_mm": 50.12,
+            "min_mm": 15.05,
+            "max_mm": 152.02
+        },
+        "SBS Nagar_7": {
+            "normal_mm": 155.17,
+            "std_mm": 88.95,
+            "min_mm": 57.09,
+            "max_mm": 368.16
+        },
+        "SBS Nagar_8": {
+            "normal_mm": 159.37,
+            "std_mm": 145.27,
+            "min_mm": 25.18,
+            "max_mm": 460.57
+        },
+        "SBS Nagar_9": {
+            "normal_mm": 81.91,
+            "std_mm": 57.61,
+            "min_mm": 1.93,
+            "max_mm": 183.29
+        },
+        "SBS Nagar_10": {
+            "normal_mm": 13.26,
+            "std_mm": 14.84,
+            "min_mm": 0.0,
+            "max_mm": 39.7
+        },
+        "SBS Nagar_11": {
+            "normal_mm": 5.75,
+            "std_mm": 8.02,
+            "min_mm": 0.0,
+            "max_mm": 21.7
+        },
+        "SBS Nagar_12": {
+            "normal_mm": 11.2,
+            "std_mm": 15.22,
+            "min_mm": 0.0,
+            "max_mm": 38.07
+        },
+        "Sangrur_1": {
+            "normal_mm": 26.76,
+            "std_mm": 29.02,
+            "min_mm": 2.15,
+            "max_mm": 86.18
+        },
+        "Sangrur_2": {
+            "normal_mm": 8.0,
+            "std_mm": 8.6,
+            "min_mm": 0.01,
+            "max_mm": 23.79
+        },
+        "Sangrur_3": {
+            "normal_mm": 19.86,
+            "std_mm": 25.94,
+            "min_mm": 0.0,
+            "max_mm": 78.88
+        },
+        "Sangrur_4": {
+            "normal_mm": 12.6,
+            "std_mm": 10.45,
+            "min_mm": 0.0,
+            "max_mm": 36.89
+        },
+        "Sangrur_5": {
+            "normal_mm": 32.96,
+            "std_mm": 26.16,
+            "min_mm": 0.42,
+            "max_mm": 90.46
+        },
+        "Sangrur_6": {
+            "normal_mm": 60.63,
+            "std_mm": 40.71,
+            "min_mm": 25.08,
+            "max_mm": 131.37
+        },
+        "Sangrur_7": {
+            "normal_mm": 169.43,
+            "std_mm": 88.89,
+            "min_mm": 63.45,
+            "max_mm": 322.09
+        },
+        "Sangrur_8": {
+            "normal_mm": 94.19,
+            "std_mm": 90.42,
+            "min_mm": 21.68,
+            "max_mm": 303.88
+        },
+        "Sangrur_9": {
+            "normal_mm": 95.7,
+            "std_mm": 74.88,
+            "min_mm": 15.56,
+            "max_mm": 251.62
+        },
+        "Sangrur_10": {
+            "normal_mm": 9.3,
+            "std_mm": 11.5,
+            "min_mm": 0.0,
+            "max_mm": 28.37
+        },
+        "Sangrur_11": {
+            "normal_mm": 4.32,
+            "std_mm": 6.72,
+            "min_mm": 0.0,
+            "max_mm": 20.7
+        },
+        "Sangrur_12": {
+            "normal_mm": 8.67,
+            "std_mm": 13.17,
+            "min_mm": 0.0,
+            "max_mm": 39.81
+        },
+        "Tarn Taran_1": {
+            "normal_mm": 35.48,
+            "std_mm": 44.32,
+            "min_mm": 1.84,
+            "max_mm": 143.44
+        },
+        "Tarn Taran_2": {
+            "normal_mm": 27.46,
+            "std_mm": 30.54,
+            "min_mm": 0.0,
+            "max_mm": 99.41
+        },
+        "Tarn Taran_3": {
+            "normal_mm": 23.14,
+            "std_mm": 26.22,
+            "min_mm": 0.7,
+            "max_mm": 84.84
+        },
+        "Tarn Taran_4": {
+            "normal_mm": 18.51,
+            "std_mm": 13.73,
+            "min_mm": 1.2,
+            "max_mm": 45.46
+        },
+        "Tarn Taran_5": {
+            "normal_mm": 24.94,
+            "std_mm": 20.99,
+            "min_mm": 1.77,
+            "max_mm": 70.36
+        },
+        "Tarn Taran_6": {
+            "normal_mm": 67.88,
+            "std_mm": 36.86,
+            "min_mm": 14.63,
+            "max_mm": 128.29
+        },
+        "Tarn Taran_7": {
+            "normal_mm": 203.36,
+            "std_mm": 73.26,
+            "min_mm": 85.66,
+            "max_mm": 303.83
+        },
+        "Tarn Taran_8": {
+            "normal_mm": 149.4,
+            "std_mm": 86.67,
+            "min_mm": 34.48,
+            "max_mm": 287.98
+        },
+        "Tarn Taran_9": {
+            "normal_mm": 122.94,
+            "std_mm": 101.52,
+            "min_mm": 6.26,
+            "max_mm": 296.88
+        },
+        "Tarn Taran_10": {
+            "normal_mm": 13.3,
+            "std_mm": 14.33,
+            "min_mm": 0.0,
+            "max_mm": 38.04
+        },
+        "Tarn Taran_11": {
+            "normal_mm": 8.15,
+            "std_mm": 10.18,
+            "min_mm": 0.0,
+            "max_mm": 26.77
+        },
+        "Tarn Taran_12": {
+            "normal_mm": 12.12,
+            "std_mm": 18.56,
+            "min_mm": 0.0,
+            "max_mm": 57.16
+        }
+    }
+}
