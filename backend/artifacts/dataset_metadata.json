@@ -1,0 +1,20 @@
+{
+    "dataset_sha256": "54a5a6e5408668e668667efc50de2fc867c1b875e0431b4f54dd331b0a109a4e",
+    "total_rows": 2200,
+    "train_samples": 1540,
+    "val_samples": 330,
+    "test_samples": 330,
+    "feature_names": [
+        "N",
+        "P",
+        "K",
+        "temperature",
+        "humidity",
+        "ph",
+        "rainfall"
+    ],
+    "classes_count": 22,
+    "scikit_learn_version": "1.9.1",
+    "exact_duplicates": 0,
+    "feature_duplicates": 0
+}
